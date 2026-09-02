@@ -1,0 +1,10 @@
+2026-05-27 17:46:30 - Agent.WhisperAlignment - INFO - [WhisperAlignment] Running Whisper word alignment...
+2026-05-27 17:46:30 - Agent.WhisperAlignment - INFO - [WhisperAlignment] Episode 1: loaded 98 cached word timestamps
+2026-05-27 17:46:30 - Agent.WhisperAlignment - INFO - [WhisperAlignment] Episode 1: 98 words aligned, span 0ms → 59140ms
+2026-05-27 17:46:30 - Agent.WhisperAlignment - INFO - [WhisperAlignment] Episode 2: loaded 64 cached word timestamps
+2026-05-27 17:46:30 - Agent.WhisperAlignment - INFO - [WhisperAlignment] Episode 2: 64 words aligned, span 0ms → 38480ms
+2026-05-27 17:46:34 - Agent.WhisperAlignment - INFO - [WhisperAlignment] Loading Whisper base model...
+2026-05-27 17:46:37 - Agent.WhisperAlignment - INFO - [WhisperAlignment] Whisper model loaded
+2026-05-27 17:46:37 - Agent.WhisperAlignment - INFO - [WhisperAlignment] Running Whisper alignment on outputs/audio/episode_3_voiceover.wav...
+2026-05-27 17:46:55 - Agent.WhisperAlignment - INFO - [WhisperAlignment] Episode 3: 119 words aligned
+2026-05-27 17:46:55 - Agent.WhisperAlignment - INFO - [WhisperAlignment] Episode 3: 119 words aligned, span 0ms → 53860ms

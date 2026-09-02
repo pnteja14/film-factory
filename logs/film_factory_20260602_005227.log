@@ -1,0 +1,6 @@
+2026-06-02 00:53:34 - Agent.ImageGenerator - INFO - [ImageGenerator] Starting image generation (Agent 5a)...
+2026-06-02 00:53:34 - Agent.ImageGenerator - INFO - [ImageGenerator] HuggingFace client initialized
+2026-06-02 00:53:34 - Agent.ImageGenerator - INFO - [ImageGenerator] Same story detected — reusing existing images (set REUSE_EXISTING_IMAGES=True to force)
+2026-06-02 00:53:34 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1: 7 anchor images at 1024x576...
+2026-06-02 00:53:34 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'The Long Approach — Ashveil Manor Driveway' — skipping
+2026-06-02 00:53:36 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Grand Ballroom' (1024x576)

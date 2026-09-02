@@ -1,0 +1,36 @@
+2026-05-20 02:41:04 - Agent.call_claude_for_script - WARNING - [call_claude_for_script] Attempt 1/2 failed: Claude call failed: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDSebFWDD94F4WnNnUTe'}. Retrying in 2.0s...
+2026-05-20 02:41:14 - Agent.call_claude_for_script - ERROR - [call_claude_for_script] Max retries (2) exceeded
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\screenplay_agent.py", line 113, in call_claude_for_script
+    message = client.messages.create(
+        model="claude-haiku-4-5-20251001",
+        max_tokens=2048,
+        messages=[{"role": "user", "content": prompt}]
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\anthropic\_utils\_utils.py", line 294, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\anthropic\resources\messages\messages.py", line 1003, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/v1/messages",
+        ^^^^^^^^^^^^^^^
+    ...<30 lines>...
+        stream_cls=Stream[RawMessageStreamEvent],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\anthropic\_base_client.py", line 1374, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\anthropic\_base_client.py", line 1147, in request
+    raise self._make_status_error_from_response(err.response) from None
+anthropic._exceptions.OverloadedError: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDSfKA9vwaM3GzYxHZYA'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\screenplay_agent.py", line 122, in call_claude_for_script
+    raise RetryableException(f"Claude call failed: {e}")
+utils.errors.RetryableException: Claude call failed: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDSfKA9vwaM3GzYxHZYA'}

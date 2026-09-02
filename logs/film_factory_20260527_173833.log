@@ -1,0 +1,10 @@
+2026-05-27 17:38:36 - Orchestrator - INFO - =================================================================
+2026-05-27 17:38:36 - Orchestrator - INFO - FILM FACTORY — CINEMATIC NARRATION PIPELINE
+2026-05-27 17:38:36 - Orchestrator - INFO - =================================================================
+2026-05-27 17:38:36 - Orchestrator - INFO - Output directories verified
+2026-05-27 17:38:36 - Orchestrator - INFO - Story idea: Every year on the same night, a retired 911 operator receives a call from a missing girl whose murder case was supposedly solved 18 years ago.
+2026-05-27 17:44:01 - Orchestrator - INFO - Context saved: outputs\context_after_scene_director.json
+2026-05-27 17:46:30 - Orchestrator - ERROR - Voiceover Agent failed: Chunk 9 failed permanently: API error 403: The free tier of the model has been exhausted. If you wish to continue access the model on a paid basis, please disable the "use free tier only" mode in the management console.
+2026-05-27 18:04:43 - Orchestrator - INFO - Context saved: outputs\context_after_images.json
+2026-05-27 18:58:22 - Orchestrator - INFO - Context saved: outputs\context_after_edit_plan.json
+2026-05-27 20:24:23 - Orchestrator - INFO - Context saved: outputs\context.json

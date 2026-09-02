@@ -1,0 +1,104 @@
+2026-05-30 19:04:21 - Agent.ImageGenerator - INFO - [ImageGenerator] Starting image generation (Agent 5a)...
+2026-05-30 19:04:21 - Agent.ImageGenerator - INFO - [ImageGenerator] HuggingFace client initialized
+2026-05-30 19:04:21 - Agent.ImageGenerator - INFO - [ImageGenerator] Story changed — clearing old images for fresh generation
+2026-05-30 19:04:21 - Agent.ImageGenerator - INFO - [ImageGenerator] Deleted 52 existing images — fresh generation
+2026-05-30 19:04:21 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1: 7 anchor images at 1280x720...
+2026-05-30 19:04:21 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Mercer House — Main Rooms' (1280x720)
+2026-05-30 19:04:26 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_mercer_house__main_rooms.png
+2026-05-30 19:04:28 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Hidden Room' (1280x720)
+2026-05-30 19:04:33 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_hidden_room.png
+2026-05-30 19:04:35 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Basement Corridor' (1280x720)
+2026-05-30 19:04:39 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_basement_corridor.png
+2026-05-30 19:04:41 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'Nora Vail's Kitchen' (1280x720)
+2026-05-30 19:04:46 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\nora_vails_kitchen.png
+2026-05-30 19:04:48 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The County Records Archive' (1280x720)
+2026-05-30 19:04:52 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_county_records_archive.png
+2026-05-30 19:04:54 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Street at Night — Mercer House Exterior' (1280x720)
+2026-05-30 19:05:00 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_street_at_night__mercer_house_exterior.png
+2026-05-30 19:05:02 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Diner on Caldwell Street' (1280x720)
+2026-05-30 19:05:08 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_diner_on_caldwell_street.png
+2026-05-30 19:05:10 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1 complete: 7/7
+2026-05-30 19:05:10 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 2: Scene images for 1 episodes...
+2026-05-30 19:05:10 - Agent.ImageGenerator - INFO - [ImageGenerator] Episode 1 scene images...
+2026-05-30 19:05:10 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 1: anchor 'The Mercer House — Main Rooms' (first use)
+2026-05-30 19:05:17 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 2 attempt 1: validation score=0.20
+2026-05-30 19:05:17 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 2: score 0.20 < 0.55 — retrying
+2026-05-30 19:05:25 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 2 attempt 2: validation score=0.20
+2026-05-30 19:05:25 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 2: score 0.20 < 0.55 — retrying
+2026-05-30 19:05:32 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 2 attempt 3: validation score=0.20
+2026-05-30 19:05:32 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 2: kept best attempt (score 0.20) for 'The Mercer House — Main Rooms'
+2026-05-30 19:05:33 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 3: anchor 'The Hidden Room' (first use)
+2026-05-30 19:05:38 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 4 attempt 1: validation score=0.85
+2026-05-30 19:05:38 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 4: generated 'The Hidden Room' (score 0.85)
+2026-05-30 19:05:45 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 5 attempt 1: validation score=0.30
+2026-05-30 19:05:45 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 5: score 0.30 < 0.55 — retrying
+2026-05-30 19:05:52 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 5 attempt 2: validation score=0.75
+2026-05-30 19:05:52 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 5: generated 'The Hidden Room' (score 0.75)
+2026-05-30 19:05:59 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 6 attempt 1: validation score=0.85
+2026-05-30 19:05:59 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 6: generated 'The Hidden Room' (score 0.85)
+2026-05-30 19:06:07 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 7 attempt 1: validation score=0.85
+2026-05-30 19:06:07 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 7: generated 'The Hidden Room' (score 0.85)
+2026-05-30 19:06:15 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 8 attempt 1: validation score=0.30
+2026-05-30 19:06:15 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 8: score 0.30 < 0.55 — retrying
+2026-05-30 19:06:22 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 8 attempt 2: validation score=0.30
+2026-05-30 19:06:22 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 8: score 0.30 < 0.55 — retrying
+2026-05-30 19:06:30 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 8 attempt 3: validation score=0.60
+2026-05-30 19:06:30 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 8: generated 'The Hidden Room' (score 0.60)
+2026-05-30 19:06:38 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 9 attempt 1: validation score=0.00
+2026-05-30 19:06:38 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 9: score 0.00 < 0.55 — retrying
+2026-05-30 19:06:45 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 9 attempt 2: validation score=0.00
+2026-05-30 19:06:45 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 9: score 0.00 < 0.55 — retrying
+2026-05-30 19:06:53 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 9 attempt 3: validation score=0.00
+2026-05-30 19:06:53 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 9: kept best attempt (score 0.00) for 'The Hidden Room'
+2026-05-30 19:06:54 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 10: anchor 'Nora Vail's Kitchen' (first use)
+2026-05-30 19:06:55 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 3: Reveal images for 1 episodes...
+2026-05-30 19:06:55 - Agent.ImageGenerator - INFO - [ImageGenerator]   Episode 1: 4 reveals...
+2026-05-30 19:06:55 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [location_detail] ep1 r1
+2026-05-30 19:07:07 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal1_location_detail_badee196.png
+2026-05-30 19:07:07 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 1: location_detail saved
+2026-05-30 19:07:09 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [evidence] ep1 r2
+2026-05-30 19:07:14 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal2_evidence_badee196.png
+2026-05-30 19:07:14 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 2: evidence saved
+2026-05-30 19:07:16 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [document] ep1 r3
+2026-05-30 19:07:21 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal3_document_badee196.png
+2026-05-30 19:07:21 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 3: document saved
+2026-05-30 19:07:23 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [document] ep1 r4
+2026-05-30 19:07:28 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal4_document_badee196.png
+2026-05-30 19:07:28 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 4: document saved
+2026-05-30 19:07:30 - Agent.ImageGenerator - INFO - [ImageGenerator] Image generation complete — 7 anchors, 10 scenes, 4 reveals | All at 1280x720 (16:9)
+2026-05-30 19:07:30 - Agent.PromptCorrector - INFO - [PromptCorrector] Starting visual prompt correction for Episode 1...
+2026-05-30 19:07:30 - Agent.PromptCorrector - INFO - [PromptCorrector] Analyzing 7 anchor images...
+2026-05-30 19:07:30 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: The Mercer House — Main Rooms
+2026-05-30 19:07:35 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 552 chars
+2026-05-30 19:07:35 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: The Hidden Room
+2026-05-30 19:07:37 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 514 chars
+2026-05-30 19:07:37 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: The Basement Corridor
+2026-05-30 19:07:40 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 536 chars
+2026-05-30 19:07:40 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: Nora Vail's Kitchen
+2026-05-30 19:07:43 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 532 chars
+2026-05-30 19:07:43 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: The County Records Archive
+2026-05-30 19:07:46 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 562 chars
+2026-05-30 19:07:46 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: The Street at Night — Mercer House Exterior
+2026-05-30 19:07:48 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 512 chars
+2026-05-30 19:07:48 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: The Diner on Caldwell Street
+2026-05-30 19:07:51 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 556 chars
+2026-05-30 19:07:51 - Agent.PromptCorrector - INFO - [PromptCorrector] Rewriting 10 Episode 1 prompts...
+2026-05-30 19:07:53 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 1 corrected
+2026-05-30 19:07:55 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 2 corrected
+2026-05-30 19:07:56 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 3 corrected
+2026-05-30 19:07:58 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 4 corrected
+2026-05-30 19:08:00 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 5 corrected
+2026-05-30 19:08:02 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 6 corrected
+2026-05-30 19:08:05 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 7 corrected
+2026-05-30 19:08:06 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 8 corrected
+2026-05-30 19:08:07 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 9 corrected
+2026-05-30 19:08:09 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 10 corrected
+2026-05-30 19:08:09 - Agent.PromptCorrector - INFO - [PromptCorrector] Prompt correction complete: 10/10 corrected
+2026-05-30 19:11:56 - Agent.EditPlanner - INFO - [EditPlanner] Building edit decision lists (Agent 6a)...
+2026-05-30 19:11:56 - Agent.EditPlanner - INFO - [EditPlanner] Planning episode 1...
+2026-05-30 19:11:56 - Agent.EditPlanner - INFO - [EditPlanner] Episode 1: 10 scenes (10 with images), 4 reveals, 10 timestamps
+2026-05-30 19:11:56 - Agent.EditPlanner - INFO - [EditPlanner] Building EDL for episode 1...
+2026-05-30 19:11:56 - Agent.EditPlanner - INFO - [EditPlanner] Total audio: 110040ms (110.0s)
+2026-05-30 19:11:56 - Agent.EditPlanner - INFO - [EditPlanner] EDL built: 17 entries, 4 reveals, total 110.0s
+2026-05-30 19:11:56 - Agent.EditPlanner - INFO - [EditPlanner] EDL saved: outputs/episode_1_edl.json
+2026-05-30 19:11:56 - Agent.EditPlanner - INFO - [EditPlanner] Edit planning complete: 1 EDLs

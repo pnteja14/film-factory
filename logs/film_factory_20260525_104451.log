@@ -1,0 +1,40 @@
+2026-05-25 10:45:08 - Agent.WhisperAlignment - INFO - [WhisperAlignment] Running Whisper word alignment...
+2026-05-25 10:45:09 - Agent.WhisperAlignment - INFO - [WhisperAlignment] Loading Whisper base model...
+2026-05-25 10:45:10 - Agent.WhisperAlignment - INFO - [WhisperAlignment] Whisper model loaded
+2026-05-25 10:45:10 - Agent.WhisperAlignment - INFO - [WhisperAlignment] Running Whisper alignment on outputs/audio/episode_1_voiceover.wav...
+2026-05-25 10:45:19 - Agent.WhisperAlignment - INFO - [WhisperAlignment] Episode 1: 86 words aligned
+2026-05-25 10:45:19 - Agent.WhisperAlignment - INFO - [WhisperAlignment] Episode 1: 86 words aligned, span 0ms → 50380ms
+2026-05-25 10:45:24 - Agent.ImageGenerator - INFO - [ImageGenerator] Starting image generation (Agent 5a)...
+2026-05-25 10:45:24 - Agent.ImageGenerator - INFO - [ImageGenerator] HuggingFace client initialized
+2026-05-25 10:45:24 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1: 8 anchor images at 1280x720...
+2026-05-25 10:45:24 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'Ravenshade Manor' — skipping
+2026-05-25 10:45:26 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'Virat's Apartment' — skipping
+2026-05-25 10:45:28 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'Police Archive Room' — skipping
+2026-05-25 10:45:30 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'Sophia's Office' — skipping
+2026-05-25 10:45:32 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'The Ashford Family Home (Past)' — skipping
+2026-05-25 10:45:34 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'The Highway Overpass (Past)' — skipping
+2026-05-25 10:45:36 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'Marcus's Study at Ravenshade' — skipping
+2026-05-25 10:45:38 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'The Police Station Interrogation Room' — skipping
+2026-05-25 10:45:40 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1 complete: 8/8
+2026-05-25 10:45:40 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 2: Scene images for 1 episodes...
+2026-05-25 10:45:40 - Agent.ImageGenerator - INFO - [ImageGenerator] Episode 1 scene images...
+2026-05-25 10:45:40 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 1: reusing anchor 'Ravenshade Manor' (location shot)
+2026-05-25 10:45:40 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 2: reusing anchor 'Ravenshade Manor' (location shot)
+2026-05-25 10:45:40 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 3: reusing anchor 'The Ashford Family Home (Past)' (location shot)
+2026-05-25 10:45:40 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 4: reusing anchor 'Ravenshade Manor' (location shot)
+2026-05-25 10:45:40 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 5: reusing anchor 'The Ashford Family Home (Past)' (location shot)
+2026-05-25 10:45:40 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 6: reusing anchor 'The Ashford Family Home (Past)' (location shot)
+2026-05-25 10:45:40 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 7: reusing anchor 'The Ashford Family Home (Past)' (location shot)
+2026-05-25 10:45:40 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 8: reusing anchor 'Ravenshade Manor' (location shot)
+2026-05-25 10:45:41 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 3: Reveal images for 1 episodes...
+2026-05-25 10:45:41 - Agent.ImageGenerator - INFO - [ImageGenerator]   Episode 1: 5 reveals...
+2026-05-25 10:45:41 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [evidence] ep1 r1
+2026-05-25 10:45:55 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal1_evidence.png
+2026-05-25 10:45:55 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 1: evidence saved
+2026-05-25 10:45:57 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [location_detail] ep1 r2
+2026-05-25 10:46:02 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal2_location_detail.png
+2026-05-25 10:46:02 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 2: location_detail saved
+2026-05-25 10:46:04 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [location_detail] ep1 r3
+2026-05-25 10:46:10 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal3_location_detail.png
+2026-05-25 10:46:10 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 3: location_detail saved
+2026-05-25 10:46:12 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [document] ep1 r4

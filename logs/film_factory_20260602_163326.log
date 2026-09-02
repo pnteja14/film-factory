@@ -1,0 +1,12 @@
+2026-06-02 16:33:48 - Agent.VideoCompositor - INFO - [VideoCompositor] Starting video composition (Agent 6b — FFmpeg)...
+2026-06-02 16:33:48 - Agent.VideoCompositor - INFO - [VideoCompositor] Subtitles written: outputs/final/tmp_ep1/ep1_subtitles.ass (42 lines)
+2026-06-02 16:33:52 - Agent.VideoCompositor - INFO - [VideoCompositor] Title card: outputs/final/tmp_ep1/ep1_title.mp4
+2026-06-02 16:36:43 - Agent.VideoCompositor - INFO - [VideoCompositor] TBC card: outputs/final/tmp_ep1/ep1_tbc.mp4
+2026-06-02 16:36:44 - Agent.VideoCompositor - INFO - [VideoCompositor] Concatenated 25 segments -> outputs/final/tmp_ep1/ep1_video.mp4
+2026-06-02 16:36:59 - Agent.VideoCompositor - INFO - [VideoCompositor] Subtitles burned: outputs/final/tmp_ep1/ep1_subbed.mp4
+2026-06-02 16:37:12 - Agent.VideoCompositor - INFO - [VideoCompositor] Shadow seal applied: outputs/final/tmp_ep1/ep1_sealed.mp4
+2026-06-02 16:37:12 - Agent.VideoCompositor - INFO - [VideoCompositor] Mixing: 90.0s, 5 reveals, 0 dramatic pauses
+2026-06-02 16:37:15 - Agent.VideoCompositor - INFO - [VideoCompositor] Dynamic audio mixed: outputs/final/tmp_ep1/ep1_audio.aac
+2026-06-02 16:37:17 - Agent.VideoCompositor - INFO - [VideoCompositor] Final: outputs/final/episode_1.mp4
+2026-06-02 16:37:17 - Agent.VideoCompositor - INFO - [VideoCompositor] Episode 1 complete: outputs/final/episode_1.mp4
+2026-06-02 16:37:17 - Agent.VideoCompositor - INFO - [VideoCompositor] Composition: 2/1 rendered

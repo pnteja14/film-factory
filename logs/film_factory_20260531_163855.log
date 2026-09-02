@@ -1,0 +1,6 @@
+2026-05-31 16:46:40 - Agent.VoiceoverAgent - INFO - [VoiceoverAgent] Generating voiceover for episode 1...
+2026-05-31 16:46:40 - Agent.VoiceoverAgent - INFO - [VoiceoverAgent] Using structured narration: 8 chunks
+2026-05-31 16:46:40 - Agent.VoiceoverAgent - INFO - [VoiceoverAgent] Generating 8 audio chunks...
+2026-05-31 16:46:40 - Agent.VoiceoverAgent - INFO - [VoiceoverAgent]   Chunk 1/8: 64 chars
+2026-05-31 16:46:41 - Agent.VoiceoverAgent - ERROR - [VoiceoverAgent] Chunk 1 permanent error: API error 403: <403> AllocationQuota.FreeTierOnly: The free tier of the model has been exhausted. If you wish to continue access the model on a paid basis, please disable the "use free tier only" mode in the management console.
+2026-05-31 16:46:41 - Agent.VoiceoverAgent - ERROR - [VoiceoverAgent] Voiceover generation failed: Chunk 1 failed permanently: API error 403: <403> AllocationQuota.FreeTierOnly: The free tier of the model has been exhausted. If you wish to continue access the model on a paid basis, please disable the "use free tier only" mode in the management console.

@@ -1,0 +1,22 @@
+2026-05-30 19:08:09 - Agent.DepthParallax - INFO - [DepthParallax] Pre-computing depth maps...
+2026-05-30 19:08:09 - Agent.DepthParallax - INFO - [DepthParallax] Computing depth maps for 18 images...
+2026-05-30 19:08:09 - Agent.DepthParallax - INFO - [DepthParallax] Depth Anything V2 available via transformers
+2026-05-30 19:08:09 - Agent.DepthParallax - INFO - [DepthParallax] Loading Depth Anything V2 Small (~100MB first run)...
+2026-05-30 19:08:11 - Agent.DepthParallax - INFO - [DepthParallax] Depth model loaded
+2026-05-30 19:08:12 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: the_mercer_house__main_rooms_depth.npy
+2026-05-30 19:08:13 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_reveal1_location_detail_badee196_depth.npy
+2026-05-30 19:08:14 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_scene4_the_hidden_room_depth.npy
+2026-05-30 19:08:15 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_reveal4_document_badee196_depth.npy
+2026-05-30 19:08:16 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_scene6_the_hidden_room_depth.npy
+2026-05-30 19:08:18 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: the_diner_on_caldwell_street_depth.npy
+2026-05-30 19:08:19 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_reveal2_evidence_badee196_depth.npy
+2026-05-30 19:08:20 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_scene8_the_hidden_room_depth.npy
+2026-05-30 19:08:21 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_scene5_the_hidden_room_depth.npy
+2026-05-30 19:08:22 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_scene7_the_hidden_room_depth.npy
+2026-05-30 19:08:23 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: nora_vails_kitchen_depth.npy
+2026-05-30 19:08:24 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_reveal3_document_badee196_depth.npy
+2026-05-30 19:08:25 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_scene2_the_mercer_house__main_rooms_depth.npy
+2026-05-30 19:08:27 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: the_county_records_archive_depth.npy
+2026-05-30 19:08:28 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: the_street_at_night__mercer_house_exterior_depth.npy
+2026-05-30 19:08:29 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_scene9_the_hidden_room_depth.npy
+2026-05-30 19:08:29 - Agent.DepthParallax - INFO - [DepthParallax] Depth maps ready: 16 new, 2 cached

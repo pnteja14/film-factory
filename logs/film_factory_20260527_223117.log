@@ -1,0 +1,103 @@
+2026-05-27 22:36:23 - Agent.ImageGenerator - INFO - [ImageGenerator] Starting image generation (Agent 5a)...
+2026-05-27 22:36:23 - Agent.ImageGenerator - INFO - [ImageGenerator] HuggingFace client initialized
+2026-05-27 22:36:23 - Agent.ImageGenerator - INFO - [ImageGenerator] Deleted 71 existing images — fresh generation
+2026-05-27 22:36:23 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1: 7 anchor images at 1280x720...
+2026-05-27 22:36:23 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'Mara's Recording Studio' (1280x720)
+2026-05-27 22:36:30 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\maras_recording_studio.png
+2026-05-27 22:36:32 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'Ruth Pellman's House' (1280x720)
+2026-05-27 22:36:39 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\ruth_pellmans_house.png
+2026-05-27 22:36:41 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'Harlow Creek Town Center' (1280x720)
+2026-05-27 22:36:46 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\harlow_creek_town_center.png
+2026-05-27 22:36:48 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'Harlow Creek Sheriff's Department' (1280x720)
+2026-05-27 22:36:53 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\harlow_creek_sheriffs_department.png
+2026-05-27 22:36:55 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Frey Property' (1280x720)
+2026-05-27 22:37:00 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_frey_property.png
+2026-05-27 22:37:02 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'Vera Colt's Print Shop' (1280x720)
+2026-05-27 22:37:07 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\vera_colts_print_shop.png
+2026-05-27 22:37:09 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'Millhaven County Group Home — Exterior' (1280x720)
+2026-05-27 22:37:13 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\millhaven_county_group_home__exterior.png
+2026-05-27 22:37:15 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1 complete: 7/7
+2026-05-27 22:37:15 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 2: Scene images for 1 episodes...
+2026-05-27 22:37:15 - Agent.ImageGenerator - INFO - [ImageGenerator] Episode 1 scene images...
+2026-05-27 22:37:15 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 1: anchor 'Mara's Recording Studio' (first use)
+2026-05-27 22:37:15 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 2: anchor 'Ruth Pellman's House' (first use)
+2026-05-27 22:37:15 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 3: anchor 'Harlow Creek Town Center' (first use)
+2026-05-27 22:37:20 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 4: generated 'Mara's Recording Studio'
+2026-05-27 22:37:26 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 5: generated 'Ruth Pellman's House'
+2026-05-27 22:37:30 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 6: generated 'Harlow Creek Town Center'
+2026-05-27 22:37:39 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 7: generated 'Mara's Recording Studio'
+2026-05-27 22:37:44 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 8: generated 'Ruth Pellman's House'
+2026-05-27 22:37:49 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 9: generated 'Harlow Creek Town Center'
+2026-05-27 22:37:54 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 10: generated 'Mara's Recording Studio'
+2026-05-27 22:37:59 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 11: generated 'Ruth Pellman's House'
+2026-05-27 22:38:06 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 12: generated 'Harlow Creek Town Center'
+2026-05-27 22:38:08 - Agent.ImageGenerator - WARNING - [ImageGenerator] Anchors never assigned to any episode: {"Vera Colt's Print Shop", 'The Frey Property', 'Millhaven County Group Home — Exterior', "Harlow Creek Sheriff's Department"} — forcing into episode 1
+2026-05-27 22:38:08 - Agent.ImageGenerator - INFO - [ImageGenerator] Forced unused anchor 'Harlow Creek Sheriff's Department' into episode 1
+2026-05-27 22:38:08 - Agent.ImageGenerator - INFO - [ImageGenerator] Forced unused anchor 'Millhaven County Group Home — Exterior' into episode 1
+2026-05-27 22:38:08 - Agent.ImageGenerator - INFO - [ImageGenerator] Forced unused anchor 'The Frey Property' into episode 1
+2026-05-27 22:38:08 - Agent.ImageGenerator - INFO - [ImageGenerator] Forced unused anchor 'Vera Colt's Print Shop' into episode 1
+2026-05-27 22:38:08 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 3: Reveal images for 1 episodes...
+2026-05-27 22:38:08 - Agent.ImageGenerator - INFO - [ImageGenerator]   Episode 1: 5 reveals...
+2026-05-27 22:38:08 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [document] ep1 r1
+2026-05-27 22:38:13 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal1_document.png
+2026-05-27 22:38:13 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 1: document saved
+2026-05-27 22:38:15 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [location_detail] ep1 r2
+2026-05-27 22:38:21 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal2_location_detail.png
+2026-05-27 22:38:21 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 2: location_detail saved
+2026-05-27 22:38:23 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [location_detail] ep1 r3
+2026-05-27 22:38:28 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal3_location_detail.png
+2026-05-27 22:38:28 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 3: location_detail saved
+2026-05-27 22:38:30 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [evidence] ep1 r4
+2026-05-27 22:38:34 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal4_evidence.png
+2026-05-27 22:38:34 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 4: evidence saved
+2026-05-27 22:38:36 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [evidence] ep1 r5
+2026-05-27 22:38:41 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal5_evidence.png
+2026-05-27 22:38:41 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 5: evidence saved
+2026-05-27 22:38:43 - Agent.ImageGenerator - INFO - [ImageGenerator] Image generation complete — 7 anchors, 16 scenes, 5 reveals | All at 1280x720 (16:9)
+2026-05-27 22:38:43 - Agent.PromptCorrector - INFO - [PromptCorrector] Starting visual prompt correction for Episode 1...
+2026-05-27 22:38:43 - Agent.PromptCorrector - INFO - [PromptCorrector] Analyzing 7 anchor images...
+2026-05-27 22:38:43 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: Mara's Recording Studio
+2026-05-27 22:38:46 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 612 chars
+2026-05-27 22:38:46 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: Ruth Pellman's House
+2026-05-27 22:38:49 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 573 chars
+2026-05-27 22:38:49 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: Harlow Creek Town Center
+2026-05-27 22:38:54 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 554 chars
+2026-05-27 22:38:54 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: Harlow Creek Sheriff's Department
+2026-05-27 22:38:56 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 542 chars
+2026-05-27 22:38:56 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: The Frey Property
+2026-05-27 22:38:59 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 524 chars
+2026-05-27 22:38:59 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: Vera Colt's Print Shop
+2026-05-27 22:39:02 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 546 chars
+2026-05-27 22:39:02 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: Millhaven County Group Home — Exterior
+2026-05-27 22:39:05 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 538 chars
+2026-05-27 22:39:05 - Agent.PromptCorrector - INFO - [PromptCorrector] Rewriting 16 Episode 1 prompts...
+2026-05-27 22:39:07 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 1 corrected
+2026-05-27 22:39:09 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 2 corrected
+2026-05-27 22:39:11 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 3 corrected
+2026-05-27 22:39:12 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 4 corrected
+2026-05-27 22:39:14 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 5 corrected
+2026-05-27 22:39:16 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 6 corrected
+2026-05-27 22:39:19 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 7 corrected
+2026-05-27 22:39:21 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 8 corrected
+2026-05-27 22:39:23 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 9 corrected
+2026-05-27 22:39:25 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 10 corrected
+2026-05-27 22:39:27 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 11 corrected
+2026-05-27 22:39:30 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 12 corrected
+2026-05-27 22:39:32 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 13 corrected
+2026-05-27 22:39:34 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 14 corrected
+2026-05-27 22:39:36 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 15 corrected
+2026-05-27 22:39:38 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 16 corrected
+2026-05-27 22:39:38 - Agent.PromptCorrector - INFO - [PromptCorrector] Prompt correction complete: 16/16 corrected
+2026-05-27 22:40:00 - Agent.EditPlanner - INFO - [EditPlanner] Building edit decision lists (Agent 6a)...
+2026-05-27 22:40:00 - Agent.EditPlanner - INFO - [EditPlanner] Planning episode 1...
+2026-05-27 22:40:00 - Agent.EditPlanner - INFO - [EditPlanner] Episode 1: 16 scenes (16 with images), 5 reveals, 0 timestamps
+2026-05-27 22:40:00 - Agent.EditPlanner - INFO - [EditPlanner] Building EDL for episode 1...
+2026-05-27 22:40:00 - Agent.EditPlanner - INFO - [EditPlanner] Total audio: 134000ms (134.0s)
+2026-05-27 22:40:00 - Agent.EditPlanner - WARNING - [EditPlanner] Reveal at 0ms overlaps previous end 0ms — skipping
+2026-05-27 22:40:00 - Agent.EditPlanner - WARNING - [EditPlanner] Reveal at 0ms overlaps previous end 0ms — skipping
+2026-05-27 22:40:00 - Agent.EditPlanner - WARNING - [EditPlanner] Reveal at 0ms overlaps previous end 0ms — skipping
+2026-05-27 22:40:00 - Agent.EditPlanner - WARNING - [EditPlanner] Reveal at 0ms overlaps previous end 0ms — skipping
+2026-05-27 22:40:00 - Agent.EditPlanner - WARNING - [EditPlanner] Reveal at 0ms overlaps previous end 0ms — skipping
+2026-05-27 22:40:00 - Agent.EditPlanner - INFO - [EditPlanner] EDL built: 17 entries, 5 reveals, total 134.0s
+2026-05-27 22:40:00 - Agent.EditPlanner - INFO - [EditPlanner] EDL saved: outputs/episode_1_edl.json
+2026-05-27 22:40:00 - Agent.EditPlanner - INFO - [EditPlanner] Edit planning complete: 1 EDLs

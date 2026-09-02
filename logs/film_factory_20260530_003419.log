@@ -1,0 +1,12 @@
+2026-05-30 00:41:30 - Agent.DepthSAM2 - INFO - [DepthSAM2] Pre-computing layers for all scene and reveal images...
+2026-05-30 00:41:30 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layer pre-compute done: 0 new, 21 cached
+2026-05-30 00:41:30 - Agent.VideoCompositor - INFO - [VideoCompositor] Starting video composition (Agent 6b — FFmpeg)...
+2026-05-30 00:41:30 - Agent.VideoCompositor - INFO - [VideoCompositor] Subtitles written: outputs/final/tmp_ep1/ep1_subtitles.ass (28 lines)
+2026-05-30 00:41:30 - Agent.VideoCompositor - INFO - [VideoCompositor] Title card: outputs/final/tmp_ep1/ep1_title.mp4
+2026-05-30 00:42:56 - Agent.VideoCompositor - INFO - [VideoCompositor] Concatenated 19 segments → outputs/final/tmp_ep1/ep1_video.mp4
+2026-05-30 00:43:01 - Agent.VideoCompositor - INFO - [VideoCompositor] Subtitles burned: outputs/final/tmp_ep1/ep1_subbed.mp4
+2026-05-30 00:43:01 - Agent.VideoCompositor - INFO - [VideoCompositor] Mixing: 48.2s, 5 reveals, 0 dramatic pauses
+2026-05-30 00:49:24 - Agent.VideoCompositor - INFO - [VideoCompositor] Dynamic audio mixed: outputs/final/tmp_ep1/ep1_audio.aac
+2026-05-30 00:49:25 - Agent.VideoCompositor - INFO - [VideoCompositor] Final: outputs/final/episode_1.mp4
+2026-05-30 00:49:25 - Agent.VideoCompositor - INFO - [VideoCompositor] Episode 1 complete: outputs/final/episode_1.mp4
+2026-05-30 00:49:25 - Agent.VideoCompositor - INFO - [VideoCompositor] Composition: 1/1 rendered

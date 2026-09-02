@@ -1,0 +1,19 @@
+2026-05-25 15:13:58 - Agent.StoryArchitect - INFO - [StoryArchitect] Starting story planning...
+2026-05-25 15:13:58 - Agent.StoryArchitect - INFO - [StoryArchitect] Brand voice loaded
+2026-05-25 15:13:58 - Agent.StoryArchitect - INFO - [StoryArchitect] Calling Claude API for story plan...
+2026-05-25 15:14:47 - Agent.StoryArchitect - INFO - [StoryArchitect] Extracting and parsing JSON...
+2026-05-25 15:14:47 - Agent.StoryArchitect - INFO - [StoryArchitect] Validating story plan...
+2026-05-25 15:14:47 - Agent.StoryArchitect - ERROR - [StoryArchitect] Story planning failed: Validation error: Missing required fields: ['episodes']
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\story_architect.py", line 87, in validate_story_plan
+    raise StoryArchitectException(f"Missing required fields: {missing}")
+utils.errors.StoryArchitectException: Missing required fields: ['episodes']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\story_architect.py", line 203, in plan_story
+    story_plan = validate_story_plan(story_plan)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\story_architect.py", line 103, in validate_story_plan
+    raise StoryArchitectException(f"Validation error: {e}")
+utils.errors.StoryArchitectException: Validation error: Missing required fields: ['episodes']

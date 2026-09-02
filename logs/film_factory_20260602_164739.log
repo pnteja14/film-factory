@@ -1,0 +1,14 @@
+2026-06-02 16:48:38 - Agent.VideoGenerator - INFO - [VideoGenerator] Generating Wan2.1-I2V clips for qualifying environmental scenes...
+2026-06-02 16:48:38 - Agent.VideoGenerator - INFO - [VideoGenerator] ep1 reveal1: no environmental keyword — Ken Burns
+2026-06-02 16:48:38 - Agent.VideoGenerator - INFO - [VideoGenerator] ep1 reveal2: no environmental keyword — Ken Burns
+2026-06-02 16:48:38 - Agent.VideoGenerator - INFO - [VideoGenerator] ep1 reveal3: no environmental keyword — Ken Burns
+2026-06-02 16:48:38 - Agent.VideoGenerator - INFO - [VideoGenerator] ep1 reveal4: no environmental keyword — Ken Burns
+2026-06-02 16:48:38 - Agent.VideoGenerator - INFO - [VideoGenerator] ep1 reveal5: no environmental keyword — Ken Burns
+2026-06-02 16:48:38 - Agent.VideoGenerator - INFO - [VideoGenerator] ep1 scene9: generating Wan clip — The Grand Ballroom, rain streaking down a window, drops shat...
+2026-06-02 16:49:08 - Agent.VideoGenerator - WARNING - [VideoGenerator] ep1 scene9 video failed: Video generation failed: 500 Server Error: Internal Server Error for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate_video
+2026-06-02 16:49:08 - Agent.VideoGenerator - INFO - [VideoGenerator] ep1 scene10: generating Wan clip — The Grand Ballroom, rain streaking down a window, drops shat...
+2026-06-02 16:49:37 - Agent.VideoGenerator - WARNING - [VideoGenerator] ep1 scene10 video failed: Video generation failed: 500 Server Error: Internal Server Error for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate_video
+2026-06-02 16:49:37 - Agent.VideoGenerator - INFO - [VideoGenerator] ep1 scene11 (cliffhanger): no environmental keyword — Ken Burns
+2026-06-02 16:49:37 - Agent.VideoGenerator - INFO - [VideoGenerator] ep1 scene12 (cliffhanger): no environmental keyword — Ken Burns
+2026-06-02 16:49:37 - Agent.VideoGenerator - INFO - [VideoGenerator] ep1: 0 Wan clip(s) generated, 2 failed, rest use Ken Burns
+2026-06-02 16:53:40 - Orchestrator - INFO - Context saved: outputs\context.json

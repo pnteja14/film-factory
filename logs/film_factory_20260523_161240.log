@@ -1,0 +1,109 @@
+2026-05-23 16:12:49 - Agent.NarrationDirector - INFO - [NarrationDirector] Structuring narration for all episodes...
+2026-05-23 16:12:49 - Agent.NarrationDirector - INFO - [NarrationDirector]   Structuring episode 1...
+2026-05-23 16:12:54 - Agent.NarrationDirector - INFO - [NarrationDirector] Narration structured into 9 chunks
+2026-05-23 16:12:54 - Agent.NarrationDirector - INFO - [NarrationDirector]   Episode 1: 9 chunks
+2026-05-23 16:12:54 - Agent.NarrationDirector - INFO - [NarrationDirector] Narration direction complete
+2026-05-23 16:12:54 - Agent.SceneDirector - INFO - [SceneDirector] Directing episode 1...
+2026-05-23 16:12:54 - Agent.SceneDirector - INFO - [SceneDirector] Character profiles: ['Virat Kohli', 'Marcus Ashford', 'Priya Ashford', 'Dr. Sophia Chen', 'James Ashford', 'Inspector Rao']
+2026-05-23 16:13:03 - Agent.SceneDirector - INFO - [SceneDirector] Episode 1: 9 narrative moments designed
+2026-05-23 16:13:08 - Agent.SceneDirector - INFO - [SceneDirector] Episode 1: 5 reveal moments
+2026-05-23 16:13:08 - Agent.SceneDirector - INFO - [SceneDirector] Episode 1: 9 scenes (1 per chunk), 5 reveals, ~72s
+2026-05-23 16:13:08 - Agent.ImageGenerator - INFO - [ImageGenerator] Starting image generation (Agent 5a)...
+2026-05-23 16:13:08 - Agent.ImageGenerator - INFO - [ImageGenerator] HuggingFace client initialized
+2026-05-23 16:13:08 - Agent.ImageGenerator - INFO - [ImageGenerator] Deleted 13 existing images — fresh generation
+2026-05-23 16:13:08 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1: 8 anchor images at 1280x720...
+2026-05-23 16:13:08 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'Ravenshade Manor' (1280x720)
+2026-05-23 16:13:16 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\ravenshade_manor.png
+2026-05-23 16:13:18 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'Virat's Apartment' (1280x720)
+2026-05-23 16:13:25 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\virats_apartment.png
+2026-05-23 16:13:27 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'Police Archive Room' (1280x720)
+2026-05-23 16:13:34 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\police_archive_room.png
+2026-05-23 16:13:36 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'Sophia's Office' (1280x720)
+2026-05-23 16:13:44 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\sophias_office.png
+2026-05-23 16:13:46 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Ashford Family Home (Past)' (1280x720)
+2026-05-23 16:13:53 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_ashford_family_home_past.png
+2026-05-23 16:13:55 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Highway Overpass (Past)' (1280x720)
+2026-05-23 16:14:02 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_highway_overpass_past.png
+2026-05-23 16:14:04 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'Marcus's Study at Ravenshade' (1280x720)
+2026-05-23 16:14:12 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\marcuss_study_at_ravenshade.png
+2026-05-23 16:14:14 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Police Station Interrogation Room' (1280x720)
+2026-05-23 16:14:21 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_police_station_interrogation_room.png
+2026-05-23 16:14:23 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1 complete: 8/8
+2026-05-23 16:14:23 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 2: Scene images for 1 episodes...
+2026-05-23 16:14:23 - Agent.ImageGenerator - INFO - [ImageGenerator] Episode 1 scene images...
+2026-05-23 16:14:23 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 1: reusing anchor 'Virat's Apartment'
+2026-05-23 16:14:23 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 2: reusing anchor 'Virat's Apartment'
+2026-05-23 16:14:23 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 3: reusing anchor 'Virat's Apartment'
+2026-05-23 16:14:23 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 4: reusing anchor 'Virat's Apartment'
+2026-05-23 16:14:23 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 5: reusing anchor 'Virat's Apartment'
+2026-05-23 16:14:23 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 6: reusing anchor 'Ravenshade Manor'
+2026-05-23 16:14:23 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 7: reusing anchor 'Marcus's Study at Ravenshade'
+2026-05-23 16:14:23 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 8: reusing anchor 'Marcus's Study at Ravenshade'
+2026-05-23 16:14:23 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 9: reusing anchor 'Marcus's Study at Ravenshade'
+2026-05-23 16:14:24 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 3: Reveal images for 1 episodes...
+2026-05-23 16:14:24 - Agent.ImageGenerator - INFO - [ImageGenerator]   Episode 1: 5 reveals...
+2026-05-23 16:14:24 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [document] ep1 r1
+2026-05-23 16:14:31 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal1_document.png
+2026-05-23 16:14:31 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 1: document saved
+2026-05-23 16:14:33 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [location_detail] ep1 r2
+2026-05-23 16:14:41 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal2_location_detail.png
+2026-05-23 16:14:41 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 2: location_detail saved
+2026-05-23 16:14:43 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [evidence] ep1 r3
+2026-05-23 16:14:51 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal3_evidence.png
+2026-05-23 16:14:51 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 3: evidence saved
+2026-05-23 16:14:53 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [subject] ep1 r4
+2026-05-23 16:14:56 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal4_subject.png
+2026-05-23 16:14:56 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 4: subject saved
+2026-05-23 16:14:58 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [document] ep1 r5
+2026-05-23 16:14:59 - Agent.ImageGenerator - ERROR - [ImageGenerator]     Reveal 5 failed: Permanent: Payment required: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/flux/dev' (Request ID: Root=1-6a1218d4-2dd26afd0dc63a7f45a28078;6c852525-8d7b-4416-9109-3b7a2c26a2be)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers.
+2026-05-23 16:15:01 - Agent.ImageGenerator - INFO - [ImageGenerator] Image generation complete — 8 anchors, 9 scenes, 4 reveals | All at 1280x720 (16:9)
+2026-05-23 16:15:01 - Agent.PromptCorrector - INFO - [PromptCorrector] Starting visual prompt correction for Episode 1...
+2026-05-23 16:15:01 - Agent.PromptCorrector - INFO - [PromptCorrector] Analyzing 8 anchor images...
+2026-05-23 16:15:01 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: Ravenshade Manor
+2026-05-23 16:15:04 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 599 chars
+2026-05-23 16:15:04 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: Virat's Apartment
+2026-05-23 16:15:09 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 532 chars
+2026-05-23 16:15:09 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: Police Archive Room
+2026-05-23 16:15:12 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 490 chars
+2026-05-23 16:15:12 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: Sophia's Office
+2026-05-23 16:15:17 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 549 chars
+2026-05-23 16:15:17 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: The Ashford Family Home (Past)
+2026-05-23 16:15:20 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 532 chars
+2026-05-23 16:15:20 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: The Highway Overpass (Past)
+2026-05-23 16:15:25 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 574 chars
+2026-05-23 16:15:25 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: Marcus's Study at Ravenshade
+2026-05-23 16:15:30 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 555 chars
+2026-05-23 16:15:30 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: The Police Station Interrogation Room
+2026-05-23 16:15:33 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 612 chars
+2026-05-23 16:15:33 - Agent.PromptCorrector - INFO - [PromptCorrector] Rewriting 9 Episode 1 prompts...
+2026-05-23 16:15:35 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 1 corrected
+2026-05-23 16:15:38 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 2 corrected
+2026-05-23 16:15:40 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 3 corrected
+2026-05-23 16:15:45 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 4 corrected
+2026-05-23 16:15:47 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 5 corrected
+2026-05-23 16:15:50 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 6 corrected
+2026-05-23 16:15:53 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 7 corrected
+2026-05-23 16:15:56 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 8 corrected
+2026-05-23 16:15:58 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 9 corrected
+2026-05-23 16:15:58 - Agent.PromptCorrector - INFO - [PromptCorrector] Prompt correction complete: 9/9 corrected
+2026-05-23 16:15:58 - Agent.MusicAgent - INFO - [MusicAgent] Music generation starting (MusicGen: True)...
+2026-05-23 16:15:58 - Agent.MusicAgent - INFO - [MusicAgent] Episode 1 music...
+2026-05-23 16:15:58 - Agent.MusicAgent - INFO - [MusicAgent] Generating ambient (57s)...
+2026-05-23 16:15:58 - Agent.MusicAgent - INFO - [MusicAgent] Loading MusicGen model (first run downloads ~300MB)...
+2026-05-23 16:16:03 - Agent.MusicAgent - INFO - [MusicAgent] Generating 30s of audio...
+2026-05-23 16:20:26 - Agent.MusicAgent - INFO - [MusicAgent] MusicGen generated 29.9s audio
+2026-05-23 16:20:26 - Agent.MusicAgent - INFO - [MusicAgent] Saved: outputs\music\ep1_ambient.wav (56.8s)
+2026-05-23 16:20:26 - Agent.MusicAgent - INFO - [MusicAgent] Generating tension (57s)...
+2026-05-23 16:20:26 - Agent.MusicAgent - INFO - [MusicAgent] Loading MusicGen model (first run downloads ~300MB)...
+2026-05-23 16:20:30 - Agent.MusicAgent - INFO - [MusicAgent] Generating 30s of audio...
+2026-05-23 16:24:44 - Agent.MusicAgent - INFO - [MusicAgent] MusicGen generated 29.9s audio
+2026-05-23 16:24:44 - Agent.MusicAgent - INFO - [MusicAgent] Saved: outputs\music\ep1_tension.wav (56.8s)
+2026-05-23 16:24:44 - Agent.MusicAgent - INFO - [MusicAgent] Generating sting...
+2026-05-23 16:24:44 - Agent.MusicAgent - INFO - [MusicAgent] Loading MusicGen model (first run downloads ~300MB)...
+2026-05-23 16:24:50 - Agent.MusicAgent - INFO - [MusicAgent] Generating 2s of audio...
+2026-05-23 16:25:03 - Agent.MusicAgent - INFO - [MusicAgent] MusicGen generated 1.9s audio
+2026-05-23 16:25:03 - Agent.MusicAgent - INFO - [MusicAgent] Saved: outputs\music\ep1_sting.wav (1.5s)
+2026-05-23 16:25:03 - Agent.MusicAgent - INFO - [MusicAgent] Episode 1 music complete

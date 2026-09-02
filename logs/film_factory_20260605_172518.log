@@ -1,0 +1,403 @@
+2026-06-05 17:26:25 - Agent.MusicAgent - INFO - [MusicAgent] Music generation (source=kaggle, MusicGen=True)...
+2026-06-05 17:26:25 - Agent.MusicAgent - INFO - [MusicAgent] Episode 1: 112.9s, 0 reveals, cliffhanger at 110.9s
+2026-06-05 17:26:25 - Agent.MusicAgent - INFO - [MusicAgent] Episode 1 style: Cinematic thriller score. Solo piano, low strings, atmospheric texture. Minor ke...
+2026-06-05 17:26:25 - Agent.MusicAgent - INFO - [MusicAgent] Arc segments: establish(16s), build(42s), investigation(12s), revelation(26s), cliffhanger(14s)
+2026-06-05 17:26:25 - Agent.MusicAgent - INFO - [MusicAgent] Segment cache hit: ep1_seg0_c868a4ea.wav
+2026-06-05 17:26:25 - Agent.MusicAgent - INFO - [MusicAgent] Segment cache hit: ep1_seg1_e33a2801.wav
+2026-06-05 17:26:25 - Agent.MusicAgent - INFO - [MusicAgent] Segment cache hit: ep1_seg2_07765531.wav
+2026-06-05 17:26:25 - Agent.MusicAgent - INFO - [MusicAgent] Segment cache hit: ep1_seg3_ca74a85d.wav
+2026-06-05 17:26:25 - Agent.MusicAgent - INFO - [MusicAgent] Segment cache hit: ep1_seg4_aa984dbd.wav
+2026-06-05 17:26:26 - Agent.MusicAgent - INFO - [MusicAgent] Saved: outputs\music\ep1_score.wav (112.9s)
+2026-06-05 17:26:26 - Agent.MusicAgent - INFO - [MusicAgent] Saved: outputs\music\ep1_sting.wav (2.0s)
+2026-06-05 17:26:26 - Agent.MusicAgent - INFO - [MusicAgent] Episode 1 music complete
+2026-06-05 17:26:26 - Agent.VideoCompositor - INFO - [VideoCompositor] Starting video composition (Agent 6b — FFmpeg)...
+2026-06-05 17:26:26 - Agent.VideoCompositor - INFO - [VideoCompositor] Event-stream subtitles written: outputs/final/tmp_ep1/ep1_subtitles.ass (62 groups)
+2026-06-05 17:26:28 - Agent.VideoCompositor - INFO - [VideoCompositor] Title card: outputs/final/tmp_ep1/ep1_title.mp4
+2026-06-05 17:26:28 - Agent.VideoCompositor - ERROR - [VideoCompositor] FFmpeg failed for segment 0 (ep 1):
+CMD: ffmpeg -y -loop 1 -t 1.82 -i outputs/anchors/the_hidden_room.png -filter_complex [0:v]scale=2112:1188:flags=lanczos,setsar=1[img_s];[img_s]zoompan=z='max(1.001,min(1.35,1.0+0.027300*(1-on/43)))':x='max(0,min(iw-iw/zoom,iw/2-(iw/zoom/2)))':y='max(0,min(ih-ih/zoom,ih/2-(ih/zoom/2)))':d=1:s=1920x1080:fps=24,setsar=1[comp];[comp]eq=brightness=-0.06:contrast=1.22:saturation=0.97:gamma=0.85[_eq1];[_eq1]colorbalance=rs=-0.015:gs=0:bs=0.02:rm=-0.008:gm=0:bm=0.01:rh=0:gh=0:bh=0[grade];[grade]split=2[main_h][bloom_src];[bloom_src]lutyuv=y='if(gt(val,210),val,0)':u='128':v='128',gblur=sigma=16[bloom];[main_h][bloom]blend=c0_mode=screen:c0_opacity=0.20:c1_expr='A':c2_expr='A'[ha];[ha]curves=all='0/12 255/255'[ha_lift];[ha_lift]noise=alls=6:allf=t[gn];[gn]vignette=angle=PI/4.5:eval=init[vi];[vi]eq=saturation=0.15[desat_vi];[desat_vi]pad=1976:1136:28:28:color=0xEBE8E1,rotate=angle=-0.005781:fillcolor=0x0C0C10,scale=trunc(iw*1.04/2)*2:trunc(ih*1.04/2)*2,crop=1920:1080[s6];[s6]drawbox=x=0:y=885:w=1920:h=195:color=0x181818@0.06:t=fill[s8];[s8]drawbox=x=0:y=0:w=iw:h=80:color=black@1:t=fill,drawbox=x=0:y=ih-80:w=iw:h=80:color=black@1:t=fill[lb];[lb]null[out] -map [out] -r 24 -t 1.82 -vcodec libx264 -pix_fmt yuv420p -preset veryfast -b:v 6M -avoid_negative_ts make_zero outputs/final/tmp_ep1/ep1_seg0000.mp4
+STDERR: e input pad on Parsed_curves_10
+[fc#0 @ 000002d10cd5b500] Error reinitializing filters!
+[fc#0 @ 000002d10cd5b500] Task finished with error code: -22 (Invalid argument)
+[fc#0 @ 000002d10cd5b500] Terminating thread with return code -22 (Invalid argument)
+[vost#0:0/libx264 @ 000002d10cd8d880] [enc:libx264 @ 000002d10cd3cfc0] Could not open encoder before EOF
+[vost#0:0/libx264 @ 000002d10cd8d880] Task finished with error code: -22 (Invalid argument)
+[vost#0:0/libx264 @ 000002d10cd8d880] Terminating thread with return code -22 (Invalid argument)
+[out#0/mp4 @ 000002d10cd117c0] Nothing was written into output file, because at least one of its streams received no packets.
+frame=    0 fps=0.0 q=0.0 Lsize=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:00.04    
+Conversion failed!
+
+2026-06-05 17:26:28 - Agent.VideoCompositor - WARNING - [VideoCompositor] Ep1 segment 0 dropped — render returned no file. Entry type=scene arc=establish image=outputs/anchors/the_hidden_room.png
+2026-06-05 17:26:28 - Agent.VideoCompositor - ERROR - [VideoCompositor] FFmpeg failed for segment 1 (ep 1):
+CMD: ffmpeg -y -stream_loop -1 -t 3.5 -an -i outputs/video_clips/ep1_reveal1.mp4 -filter_complex [0:v]scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,setsar=1[comp];[comp]eq=brightness=-0.06:contrast=1.22:saturation=0.97:gamma=0.85[_eq1];[_eq1]colorbalance=rs=-0.015:gs=0:bs=0.02:rm=-0.008:gm=0:bm=0.01:rh=0:gh=0:bh=0[grade];[grade]split=2[main_h][bloom_src];[bloom_src]lutyuv=y='if(gt(val,210),val,0)':u='128':v='128',gblur=sigma=16[bloom];[main_h][bloom]blend=c0_mode=screen:c0_opacity=0.20:c1_expr='A':c2_expr='A'[ha];[ha]curves=all='0/12 255/255'[ha_lift];[ha_lift]noise=alls=6:allf=t[gn];[gn]vignette=angle=PI/4.5:eval=init[vi];[vi]eq=saturation=0.15[desat_vi];[desat_vi]pad=1976:1136:28:28:color=0xEBE8E1,rotate=angle=-0.030990:fillcolor=0x0C0C10,scale=trunc(iw*1.04/2)*2:trunc(ih*1.04/2)*2,crop=1920:1080[s6];[s6]drawbox=x=0:y=0:w=iw:h=80:color=black@1:t=fill,drawbox=x=0:y=ih-80:w=iw:h=80:color=black@1:t=fill[lb];[lb]fade=t=in:st=0:d=0.250,fade=t=out:st=3.250:d=0.250[lb_fade];[lb_fade]null[out] -map [out] -r 24 -t 3.5 -vcodec libx264 -pix_fmt yuv420p -preset veryfast -b:v 6M -avoid_negative_ts make_zero outputs/final/tmp_ep1/ep1_seg0001.mp4
+STDERR: re input pad on Parsed_curves_9
+[fc#0 @ 0000017fe583bdc0] Error reinitializing filters!
+[fc#0 @ 0000017fe583bdc0] Task finished with error code: -22 (Invalid argument)
+[fc#0 @ 0000017fe583bdc0] Terminating thread with return code -22 (Invalid argument)
+[vost#0:0/libx264 @ 0000017fe5852c40] [enc:libx264 @ 0000017fe581d180] Could not open encoder before EOF
+[vost#0:0/libx264 @ 0000017fe5852c40] Task finished with error code: -22 (Invalid argument)
+[vost#0:0/libx264 @ 0000017fe5852c40] Terminating thread with return code -22 (Invalid argument)
+[out#0/mp4 @ 0000017fe57f2e40] Nothing was written into output file, because at least one of its streams received no packets.
+frame=    0 fps=0.0 q=0.0 Lsize=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:00.03    
+Conversion failed!
+
+2026-06-05 17:26:28 - Agent.VideoCompositor - WARNING - [VideoCompositor] Ep1 segment 1 dropped — render returned no file. Entry type=reveal arc=revelation image=outputs/reveal_images/ep1_reveal1_document_011e6268.png
+2026-06-05 17:26:28 - Agent.VideoCompositor - ERROR - [VideoCompositor] FFmpeg failed for segment 2 (ep 1):
+CMD: ffmpeg -y -loop 1 -t 0.76 -i outputs/anchors/the_hidden_room.png -filter_complex [0:v]scale=2112:1188:flags=lanczos,setsar=1[img_s];[img_s]zoompan=z='max(1.001,min(1.35,1.0+0.011400*(1-on/18)))':x='max(0,min(iw-iw/zoom,iw/2-(iw/zoom/2)))':y='max(0,min(ih-ih/zoom,ih/2-(ih/zoom/2)))':d=1:s=1920x1080:fps=24,setsar=1[comp];[comp]eq=brightness=-0.06:contrast=1.22:saturation=0.97:gamma=0.85[_eq1];[_eq1]colorbalance=rs=-0.015:gs=0:bs=0.02:rm=-0.008:gm=0:bm=0.01:rh=0:gh=0:bh=0[grade];[grade]split=2[main_h][bloom_src];[bloom_src]lutyuv=y='if(gt(val,210),val,0)':u='128':v='128',gblur=sigma=16[bloom];[main_h][bloom]blend=c0_mode=screen:c0_opacity=0.20:c1_expr='A':c2_expr='A'[ha];[ha]curves=all='0/12 255/255'[ha_lift];[ha_lift]noise=alls=6:allf=t[gn];[gn]vignette=angle=PI/4.5:eval=init[vi];[vi]eq=saturation=0.15[desat_vi];[desat_vi]pad=1976:1136:28:28:color=0xEBE8E1,rotate=angle=-0.005781:fillcolor=0x0C0C10,scale=trunc(iw*1.04/2)*2:trunc(ih*1.04/2)*2,crop=1920:1080[s6];[s6]drawbox=x=0:y=885:w=1920:h=195:color=0x181818@0.06:t=fill[s8];[s8]drawbox=x=0:y=0:w=iw:h=80:color=black@1:t=fill,drawbox=x=0:y=ih-80:w=iw:h=80:color=black@1:t=fill[lb];[lb]null[out] -map [out] -r 24 -t 0.76 -vcodec libx264 -pix_fmt yuv420p -preset veryfast -b:v 6M -avoid_negative_ts make_zero outputs/final/tmp_ep1/ep1_seg0002.mp4
+STDERR: e input pad on Parsed_curves_10
+[fc#0 @ 000001d48c19dc40] Error reinitializing filters!
+[fc#0 @ 000001d48c19dc40] Task finished with error code: -22 (Invalid argument)
+[fc#0 @ 000001d48c19dc40] Terminating thread with return code -22 (Invalid argument)
+[vost#0:0/libx264 @ 000001d48c1d0680] [enc:libx264 @ 000001d48c17e8c0] Could not open encoder before EOF
+[vost#0:0/libx264 @ 000001d48c1d0680] Task finished with error code: -22 (Invalid argument)
+[vost#0:0/libx264 @ 000001d48c1d0680] Terminating thread with return code -22 (Invalid argument)
+[out#0/mp4 @ 000001d48c14fd00] Nothing was written into output file, because at least one of its streams received no packets.
+frame=    0 fps=0.0 q=0.0 Lsize=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:00.04    
+Conversion failed!
+
+2026-06-05 17:26:28 - Agent.VideoCompositor - WARNING - [VideoCompositor] Ep1 segment 2 dropped — render returned no file. Entry type=scene arc=establish image=outputs/anchors/the_hidden_room.png
+2026-06-05 17:26:28 - Agent.VideoCompositor - ERROR - [VideoCompositor] FFmpeg failed for segment 3 (ep 1):
+CMD: ffmpeg -y -loop 1 -t 5.2 -i outputs/anchors/the_manor__grand_entry_hall.png -filter_complex [0:v]scale=2112:1188:flags=lanczos,setsar=1[img_s];[img_s]zoompan=z='max(1.001,min(1.35,1.0+0.078000*(1-on/124)))':x='max(0,min(iw-iw/zoom,iw/2-(iw/zoom/2)+iw*0.003*on/124))':y='max(0,min(ih-ih/zoom,ih/2-(ih/zoom/2)+ih*0.002*on/124))':d=1:s=1920x1080:fps=24,setsar=1[comp];[comp]eq=brightness=-0.06:contrast=1.22:saturation=0.97:gamma=0.85[_eq1];[_eq1]colorbalance=rs=-0.015:gs=0:bs=0.02:rm=-0.008:gm=0:bm=0.01:rh=0:gh=0:bh=0[grade];[grade]split=2[main_h][bloom_src];[bloom_src]lutyuv=y='if(gt(val,210),val,0)':u='128':v='128',gblur=sigma=16[bloom];[main_h][bloom]blend=c0_mode=screen:c0_opacity=0.20:c1_expr='A':c2_expr='A'[ha];[ha]curves=all='0/12 255/255'[ha_lift];[ha_lift]noise=alls=6:allf=t[gn];[gn]vignette=angle=PI/4.5:eval=init[vi];[vi]eq=saturation=0.15[desat_vi];[desat_vi]pad=1976:1136:28:28:color=0xEBE8E1,rotate=angle=0.019425:fillcolor=0x0C0C10,scale=trunc(iw*1.04/2)*2:trunc(ih*1.04/2)*2,crop=1920:1080[s6];[s6]drawbox=x=0:y=885:w=1920:h=195:color=0x181818@0.06:t=fill[s8];[s8]drawbox=x=0:y=0:w=iw:h=80:color=black@1:t=fill,drawbox=x=0:y=ih-80:w=iw:h=80:color=black@1:t=fill[lb];[lb]null[out] -map [out] -r 24 -t 5.2 -vcodec libx264 -pix_fmt yuv420p -preset veryfast -b:v 6M -avoid_negative_ts make_zero outputs/final/tmp_ep1/ep1_seg0003.mp4
+STDERR: e input pad on Parsed_curves_10
+[fc#0 @ 00000292e0a5d440] Error reinitializing filters!
+[fc#0 @ 00000292e0a5d440] Task finished with error code: -22 (Invalid argument)
+[fc#0 @ 00000292e0a5d440] Terminating thread with return code -22 (Invalid argument)
+[vost#0:0/libx264 @ 00000292e28bf5c0] [enc:libx264 @ 00000292e0a3f300] Could not open encoder before EOF
+[vost#0:0/libx264 @ 00000292e28bf5c0] Task finished with error code: -22 (Invalid argument)
+[vost#0:0/libx264 @ 00000292e28bf5c0] Terminating thread with return code -22 (Invalid argument)
+[out#0/mp4 @ 00000292e0a10340] Nothing was written into output file, because at least one of its streams received no packets.
+frame=    0 fps=0.0 q=0.0 Lsize=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:00.04    
+Conversion failed!
+
+2026-06-05 17:26:28 - Agent.VideoCompositor - WARNING - [VideoCompositor] Ep1 segment 3 dropped — render returned no file. Entry type=scene arc=establish image=outputs/anchors/the_manor__grand_entry_hall.png
+2026-06-05 17:26:28 - Agent.VideoCompositor - ERROR - [VideoCompositor] FFmpeg failed for segment 4 (ep 1):
+CMD: ffmpeg -y -loop 1 -t 2.0 -i outputs/insert_images/ep1_s2_ins1_solicitors_letter.png -filter_complex [0:v]scale=2112:1188:flags=lanczos,setsar=1[img_s];[img_s]zoompan=z='max(1.001,min(1.35,1.0+0.008000*on/48))':x='max(0,min(iw-iw/zoom,iw/2-(iw/zoom/2)))':y='max(0,min(ih-ih/zoom,ih/2-(ih/zoom/2)))':d=1:s=1920x1080:fps=24,setsar=1[comp];[comp]eq=brightness=-0.06:contrast=1.22:saturation=0.97:gamma=0.85[_eq1];[_eq1]colorbalance=rs=-0.015:gs=0:bs=0.02:rm=-0.008:gm=0:bm=0.01:rh=0:gh=0:bh=0[grade];[grade]split=2[main_h][bloom_src];[bloom_src]lutyuv=y='if(gt(val,210),val,0)':u='128':v='128',gblur=sigma=16[bloom];[main_h][bloom]blend=c0_mode=screen:c0_opacity=0.20:c1_expr='A':c2_expr='A'[ha];[ha]curves=all='0/12 255/255'[ha_lift];[ha_lift]noise=alls=6:allf=t[gn];[gn]vignette=angle=PI/4.5:eval=init[vi];[vi]eq=saturation=0.15[desat_vi];[desat_vi]pad=1976:1136:28:28:color=0xEBE8E1,rotate=angle=-0.003836:fillcolor=0x0C0C10,scale=trunc(iw*1.04/2)*2:trunc(ih*1.04/2)*2,crop=1920:1080[s6];[s6]drawbox=x=0:y=0:w=iw:h=80:color=black@1:t=fill,drawbox=x=0:y=ih-80:w=iw:h=80:color=black@1:t=fill[lb];[lb]null[out] -map [out] -r 24 -t 2.0 -vcodec libx264 -pix_fmt yuv420p -preset veryfast -b:v 6M -avoid_negative_ts make_zero outputs/final/tmp_ep1/ep1_seg0004.mp4
+STDERR: e input pad on Parsed_curves_10
+[fc#0 @ 00000243ecc8b200] Error reinitializing filters!
+[fc#0 @ 00000243ecc8b200] Task finished with error code: -22 (Invalid argument)
+[fc#0 @ 00000243ecc8b200] Terminating thread with return code -22 (Invalid argument)
+[vost#0:0/libx264 @ 00000243eee9a1c0] [enc:libx264 @ 00000243ecc6cdc0] Could not open encoder before EOF
+[vost#0:0/libx264 @ 00000243eee9a1c0] Task finished with error code: -22 (Invalid argument)
+[vost#0:0/libx264 @ 00000243eee9a1c0] Terminating thread with return code -22 (Invalid argument)
+[out#0/mp4 @ 00000243ecc40f00] Nothing was written into output file, because at least one of its streams received no packets.
+frame=    0 fps=0.0 q=0.0 Lsize=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:00.03    
+Conversion failed!
+
+2026-06-05 17:26:28 - Agent.VideoCompositor - WARNING - [VideoCompositor] Ep1 segment 4 dropped — render returned no file. Entry type=insert arc=investigation image=outputs/insert_images/ep1_s2_ins1_solicitors_letter.png
+2026-06-05 17:26:29 - Agent.VideoCompositor - ERROR - [VideoCompositor] FFmpeg failed for segment 5 (ep 1):
+CMD: ffmpeg -y -loop 1 -t 2.6 -i outputs/anchors/the_manor__grand_entry_hall.png -filter_complex [0:v]scale=2112:1188:flags=lanczos,setsar=1[img_s];[img_s]zoompan=z='max(1.001,min(1.35,1.0+0.039000*(1-on/62)))':x='max(0,min(iw-iw/zoom,iw/2-(iw/zoom/2)+iw*0.003*on/62))':y='max(0,min(ih-ih/zoom,ih/2-(ih/zoom/2)+ih*0.002*on/62))':d=1:s=1920x1080:fps=24,setsar=1[comp];[comp]eq=brightness=-0.06:contrast=1.22:saturation=0.97:gamma=0.85[_eq1];[_eq1]colorbalance=rs=-0.015:gs=0:bs=0.02:rm=-0.008:gm=0:bm=0.01:rh=0:gh=0:bh=0[grade];[grade]split=2[main_h][bloom_src];[bloom_src]lutyuv=y='if(gt(val,210),val,0)':u='128':v='128',gblur=sigma=16[bloom];[main_h][bloom]blend=c0_mode=screen:c0_opacity=0.20:c1_expr='A':c2_expr='A'[ha];[ha]curves=all='0/12 255/255'[ha_lift];[ha_lift]noise=alls=6:allf=t[gn];[gn]vignette=angle=PI/4.5:eval=init[vi];[vi]eq=saturation=0.15[desat_vi];[desat_vi]pad=1976:1136:28:28:color=0xEBE8E1,rotate=angle=0.019425:fillcolor=0x0C0C10,scale=trunc(iw*1.04/2)*2:trunc(ih*1.04/2)*2,crop=1920:1080[s6];[s6]drawbox=x=0:y=885:w=1920:h=195:color=0x181818@0.06:t=fill[s8];[s8]drawbox=x=0:y=0:w=iw:h=80:color=black@1:t=fill,drawbox=x=0:y=ih-80:w=iw:h=80:color=black@1:t=fill[lb];[lb]null[out] -map [out] -r 24 -t 2.6 -vcodec libx264 -pix_fmt yuv420p -preset veryfast -b:v 6M -avoid_negative_ts make_zero outputs/final/tmp_ep1/ep1_seg0005.mp4
+STDERR: e input pad on Parsed_curves_10
+[fc#0 @ 0000017ea35cb580] Error reinitializing filters!
+[fc#0 @ 0000017ea35cb580] Task finished with error code: -22 (Invalid argument)
+[fc#0 @ 0000017ea35cb580] Terminating thread with return code -22 (Invalid argument)
+[vost#0:0/libx264 @ 0000017ea36019c0] [enc:libx264 @ 0000017ea35f9580] Could not open encoder before EOF
+[vost#0:0/libx264 @ 0000017ea36019c0] Task finished with error code: -22 (Invalid argument)
+[vost#0:0/libx264 @ 0000017ea36019c0] Terminating thread with return code -22 (Invalid argument)
+[out#0/mp4 @ 0000017ea3583180] Nothing was written into output file, because at least one of its streams received no packets.
+frame=    0 fps=0.0 q=0.0 Lsize=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:00.04    
+Conversion failed!
+
+2026-06-05 17:26:29 - Agent.VideoCompositor - WARNING - [VideoCompositor] Ep1 segment 5 dropped — render returned no file. Entry type=scene arc=establish image=outputs/anchors/the_manor__grand_entry_hall.png
+2026-06-05 17:26:29 - Agent.VideoCompositor - ERROR - [VideoCompositor] FFmpeg failed for segment 6 (ep 1):
+CMD: ffmpeg -y -loop 1 -t 13.259 -i outputs/anchors/the_east-wing_library.png -filter_complex [0:v]scale=2112:1188:flags=lanczos,setsar=1[img_s];[img_s]zoompan=z='max(1.001,min(1.35,1.0+0.291698*on/318))':x='max(0,min(iw-iw/zoom,iw/2-(iw/zoom/2)+iw*0.004*on/318))':y='max(0,min(ih-ih/zoom,ih/2-(ih/zoom/2)))':d=1:s=1920x1080:fps=24,setsar=1[comp];[comp]eq=brightness=-0.03:contrast=1.12:saturation=1.05:gamma=0.91[_eq1];[_eq1]colorbalance=rs=0.0:gs=0:bs=0.0:rm=0.0:gm=0:bm=0.0:rh=0:gh=0:bh=0[grade];[grade]split=2[main_h][bloom_src];[bloom_src]lutyuv=y='if(gt(val,210),val,0)':u='128':v='128',gblur=sigma=16[bloom];[main_h][bloom]blend=c0_mode=screen:c0_opacity=0.20:c1_expr='A':c2_expr='A'[ha];[ha]curves=all='0/12 255/255'[ha_lift];[ha_lift]noise=alls=6:allf=t[gn];[gn]vignette=angle=PI/4.5:eval=init[vi];[vi]null[s6];[s6]drawbox=x=0:y=885:w=1920:h=195:color=0x181818@0.06:t=fill[s8];[s8]drawbox=x=0:y=0:w=iw:h=80:color=black@1:t=fill,drawbox=x=0:y=ih-80:w=iw:h=80:color=black@1:t=fill[lb];[lb]null[out] -map [out] -r 24 -t 13.259 -vcodec libx264 -pix_fmt yuv420p -preset veryfast -b:v 6M -avoid_negative_ts make_zero outputs/final/tmp_ep1/ep1_seg0006.mp4
+STDERR: e input pad on Parsed_curves_10
+[fc#0 @ 0000014d4e47b0c0] Error reinitializing filters!
+[fc#0 @ 0000014d4e47b0c0] Task finished with error code: -22 (Invalid argument)
+[fc#0 @ 0000014d4e47b0c0] Terminating thread with return code -22 (Invalid argument)
+[vost#0:0/libx264 @ 0000014d4e49c040] [enc:libx264 @ 0000014d4e45b480] Could not open encoder before EOF
+[vost#0:0/libx264 @ 0000014d4e49c040] Task finished with error code: -22 (Invalid argument)
+[vost#0:0/libx264 @ 0000014d4e49c040] Terminating thread with return code -22 (Invalid argument)
+[out#0/mp4 @ 0000014d4e431080] Nothing was written into output file, because at least one of its streams received no packets.
+frame=    0 fps=0.0 q=0.0 Lsize=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:00.04    
+Conversion failed!
+
+2026-06-05 17:26:29 - Agent.VideoCompositor - WARNING - [VideoCompositor] Ep1 segment 6 dropped — render returned no file. Entry type=scene arc=build image=outputs/anchors/the_east-wing_library.png
+2026-06-05 17:26:29 - Agent.VideoCompositor - ERROR - [VideoCompositor] FFmpeg failed for segment 7 (ep 1):
+CMD: ffmpeg -y -loop 1 -t 7.041 -i outputs/scene_images/ep1_scene4_the_manor__grand_entry_hall.png -filter_complex [0:v]scale=2112:1188:flags=lanczos,setsar=1[img_s];[img_s]zoompan=z='max(1.001,min(1.35,1.0+0.154902*on/168))':x='max(0,min(iw-iw/zoom,iw/2-(iw/zoom/2)-iw*0.004*on/168))':y='max(0,min(ih-ih/zoom,ih/2-(ih/zoom/2)))':d=1:s=1920x1080:fps=24,setsar=1[comp];[comp]eq=brightness=-0.03:contrast=1.12:saturation=1.05:gamma=0.91[_eq1];[_eq1]colorbalance=rs=0.0:gs=0:bs=0.0:rm=0.0:gm=0:bm=0.0:rh=0:gh=0:bh=0[grade];[grade]split=2[main_h][bloom_src];[bloom_src]lutyuv=y='if(gt(val,210),val,0)':u='128':v='128',gblur=sigma=16[bloom];[main_h][bloom]blend=c0_mode=screen:c0_opacity=0.20:c1_expr='A':c2_expr='A'[ha];[ha]curves=all='0/12 255/255'[ha_lift];[ha_lift]noise=alls=6:allf=t[gn];[gn]vignette=angle=PI/4.5:eval=init[vi];[vi]null[s6];[s6]drawbox=x=0:y=885:w=1920:h=195:color=0x181818@0.06:t=fill[s8];[s8]drawbox=x=0:y=0:w=iw:h=80:color=black@1:t=fill,drawbox=x=0:y=ih-80:w=iw:h=80:color=black@1:t=fill[lb];[lb]null[out] -map [out] -r 24 -t 7.041 -vcodec libx264 -pix_fmt yuv420p -preset veryfast -b:v 6M -avoid_negative_ts make_zero outputs/final/tmp_ep1/ep1_seg0007.mp4
+STDERR: e input pad on Parsed_curves_10
+[fc#0 @ 000002164c90b280] Error reinitializing filters!
+[fc#0 @ 000002164c90b280] Task finished with error code: -22 (Invalid argument)
+[fc#0 @ 000002164c90b280] Terminating thread with return code -22 (Invalid argument)
+[vost#0:0/libx264 @ 000002164c92da00] [enc:libx264 @ 000002164c8eaa00] Could not open encoder before EOF
+[vost#0:0/libx264 @ 000002164c92da00] Task finished with error code: -22 (Invalid argument)
+[vost#0:0/libx264 @ 000002164c92da00] Terminating thread with return code -22 (Invalid argument)
+[out#0/mp4 @ 000002164c8c0600] Nothing was written into output file, because at least one of its streams received no packets.
+frame=    0 fps=0.0 q=0.0 Lsize=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:00.04    
+Conversion failed!
+
+2026-06-05 17:26:29 - Agent.VideoCompositor - WARNING - [VideoCompositor] Ep1 segment 7 dropped — render returned no file. Entry type=scene arc=build image=outputs/scene_images/ep1_scene4_the_manor__grand_entry_hall.png
+2026-06-05 17:26:29 - Agent.VideoCompositor - ERROR - [VideoCompositor] FFmpeg failed for segment 8 (ep 1):
+CMD: ffmpeg -y -loop 1 -t 4.0 -i outputs/reveal_images/ep1_reveal2_location_detail_011e6268.png -filter_complex [0:v]scale=2112:1188:flags=lanczos,setsar=1[img_s];[img_s]zoompan=z='max(1.001,min(1.35,1.0+0.024000*on/96))':x='max(0,min(iw-iw/zoom,iw/2-(iw/zoom/2)))':y='max(0,min(ih-ih/zoom,ih/2-(ih/zoom/2)-ih*0.003*on/96))':d=1:s=1920x1080:fps=24,setsar=1[comp];[comp]eq=brightness=-0.04:contrast=1.18:saturation=1.1:gamma=0.88[_eq1];[_eq1]colorbalance=rs=-0.01:gs=0:bs=0.015:rm=-0.005:gm=0:bm=0.008:rh=0:gh=0:bh=0[grade];[grade]split=2[main_h][bloom_src];[bloom_src]lutyuv=y='if(gt(val,210),val,0)':u='128':v='128',gblur=sigma=16[bloom];[main_h][bloom]blend=c0_mode=screen:c0_opacity=0.20:c1_expr='A':c2_expr='A'[ha];[ha]curves=all='0/12 255/255'[ha_lift];[ha_lift]noise=alls=6:allf=t[gn];[gn]vignette=angle=PI/4.5:eval=init[vi];[vi]noise=alls=20:allf=t[s6];[s6]split=2[lf_base][lf_src];[lf_src]lutyuv=y='if(gt(val,225),val,0)':u='128':v='128',gblur=sigma=48:sigmaV=1[lf_streak];[lf_base][lf_streak]blend=c0_mode=screen:c0_opacity=0.18:c1_expr='A':c2_expr='A'[s7];[s7]drawbox=x=0:y=0:w=iw:h=80:color=black@1:t=fill,drawbox=x=0:y=ih-80:w=iw:h=80:color=black@1:t=fill[lb];[lb]null[out] -map [out] -r 24 -t 4.0 -vcodec libx264 -pix_fmt yuv420p -preset veryfast -b:v 6M -avoid_negative_ts make_zero outputs/final/tmp_ep1/ep1_seg0008.mp4
+STDERR: e input pad on Parsed_curves_10
+[fc#0 @ 000002a703e4c140] Error reinitializing filters!
+[fc#0 @ 000002a703e4c140] Task finished with error code: -22 (Invalid argument)
+[fc#0 @ 000002a703e4c140] Terminating thread with return code -22 (Invalid argument)
+[vost#0:0/libx264 @ 000002a705b83840] [enc:libx264 @ 000002a703e2df80] Could not open encoder before EOF
+[vost#0:0/libx264 @ 000002a705b83840] Task finished with error code: -22 (Invalid argument)
+[vost#0:0/libx264 @ 000002a705b83840] Terminating thread with return code -22 (Invalid argument)
+[out#0/mp4 @ 000002a703e02040] Nothing was written into output file, because at least one of its streams received no packets.
+frame=    0 fps=0.0 q=0.0 Lsize=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:00.04    
+Conversion failed!
+
+2026-06-05 17:26:29 - Agent.VideoCompositor - WARNING - [VideoCompositor] Ep1 segment 8 dropped — render returned no file. Entry type=reveal arc=revelation image=outputs/reveal_images/ep1_reveal2_location_detail_011e6268.png
+2026-06-05 17:26:29 - Agent.VideoCompositor - ERROR - [VideoCompositor] FFmpeg failed for segment 9 (ep 1):
+CMD: ffmpeg -y -loop 1 -t 0.88 -i outputs/scene_images/ep1_scene4_the_manor__grand_entry_hall.png -filter_complex [0:v]scale=2112:1188:flags=lanczos,setsar=1[img_s];[img_s]zoompan=z='max(1.001,min(1.35,1.0+0.019360*on/21))':x='max(0,min(iw-iw/zoom,iw/2-(iw/zoom/2)-iw*0.004*on/21))':y='max(0,min(ih-ih/zoom,ih/2-(ih/zoom/2)))':d=1:s=1920x1080:fps=24,setsar=1[comp];[comp]eq=brightness=-0.03:contrast=1.12:saturation=1.05:gamma=0.91[_eq1];[_eq1]colorbalance=rs=0.0:gs=0:bs=0.0:rm=0.0:gm=0:bm=0.0:rh=0:gh=0:bh=0[grade];[grade]split=2[main_h][bloom_src];[bloom_src]lutyuv=y='if(gt(val,210),val,0)':u='128':v='128',gblur=sigma=16[bloom];[main_h][bloom]blend=c0_mode=screen:c0_opacity=0.20:c1_expr='A':c2_expr='A'[ha];[ha]curves=all='0/12 255/255'[ha_lift];[ha_lift]noise=alls=6:allf=t[gn];[gn]vignette=angle=PI/4.5:eval=init[vi];[vi]null[s6];[s6]drawbox=x=0:y=885:w=1920:h=195:color=0x181818@0.06:t=fill[s8];[s8]drawbox=x=0:y=0:w=iw:h=80:color=black@1:t=fill,drawbox=x=0:y=ih-80:w=iw:h=80:color=black@1:t=fill[lb];[lb]null[out] -map [out] -r 24 -t 0.88 -vcodec libx264 -pix_fmt yuv420p -preset veryfast -b:v 6M -avoid_negative_ts make_zero outputs/final/tmp_ep1/ep1_seg0009.mp4
+STDERR: e input pad on Parsed_curves_10
+[fc#0 @ 00000157534cca00] Error reinitializing filters!
+[fc#0 @ 00000157534cca00] Task finished with error code: -22 (Invalid argument)
+[fc#0 @ 00000157534cca00] Terminating thread with return code -22 (Invalid argument)
+[vost#0:0/libx264 @ 00000157534d8f80] [enc:libx264 @ 00000157534aab00] Could not open encoder before EOF
+[vost#0:0/libx264 @ 00000157534d8f80] Task finished with error code: -22 (Invalid argument)
+[vost#0:0/libx264 @ 00000157534d8f80] Terminating thread with return code -22 (Invalid argument)
+[out#0/mp4 @ 0000015753483580] Nothing was written into output file, because at least one of its streams received no packets.
+frame=    0 fps=0.0 q=0.0 Lsize=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:00.04    
+Conversion failed!
+
+2026-06-05 17:26:29 - Agent.VideoCompositor - WARNING - [VideoCompositor] Ep1 segment 9 dropped — render returned no file. Entry type=scene arc=build image=outputs/scene_images/ep1_scene4_the_manor__grand_entry_hall.png
+2026-06-05 17:26:29 - Agent.VideoCompositor - ERROR - [VideoCompositor] FFmpeg failed for segment 10 (ep 1):
+CMD: ffmpeg -y -loop 1 -t 4.8 -i outputs/anchors/the_manor__upper_hallway.png -filter_complex [0:v]scale=2112:1188:flags=lanczos,setsar=1[img_s];[img_s]zoompan=z='max(1.001,min(1.35,1.0+0.105600*on/115))':x='max(0,min(iw-iw/zoom,iw/2-(iw/zoom/2)+iw*0.004*on/115))':y='max(0,min(ih-ih/zoom,ih/2-(ih/zoom/2)))':d=1:s=1920x1080:fps=24,setsar=1[comp];[comp]eq=brightness=-0.03:contrast=1.12:saturation=1.05:gamma=0.91[_eq1];[_eq1]colorbalance=rs=0.0:gs=0:bs=0.0:rm=0.0:gm=0:bm=0.0:rh=0:gh=0:bh=0[grade];[grade]split=2[main_h][bloom_src];[bloom_src]lutyuv=y='if(gt(val,210),val,0)':u='128':v='128',gblur=sigma=16[bloom];[main_h][bloom]blend=c0_mode=screen:c0_opacity=0.20:c1_expr='A':c2_expr='A'[ha];[ha]curves=all='0/12 255/255'[ha_lift];[ha_lift]noise=alls=6:allf=t[gn];[gn]vignette=angle=PI/4.5:eval=init[vi];[vi]null[s6];[s6]drawbox=x=0:y=885:w=1920:h=195:color=0x181818@0.06:t=fill[s8];[s8]drawbox=x=0:y=0:w=iw:h=80:color=black@1:t=fill,drawbox=x=0:y=ih-80:w=iw:h=80:color=black@1:t=fill[lb];[lb]null[out] -map [out] -r 24 -t 4.8 -vcodec libx264 -pix_fmt yuv420p -preset veryfast -b:v 6M -avoid_negative_ts make_zero outputs/final/tmp_ep1/ep1_seg0010.mp4
+STDERR: e input pad on Parsed_curves_10
+[fc#0 @ 0000023ab49ab7c0] Error reinitializing filters!
+[fc#0 @ 0000023ab49ab7c0] Task finished with error code: -22 (Invalid argument)
+[fc#0 @ 0000023ab49ab7c0] Terminating thread with return code -22 (Invalid argument)
+[vost#0:0/libx264 @ 0000023ab6b399c0] [enc:libx264 @ 0000023ab498b640] Could not open encoder before EOF
+[vost#0:0/libx264 @ 0000023ab6b399c0] Task finished with error code: -22 (Invalid argument)
+[vost#0:0/libx264 @ 0000023ab6b399c0] Terminating thread with return code -22 (Invalid argument)
+[out#0/mp4 @ 0000023ab4961f80] Nothing was written into output file, because at least one of its streams received no packets.
+frame=    0 fps=0.0 q=0.0 Lsize=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:00.03    
+Conversion failed!
+
+2026-06-05 17:26:29 - Agent.VideoCompositor - WARNING - [VideoCompositor] Ep1 segment 10 dropped — render returned no file. Entry type=scene arc=build image=outputs/anchors/the_manor__upper_hallway.png
+2026-06-05 17:26:29 - Agent.VideoCompositor - ERROR - [VideoCompositor] FFmpeg failed for segment 11 (ep 1):
+CMD: ffmpeg -y -loop 1 -t 8.726 -i outputs/scene_images/ep1_scene6_the_manor__grand_entry_hall.png -filter_complex [0:v]scale=2112:1188:flags=lanczos,setsar=1[img_s];[img_s]zoompan=z='max(1.001,min(1.35,1.0+0.191972*on/209))':x='max(0,min(iw-iw/zoom,iw/2-(iw/zoom/2)-iw*0.004*on/209))':y='max(0,min(ih-ih/zoom,ih/2-(ih/zoom/2)))':d=1:s=1920x1080:fps=24,setsar=1[comp];[comp]eq=brightness=-0.03:contrast=1.12:saturation=1.05:gamma=0.91[_eq1];[_eq1]colorbalance=rs=0.0:gs=0:bs=0.0:rm=0.0:gm=0:bm=0.0:rh=0:gh=0:bh=0[grade];[grade]split=2[main_h][bloom_src];[bloom_src]lutyuv=y='if(gt(val,210),val,0)':u='128':v='128',gblur=sigma=16[bloom];[main_h][bloom]blend=c0_mode=screen:c0_opacity=0.20:c1_expr='A':c2_expr='A'[ha];[ha]curves=all='0/12 255/255'[ha_lift];[ha_lift]noise=alls=6:allf=t[gn];[gn]vignette=angle=PI/4.5:eval=init[vi];[vi]null[s6];[s6]drawbox=x=0:y=885:w=1920:h=195:color=0x181818@0.06:t=fill[s8];[s8]drawbox=x=0:y=0:w=iw:h=80:color=black@1:t=fill,drawbox=x=0:y=ih-80:w=iw:h=80:color=black@1:t=fill[lb];[lb]null[out] -map [out] -r 24 -t 8.726 -vcodec libx264 -pix_fmt yuv420p -preset veryfast -b:v 6M -avoid_negative_ts make_zero outputs/final/tmp_ep1/ep1_seg0011.mp4
+STDERR: e input pad on Parsed_curves_10
+[fc#0 @ 0000024737efd300] Error reinitializing filters!
+[fc#0 @ 0000024737efd300] Task finished with error code: -22 (Invalid argument)
+[fc#0 @ 0000024737efd300] Terminating thread with return code -22 (Invalid argument)
+[vost#0:0/libx264 @ 0000024739d3e9c0] [enc:libx264 @ 0000024737f150c0] Could not open encoder before EOF
+[vost#0:0/libx264 @ 0000024739d3e9c0] Task finished with error code: -22 (Invalid argument)
+[vost#0:0/libx264 @ 0000024739d3e9c0] Terminating thread with return code -22 (Invalid argument)
+[out#0/mp4 @ 0000024737eb3d80] Nothing was written into output file, because at least one of its streams received no packets.
+frame=    0 fps=0.0 q=0.0 Lsize=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:00.03    
+Conversion failed!
+
+2026-06-05 17:26:29 - Agent.VideoCompositor - WARNING - [VideoCompositor] Ep1 segment 11 dropped — render returned no file. Entry type=scene arc=build image=outputs/scene_images/ep1_scene6_the_manor__grand_entry_hall.png
+2026-06-05 17:26:29 - Agent.VideoCompositor - ERROR - [VideoCompositor] FFmpeg failed for segment 12 (ep 1):
+CMD: ffmpeg -y -stream_loop -1 -t 3.5 -an -i outputs/video_clips/ep1_reveal3.mp4 -filter_complex [0:v]scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,setsar=1[comp];[comp]eq=brightness=-0.04:contrast=1.18:saturation=1.1:gamma=0.88[_eq1];[_eq1]colorbalance=rs=-0.01:gs=0:bs=0.015:rm=-0.005:gm=0:bm=0.008:rh=0:gh=0:bh=0[grade];[grade]split=2[main_h][bloom_src];[bloom_src]lutyuv=y='if(gt(val,210),val,0)':u='128':v='128',gblur=sigma=16[bloom];[main_h][bloom]blend=c0_mode=screen:c0_opacity=0.20:c1_expr='A':c2_expr='A'[ha];[ha]curves=all='0/12 255/255'[ha_lift];[ha_lift]noise=alls=6:allf=t[gn];[gn]vignette=angle=PI/4.5:eval=init[vi];[vi]noise=alls=20:allf=t[s6];[s6]split=2[lf_base][lf_src];[lf_src]lutyuv=y='if(gt(val,225),val,0)':u='128':v='128',gblur=sigma=48:sigmaV=1[lf_streak];[lf_base][lf_streak]blend=c0_mode=screen:c0_opacity=0.18:c1_expr='A':c2_expr='A'[s7];[s7]drawbox=x=0:y=0:w=iw:h=80:color=black@1:t=fill,drawbox=x=0:y=ih-80:w=iw:h=80:color=black@1:t=fill[lb];[lb]fade=t=in:st=0:d=0.250,fade=t=out:st=3.250:d=0.250[lb_fade];[lb_fade]null[out] -map [out] -r 24 -t 3.5 -vcodec libx264 -pix_fmt yuv420p -preset veryfast -b:v 6M -avoid_negative_ts make_zero outputs/final/tmp_ep1/ep1_seg0012.mp4
+STDERR: re input pad on Parsed_curves_9
+[fc#0 @ 0000013be57bc380] Error reinitializing filters!
+[fc#0 @ 0000013be57bc380] Task finished with error code: -22 (Invalid argument)
+[fc#0 @ 0000013be57bc380] Terminating thread with return code -22 (Invalid argument)
+[vost#0:0/libx264 @ 0000013be57e6c00] [enc:libx264 @ 0000013be579d780] Could not open encoder before EOF
+[vost#0:0/libx264 @ 0000013be57e6c00] Task finished with error code: -22 (Invalid argument)
+[vost#0:0/libx264 @ 0000013be57e6c00] Terminating thread with return code -22 (Invalid argument)
+[out#0/mp4 @ 0000013be5773680] Nothing was written into output file, because at least one of its streams received no packets.
+frame=    0 fps=0.0 q=0.0 Lsize=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:00.03    
+Conversion failed!
+
+2026-06-05 17:26:29 - Agent.VideoCompositor - WARNING - [VideoCompositor] Ep1 segment 12 dropped — render returned no file. Entry type=reveal arc=revelation image=outputs/reveal_images/ep1_reveal3_subject_011e6268.png
+2026-06-05 17:26:30 - Agent.VideoCompositor - ERROR - [VideoCompositor] FFmpeg failed for segment 13 (ep 1):
+CMD: ffmpeg -y -loop 1 -t 0.414 -i outputs/scene_images/ep1_scene6_the_manor__grand_entry_hall.png -filter_complex [0:v]scale=2112:1188:flags=lanczos,setsar=1[img_s];[img_s]zoompan=z='max(1.001,min(1.35,1.0+0.009108*on/9))':x='max(0,min(iw-iw/zoom,iw/2-(iw/zoom/2)-iw*0.004*on/9))':y='max(0,min(ih-ih/zoom,ih/2-(ih/zoom/2)))':d=1:s=1920x1080:fps=24,setsar=1[comp];[comp]eq=brightness=-0.03:contrast=1.12:saturation=1.05:gamma=0.91[_eq1];[_eq1]colorbalance=rs=0.0:gs=0:bs=0.0:rm=0.0:gm=0:bm=0.0:rh=0:gh=0:bh=0[grade];[grade]split=2[main_h][bloom_src];[bloom_src]lutyuv=y='if(gt(val,210),val,0)':u='128':v='128',gblur=sigma=16[bloom];[main_h][bloom]blend=c0_mode=screen:c0_opacity=0.20:c1_expr='A':c2_expr='A'[ha];[ha]curves=all='0/12 255/255'[ha_lift];[ha_lift]noise=alls=6:allf=t[gn];[gn]vignette=angle=PI/4.5:eval=init[vi];[vi]null[s6];[s6]drawbox=x=0:y=885:w=1920:h=195:color=0x181818@0.06:t=fill[s8];[s8]drawbox=x=0:y=0:w=iw:h=80:color=black@1:t=fill,drawbox=x=0:y=ih-80:w=iw:h=80:color=black@1:t=fill[lb];[lb]null[out] -map [out] -r 24 -t 0.414 -vcodec libx264 -pix_fmt yuv420p -preset veryfast -b:v 6M -avoid_negative_ts make_zero outputs/final/tmp_ep1/ep1_seg0013.mp4
+STDERR: e input pad on Parsed_curves_10
+[fc#0 @ 000001d02a96b380] Error reinitializing filters!
+[fc#0 @ 000001d02a96b380] Task finished with error code: -22 (Invalid argument)
+[fc#0 @ 000001d02a96b380] Terminating thread with return code -22 (Invalid argument)
+[vost#0:0/libx264 @ 000001d02a981a80] [enc:libx264 @ 000001d02a94c780] Could not open encoder before EOF
+[vost#0:0/libx264 @ 000001d02a981a80] Task finished with error code: -22 (Invalid argument)
+[vost#0:0/libx264 @ 000001d02a981a80] Terminating thread with return code -22 (Invalid argument)
+[out#0/mp4 @ 000001d02a922ec0] Nothing was written into output file, because at least one of its streams received no packets.
+frame=    0 fps=0.0 q=0.0 Lsize=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:00.03    
+Conversion failed!
+
+2026-06-05 17:26:30 - Agent.VideoCompositor - WARNING - [VideoCompositor] Ep1 segment 13 dropped — render returned no file. Entry type=scene arc=build image=outputs/scene_images/ep1_scene6_the_manor__grand_entry_hall.png
+2026-06-05 17:26:30 - Agent.VideoCompositor - ERROR - [VideoCompositor] FFmpeg failed for segment 14 (ep 1):
+CMD: ffmpeg -y -loop 1 -t 8.86 -i outputs/scene_images/ep1_scene6_the_manor__grand_entry_hall.png -filter_complex [0:v]scale=2112:1188:flags=lanczos,setsar=1[img_s];[img_s]zoompan=z='max(1.001,min(1.35,1.0+0.265800*(1-on/212)))':x='max(0,min(iw-iw/zoom,iw/2-(iw/zoom/2)))':y='max(0,min(ih-ih/zoom,ih/2-(ih/zoom/2)))':d=1:s=1920x1080:fps=24,setsar=1[comp];[comp]eq=brightness=-0.05:contrast=1.15:saturation=1.02:gamma=0.89[_eq1];[_eq1]colorbalance=rs=-0.005:gs=0:bs=0.01:rm=-0.003:gm=0:bm=0.005:rh=0:gh=0:bh=0[grade];[grade]split=2[main_h][bloom_src];[bloom_src]lutyuv=y='if(gt(val,210),val,0)':u='128':v='128',gblur=sigma=16[bloom];[main_h][bloom]blend=c0_mode=screen:c0_opacity=0.20:c1_expr='A':c2_expr='A'[ha];[ha]curves=all='0/12 255/255'[ha_lift];[ha_lift]noise=alls=6:allf=t[gn];[gn]vignette=angle=PI/4.5:eval=init[vi];[vi]null[s6];[s6]drawbox=x=0:y=0:w=iw:h=80:color=black@1:t=fill,drawbox=x=0:y=ih-80:w=iw:h=80:color=black@1:t=fill[lb];[lb]null[out] -map [out] -r 24 -t 8.86 -vcodec libx264 -pix_fmt yuv420p -preset veryfast -b:v 6M -avoid_negative_ts make_zero outputs/final/tmp_ep1/ep1_seg0014.mp4
+STDERR: e input pad on Parsed_curves_10
+[fc#0 @ 00000183a97bbdc0] Error reinitializing filters!
+[fc#0 @ 00000183a97bbdc0] Task finished with error code: -22 (Invalid argument)
+[fc#0 @ 00000183a97bbdc0] Terminating thread with return code -22 (Invalid argument)
+[vost#0:0/libx264 @ 00000183a97dde00] [enc:libx264 @ 00000183a979ce00] Could not open encoder before EOF
+[vost#0:0/libx264 @ 00000183a97dde00] Task finished with error code: -22 (Invalid argument)
+[vost#0:0/libx264 @ 00000183a97dde00] Terminating thread with return code -22 (Invalid argument)
+[out#0/mp4 @ 00000183a9771e00] Nothing was written into output file, because at least one of its streams received no packets.
+frame=    0 fps=0.0 q=0.0 Lsize=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:00.03    
+Conversion failed!
+
+2026-06-05 17:26:30 - Agent.VideoCompositor - WARNING - [VideoCompositor] Ep1 segment 14 dropped — render returned no file. Entry type=scene arc=investigation image=outputs/scene_images/ep1_scene6_the_manor__grand_entry_hall.png
+2026-06-05 17:26:30 - Agent.VideoCompositor - ERROR - [VideoCompositor] FFmpeg failed for segment 15 (ep 1):
+CMD: ffmpeg -y -loop 1 -t 3.92 -i outputs/scene_images/ep1_scene8_the_east-wing_library.png -filter_complex [0:v]scale=2112:1188:flags=lanczos,setsar=1[img_s];[img_s]zoompan=z='max(1.001,min(1.35,1.0+0.117600*on/94))':x='max(0,min(iw-iw/zoom,iw/2-(iw/zoom/2)-iw*0.003*on/94))':y='max(0,min(ih-ih/zoom,ih/2-(ih/zoom/2)-ih*0.002*on/94))':d=1:s=1920x1080:fps=24,setsar=1[comp];[comp]eq=brightness=-0.06:contrast=1.22:saturation=0.97:gamma=0.85[_eq1];[_eq1]colorbalance=rs=-0.015:gs=0:bs=0.02:rm=-0.008:gm=0:bm=0.01:rh=0:gh=0:bh=0[grade];[grade]split=2[main_h][bloom_src];[bloom_src]lutyuv=y='if(gt(val,210),val,0)':u='128':v='128',gblur=sigma=16[bloom];[main_h][bloom]blend=c0_mode=screen:c0_opacity=0.20:c1_expr='A':c2_expr='A'[ha];[ha]curves=all='0/12 255/255'[ha_lift];[ha_lift]noise=alls=6:allf=t[gn];[gn]vignette=angle=PI/4.5:eval=init[vi];[vi]eq=saturation=0.15[desat_vi];[desat_vi]pad=1976:1136:28:28:color=0xEBE8E1,rotate=angle=-0.002397:fillcolor=0x0C0C10,scale=trunc(iw*1.04/2)*2:trunc(ih*1.04/2)*2,crop=1920:1080[s6];[s6]drawbox=x=0:y=0:w=iw:h=80:color=black@1:t=fill,drawbox=x=0:y=ih-80:w=iw:h=80:color=black@1:t=fill[lb];[lb]null[out] -map [out] -r 24 -t 3.92 -vcodec libx264 -pix_fmt yuv420p -preset veryfast -b:v 6M -avoid_negative_ts make_zero outputs/final/tmp_ep1/ep1_seg0015.mp4
+STDERR: e input pad on Parsed_curves_10
+[fc#0 @ 0000013c1ad8d740] Error reinitializing filters!
+[fc#0 @ 0000013c1ad8d740] Task finished with error code: -22 (Invalid argument)
+[fc#0 @ 0000013c1ad8d740] Terminating thread with return code -22 (Invalid argument)
+[vost#0:0/libx264 @ 0000013c1d077a40] [enc:libx264 @ 0000013c1ad6ed80] Could not open encoder before EOF
+[vost#0:0/libx264 @ 0000013c1d077a40] Task finished with error code: -22 (Invalid argument)
+[vost#0:0/libx264 @ 0000013c1d077a40] Terminating thread with return code -22 (Invalid argument)
+[out#0/mp4 @ 0000013c1ad43dc0] Nothing was written into output file, because at least one of its streams received no packets.
+frame=    0 fps=0.0 q=0.0 Lsize=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:00.04    
+Conversion failed!
+
+2026-06-05 17:26:30 - Agent.VideoCompositor - WARNING - [VideoCompositor] Ep1 segment 15 dropped — render returned no file. Entry type=scene arc=investigation image=outputs/scene_images/ep1_scene8_the_east-wing_library.png
+2026-06-05 17:26:30 - Agent.VideoCompositor - ERROR - [VideoCompositor] FFmpeg failed for segment 16 (ep 1):
+CMD: ffmpeg -y -loop 1 -t 4.72 -i outputs/scene_images/ep1_scene9_the_east-wing_library.png -filter_complex [0:v]scale=2112:1188:flags=lanczos,setsar=1[img_s];[img_s]zoompan=z='max(1.001,min(1.35,1.0+0.047200*on/113))':x='max(0,min(iw-iw/zoom,iw/2-(iw/zoom/2)))':y='max(0,min(ih-ih/zoom,ih/2-(ih/zoom/2)-ih*0.003*on/113))':d=1:s=1920x1080:fps=24,setsar=1[comp];[comp]eq=brightness=-0.06:contrast=1.22:saturation=0.97:gamma=0.85[_eq1];[_eq1]colorbalance=rs=-0.015:gs=0:bs=0.02:rm=-0.008:gm=0:bm=0.01:rh=0:gh=0:bh=0[grade];[grade]split=2[main_h][bloom_src];[bloom_src]lutyuv=y='if(gt(val,210),val,0)':u='128':v='128',gblur=sigma=16[bloom];[main_h][bloom]blend=c0_mode=screen:c0_opacity=0.20:c1_expr='A':c2_expr='A'[ha];[ha]curves=all='0/12 255/255'[ha_lift];[ha_lift]noise=alls=6:allf=t[gn];[gn]vignette=angle=PI/4.5:eval=init[vi];[vi]eq=saturation=0.15[desat_vi];[desat_vi]pad=1976:1136:28:28:color=0xEBE8E1,rotate=angle=-0.020386:fillcolor=0x0C0C10,scale=trunc(iw*1.04/2)*2:trunc(ih*1.04/2)*2,crop=1920:1080[s6];[s6]drawbox=x=0:y=0:w=iw:h=80:color=black@1:t=fill,drawbox=x=0:y=ih-80:w=iw:h=80:color=black@1:t=fill[lb];[lb]null[out] -map [out] -r 24 -t 4.72 -vcodec libx264 -pix_fmt yuv420p -preset veryfast -b:v 6M -avoid_negative_ts make_zero outputs/final/tmp_ep1/ep1_seg0016.mp4
+STDERR: e input pad on Parsed_curves_10
+[fc#0 @ 000002d71accf800] Error reinitializing filters!
+[fc#0 @ 000002d71accf800] Task finished with error code: -22 (Invalid argument)
+[fc#0 @ 000002d71accf800] Terminating thread with return code -22 (Invalid argument)
+[vost#0:0/libx264 @ 000002d71c91f700] [enc:libx264 @ 000002d71acb3240] Could not open encoder before EOF
+[vost#0:0/libx264 @ 000002d71c91f700] Task finished with error code: -22 (Invalid argument)
+[vost#0:0/libx264 @ 000002d71c91f700] Terminating thread with return code -22 (Invalid argument)
+[out#0/mp4 @ 000002d71ac82940] Nothing was written into output file, because at least one of its streams received no packets.
+frame=    0 fps=0.0 q=0.0 Lsize=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:00.03    
+Conversion failed!
+
+2026-06-05 17:26:30 - Agent.VideoCompositor - WARNING - [VideoCompositor] Ep1 segment 16 dropped — render returned no file. Entry type=scene arc=revelation image=outputs/scene_images/ep1_scene9_the_east-wing_library.png
+2026-06-05 17:26:30 - Agent.VideoCompositor - ERROR - [VideoCompositor] FFmpeg failed for segment 17 (ep 1):
+CMD: ffmpeg -y -loop 1 -t 1.5 -i outputs/insert_images/ep1_s9_ins1_pristine.png -filter_complex [0:v]scale=2112:1188:flags=lanczos,setsar=1[img_s];[img_s]zoompan=z='max(1.001,min(1.35,1.0+0.006000*on/36))':x='max(0,min(iw-iw/zoom,iw/2-(iw/zoom/2)-iw*0.003*on/36))':y='max(0,min(ih-ih/zoom,ih/2-(ih/zoom/2)-ih*0.002*on/36))':d=1:s=1920x1080:fps=24,setsar=1[comp];[comp]eq=brightness=-0.06:contrast=1.22:saturation=0.97:gamma=0.85[_eq1];[_eq1]colorbalance=rs=-0.015:gs=0:bs=0.02:rm=-0.008:gm=0:bm=0.01:rh=0:gh=0:bh=0[grade];[grade]split=2[main_h][bloom_src];[bloom_src]lutyuv=y='if(gt(val,210),val,0)':u='128':v='128',gblur=sigma=16[bloom];[main_h][bloom]blend=c0_mode=screen:c0_opacity=0.20:c1_expr='A':c2_expr='A'[ha];[ha]curves=all='0/12 255/255'[ha_lift];[ha_lift]noise=alls=6:allf=t[gn];[gn]vignette=angle=PI/4.5:eval=init[vi];[vi]eq=saturation=0.15[desat_vi];[desat_vi]pad=1976:1136:28:28:color=0xEBE8E1,rotate=angle=0.011140:fillcolor=0x0C0C10,scale=trunc(iw*1.04/2)*2:trunc(ih*1.04/2)*2,crop=1920:1080[s6];[s6]drawbox=x=0:y=0:w=iw:h=80:color=black@1:t=fill,drawbox=x=0:y=ih-80:w=iw:h=80:color=black@1:t=fill[lb];[lb]null[out] -map [out] -r 24 -t 1.5 -vcodec libx264 -pix_fmt yuv420p -preset veryfast -b:v 6M -avoid_negative_ts make_zero outputs/final/tmp_ep1/ep1_seg0017.mp4
+STDERR: e input pad on Parsed_curves_10
+[fc#0 @ 0000018b060cc1c0] Error reinitializing filters!
+[fc#0 @ 0000018b060cc1c0] Task finished with error code: -22 (Invalid argument)
+[fc#0 @ 0000018b060cc1c0] Terminating thread with return code -22 (Invalid argument)
+[vost#0:0/libx264 @ 0000018b06101180] [enc:libx264 @ 0000018b060e6240] Could not open encoder before EOF
+[vost#0:0/libx264 @ 0000018b06101180] Task finished with error code: -22 (Invalid argument)
+[vost#0:0/libx264 @ 0000018b06101180] Terminating thread with return code -22 (Invalid argument)
+[out#0/mp4 @ 0000018b06082e80] Nothing was written into output file, because at least one of its streams received no packets.
+frame=    0 fps=0.0 q=0.0 Lsize=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:00.03    
+Conversion failed!
+
+2026-06-05 17:26:30 - Agent.VideoCompositor - WARNING - [VideoCompositor] Ep1 segment 17 dropped — render returned no file. Entry type=insert arc=investigation image=outputs/insert_images/ep1_s9_ins1_pristine.png
+2026-06-05 17:26:30 - Agent.VideoCompositor - ERROR - [VideoCompositor] FFmpeg failed for segment 18 (ep 1):
+CMD: ffmpeg -y -loop 1 -t 3.74 -i outputs/scene_images/ep1_scene9_the_east-wing_library.png -filter_complex [0:v]scale=2112:1188:flags=lanczos,setsar=1[img_s];[img_s]zoompan=z='max(1.001,min(1.35,1.0+0.037400*on/89))':x='max(0,min(iw-iw/zoom,iw/2-(iw/zoom/2)))':y='max(0,min(ih-ih/zoom,ih/2-(ih/zoom/2)-ih*0.003*on/89))':d=1:s=1920x1080:fps=24,setsar=1[comp];[comp]eq=brightness=-0.06:contrast=1.22:saturation=0.97:gamma=0.85[_eq1];[_eq1]colorbalance=rs=-0.015:gs=0:bs=0.02:rm=-0.008:gm=0:bm=0.01:rh=0:gh=0:bh=0[grade];[grade]split=2[main_h][bloom_src];[bloom_src]lutyuv=y='if(gt(val,210),val,0)':u='128':v='128',gblur=sigma=16[bloom];[main_h][bloom]blend=c0_mode=screen:c0_opacity=0.20:c1_expr='A':c2_expr='A'[ha];[ha]curves=all='0/12 255/255'[ha_lift];[ha_lift]noise=alls=6:allf=t[gn];[gn]vignette=angle=PI/4.5:eval=init[vi];[vi]eq=saturation=0.15[desat_vi];[desat_vi]pad=1976:1136:28:28:color=0xEBE8E1,rotate=angle=-0.020386:fillcolor=0x0C0C10,scale=trunc(iw*1.04/2)*2:trunc(ih*1.04/2)*2,crop=1920:1080[s6];[s6]drawbox=x=0:y=0:w=iw:h=80:color=black@1:t=fill,drawbox=x=0:y=ih-80:w=iw:h=80:color=black@1:t=fill[lb];[lb]null[out] -map [out] -r 24 -t 3.74 -vcodec libx264 -pix_fmt yuv420p -preset veryfast -b:v 6M -avoid_negative_ts make_zero outputs/final/tmp_ep1/ep1_seg0018.mp4
+STDERR: e input pad on Parsed_curves_10
+[fc#0 @ 000001f0e2f2b180] Error reinitializing filters!
+[fc#0 @ 000001f0e2f2b180] Task finished with error code: -22 (Invalid argument)
+[fc#0 @ 000001f0e2f2b180] Terminating thread with return code -22 (Invalid argument)
+[vost#0:0/libx264 @ 000001f0e4d3f700] [enc:libx264 @ 000001f0e2f0c300] Could not open encoder before EOF
+[vost#0:0/libx264 @ 000001f0e4d3f700] Task finished with error code: -22 (Invalid argument)
+[vost#0:0/libx264 @ 000001f0e4d3f700] Terminating thread with return code -22 (Invalid argument)
+[out#0/mp4 @ 000001f0e2edf980] Nothing was written into output file, because at least one of its streams received no packets.
+frame=    0 fps=0.0 q=0.0 Lsize=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:00.04    
+Conversion failed!
+
+2026-06-05 17:26:30 - Agent.VideoCompositor - WARNING - [VideoCompositor] Ep1 segment 18 dropped — render returned no file. Entry type=scene arc=revelation image=outputs/scene_images/ep1_scene9_the_east-wing_library.png
+2026-06-05 17:26:30 - Agent.VideoCompositor - ERROR - [VideoCompositor] FFmpeg failed for segment 19 (ep 1):
+CMD: ffmpeg -y -loop 1 -t 9.82 -i outputs/scene_images/ep1_scene10_the_east-wing_library.png -filter_complex [0:v]scale=2112:1188:flags=lanczos,setsar=1[img_s];[img_s]zoompan=z='max(1.001,min(1.35,1.0+0.098200*on/235))':x='max(0,min(iw-iw/zoom,iw/2-(iw/zoom/2)))':y='max(0,min(ih-ih/zoom,ih/2-(ih/zoom/2)))':d=1:s=1920x1080:fps=24,setsar=1[comp];[comp]eq=brightness=-0.06:contrast=1.22:saturation=0.97:gamma=0.85[_eq1];[_eq1]colorbalance=rs=-0.015:gs=0:bs=0.02:rm=-0.008:gm=0:bm=0.01:rh=0:gh=0:bh=0[grade];[grade]split=2[main_h][bloom_src];[bloom_src]lutyuv=y='if(gt(val,210),val,0)':u='128':v='128',gblur=sigma=16[bloom];[main_h][bloom]blend=c0_mode=screen:c0_opacity=0.20:c1_expr='A':c2_expr='A'[ha];[ha]curves=all='0/12 255/255'[ha_lift];[ha_lift]noise=alls=6:allf=t[gn];[gn]vignette=angle=PI/4.5:eval=init[vi];[vi]eq=saturation=0.15[desat_vi];[desat_vi]pad=1976:1136:28:28:color=0xEBE8E1,rotate=angle=0.024020:fillcolor=0x0C0C10,scale=trunc(iw*1.04/2)*2:trunc(ih*1.04/2)*2,crop=1920:1080[s6];[s6]drawbox=x=0:y=0:w=iw:h=80:color=black@1:t=fill,drawbox=x=0:y=ih-80:w=iw:h=80:color=black@1:t=fill[lb];[lb]null[out] -map [out] -r 24 -t 9.82 -vcodec libx264 -pix_fmt yuv420p -preset veryfast -b:v 6M -avoid_negative_ts make_zero outputs/final/tmp_ep1/ep1_seg0019.mp4
+STDERR: e input pad on Parsed_curves_10
+[fc#0 @ 00000190686cb040] Error reinitializing filters!
+[fc#0 @ 00000190686cb040] Task finished with error code: -22 (Invalid argument)
+[fc#0 @ 00000190686cb040] Terminating thread with return code -22 (Invalid argument)
+[vost#0:0/libx264 @ 00000190686ff000] [enc:libx264 @ 00000190686aec00] Could not open encoder before EOF
+[vost#0:0/libx264 @ 00000190686ff000] Task finished with error code: -22 (Invalid argument)
+[vost#0:0/libx264 @ 00000190686ff000] Terminating thread with return code -22 (Invalid argument)
+[out#0/mp4 @ 0000019068683840] Nothing was written into output file, because at least one of its streams received no packets.
+frame=    0 fps=0.0 q=0.0 Lsize=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:00.04    
+Conversion failed!
+
+2026-06-05 17:26:30 - Agent.VideoCompositor - WARNING - [VideoCompositor] Ep1 segment 19 dropped — render returned no file. Entry type=scene arc=revelation image=outputs/scene_images/ep1_scene10_the_east-wing_library.png
+2026-06-05 17:26:30 - Agent.VideoCompositor - ERROR - [VideoCompositor] FFmpeg failed for segment 20 (ep 1):
+CMD: ffmpeg -y -loop 1 -t 1.72 -i outputs/scene_images/ep1_scene11_the_hidden_room.png -filter_complex [0:v]scale=2112:1188:flags=lanczos,setsar=1[img_s];[img_s]zoompan=z='max(1.001,min(1.35,1.0+0.017200*on/41))':x='max(0,min(iw-iw/zoom,iw/2-(iw/zoom/2)))':y='max(0,min(ih-ih/zoom,ih/2-(ih/zoom/2)-ih*0.003*on/41))':d=1:s=1920x1080:fps=24,setsar=1[comp];[comp]eq=brightness=-0.06:contrast=1.22:saturation=0.97:gamma=0.85[_eq1];[_eq1]colorbalance=rs=-0.015:gs=0:bs=0.02:rm=-0.008:gm=0:bm=0.01:rh=0:gh=0:bh=0[grade];[grade]split=2[main_h][bloom_src];[bloom_src]lutyuv=y='if(gt(val,210),val,0)':u='128':v='128',gblur=sigma=16[bloom];[main_h][bloom]blend=c0_mode=screen:c0_opacity=0.20:c1_expr='A':c2_expr='A'[ha];[ha]curves=all='0/12 255/255'[ha_lift];[ha_lift]noise=alls=6:allf=t[gn];[gn]vignette=angle=PI/4.5:eval=init[vi];[vi]eq=saturation=0.15[desat_vi];[desat_vi]pad=1976:1136:28:28:color=0xEBE8E1,rotate=angle=0.010551:fillcolor=0x0C0C10,scale=trunc(iw*1.04/2)*2:trunc(ih*1.04/2)*2,crop=1920:1080[s6];[s6]drawbox=x=0:y=0:w=iw:h=80:color=black@1:t=fill,drawbox=x=0:y=ih-80:w=iw:h=80:color=black@1:t=fill[lb];[lb]null[out] -map [out] -r 24 -t 1.72 -vcodec libx264 -pix_fmt yuv420p -preset veryfast -b:v 6M -avoid_negative_ts make_zero outputs/final/tmp_ep1/ep1_seg0020.mp4
+STDERR: e input pad on Parsed_curves_10
+[fc#0 @ 000002e57338db80] Error reinitializing filters!
+[fc#0 @ 000002e57338db80] Task finished with error code: -22 (Invalid argument)
+[fc#0 @ 000002e57338db80] Terminating thread with return code -22 (Invalid argument)
+[vost#0:0/libx264 @ 000002e57338e240] [enc:libx264 @ 000002e5733ba3c0] Could not open encoder before EOF
+[vost#0:0/libx264 @ 000002e57338e240] Task finished with error code: -22 (Invalid argument)
+[vost#0:0/libx264 @ 000002e57338e240] Terminating thread with return code -22 (Invalid argument)
+[out#0/mp4 @ 000002e573341a40] Nothing was written into output file, because at least one of its streams received no packets.
+frame=    0 fps=0.0 q=0.0 Lsize=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:00.03    
+Conversion failed!
+
+2026-06-05 17:26:30 - Agent.VideoCompositor - WARNING - [VideoCompositor] Ep1 segment 20 dropped — render returned no file. Entry type=scene arc=revelation image=outputs/scene_images/ep1_scene11_the_hidden_room.png
+2026-06-05 17:26:31 - Agent.VideoCompositor - ERROR - [VideoCompositor] FFmpeg failed for segment 21 (ep 1):
+CMD: ffmpeg -y -loop 1 -t 4.0 -i outputs/reveal_images/ep1_reveal4_location_detail_011e6268.png -filter_complex [0:v]scale=2112:1188:flags=lanczos,setsar=1[img_s];[img_s]zoompan=z='max(1.001,min(1.35,1.0+0.024000*on/96))':x='max(0,min(iw-iw/zoom,iw/2-(iw/zoom/2)))':y='max(0,min(ih-ih/zoom,ih/2-(ih/zoom/2)))':d=1:s=1920x1080:fps=24,setsar=1[comp];[comp]eq=brightness=-0.04:contrast=1.18:saturation=1.1:gamma=0.88[_eq1];[_eq1]colorbalance=rs=-0.01:gs=0:bs=0.015:rm=-0.005:gm=0:bm=0.008:rh=0:gh=0:bh=0[grade];[grade]split=2[main_h][bloom_src];[bloom_src]lutyuv=y='if(gt(val,210),val,0)':u='128':v='128',gblur=sigma=16[bloom];[main_h][bloom]blend=c0_mode=screen:c0_opacity=0.20:c1_expr='A':c2_expr='A'[ha];[ha]curves=all='0/12 255/255'[ha_lift];[ha_lift]noise=alls=6:allf=t[gn];[gn]vignette=angle=PI/4.5:eval=init[vi];[vi]noise=alls=20:allf=t[s6];[s6]split=2[lf_base][lf_src];[lf_src]lutyuv=y='if(gt(val,225),val,0)':u='128':v='128',gblur=sigma=48:sigmaV=1[lf_streak];[lf_base][lf_streak]blend=c0_mode=screen:c0_opacity=0.18:c1_expr='A':c2_expr='A'[s7];[s7]drawbox=x=0:y=0:w=iw:h=80:color=black@1:t=fill,drawbox=x=0:y=ih-80:w=iw:h=80:color=black@1:t=fill[lb];[lb]null[out] -map [out] -r 24 -t 4.0 -vcodec libx264 -pix_fmt yuv420p -preset veryfast -b:v 6M -avoid_negative_ts make_zero outputs/final/tmp_ep1/ep1_seg0021.mp4
+STDERR: e input pad on Parsed_curves_10
+[fc#0 @ 000001ecc5d6af40] Error reinitializing filters!
+[fc#0 @ 000001ecc5d6af40] Task finished with error code: -22 (Invalid argument)
+[fc#0 @ 000001ecc5d6af40] Terminating thread with return code -22 (Invalid argument)
+[vost#0:0/libx264 @ 000001ecc5d92940] [enc:libx264 @ 000001ecc5d49900] Could not open encoder before EOF
+[vost#0:0/libx264 @ 000001ecc5d92940] Task finished with error code: -22 (Invalid argument)
+[vost#0:0/libx264 @ 000001ecc5d92940] Terminating thread with return code -22 (Invalid argument)
+[out#0/mp4 @ 000001ecc5d22080] Nothing was written into output file, because at least one of its streams received no packets.
+frame=    0 fps=0.0 q=0.0 Lsize=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:00.03    
+Conversion failed!
+
+2026-06-05 17:26:31 - Agent.VideoCompositor - WARNING - [VideoCompositor] Ep1 segment 21 dropped — render returned no file. Entry type=reveal arc=revelation image=outputs/reveal_images/ep1_reveal4_location_detail_011e6268.png
+2026-06-05 17:26:31 - Agent.VideoCompositor - ERROR - [VideoCompositor] FFmpeg failed for segment 22 (ep 1):
+CMD: ffmpeg -y -loop 1 -t 1.48 -i outputs/scene_images/ep1_scene11_the_hidden_room.png -filter_complex [0:v]scale=2112:1188:flags=lanczos,setsar=1[img_s];[img_s]zoompan=z='max(1.001,min(1.35,1.0+0.014800*on/35))':x='max(0,min(iw-iw/zoom,iw/2-(iw/zoom/2)))':y='max(0,min(ih-ih/zoom,ih/2-(ih/zoom/2)-ih*0.003*on/35))':d=1:s=1920x1080:fps=24,setsar=1[comp];[comp]eq=brightness=-0.06:contrast=1.22:saturation=0.97:gamma=0.85[_eq1];[_eq1]colorbalance=rs=-0.015:gs=0:bs=0.02:rm=-0.008:gm=0:bm=0.01:rh=0:gh=0:bh=0[grade];[grade]split=2[main_h][bloom_src];[bloom_src]lutyuv=y='if(gt(val,210),val,0)':u='128':v='128',gblur=sigma=16[bloom];[main_h][bloom]blend=c0_mode=screen:c0_opacity=0.20:c1_expr='A':c2_expr='A'[ha];[ha]curves=all='0/12 255/255'[ha_lift];[ha_lift]noise=alls=6:allf=t[gn];[gn]vignette=angle=PI/4.5:eval=init[vi];[vi]eq=saturation=0.15[desat_vi];[desat_vi]pad=1976:1136:28:28:color=0xEBE8E1,rotate=angle=0.010551:fillcolor=0x0C0C10,scale=trunc(iw*1.04/2)*2:trunc(ih*1.04/2)*2,crop=1920:1080[s6];[s6]drawbox=x=0:y=0:w=iw:h=80:color=black@1:t=fill,drawbox=x=0:y=ih-80:w=iw:h=80:color=black@1:t=fill[lb];[lb]null[out] -map [out] -r 24 -t 1.48 -vcodec libx264 -pix_fmt yuv420p -preset veryfast -b:v 6M -avoid_negative_ts make_zero outputs/final/tmp_ep1/ep1_seg0022.mp4
+STDERR: e input pad on Parsed_curves_10
+[fc#0 @ 00000186e378d3c0] Error reinitializing filters!
+[fc#0 @ 00000186e378d3c0] Task finished with error code: -22 (Invalid argument)
+[fc#0 @ 00000186e378d3c0] Terminating thread with return code -22 (Invalid argument)
+[vost#0:0/libx264 @ 00000186e37c0b40] [enc:libx264 @ 00000186e37a6e40] Could not open encoder before EOF
+[vost#0:0/libx264 @ 00000186e37c0b40] Task finished with error code: -22 (Invalid argument)
+[vost#0:0/libx264 @ 00000186e37c0b40] Terminating thread with return code -22 (Invalid argument)
+[out#0/mp4 @ 00000186e3740cc0] Nothing was written into output file, because at least one of its streams received no packets.
+frame=    0 fps=0.0 q=0.0 Lsize=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:00.03    
+Conversion failed!
+
+2026-06-05 17:26:31 - Agent.VideoCompositor - WARNING - [VideoCompositor] Ep1 segment 22 dropped — render returned no file. Entry type=scene arc=revelation image=outputs/scene_images/ep1_scene11_the_hidden_room.png
+2026-06-05 17:26:31 - Agent.VideoCompositor - ERROR - [VideoCompositor] FFmpeg failed for segment 23 (ep 1):
+CMD: ffmpeg -y -stream_loop -1 -t 2.08 -an -i outputs/video_clips/ep1_scene12_cliffhanger.mp4 -filter_complex [0:v]scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,setsar=1[comp];[comp]eq=brightness=-0.06:contrast=1.22:saturation=0.97:gamma=0.85[_eq1];[_eq1]colorbalance=rs=-0.015:gs=0:bs=0.02:rm=-0.008:gm=0:bm=0.01:rh=0:gh=0:bh=0[grade];[grade]split=2[main_h][bloom_src];[bloom_src]lutyuv=y='if(gt(val,210),val,0)':u='128':v='128',gblur=sigma=16[bloom];[main_h][bloom]blend=c0_mode=screen:c0_opacity=0.20:c1_expr='A':c2_expr='A'[ha];[ha]curves=all='0/12 255/255'[ha_lift];[ha_lift]noise=alls=6:allf=t[gn];[gn]vignette=angle=PI/4.5:eval=init[vi];[vi]eq=saturation=0.15[desat_vi];[desat_vi]pad=1976:1136:28:28:color=0xEBE8E1,rotate=angle=0.010551:fillcolor=0x0C0C10,scale=trunc(iw*1.04/2)*2:trunc(ih*1.04/2)*2,crop=1920:1080[s6];[s6]drawbox=x=0:y=0:w=iw:h=80:color=black@1:t=fill,drawbox=x=0:y=ih-80:w=iw:h=80:color=black@1:t=fill[lb];[lb]fade=t=in:st=0:d=0.250,fade=t=out:st=1.830:d=0.250[lb_fade];[lb_fade]null[out] -map [out] -r 24 -t 2.08 -vcodec libx264 -pix_fmt yuv420p -preset veryfast -b:v 6M -avoid_negative_ts make_zero outputs/final/tmp_ep1/ep1_seg0023.mp4
+STDERR: re input pad on Parsed_curves_9
+[fc#0 @ 0000016694dab8c0] Error reinitializing filters!
+[fc#0 @ 0000016694dab8c0] Task finished with error code: -22 (Invalid argument)
+[fc#0 @ 0000016694dab8c0] Terminating thread with return code -22 (Invalid argument)
+[vost#0:0/libx264 @ 0000016694dd4d00] [enc:libx264 @ 0000016694d8cd40] Could not open encoder before EOF
+[vost#0:0/libx264 @ 0000016694dd4d00] Task finished with error code: -22 (Invalid argument)
+[vost#0:0/libx264 @ 0000016694dd4d00] Terminating thread with return code -22 (Invalid argument)
+[out#0/mp4 @ 0000016694d5fe80] Nothing was written into output file, because at least one of its streams received no packets.
+frame=    0 fps=0.0 q=0.0 Lsize=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:00.03    
+Conversion failed!
+
+2026-06-05 17:26:31 - Agent.VideoCompositor - WARNING - [VideoCompositor] Ep1 segment 23 dropped — render returned no file. Entry type=scene arc=cliffhanger image=outputs/scene_images/ep1_scene11_the_hidden_room.png
+2026-06-05 17:26:31 - Agent.VideoCompositor - ERROR - [VideoCompositor] FFmpeg failed for segment 24 (ep 1):
+CMD: ffmpeg -y -loop 1 -t 4.0 -i outputs/reveal_images/ep1_reveal5_evidence_011e6268.png -filter_complex [0:v]scale=2112:1188:flags=lanczos,setsar=1[img_s];[img_s]zoompan=z='max(1.001,min(1.35,1.0+0.024000*on/96))':x='max(0,min(iw-iw/zoom,iw/2-(iw/zoom/2)))':y='max(0,min(ih-ih/zoom,ih/2-(ih/zoom/2)-ih*0.003*on/96))':d=1:s=1920x1080:fps=24,setsar=1[comp];[comp]eq=brightness=-0.06:contrast=1.22:saturation=0.97:gamma=0.85[_eq1];[_eq1]colorbalance=rs=-0.015:gs=0:bs=0.02:rm=-0.008:gm=0:bm=0.01:rh=0:gh=0:bh=0[grade];[grade]split=2[main_h][bloom_src];[bloom_src]lutyuv=y='if(gt(val,210),val,0)':u='128':v='128',gblur=sigma=16[bloom];[main_h][bloom]blend=c0_mode=screen:c0_opacity=0.20:c1_expr='A':c2_expr='A'[ha];[ha]curves=all='0/12 255/255'[ha_lift];[ha_lift]noise=alls=6:allf=t[gn];[gn]vignette=angle=PI/4.5:eval=init[vi];[vi]eq=saturation=0.15[desat_vi];[desat_vi]pad=1976:1136:28:28:color=0xEBE8E1,rotate=angle=-0.002607:fillcolor=0x0C0C10,scale=trunc(iw*1.04/2)*2:trunc(ih*1.04/2)*2,crop=1920:1080[s6];[s6]drawbox=x=0:y=0:w=iw:h=80:color=black@1:t=fill,drawbox=x=0:y=ih-80:w=iw:h=80:color=black@1:t=fill[lb];[lb]null[out] -map [out] -r 24 -t 4.0 -vcodec libx264 -pix_fmt yuv420p -preset veryfast -b:v 6M -avoid_negative_ts make_zero outputs/final/tmp_ep1/ep1_seg0024.mp4
+STDERR: e input pad on Parsed_curves_10
+[fc#0 @ 0000020c3384b500] Error reinitializing filters!
+[fc#0 @ 0000020c3384b500] Task finished with error code: -22 (Invalid argument)
+[fc#0 @ 0000020c3384b500] Terminating thread with return code -22 (Invalid argument)
+[vost#0:0/libx264 @ 0000020c33880380] [enc:libx264 @ 0000020c3382cdc0] Could not open encoder before EOF
+[vost#0:0/libx264 @ 0000020c33880380] Task finished with error code: -22 (Invalid argument)
+[vost#0:0/libx264 @ 0000020c33880380] Terminating thread with return code -22 (Invalid argument)
+[out#0/mp4 @ 0000020c33802400] Nothing was written into output file, because at least one of its streams received no packets.
+frame=    0 fps=0.0 q=0.0 Lsize=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:00.04    
+Conversion failed!
+
+2026-06-05 17:26:31 - Agent.VideoCompositor - WARNING - [VideoCompositor] Ep1 segment 24 dropped — render returned no file. Entry type=reveal arc=revelation image=outputs/reveal_images/ep1_reveal5_evidence_011e6268.png
+2026-06-05 17:26:31 - Agent.VideoCompositor - ERROR - [VideoCompositor] FFmpeg failed for segment 25 (ep 1):
+CMD: ffmpeg -y -loop 1 -t 6.561 -i outputs/scene_images/ep1_scene13_the_hidden_room.png -filter_complex [0:v]scale=2112:1188:flags=lanczos,setsar=1[img_s];[img_s]zoompan=z='max(1.001,min(1.35,1.0+0.032805*sin(PI*on/157)))':x='max(0,min(iw-iw/zoom,iw/2-(iw/zoom/2)))':y='max(0,min(ih-ih/zoom,ih/2-(ih/zoom/2)))':d=1:s=1920x1080:fps=24,setsar=1[comp];[comp]eq=brightness=-0.06:contrast=1.22:saturation=0.97:gamma=0.85[_eq1];[_eq1]colorbalance=rs=-0.015:gs=0:bs=0.02:rm=-0.008:gm=0:bm=0.01:rh=0:gh=0:bh=0[grade];[grade]split=2[main_h][bloom_src];[bloom_src]lutyuv=y='if(gt(val,210),val,0)':u='128':v='128',gblur=sigma=16[bloom];[main_h][bloom]blend=c0_mode=screen:c0_opacity=0.20:c1_expr='A':c2_expr='A'[ha];[ha]curves=all='0/12 255/255'[ha_lift];[ha_lift]noise=alls=6:allf=t[gn];[gn]vignette=angle=PI/4.5:eval=init[vi];[vi]eq=saturation=0.15[desat_vi];[desat_vi]pad=1976:1136:28:28:color=0xEBE8E1,rotate=angle=0.006651:fillcolor=0x0C0C10,scale=trunc(iw*1.04/2)*2:trunc(ih*1.04/2)*2,crop=1920:1080[s6];[s6]drawbox=x=0:y=0:w=iw:h=80:color=black@1:t=fill,drawbox=x=0:y=ih-80:w=iw:h=80:color=black@1:t=fill[lb];[lb]null[out] -map [out] -r 24 -t 6.561 -vcodec libx264 -pix_fmt yuv420p -preset veryfast -b:v 6M -avoid_negative_ts make_zero outputs/final/tmp_ep1/ep1_seg0025.mp4
+STDERR: e input pad on Parsed_curves_10
+[fc#0 @ 000001a3875ab280] Error reinitializing filters!
+[fc#0 @ 000001a3875ab280] Task finished with error code: -22 (Invalid argument)
+[fc#0 @ 000001a3875ab280] Terminating thread with return code -22 (Invalid argument)
+[vost#0:0/libx264 @ 000001a3875d21c0] [enc:libx264 @ 000001a38758c540] Could not open encoder before EOF
+[vost#0:0/libx264 @ 000001a3875d21c0] Task finished with error code: -22 (Invalid argument)
+[vost#0:0/libx264 @ 000001a3875d21c0] Terminating thread with return code -22 (Invalid argument)
+[out#0/mp4 @ 000001a387561040] Nothing was written into output file, because at least one of its streams received no packets.
+frame=    0 fps=0.0 q=0.0 Lsize=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:00.04    
+Conversion failed!
+
+2026-06-05 17:26:31 - Agent.VideoCompositor - WARNING - [VideoCompositor] Ep1 segment 25 dropped — render returned no file. Entry type=scene arc=cliffhanger image=outputs/scene_images/ep1_scene13_the_hidden_room.png
+2026-06-05 17:26:31 - Agent.VideoCompositor - ERROR - [VideoCompositor] FFmpeg failed for segment 26 (ep 1):
+CMD: ffmpeg -y -stream_loop -1 -t 2.0 -an -i outputs/video_clips/ep1_scene12_cliffhanger.mp4 -filter_complex [0:v]scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,setsar=1[comp];[comp]eq=brightness=-0.06:contrast=1.22:saturation=0.97:gamma=0.85[_eq1];[_eq1]colorbalance=rs=-0.015:gs=0:bs=0.02:rm=-0.008:gm=0:bm=0.01:rh=0:gh=0:bh=0[grade];[grade]split=2[main_h][bloom_src];[bloom_src]lutyuv=y='if(gt(val,210),val,0)':u='128':v='128',gblur=sigma=16[bloom];[main_h][bloom]blend=c0_mode=screen:c0_opacity=0.20:c1_expr='A':c2_expr='A'[ha];[ha]curves=all='0/12 255/255'[ha_lift];[ha_lift]noise=alls=6:allf=t[gn];[gn]vignette=angle=PI/4.5:eval=init[vi];[vi]hue=s='max(0,1-t/2.0000)'[s6_ds];[s6_ds]rotate=angle=0.023:fillcolor=black,scale=trunc(iw*1.04/2)*2:trunc(ih*1.04/2)*2,crop=1920:1080[s6_r];[s6_r]fade=type=out:start_time=0.500:duration=1.5[s6];[s6]drawbox=x=0:y=0:w=iw:h=80:color=black@1:t=fill,drawbox=x=0:y=ih-80:w=iw:h=80:color=black@1:t=fill[lb];[lb]null[out] -map [out] -r 24 -t 2.0 -vcodec libx264 -pix_fmt yuv420p -preset veryfast -b:v 6M -avoid_negative_ts make_zero outputs/final/tmp_ep1/ep1_seg0026.mp4
+STDERR: re input pad on Parsed_curves_9
+[fc#0 @ 000002139274aac0] Error reinitializing filters!
+[fc#0 @ 000002139274aac0] Task finished with error code: -22 (Invalid argument)
+[fc#0 @ 000002139274aac0] Terminating thread with return code -22 (Invalid argument)
+[vost#0:0/libx264 @ 00000213927c6980] [enc:libx264 @ 000002139272bf40] Could not open encoder before EOF
+[vost#0:0/libx264 @ 00000213927c6980] Task finished with error code: -22 (Invalid argument)
+[vost#0:0/libx264 @ 00000213927c6980] Terminating thread with return code -22 (Invalid argument)
+[out#0/mp4 @ 00000213927018c0] Nothing was written into output file, because at least one of its streams received no packets.
+frame=    0 fps=0.0 q=0.0 Lsize=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:00.03    
+Conversion failed!
+
+2026-06-05 17:26:31 - Agent.VideoCompositor - WARNING - [VideoCompositor] Ep1 segment 26 dropped — render returned no file. Entry type=cliffhanger arc=cliffhanger image=outputs/reveal_images/ep1_reveal5_evidence_011e6268.png
+2026-06-05 17:26:32 - Agent.VideoCompositor - INFO - [VideoCompositor] TBC card: outputs/final/tmp_ep1/ep1_tbc.mp4
+2026-06-05 17:26:32 - Agent.VideoCompositor - INFO - [VideoCompositor] Concatenated 2 segments -> outputs/final/tmp_ep1/ep1_video.mp4
+2026-06-05 17:26:33 - Agent.VideoCompositor - INFO - [VideoCompositor] Subtitles burned: outputs/final/tmp_ep1/ep1_subbed.mp4
+2026-06-05 17:26:34 - Agent.VideoCompositor - INFO - [VideoCompositor] Shadow seal applied: outputs/final/tmp_ep1/ep1_sealed.mp4
+2026-06-05 17:26:34 - Agent.VideoCompositor - INFO - [VideoCompositor] Mixing: 110.9s, 5 reveals
+2026-06-05 17:26:34 - Agent.VideoCompositor - INFO - [VideoCompositor] Using arc-automated score mix
+2026-06-05 17:26:37 - Agent.VideoCompositor - INFO - [VideoCompositor] Dynamic audio mixed: outputs/final/tmp_ep1/ep1_audio.aac
+2026-06-05 17:26:39 - Agent.VideoCompositor - INFO - [VideoCompositor] Final: outputs/final/episode_1.mp4
+2026-06-05 17:26:39 - Agent.VideoCompositor - INFO - [VideoCompositor] Episode 1 complete: outputs/final/episode_1.mp4
+2026-06-05 17:26:39 - Agent.VideoCompositor - INFO - [VideoCompositor] Composition: 3/1 rendered

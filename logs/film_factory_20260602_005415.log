@@ -1,0 +1,3 @@
+2026-06-02 00:57:23 - Agent.VideoGenerator - INFO - [VideoGenerator] Generating Wan2.1-I2V clips for qualifying environmental scenes...
+2026-06-02 00:57:23 - Agent.VideoGenerator - INFO - [VideoGenerator] ep1: 0 Wan clip(s) generated, 0 failed, rest use Ken Burns
+2026-06-02 00:57:37 - Orchestrator - INFO - Context saved: outputs\context.json

@@ -1,0 +1,7 @@
+2026-05-22 16:45:39 - Orchestrator - INFO - =================================================================
+2026-05-22 16:45:39 - Orchestrator - INFO - FILM FACTORY — CINEMATIC NARRATION PIPELINE
+2026-05-22 16:45:39 - Orchestrator - INFO - =================================================================
+2026-05-22 16:45:39 - Orchestrator - INFO - Output directories verified
+2026-05-22 16:45:39 - Orchestrator - INFO - Story idea: A man gets killed in the ravenshade manor and detective Virat Kohli investigates the murder as a retired detective making a comeback for something regarding this case. WHy does he comeback to take such a case. Why now? FOr what reason?
+2026-05-22 16:46:56 - Orchestrator - ERROR - Scene Director failed: Unexpected: 'str' object has no attribute 'get'
+2026-05-22 16:46:56 - Orchestrator - ERROR - Pipeline failed: Unexpected: 'str' object has no attribute 'get'

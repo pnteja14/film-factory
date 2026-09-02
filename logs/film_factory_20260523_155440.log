@@ -1,0 +1,79 @@
+2026-05-23 15:56:38 - Agent.ImageGenerator - INFO - [ImageGenerator] Starting image generation (Agent 5a)...
+2026-05-23 15:56:38 - Agent.ImageGenerator - INFO - [ImageGenerator] HuggingFace client initialized
+2026-05-23 15:56:38 - Agent.ImageGenerator - INFO - [ImageGenerator] Deleted 14 existing images — fresh generation
+2026-05-23 15:56:38 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1: 8 anchor images at 1280x720...
+2026-05-23 15:56:38 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'Ravenshade Manor' (1280x720)
+2026-05-23 15:56:47 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\ravenshade_manor.png
+2026-05-23 15:56:49 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'Virat's Apartment' (1280x720)
+2026-05-23 15:56:57 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\virats_apartment.png
+2026-05-23 15:56:59 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'Police Archive Room' (1280x720)
+2026-05-23 15:57:16 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\police_archive_room.png
+2026-05-23 15:57:18 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'Sophia's Office' (1280x720)
+2026-05-23 15:57:26 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\sophias_office.png
+2026-05-23 15:57:28 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Ashford Family Home (Past)' (1280x720)
+2026-05-23 15:57:45 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_ashford_family_home_past.png
+2026-05-23 15:57:47 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Highway Overpass (Past)' (1280x720)
+2026-05-23 15:57:55 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_highway_overpass_past.png
+2026-05-23 15:57:57 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'Marcus's Study at Ravenshade' (1280x720)
+2026-05-23 15:58:04 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\marcuss_study_at_ravenshade.png
+2026-05-23 15:58:06 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Police Station Interrogation Room' (1280x720)
+2026-05-23 15:58:14 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_police_station_interrogation_room.png
+2026-05-23 15:58:16 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1 complete: 8/8
+2026-05-23 15:58:16 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 2: Scene images for 1 episodes...
+2026-05-23 15:58:16 - Agent.ImageGenerator - INFO - [ImageGenerator] Episode 1 scene images...
+2026-05-23 15:58:16 - Agent.ImageGenerator - WARNING - [ImageGenerator]   Scene 1: no image_prompt
+2026-05-23 15:58:16 - Agent.ImageGenerator - WARNING - [ImageGenerator]   Scene 2: no image_prompt
+2026-05-23 15:58:16 - Agent.ImageGenerator - WARNING - [ImageGenerator]   Scene 3: no image_prompt
+2026-05-23 15:58:16 - Agent.ImageGenerator - WARNING - [ImageGenerator]   Scene 4: no image_prompt
+2026-05-23 15:58:16 - Agent.ImageGenerator - WARNING - [ImageGenerator]   Scene 5: no image_prompt
+2026-05-23 15:58:16 - Agent.ImageGenerator - WARNING - [ImageGenerator]   Scene 6: no image_prompt
+2026-05-23 15:58:16 - Agent.ImageGenerator - WARNING - [ImageGenerator]   Scene 7: no image_prompt
+2026-05-23 15:58:16 - Agent.ImageGenerator - WARNING - [ImageGenerator]   Scene 8: no image_prompt
+2026-05-23 15:58:16 - Agent.ImageGenerator - WARNING - [ImageGenerator]   Scene 9: no image_prompt
+2026-05-23 15:58:17 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 3: Reveal images for 1 episodes...
+2026-05-23 15:58:17 - Agent.ImageGenerator - INFO - [ImageGenerator]   Episode 1: 5 reveals...
+2026-05-23 15:58:17 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [location_detail] ep1 r1
+2026-05-23 15:58:24 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal1_location_detail.png
+2026-05-23 15:58:24 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 1: location_detail saved
+2026-05-23 15:58:26 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [location_detail] ep1 r2
+2026-05-23 15:58:34 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal2_location_detail.png
+2026-05-23 15:58:34 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 2: location_detail saved
+2026-05-23 15:58:36 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [location_detail] ep1 r3
+2026-05-23 15:58:44 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal3_location_detail.png
+2026-05-23 15:58:44 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 3: location_detail saved
+2026-05-23 15:58:46 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [subject] ep1 r4
+2026-05-23 15:58:52 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal4_subject.png
+2026-05-23 15:58:52 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 4: subject saved
+2026-05-23 15:58:54 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [document] ep1 r5
+2026-05-23 15:59:02 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal5_document.png
+2026-05-23 15:59:02 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 5: document saved
+2026-05-23 15:59:04 - Agent.ImageGenerator - INFO - [ImageGenerator] Image generation complete — 8 anchors, 0 scenes, 5 reveals | All at 1280x720 (16:9)
+2026-05-23 15:59:04 - Agent.PromptCorrector - INFO - [PromptCorrector] Starting visual prompt correction for Episode 1...
+2026-05-23 15:59:04 - Agent.PromptCorrector - INFO - [PromptCorrector] Analyzing 8 anchor images...
+2026-05-23 15:59:04 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: Ravenshade Manor
+2026-05-23 15:59:09 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 534 chars
+2026-05-23 15:59:09 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: Virat's Apartment
+2026-05-23 15:59:13 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 492 chars
+2026-05-23 15:59:13 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: Police Archive Room
+2026-05-23 15:59:17 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 502 chars
+2026-05-23 15:59:17 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: Sophia's Office
+2026-05-23 15:59:21 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 563 chars
+2026-05-23 15:59:21 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: The Ashford Family Home (Past)
+2026-05-23 15:59:24 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 547 chars
+2026-05-23 15:59:24 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: The Highway Overpass (Past)
+2026-05-23 15:59:28 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 529 chars
+2026-05-23 15:59:28 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: Marcus's Study at Ravenshade
+2026-05-23 15:59:33 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 622 chars
+2026-05-23 15:59:33 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: The Police Station Interrogation Room
+2026-05-23 15:59:37 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 565 chars
+2026-05-23 15:59:37 - Agent.PromptCorrector - INFO - [PromptCorrector] Rewriting 9 Episode 1 prompts...
+2026-05-23 15:59:37 - Agent.PromptCorrector - WARNING - [PromptCorrector]   Scene 1 — no matching image found for: unknown
+2026-05-23 15:59:37 - Agent.PromptCorrector - WARNING - [PromptCorrector]   Scene 2 — no matching image found for: unknown
+2026-05-23 15:59:37 - Agent.PromptCorrector - WARNING - [PromptCorrector]   Scene 3 — no matching image found for: unknown
+2026-05-23 15:59:37 - Agent.PromptCorrector - WARNING - [PromptCorrector]   Scene 4 — no matching image found for: unknown
+2026-05-23 15:59:37 - Agent.PromptCorrector - WARNING - [PromptCorrector]   Scene 5 — no matching image found for: unknown
+2026-05-23 15:59:37 - Agent.PromptCorrector - WARNING - [PromptCorrector]   Scene 6 — no matching image found for: unknown
+2026-05-23 15:59:37 - Agent.PromptCorrector - WARNING - [PromptCorrector]   Scene 7 — no matching image found for: unknown
+2026-05-23 15:59:37 - Agent.PromptCorrector - WARNING - [PromptCorrector]   Scene 8 — no matching image found for: unknown
+2026-05-23 15:59:37 - Agent.PromptCorrector - WARNING - [PromptCorrector]   Scene 9 — no matching image found for: unknown
+2026-05-23 15:59:37 - Agent.PromptCorrector - INFO - [PromptCorrector] Prompt correction complete: 0/9 corrected

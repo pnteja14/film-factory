@@ -1,0 +1,322 @@
+2026-05-20 13:11:48 - Agent.call_tts_api - ERROR - [call_tts_api] Permanent error, not retrying: Text exceeds 600 char limit: 987 chars
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\voiceover_agent.py", line 236, in call_tts_api
+    raise PermanentException(f"Text exceeds 600 char limit: {len(text)} chars")
+utils.errors.PermanentException: Text exceeds 600 char limit: 987 chars
+2026-05-20 13:11:49 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Payment required - check HF account credits: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/flux/dev' (Request ID: Root=1-6a0df966-2da461f7246d49f834e52795;9eedaa95-fb00-4f90-bcf2-a7aad9dfd804)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/flux/dev'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 93, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=prompt,
+    ...<5 lines>...
+        guidance_scale=3.5
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/flux/dev' (Request ID: Root=1-6a0df966-2da461f7246d49f834e52795;9eedaa95-fb00-4f90-bcf2-a7aad9dfd804)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 116, in generate_image_via_hf
+    raise PermanentException(f"Payment required - check HF account credits: {e}")
+utils.errors.PermanentException: Payment required - check HF account credits: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/flux/dev' (Request ID: Root=1-6a0df966-2da461f7246d49f834e52795;9eedaa95-fb00-4f90-bcf2-a7aad9dfd804)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.
+2026-05-20 13:11:51 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Payment required - check HF account credits: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/flux/dev' (Request ID: Root=1-6a0df968-560a7f26511bd525641e3776;574f2a82-395f-4684-a228-c64d4e3de92f)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/flux/dev'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 93, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=prompt,
+    ...<5 lines>...
+        guidance_scale=3.5
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/flux/dev' (Request ID: Root=1-6a0df968-560a7f26511bd525641e3776;574f2a82-395f-4684-a228-c64d4e3de92f)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 116, in generate_image_via_hf
+    raise PermanentException(f"Payment required - check HF account credits: {e}")
+utils.errors.PermanentException: Payment required - check HF account credits: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/flux/dev' (Request ID: Root=1-6a0df968-560a7f26511bd525641e3776;574f2a82-395f-4684-a228-c64d4e3de92f)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.
+2026-05-20 13:11:53 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Payment required - check HF account credits: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/flux/dev' (Request ID: Root=1-6a0df96a-2b73fddb6d78398a4a2df6d9;26f627b9-0b80-419a-9e2f-31aa98530431)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/flux/dev'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 93, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=prompt,
+    ...<5 lines>...
+        guidance_scale=3.5
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/flux/dev' (Request ID: Root=1-6a0df96a-2b73fddb6d78398a4a2df6d9;26f627b9-0b80-419a-9e2f-31aa98530431)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 116, in generate_image_via_hf
+    raise PermanentException(f"Payment required - check HF account credits: {e}")
+utils.errors.PermanentException: Payment required - check HF account credits: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/flux/dev' (Request ID: Root=1-6a0df96a-2b73fddb6d78398a4a2df6d9;26f627b9-0b80-419a-9e2f-31aa98530431)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.
+2026-05-20 13:11:55 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Payment required - check HF account credits: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/flux/dev' (Request ID: Root=1-6a0df96c-166601a64384d3f82c65b660;36e41cfd-4f31-4941-bf8c-1720eedaba1d)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/flux/dev'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 93, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=prompt,
+    ...<5 lines>...
+        guidance_scale=3.5
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/flux/dev' (Request ID: Root=1-6a0df96c-166601a64384d3f82c65b660;36e41cfd-4f31-4941-bf8c-1720eedaba1d)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 116, in generate_image_via_hf
+    raise PermanentException(f"Payment required - check HF account credits: {e}")
+utils.errors.PermanentException: Payment required - check HF account credits: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/flux/dev' (Request ID: Root=1-6a0df96c-166601a64384d3f82c65b660;36e41cfd-4f31-4941-bf8c-1720eedaba1d)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.
+2026-05-20 13:11:57 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Payment required - check HF account credits: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/flux/dev' (Request ID: Root=1-6a0df96e-69168e62751d17190f753342;7f6610cb-fae7-4f31-b706-cf00f006cfc6)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/flux/dev'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 93, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=prompt,
+    ...<5 lines>...
+        guidance_scale=3.5
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/flux/dev' (Request ID: Root=1-6a0df96e-69168e62751d17190f753342;7f6610cb-fae7-4f31-b706-cf00f006cfc6)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 116, in generate_image_via_hf
+    raise PermanentException(f"Payment required - check HF account credits: {e}")
+utils.errors.PermanentException: Payment required - check HF account credits: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/flux/dev' (Request ID: Root=1-6a0df96e-69168e62751d17190f753342;7f6610cb-fae7-4f31-b706-cf00f006cfc6)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.
+2026-05-20 13:11:59 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Payment required - check HF account credits: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/flux/dev' (Request ID: Root=1-6a0df970-1ca2ac405998c7107b229578;1d4a72bf-c1ed-48f4-894a-7bf20c2e70be)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/flux/dev'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 93, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=prompt,
+    ...<5 lines>...
+        guidance_scale=3.5
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/flux/dev' (Request ID: Root=1-6a0df970-1ca2ac405998c7107b229578;1d4a72bf-c1ed-48f4-894a-7bf20c2e70be)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 116, in generate_image_via_hf
+    raise PermanentException(f"Payment required - check HF account credits: {e}")
+utils.errors.PermanentException: Payment required - check HF account credits: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/flux/dev' (Request ID: Root=1-6a0df970-1ca2ac405998c7107b229578;1d4a72bf-c1ed-48f4-894a-7bf20c2e70be)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.
+2026-05-20 13:12:01 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Payment required - check HF account credits: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/flux/dev' (Request ID: Root=1-6a0df973-2c24d52456874f5c4a333378;d5c9fba1-e039-4310-a225-3a5eb39461af)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/flux/dev'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 93, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=prompt,
+    ...<5 lines>...
+        guidance_scale=3.5
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/flux/dev' (Request ID: Root=1-6a0df973-2c24d52456874f5c4a333378;d5c9fba1-e039-4310-a225-3a5eb39461af)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 116, in generate_image_via_hf
+    raise PermanentException(f"Payment required - check HF account credits: {e}")
+utils.errors.PermanentException: Payment required - check HF account credits: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/flux/dev' (Request ID: Root=1-6a0df973-2c24d52456874f5c4a333378;d5c9fba1-e039-4310-a225-3a5eb39461af)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.

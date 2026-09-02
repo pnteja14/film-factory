@@ -1,0 +1,31 @@
+2026-05-31 16:50:46 - Agent.DepthSAM2 - INFO - [DepthSAM2] Pre-computing layers for all scene and reveal images...
+2026-05-31 16:50:47 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 available
+2026-05-31 16:50:47 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2: loading checkpoints/sam2.1_hiera_tiny.pt on CPU (one-time, ~10s)
+2026-05-31 16:50:48 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 generator ready — model cached for remaining images
+2026-05-31 16:51:03 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: the_grand_foyer_of_aldermoor_manor
+2026-05-31 16:51:03 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: the_grand_foyer_of_aldermoor_manor
+2026-05-31 16:51:15 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: the_manor_ballroom
+2026-05-31 16:51:15 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: the_manor_ballroom
+2026-05-31 16:51:27 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_scene3_the_grand_foyer_of_aldermoor_manor
+2026-05-31 16:51:27 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_scene3_the_grand_foyer_of_aldermoor_manor
+2026-05-31 16:51:38 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_scene4_the_manor_ballroom
+2026-05-31 16:51:38 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_scene4_the_manor_ballroom
+2026-05-31 16:51:49 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: the_mayors_study
+2026-05-31 16:51:49 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: the_mayors_study
+2026-05-31 16:52:00 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_scene6_the_mayors_study
+2026-05-31 16:52:00 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_scene6_the_mayors_study
+2026-05-31 16:52:11 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_scene7_the_mayors_study
+2026-05-31 16:52:11 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_scene7_the_mayors_study
+2026-05-31 16:52:22 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_scene8_the_mayors_study
+2026-05-31 16:52:22 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_scene8_the_mayors_study
+2026-05-31 16:52:33 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_reveal1_location_detail_e5ae139c
+2026-05-31 16:52:33 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_reveal1_location_detail_e5ae139c
+2026-05-31 16:52:44 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_reveal2_evidence_e5ae139c
+2026-05-31 16:52:44 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_reveal2_evidence_e5ae139c
+2026-05-31 16:52:56 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_reveal3_document_e5ae139c
+2026-05-31 16:52:56 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_reveal3_document_e5ae139c
+2026-05-31 16:53:07 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_reveal4_location_detail_e5ae139c
+2026-05-31 16:53:07 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_reveal4_location_detail_e5ae139c
+2026-05-31 16:53:19 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_reveal5_subject_e5ae139c
+2026-05-31 16:53:19 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_reveal5_subject_e5ae139c
+2026-05-31 16:53:19 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layer pre-compute done: 13 new, 0 cached

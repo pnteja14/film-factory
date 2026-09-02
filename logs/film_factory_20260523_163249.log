@@ -1,0 +1,42 @@
+2026-05-23 16:33:02 - Agent.ImageGenerator - INFO - [ImageGenerator] Starting image generation (Agent 5a)...
+2026-05-23 16:33:02 - Agent.ImageGenerator - INFO - [ImageGenerator] HuggingFace client initialized
+2026-05-23 16:33:02 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1: 8 anchor images at 1280x720...
+2026-05-23 16:33:02 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'Ravenshade Manor' — skipping
+2026-05-23 16:33:04 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'Virat's Apartment' — skipping
+2026-05-23 16:33:06 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'Police Archive Room' — skipping
+2026-05-23 16:33:08 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'Sophia's Office' — skipping
+2026-05-23 16:33:10 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'The Ashford Family Home (Past)' — skipping
+2026-05-23 16:33:12 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'The Highway Overpass (Past)' — skipping
+2026-05-23 16:33:14 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'Marcus's Study at Ravenshade' — skipping
+2026-05-23 16:33:16 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'The Police Station Interrogation Room' — skipping
+2026-05-23 16:33:18 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1 complete: 8/8
+2026-05-23 16:33:18 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 2: Scene images for 1 episodes...
+2026-05-23 16:33:18 - Agent.ImageGenerator - INFO - [ImageGenerator] Episode 1 scene images...
+2026-05-23 16:33:18 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 1: reusing anchor 'Virat's Apartment'
+2026-05-23 16:33:18 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 2: reusing anchor 'Ravenshade Manor'
+2026-05-23 16:33:18 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 3: reusing anchor 'Marcus's Study at Ravenshade'
+2026-05-23 16:33:18 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 4: reusing anchor 'Virat's Apartment'
+2026-05-23 16:33:19 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 3: Reveal images for 1 episodes...
+2026-05-23 16:33:19 - Agent.ImageGenerator - INFO - [ImageGenerator]   Episode 1: 6 reveals...
+2026-05-23 16:33:19 - Agent.ImageGenerator - INFO - [ImageGenerator] Reveal exists: ep1_reveal1_document.png — skipping
+2026-05-23 16:33:19 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 1: document saved
+2026-05-23 16:33:21 - Agent.ImageGenerator - INFO - [ImageGenerator] Reveal exists: ep1_reveal2_location_detail.png — skipping
+2026-05-23 16:33:21 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 2: location_detail saved
+2026-05-23 16:33:23 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [location_detail] ep1 r3
+2026-05-23 16:33:24 - Agent.ImageGenerator - ERROR - [ImageGenerator]     Reveal 3 failed: Permanent: Payment required: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/flux/dev' (Request ID: Root=1-6a121d25-258fbcdd2c54d2df65ad3633;422719d5-b634-4c86-a3d1-d298b9c323ad)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+Pay-as-you go is not enabled for provider fal-ai yet.
+2026-05-23 16:33:26 - Agent.ImageGenerator - INFO - [ImageGenerator] Reveal exists: ep1_reveal4_subject.png — skipping
+2026-05-23 16:33:26 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 4: subject saved
+2026-05-23 16:33:28 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [document] ep1 r5
+2026-05-23 16:33:28 - Agent.ImageGenerator - ERROR - [ImageGenerator]     Reveal 5 failed: Permanent: Payment required: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/flux/dev' (Request ID: Root=1-6a121d29-739b45c97999c1e64d0af9d6;2408f09f-53ed-44a3-a1c7-7b41e2bad4c1)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+Pay-as-you go is not enabled for provider fal-ai yet.
+2026-05-23 16:33:30 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [subject] ep1 r6
+2026-05-23 16:33:30 - Agent.ImageGenerator - ERROR - [ImageGenerator]     Reveal 6 failed: Permanent: Payment required: Client error '402 Payment Required' for url 'https://router.huggingface.co/fal-ai/fal-ai/flux/dev' (Request ID: Root=1-6a121d2b-4bd86add1ec563e16ceca133;aa7f7a09-0afd-48d1-bbb4-0717837d32e7)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+Pay-as-you go is not enabled for provider fal-ai yet.
+2026-05-23 16:33:32 - Agent.ImageGenerator - INFO - [ImageGenerator] Image generation complete — 8 anchors, 4 scenes, 6 reveals | All at 1280x720 (16:9)

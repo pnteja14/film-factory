@@ -1,0 +1,25 @@
+2026-05-24 22:41:53 - Agent.EditPlanner - INFO - [EditPlanner] Building timestamp-driven EDLs (Agent 6a)...
+2026-05-24 22:41:53 - Agent.EditPlanner - INFO - [EditPlanner] Planning episode 1...
+2026-05-24 22:41:53 - Agent.EditPlanner - INFO - [EditPlanner] Episode 1: 8 scenes (8 with images), 5 reveals, 8 timestamps
+2026-05-24 22:41:56 - Agent.EditPlanner - INFO - [EditPlanner] Dramatic pause: after chunk 1 at 12540ms (3500ms, effect=black_flash_hold)
+2026-05-24 22:41:56 - Agent.EditPlanner - INFO - [EditPlanner] Dramatic pause: after chunk 4 at 31760ms (2500ms, effect=vignette_crush)
+2026-05-24 22:41:56 - Agent.EditPlanner - INFO - [EditPlanner] Dramatic pause: after chunk 6 at 44280ms (3000ms, effect=vhs_glitch)
+2026-05-24 22:41:56 - Agent.EditPlanner - INFO - [EditPlanner] Episode 1: 3 dramatic pauses planned
+2026-05-24 22:41:56 - Agent.EditPlanner - INFO - [EditPlanner] Building EDL for episode 1...
+2026-05-24 22:41:56 - Agent.EditPlanner - INFO - [EditPlanner] WAV modified: 61560ms with silence
+2026-05-24 22:41:56 - Agent.EditPlanner - INFO - [EditPlanner] Total: audio=61560ms video=62060ms
+2026-05-24 22:41:56 - Agent.EditPlanner - INFO - [EditPlanner] Reveal 2: pushed past pause window to 40360ms
+2026-05-24 22:41:56 - Agent.EditPlanner - INFO - [EditPlanner] Reveal 5: pushed past pause window to 56380ms
+2026-05-24 22:41:56 - Agent.EditPlanner - INFO - [EditPlanner] EDL built: 21 entries, 5 reveals, 3 pauses, total 62.1s
+2026-05-24 22:41:56 - Agent.EditPlanner - INFO - [EditPlanner] EDL saved: outputs/episode_1_edl.json
+2026-05-24 22:41:56 - Agent.EditPlanner - INFO - [EditPlanner] Edit planning complete: 1 EDLs
+2026-05-24 22:41:56 - Agent.VideoCompositor - INFO - [VideoCompositor] Starting video composition (Agent 6b)...
+2026-05-24 22:41:56 - Agent.VideoCompositor - INFO - [VideoCompositor] Rendering episode 1...
+2026-05-24 23:18:23 - Agent.VideoCompositor - INFO - [VideoCompositor] Episode 1: 2779 frames (115.8s)
+2026-05-24 23:18:23 - Agent.VideoCompositor - INFO - [VideoCompositor] Writing 2779 frames...
+2026-05-24 23:19:36 - Agent.VideoCompositor - INFO - [VideoCompositor] Encoding with FFmpeg...
+2026-05-24 23:20:52 - Agent.VideoCompositor - INFO - [VideoCompositor] Mixing: 62.1s, 5 reveals, 3 dramatic pauses
+2026-05-24 23:20:55 - Agent.VideoCompositor - INFO - [VideoCompositor] Dynamic audio mixed: outputs/final/ep1_mixed_audio.aac
+2026-05-24 23:20:55 - Agent.VideoCompositor - INFO - [VideoCompositor] Final: outputs/final/episode_1.mp4
+2026-05-24 23:20:55 - Agent.VideoCompositor - INFO - [VideoCompositor] Episode 1 complete: outputs/final/episode_1.mp4
+2026-05-24 23:20:56 - Agent.VideoCompositor - INFO - [VideoCompositor] Composition: 1/1 rendered

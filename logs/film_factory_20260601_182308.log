@@ -1,0 +1,49 @@
+2026-06-01 18:23:32 - Agent.EditPlanner - INFO - [EditPlanner] Building edit decision lists (Agent 6a)...
+2026-06-01 18:23:32 - Agent.EditPlanner - INFO - [EditPlanner] Planning episode 1...
+2026-06-01 18:23:32 - Agent.EditPlanner - INFO - [EditPlanner] Episode 1: 8 scenes (8 with images), 5 reveals, 8 timestamps
+2026-06-01 18:23:32 - Agent.EditPlanner - INFO - [EditPlanner] Building EDL for episode 1...
+2026-06-01 18:23:32 - Agent.EditPlanner - INFO - [EditPlanner] Total audio: 125365ms (125.4s)
+2026-06-01 18:23:32 - Agent.EditPlanner - INFO - [EditPlanner] Insert shots scheduled: 0
+2026-06-01 18:23:32 - Agent.EditPlanner - INFO - [EditPlanner] EDL built: 17 entries, 5 reveals, 0 inserts, total 125.4s
+2026-06-01 18:23:32 - Agent.EditPlanner - INFO - [EditPlanner] EDL saved: outputs/episode_1_edl.json
+2026-06-01 18:23:32 - Agent.EditPlanner - INFO - [EditPlanner] Edit planning complete: 1 EDLs
+2026-06-01 18:23:32 - Agent.MusicAgent - INFO - [MusicAgent] Music generation (MusicGen: True)...
+2026-06-01 18:23:32 - Agent.MusicAgent - INFO - [MusicAgent] Cleared: ep1_score.wav
+2026-06-01 18:23:32 - Agent.MusicAgent - INFO - [MusicAgent] Cleared: ep1_sting.wav
+2026-06-01 18:23:32 - Agent.MusicAgent - INFO - [MusicAgent] Episode 1 music...
+2026-06-01 18:23:32 - Agent.MusicAgent - INFO - [MusicAgent] Episode 1: 125.4s, 5 reveals, cliffhanger at 123.4s
+2026-06-01 18:23:32 - Agent.MusicAgent - INFO - [MusicAgent] Arc segments: establish(4s), revelation(4s), establish(9s), revelation(3s), establish(1s), build(38s), revelation(3s), build(3s), investigation(22s), revelation(16s), cliffhanger(12s), revelation(4s), cliffhanger(2s)
+2026-06-01 18:23:32 - Agent.MusicAgent - INFO - [MusicAgent] Segment 0 [establish] @ The Grand Foyer of Aldermoor Manor: generating...
+2026-06-01 18:23:32 - Agent.MusicAgent - INFO - [MusicAgent] MusicGen: 'soft dark atmospheric drone, slow sustained tones, grand ech...' (5s)
+2026-06-01 18:24:15 - Agent.MusicAgent - INFO - [MusicAgent] Saved: outputs\music\ep1_seg_establish_82dec2.wav (4.8s)
+2026-06-01 18:24:15 - Agent.MusicAgent - INFO - [MusicAgent] Segment 1 [revelation] @ The Grand Foyer of Aldermoor Manor: generating...
+2026-06-01 18:24:15 - Agent.MusicAgent - INFO - [MusicAgent] MusicGen: 'tense dramatic revelation, sharp dark strings, grand echoing...' (4s)
+2026-06-01 18:24:45 - Agent.MusicAgent - INFO - [MusicAgent] Saved: outputs\music\ep1_seg_revelation_82dec2.wav (3.9s)
+2026-06-01 18:24:45 - Agent.MusicAgent - INFO - [MusicAgent] Segment 2 [establish] @ The Manor Ballroom: generating...
+2026-06-01 18:24:45 - Agent.MusicAgent - INFO - [MusicAgent] MusicGen: 'soft dark atmospheric drone, slow sustained tones, vast empt...' (10s)
+2026-06-01 18:25:55 - Agent.MusicAgent - INFO - [MusicAgent] Saved: outputs\music\ep1_seg_establish_c5aa1f.wav (9.6s)
+2026-06-01 18:25:55 - Agent.MusicAgent - INFO - [MusicAgent] Segment 3 [revelation] @ The Manor Ballroom: generating...
+2026-06-01 18:25:55 - Agent.MusicAgent - INFO - [MusicAgent] MusicGen: 'tense dramatic revelation, sharp dark strings, vast empty co...' (4s)
+2026-06-01 18:26:25 - Agent.MusicAgent - INFO - [MusicAgent] Saved: outputs\music\ep1_seg_revelation_c5aa1f.wav (3.4s)
+2026-06-01 18:26:25 - Agent.MusicAgent - INFO - [MusicAgent] Segment cache hit: ep1_seg_establish_c5aa1f.wav
+2026-06-01 18:26:25 - Agent.MusicAgent - INFO - [MusicAgent] Segment 5 [build] @ The Manor Ballroom: generating...
+2026-06-01 18:26:25 - Agent.MusicAgent - INFO - [MusicAgent] MusicGen: 'building dark tension, slow rhythmic pulse emerging, vast em...' (30s)
+2026-06-01 21:05:35 - Agent.MusicAgent - INFO - [MusicAgent] Saved: outputs\music\ep1_seg_build_c5aa1f.wav (29.9s)
+2026-06-01 21:05:35 - Agent.MusicAgent - INFO - [MusicAgent] Segment cache hit: ep1_seg_revelation_c5aa1f.wav
+2026-06-01 21:05:35 - Agent.MusicAgent - INFO - [MusicAgent] Segment cache hit: ep1_seg_build_c5aa1f.wav
+2026-06-01 21:05:35 - Agent.MusicAgent - INFO - [MusicAgent] Segment 8 [investigation] @ The Mayor's Study: generating...
+2026-06-01 21:05:35 - Agent.MusicAgent - INFO - [MusicAgent] MusicGen: 'methodical dark score, detective thriller, intimate enclosed...' (23s)
+2026-06-01 21:08:20 - Agent.MusicAgent - INFO - [MusicAgent] Saved: outputs\music\ep1_seg_investigation_634604.wav (22.7s)
+2026-06-01 21:08:20 - Agent.MusicAgent - INFO - [MusicAgent] Segment 9 [revelation] @ The Mayor's Study: generating...
+2026-06-01 21:08:20 - Agent.MusicAgent - INFO - [MusicAgent] MusicGen: 'tense dramatic revelation, sharp dark strings, intimate encl...' (16s)
+2026-06-01 21:10:10 - Agent.MusicAgent - INFO - [MusicAgent] Saved: outputs\music\ep1_seg_revelation_634604.wav (16.3s)
+2026-06-01 21:10:10 - Agent.MusicAgent - INFO - [MusicAgent] Segment 10 [cliffhanger] @ The Mayor's Study: generating...
+2026-06-01 21:10:10 - Agent.MusicAgent - INFO - [MusicAgent] MusicGen: 'intense thriller cliffhanger, deep bass impact, intimate enc...' (12s)
+2026-06-01 21:11:27 - Agent.MusicAgent - INFO - [MusicAgent] Saved: outputs\music\ep1_seg_cliffhanger_634604.wav (12.3s)
+2026-06-01 21:11:27 - Agent.MusicAgent - INFO - [MusicAgent] Segment cache hit: ep1_seg_revelation_634604.wav
+2026-06-01 21:11:27 - Agent.MusicAgent - INFO - [MusicAgent] Segment cache hit: ep1_seg_cliffhanger_634604.wav
+2026-06-01 21:11:29 - Agent.MusicAgent - INFO - [MusicAgent] Saved: outputs\music\ep1_score.wav (125.4s)
+2026-06-01 21:11:29 - Agent.MusicAgent - INFO - [MusicAgent] Arc score: outputs\music\ep1_score.wav (125.4s, 13 segments)
+2026-06-01 21:11:29 - Agent.MusicAgent - INFO - [MusicAgent] Generating sting...
+2026-06-01 21:11:29 - Agent.MusicAgent - INFO - [MusicAgent] Saved: outputs\music\ep1_sting.wav (2.0s)
+2026-06-01 21:11:29 - Agent.MusicAgent - INFO - [MusicAgent] Episode 1 music complete

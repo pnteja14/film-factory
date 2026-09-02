@@ -1,0 +1,9 @@
+2026-05-25 15:21:23 - Orchestrator - INFO - =================================================================
+2026-05-25 15:21:23 - Orchestrator - INFO - FILM FACTORY — CINEMATIC NARRATION PIPELINE
+2026-05-25 15:21:23 - Orchestrator - INFO - =================================================================
+2026-05-25 15:21:23 - Orchestrator - INFO - Output directories verified
+2026-05-25 15:21:23 - Orchestrator - INFO - Story idea: A late-night emergency operator receives a call from a terrified man claiming someone is standing outside his isolated farmhouse — but the call abruptly disconnects after he whispers, “He’s already inside.” Ten years later, a rookie investigative journalist discovers the audio was edited before being released to the public, and the missing final 17 seconds may prove the murders were never committed by the man who went to prison. As she retraces the case, survivors, witnesses, and even retired detectives begin disappearing after receiving anonymous calls from the same disconnected phone line.
+2026-05-25 15:22:46 - Orchestrator - INFO - Context saved: outputs\context_after_scene_director.json
+2026-05-25 15:28:53 - Orchestrator - INFO - Context saved: outputs\context_after_images.json
+2026-05-25 15:44:22 - Orchestrator - INFO - Context saved: outputs\context_after_edit_plan.json
+2026-05-25 16:52:57 - Orchestrator - INFO - Context saved: outputs\context.json

@@ -1,0 +1,110 @@
+2026-05-20 01:41:30 - Agent.StoryArchitect - INFO - [StoryArchitect] Starting story planning...
+2026-05-20 01:41:30 - Agent.StoryArchitect - INFO - [StoryArchitect] Brand voice loaded
+2026-05-20 01:41:30 - Agent.StoryArchitect - INFO - [StoryArchitect] Calling Ollama for story plan...
+2026-05-20 01:41:31 - Agent.StoryArchitect - ERROR - [StoryArchitect] Ollama API call failed: model requires more system memory (4.5 GiB) than is available (3.3 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\story_architect.py", line 29, in call_ollama_for_story_plan
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.3 GiB) (status code: 500)
+2026-05-20 01:41:33 - Agent.StoryArchitect - ERROR - [StoryArchitect] Ollama API call failed: model requires more system memory (4.5 GiB) than is available (3.2 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\story_architect.py", line 29, in call_ollama_for_story_plan
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.2 GiB) (status code: 500)
+2026-05-20 01:41:37 - Agent.StoryArchitect - ERROR - [StoryArchitect] Ollama API call failed: model requires more system memory (4.5 GiB) than is available (3.3 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\story_architect.py", line 29, in call_ollama_for_story_plan
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.3 GiB) (status code: 500)
+2026-05-20 01:41:37 - Agent.StoryArchitect - ERROR - [StoryArchitect] Unexpected error in story planning: Ollama call failed: model requires more system memory (4.5 GiB) than is available (3.3 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\story_architect.py", line 29, in call_ollama_for_story_plan
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.3 GiB) (status code: 500)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\story_architect.py", line 191, in plan_story
+    raw_response = call_ollama_for_story_plan(prompt)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\story_architect.py", line 37, in call_ollama_for_story_plan
+    raise RetryableException(f"Ollama call failed: {e}")
+utils.errors.RetryableException: Ollama call failed: model requires more system memory (4.5 GiB) than is available (3.3 GiB) (status code: 500)

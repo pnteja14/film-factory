@@ -1,0 +1,12 @@
+2026-05-20 02:48:34 - Orchestrator - INFO - ============================================================
+2026-05-20 02:48:34 - Orchestrator - INFO - FILM FACTORY PIPELINE STARTING
+2026-05-20 02:48:34 - Orchestrator - INFO - ============================================================
+2026-05-20 02:48:34 - Orchestrator - INFO - Output directories verified
+2026-05-20 02:48:34 - Orchestrator - INFO - Story idea: A nurse discovers her hospital is quietly killing patients for organ harvesting and she is the next target
+2026-05-20 02:48:34 - Orchestrator - INFO - 
+[1/5] Running Story Architect...
+2026-05-20 02:49:30 - Orchestrator - INFO - 
+[2/5] Running Screenplay Writer...
+2026-05-20 02:49:30 - Orchestrator - INFO -   Writing episode 1...
+2026-05-20 02:52:18 - Orchestrator - ERROR - Screenplay Writer failed: Failed to generate script: Claude call failed: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDTWH7z2MMt8wS8rwbvD'}
+2026-05-20 02:52:18 - Orchestrator - ERROR - Pipeline failed: Failed to generate script: Claude call failed: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDTWH7z2MMt8wS8rwbvD'}

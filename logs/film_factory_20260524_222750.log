@@ -1,0 +1,32 @@
+2026-05-24 22:28:07 - Agent.WhisperAlignment - INFO - [WhisperAlignment] Running Whisper word alignment...
+2026-05-24 22:28:08 - Agent.WhisperAlignment - INFO - [WhisperAlignment] Loading Whisper base model...
+2026-05-24 22:28:09 - Agent.WhisperAlignment - INFO - [WhisperAlignment] Whisper model loaded
+2026-05-24 22:28:09 - Agent.WhisperAlignment - INFO - [WhisperAlignment] Running Whisper alignment on outputs/audio/episode_1_voiceover.wav...
+2026-05-24 22:28:18 - Agent.WhisperAlignment - INFO - [WhisperAlignment] Episode 1: 86 words aligned
+2026-05-24 22:28:18 - Agent.WhisperAlignment - INFO - [WhisperAlignment] Episode 1: 86 words aligned, span 0ms → 50380ms
+2026-05-24 22:28:34 - Agent.ImageGenerator - INFO - [ImageGenerator] Starting image generation (Agent 5a)...
+2026-05-24 22:28:34 - Agent.ImageGenerator - INFO - [ImageGenerator] HuggingFace client initialized
+2026-05-24 22:28:34 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1: 8 anchor images at 1280x720...
+2026-05-24 22:28:34 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'Ravenshade Manor' — skipping
+2026-05-24 22:28:36 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'Virat's Apartment' — skipping
+2026-05-24 22:28:38 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'Police Archive Room' — skipping
+2026-05-24 22:28:40 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'Sophia's Office' — skipping
+2026-05-24 22:28:42 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'The Ashford Family Home (Past)' — skipping
+2026-05-24 22:28:44 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'The Highway Overpass (Past)' — skipping
+2026-05-24 22:28:46 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'Marcus's Study at Ravenshade' — skipping
+2026-05-24 22:28:48 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'The Police Station Interrogation Room' — skipping
+2026-05-24 22:28:50 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1 complete: 8/8
+2026-05-24 22:28:50 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 2: Scene images for 1 episodes...
+2026-05-24 22:28:50 - Agent.ImageGenerator - INFO - [ImageGenerator] Episode 1 scene images...
+2026-05-24 22:28:55 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 1: generated 'Virat's Apartment'
+2026-05-24 22:28:56 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 2: reusing anchor 'Virat's Apartment' (location shot)
+2026-05-24 22:29:02 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 3: generated 'Virat's Apartment'
+2026-05-24 22:29:03 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 4: reusing anchor 'Virat's Apartment' (location shot)
+2026-05-24 22:29:03 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 5: reusing anchor 'Virat's Apartment' (location shot)
+2026-05-24 22:29:03 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 6: reusing anchor 'Ravenshade Manor' (location shot)
+2026-05-24 22:29:03 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 7: reusing anchor 'Marcus's Study at Ravenshade' (location shot)
+2026-05-24 22:29:08 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 8: generated 'Marcus's Study at Ravenshade'
+2026-05-24 22:29:13 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 9: generated 'Marcus's Study at Ravenshade'
+2026-05-24 22:29:15 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 3: Reveal images for 1 episodes...
+2026-05-24 22:29:15 - Agent.ImageGenerator - INFO - [ImageGenerator]   Episode 1: 5 reveals...
+2026-05-24 22:29:15 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [document] ep1 r1

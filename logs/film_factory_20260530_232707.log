@@ -1,0 +1,74 @@
+2026-05-30 23:33:21 - Agent.ImageGenerator - INFO - [ImageGenerator] Starting image generation (Agent 5a)...
+2026-05-30 23:33:21 - Agent.ImageGenerator - INFO - [ImageGenerator] HuggingFace client initialized
+2026-05-30 23:33:21 - Agent.ImageGenerator - INFO - [ImageGenerator] Story changed — clearing old images for fresh generation
+2026-05-30 23:33:21 - Agent.ImageGenerator - INFO - [ImageGenerator] Deleted 18 existing images — fresh generation
+2026-05-30 23:33:21 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1: 7 anchor images at 1280x720...
+2026-05-30 23:33:21 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'Nora's Studio Apartment' (1280x720)
+2026-05-30 23:33:27 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\noras_studio_apartment.png
+2026-05-30 23:33:29 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Transit Corridor' (1280x720)
+2026-05-30 23:33:34 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_transit_corridor.png
+2026-05-30 23:33:36 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'Rhea's Office at the Municipal Communications Building' (1280x720)
+2026-05-30 23:33:43 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\rheas_office_at_the_municipal_communications_building.png
+2026-05-30 23:33:45 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Ardent Systems Building' (1280x720)
+2026-05-30 23:33:50 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_ardent_systems_building.png
+2026-05-30 23:33:52 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'Warren Holt's House' (1280x720)
+2026-05-30 23:33:56 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\warren_holts_house.png
+2026-05-30 23:33:58 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'Petra Solms' Apartment' (1280x720)
+2026-05-30 23:34:03 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\petra_solms_apartment.png
+2026-05-30 23:34:05 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Blackout District — Meridian Street' (1280x720)
+2026-05-30 23:34:10 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_blackout_district__meridian_street.png
+2026-05-30 23:34:12 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1 complete: 7/7
+2026-05-30 23:34:12 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1.5: Correcting scene prompts against anchor images...
+2026-05-30 23:34:14 - Agent.ImageGenerator - INFO - [ImageGenerator]   Anchor analyzed: 'Nora's Studio Apartment'
+2026-05-30 23:34:17 - Agent.ImageGenerator - INFO - [ImageGenerator]   Anchor analyzed: 'The Transit Corridor'
+2026-05-30 23:34:20 - Agent.ImageGenerator - INFO - [ImageGenerator]   Anchor analyzed: 'Rhea's Office at the Municipal Communications Building'
+2026-05-30 23:34:23 - Agent.ImageGenerator - INFO - [ImageGenerator]   Anchor analyzed: 'The Ardent Systems Building'
+2026-05-30 23:34:26 - Agent.ImageGenerator - INFO - [ImageGenerator]   Anchor analyzed: 'Warren Holt's House'
+2026-05-30 23:34:29 - Agent.ImageGenerator - INFO - [ImageGenerator]   Anchor analyzed: 'Petra Solms' Apartment'
+2026-05-30 23:34:32 - Agent.ImageGenerator - INFO - [ImageGenerator]   Anchor analyzed: 'The Blackout District — Meridian Street'
+2026-05-30 23:34:46 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1.5 complete: 7 prompts corrected
+2026-05-30 23:34:46 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 2: Scene images for 1 episodes...
+2026-05-30 23:34:46 - Agent.ImageGenerator - INFO - [ImageGenerator] Episode 1 scene images...
+2026-05-30 23:34:46 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 1: anchor 'Nora's Studio Apartment' (first use)
+2026-05-30 23:34:51 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 2 attempt 1: validation score=0.00
+2026-05-30 23:34:51 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 2: score 0.00 < 0.55 — retrying
+2026-05-30 23:34:58 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 2 attempt 2: validation score=0.00
+2026-05-30 23:34:58 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 2: score 0.00 < 0.55 — retrying
+2026-05-30 23:35:05 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 2 attempt 3: validation score=0.00
+2026-05-30 23:35:06 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 2: kept best attempt (score 0.00) for 'Nora's Studio Apartment'
+2026-05-30 23:35:07 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 3: anchor 'The Blackout District — Meridian Street' (first use)
+2026-05-30 23:35:13 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 4 attempt 1: validation score=0.10
+2026-05-30 23:35:13 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 4: score 0.10 < 0.55 — retrying
+2026-05-30 23:35:20 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 4 attempt 2: validation score=0.10
+2026-05-30 23:35:20 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 4: score 0.10 < 0.55 — retrying
+2026-05-30 23:35:26 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 4 attempt 3: validation score=0.70
+2026-05-30 23:35:26 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 4: generated 'Nora's Studio Apartment' (score 0.70)
+2026-05-30 23:35:27 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 5: anchor 'Warren Holt's House' (first use)
+2026-05-30 23:35:27 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 6: anchor 'The Transit Corridor' (first use)
+2026-05-30 23:35:27 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 7: anchor 'The Ardent Systems Building' (first use)
+2026-05-30 23:35:28 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 3: Reveal images for 1 episodes...
+2026-05-30 23:35:28 - Agent.ImageGenerator - INFO - [ImageGenerator]   Episode 1: 5 reveals...
+2026-05-30 23:35:28 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [evidence] ep1 r1
+2026-05-30 23:35:33 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal1_evidence_d0e72807.png
+2026-05-30 23:35:33 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 1: evidence saved
+2026-05-30 23:35:35 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [evidence] ep1 r2
+2026-05-30 23:35:39 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal2_evidence_d0e72807.png
+2026-05-30 23:35:39 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 2: evidence saved
+2026-05-30 23:35:41 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [evidence] ep1 r3
+2026-05-30 23:35:46 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal3_evidence_d0e72807.png
+2026-05-30 23:35:46 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 3: evidence saved
+2026-05-30 23:35:48 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [location_detail] ep1 r4
+2026-05-30 23:35:51 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal4_location_detail_d0e72807.png
+2026-05-30 23:35:51 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 4: location_detail saved
+2026-05-30 23:35:53 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [evidence] ep1 r5
+2026-05-30 23:35:57 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal5_evidence_d0e72807.png
+2026-05-30 23:35:57 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 5: evidence saved
+2026-05-30 23:35:59 - Agent.ImageGenerator - INFO - [ImageGenerator] Image generation complete — 7 anchors, 7 scenes, 5 reveals | All at 1280x720 (16:9)
+2026-05-30 23:39:43 - Agent.EditPlanner - INFO - [EditPlanner] Building edit decision lists (Agent 6a)...
+2026-05-30 23:39:43 - Agent.EditPlanner - INFO - [EditPlanner] Planning episode 1...
+2026-05-30 23:39:43 - Agent.EditPlanner - INFO - [EditPlanner] Episode 1: 7 scenes (7 with images), 5 reveals, 7 timestamps
+2026-05-30 23:39:43 - Agent.EditPlanner - INFO - [EditPlanner] Building EDL for episode 1...
+2026-05-30 23:39:43 - Agent.EditPlanner - INFO - [EditPlanner] Total audio: 64760ms (64.8s)
+2026-05-30 23:39:43 - Agent.EditPlanner - INFO - [EditPlanner] EDL built: 14 entries, 5 reveals, total 64.8s
+2026-05-30 23:39:43 - Agent.EditPlanner - INFO - [EditPlanner] EDL saved: outputs/episode_1_edl.json
+2026-05-30 23:39:43 - Agent.EditPlanner - INFO - [EditPlanner] Edit planning complete: 1 EDLs

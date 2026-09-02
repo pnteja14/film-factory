@@ -1,0 +1,126 @@
+2026-06-02 00:54:16 - Agent.ImageGenerator - INFO - [ImageGenerator] Starting image generation (Agent 5a)...
+2026-06-02 00:54:16 - Agent.ImageGenerator - INFO - [ImageGenerator] HuggingFace client initialized
+2026-06-02 00:54:16 - Agent.ImageGenerator - INFO - [ImageGenerator] Same story detected — reusing existing images (set REUSE_EXISTING_IMAGES=True to force)
+2026-06-02 00:54:16 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1: 7 anchor images at 1024x576...
+2026-06-02 00:54:16 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'The Long Approach — Ashveil Manor Driveway' — skipping
+2026-06-02 00:54:18 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Grand Ballroom' (1024x576)
+2026-06-02 00:56:08 - Agent.ImageGenerator - ERROR - [ImageGenerator] Anchor failed 'The Grand Ballroom': Max retries: Kaggle generation failed: 503 Server Error: Service Unavailable for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-02 00:56:10 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Portrait Gallery — East Wing Corridor' (1024x576)
+2026-06-02 00:56:10 - Agent.ImageGenerator - ERROR - [ImageGenerator] Anchor failed 'The Portrait Gallery — East Wing Corridor': Max retries: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-02 00:56:12 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Study — Lord Ashveil's Private Room' (1024x576)
+2026-06-02 00:56:13 - Agent.ImageGenerator - ERROR - [ImageGenerator] Anchor failed 'The Study — Lord Ashveil's Private Room': Max retries: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-02 00:56:15 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Wine Cellar — Below the East Wing' (1024x576)
+2026-06-02 00:56:16 - Agent.ImageGenerator - ERROR - [ImageGenerator] Anchor failed 'The Wine Cellar — Below the East Wing': Max retries: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-02 00:56:18 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Walled Garden — Manor Grounds' (1024x576)
+2026-06-02 00:56:19 - Agent.ImageGenerator - ERROR - [ImageGenerator] Anchor failed 'The Walled Garden — Manor Grounds': Max retries: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-02 00:56:21 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Servants' Staircase — North Wing' (1024x576)
+2026-06-02 00:56:21 - Agent.ImageGenerator - ERROR - [ImageGenerator] Anchor failed 'The Servants' Staircase — North Wing': Max retries: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-02 00:56:23 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1 complete: 1/7
+2026-06-02 00:56:23 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1.5: Correcting scene prompts against anchor images...
+2026-06-02 00:56:26 - Agent.ImageGenerator - INFO - [ImageGenerator]   Anchor analyzed: 'The Long Approach — Ashveil Manor Driveway'
+2026-06-02 00:56:31 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1.5 complete: 2 prompts corrected
+2026-06-02 00:56:31 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 2: Scene images for 1 episodes...
+2026-06-02 00:56:31 - Agent.ImageGenerator - INFO - [ImageGenerator] Episode 1 scene images...
+2026-06-02 00:56:32 - Agent.ImageGenerator - ERROR - [ImageGenerator]   Scene 1 attempt 1 failed: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-02 00:56:33 - Agent.ImageGenerator - ERROR - [ImageGenerator]   Scene 1 attempt 2 failed: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-02 00:56:33 - Agent.ImageGenerator - ERROR - [ImageGenerator]   Scene 1 attempt 3 failed: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-02 00:56:35 - Agent.ImageGenerator - ERROR - [ImageGenerator]   Scene 2 attempt 1 failed: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-02 00:56:36 - Agent.ImageGenerator - ERROR - [ImageGenerator]   Scene 2 attempt 2 failed: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-02 00:56:37 - Agent.ImageGenerator - ERROR - [ImageGenerator]   Scene 2 attempt 3 failed: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-02 00:56:38 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 3: anchor 'The Long Approach — Ashveil Manor Driveway' (first use)
+2026-06-02 00:56:39 - Agent.ImageGenerator - ERROR - [ImageGenerator]   Scene 4 attempt 1 failed: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-02 00:56:40 - Agent.ImageGenerator - ERROR - [ImageGenerator]   Scene 4 attempt 2 failed: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-02 00:56:40 - Agent.ImageGenerator - ERROR - [ImageGenerator]   Scene 4 attempt 3 failed: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-02 00:56:42 - Agent.ImageGenerator - ERROR - [ImageGenerator]   Scene 5 attempt 1 failed: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-02 00:56:42 - Agent.ImageGenerator - ERROR - [ImageGenerator]   Scene 5 attempt 2 failed: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-02 00:56:43 - Agent.ImageGenerator - ERROR - [ImageGenerator]   Scene 5 attempt 3 failed: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-02 00:56:44 - Agent.ImageGenerator - ERROR - [ImageGenerator]   Scene 6 attempt 1 failed: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-02 00:56:45 - Agent.ImageGenerator - ERROR - [ImageGenerator]   Scene 6 attempt 2 failed: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-02 00:56:45 - Agent.ImageGenerator - ERROR - [ImageGenerator]   Scene 6 attempt 3 failed: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-02 00:56:47 - Agent.ImageGenerator - ERROR - [ImageGenerator]   Scene 7 attempt 1 failed: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-02 00:56:47 - Agent.ImageGenerator - ERROR - [ImageGenerator]   Scene 7 attempt 2 failed: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-02 00:56:48 - Agent.ImageGenerator - ERROR - [ImageGenerator]   Scene 7 attempt 3 failed: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-02 00:56:49 - Agent.ImageGenerator - ERROR - [ImageGenerator]   Scene 8 attempt 1 failed: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-02 00:56:50 - Agent.ImageGenerator - ERROR - [ImageGenerator]   Scene 8 attempt 2 failed: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-02 00:56:50 - Agent.ImageGenerator - ERROR - [ImageGenerator]   Scene 8 attempt 3 failed: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-02 00:56:52 - Agent.ImageGenerator - ERROR - [ImageGenerator]   Scene 9 attempt 1 failed: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-02 00:56:52 - Agent.ImageGenerator - ERROR - [ImageGenerator]   Scene 9 attempt 2 failed: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-02 00:56:53 - Agent.ImageGenerator - ERROR - [ImageGenerator]   Scene 9 attempt 3 failed: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-02 00:56:54 - Agent.ImageGenerator - ERROR - [ImageGenerator]   Scene 10 attempt 1 failed: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-02 00:56:55 - Agent.ImageGenerator - ERROR - [ImageGenerator]   Scene 10 attempt 2 failed: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-02 00:56:55 - Agent.ImageGenerator - ERROR - [ImageGenerator]   Scene 10 attempt 3 failed: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-02 00:56:57 - Agent.ImageGenerator - ERROR - [ImageGenerator]   Scene 11 attempt 1 failed: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-02 00:56:57 - Agent.ImageGenerator - ERROR - [ImageGenerator]   Scene 11 attempt 2 failed: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-02 00:56:58 - Agent.ImageGenerator - ERROR - [ImageGenerator]   Scene 11 attempt 3 failed: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-02 00:56:59 - Agent.ImageGenerator - ERROR - [ImageGenerator]   Scene 12 attempt 1 failed: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-02 00:57:00 - Agent.ImageGenerator - ERROR - [ImageGenerator]   Scene 12 attempt 2 failed: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-02 00:57:00 - Agent.ImageGenerator - ERROR - [ImageGenerator]   Scene 12 attempt 3 failed: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-02 00:57:02 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 3: Reveal images for 1 episodes...
+2026-06-02 00:57:02 - Agent.ImageGenerator - INFO - [ImageGenerator]   Episode 1: 5 reveals...
+2026-06-02 00:57:02 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [document] ep1 r1
+2026-06-02 00:57:03 - Agent.ImageGenerator - ERROR - [ImageGenerator]     Reveal 1 failed: Max retries: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-02 00:57:05 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [location_detail] ep1 r2
+2026-06-02 00:57:05 - Agent.ImageGenerator - ERROR - [ImageGenerator]     Reveal 2 failed: Max retries: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-02 00:57:07 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [evidence] ep1 r3
+2026-06-02 00:57:08 - Agent.ImageGenerator - ERROR - [ImageGenerator]     Reveal 3 failed: Max retries: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-02 00:57:10 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [subject] ep1 r4
+2026-06-02 00:57:11 - Agent.ImageGenerator - ERROR - [ImageGenerator]     Reveal 4 failed: Max retries: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-02 00:57:13 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [document] ep1 r5
+2026-06-02 00:57:14 - Agent.ImageGenerator - ERROR - [ImageGenerator]     Reveal 5 failed: Max retries: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-02 00:57:16 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 3.5: Insert shot images...
+2026-06-02 00:57:16 - Agent.ImageGenerator - WARNING - [ImageGenerator]   Insert ep1 s1 'letter' failed: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-02 00:57:18 - Agent.ImageGenerator - WARNING - [ImageGenerator]   Insert ep1 s2 'debt' failed: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-02 00:57:19 - Agent.ImageGenerator - WARNING - [ImageGenerator]   Insert ep1 s5 'mask' failed: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-02 00:57:21 - Agent.ImageGenerator - WARNING - [ImageGenerator]   Insert ep1 s11 'registry' failed: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-02 00:57:22 - Agent.ImageGenerator - WARNING - [ImageGenerator]   Insert ep1 s12 'signed' failed: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-02 00:57:23 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 3.5 complete: 0/5 insert shots generated
+2026-06-02 00:57:23 - Agent.ImageGenerator - INFO - [ImageGenerator] Image generation complete — 1 anchors, 1 scenes, 0 reveals | All at 1024x576 (16:9)
+2026-06-02 00:57:23 - Agent.EditPlanner - INFO - [EditPlanner] Building edit decision lists (Agent 6a)...
+2026-06-02 00:57:23 - Agent.EditPlanner - INFO - [EditPlanner] Planning episode 1...
+2026-06-02 00:57:23 - Agent.EditPlanner - INFO - [EditPlanner] Episode 1: 12 scenes (1 with images), 5 reveals, 12 timestamps
+2026-06-02 00:57:23 - Agent.EditPlanner - INFO - [EditPlanner] Building EDL for episode 1...
+2026-06-02 00:57:23 - Agent.EditPlanner - INFO - [EditPlanner] Total audio: 92011ms (92.0s)
+2026-06-02 00:57:23 - Agent.EditPlanner - WARNING - [EditPlanner] Scene 1: image missing and no anchor found — None
+2026-06-02 00:57:23 - Agent.EditPlanner - WARNING - [EditPlanner] Scene 2: image missing and no anchor found — None
+2026-06-02 00:57:23 - Agent.EditPlanner - WARNING - [EditPlanner] Scene 4: image missing and no anchor found — None
+2026-06-02 00:57:23 - Agent.EditPlanner - WARNING - [EditPlanner] Scene 5: image missing and no anchor found — None
+2026-06-02 00:57:23 - Agent.EditPlanner - WARNING - [EditPlanner] Scene 6: image missing and no anchor found — None
+2026-06-02 00:57:23 - Agent.EditPlanner - WARNING - [EditPlanner] Scene 7: image missing and no anchor found — None
+2026-06-02 00:57:23 - Agent.EditPlanner - WARNING - [EditPlanner] Scene 8: image missing and no anchor found — None
+2026-06-02 00:57:23 - Agent.EditPlanner - WARNING - [EditPlanner] Scene 9: image missing and no anchor found — None
+2026-06-02 00:57:23 - Agent.EditPlanner - WARNING - [EditPlanner] Scene 10: image missing and no anchor found — None
+2026-06-02 00:57:23 - Agent.EditPlanner - WARNING - [EditPlanner] Scene 11: image missing and no anchor found — None
+2026-06-02 00:57:23 - Agent.EditPlanner - WARNING - [EditPlanner] Scene 12: image missing and no anchor found — None
+2026-06-02 00:57:23 - Agent.EditPlanner - WARNING - [EditPlanner] Reveal 1: no image — skipping
+2026-06-02 00:57:23 - Agent.EditPlanner - WARNING - [EditPlanner] Reveal 2: no image — skipping
+2026-06-02 00:57:23 - Agent.EditPlanner - WARNING - [EditPlanner] Reveal 3: no image — skipping
+2026-06-02 00:57:23 - Agent.EditPlanner - WARNING - [EditPlanner] Reveal 4: no image — skipping
+2026-06-02 00:57:23 - Agent.EditPlanner - WARNING - [EditPlanner] Reveal 5: no image — skipping
+2026-06-02 00:57:23 - Agent.EditPlanner - INFO - [EditPlanner] Insert shots scheduled: 0
+2026-06-02 00:57:23 - Agent.EditPlanner - INFO - [EditPlanner] EDL built: 13 entries, 0 reveals, 0 inserts, total 92.0s
+2026-06-02 00:57:23 - Agent.EditPlanner - INFO - [EditPlanner] EDL saved: outputs/episode_1_edl.json
+2026-06-02 00:57:23 - Agent.EditPlanner - INFO - [EditPlanner] Edit planning complete: 1 EDLs
+2026-06-02 00:57:23 - Agent.VideoCompositor - INFO - [VideoCompositor] Starting video composition (Agent 6b — FFmpeg)...
+2026-06-02 00:57:23 - Agent.VideoCompositor - INFO - [VideoCompositor] Subtitles written: outputs/final/tmp_ep1/ep1_subtitles.ass (42 lines)
+2026-06-02 00:57:24 - Agent.VideoCompositor - INFO - [VideoCompositor] Title card: outputs/final/tmp_ep1/ep1_title.mp4
+2026-06-02 00:57:24 - Agent.VideoCompositor - WARNING - [VideoCompositor] Entry 0: missing image None
+2026-06-02 00:57:24 - Agent.VideoCompositor - WARNING - [VideoCompositor] Entry 1: missing image None
+2026-06-02 00:57:29 - Agent.VideoCompositor - WARNING - [VideoCompositor] Entry 3: missing image None
+2026-06-02 00:57:29 - Agent.VideoCompositor - WARNING - [VideoCompositor] Entry 4: missing image None
+2026-06-02 00:57:29 - Agent.VideoCompositor - WARNING - [VideoCompositor] Entry 5: missing image None
+2026-06-02 00:57:29 - Agent.VideoCompositor - WARNING - [VideoCompositor] Entry 6: missing image None
+2026-06-02 00:57:29 - Agent.VideoCompositor - WARNING - [VideoCompositor] Entry 7: missing image None
+2026-06-02 00:57:29 - Agent.VideoCompositor - WARNING - [VideoCompositor] Entry 8: missing image None
+2026-06-02 00:57:29 - Agent.VideoCompositor - WARNING - [VideoCompositor] Entry 9: missing image None
+2026-06-02 00:57:29 - Agent.VideoCompositor - WARNING - [VideoCompositor] Entry 10: missing image None
+2026-06-02 00:57:29 - Agent.VideoCompositor - WARNING - [VideoCompositor] Entry 11: missing image None
+2026-06-02 00:57:29 - Agent.VideoCompositor - WARNING - [VideoCompositor] Entry 12: missing image None
+2026-06-02 00:57:29 - Agent.VideoCompositor - INFO - [VideoCompositor] TBC card: outputs/final/tmp_ep1/ep1_tbc.mp4
+2026-06-02 00:57:29 - Agent.VideoCompositor - INFO - [VideoCompositor] Concatenated 3 segments -> outputs/final/tmp_ep1/ep1_video.mp4
+2026-06-02 00:57:31 - Agent.VideoCompositor - INFO - [VideoCompositor] Subtitles burned: outputs/final/tmp_ep1/ep1_subbed.mp4
+2026-06-02 00:57:32 - Agent.VideoCompositor - INFO - [VideoCompositor] Shadow seal applied: outputs/final/tmp_ep1/ep1_sealed.mp4
+2026-06-02 00:57:32 - Agent.VideoCompositor - INFO - [VideoCompositor] Mixing: 90.0s, 5 reveals, 0 dramatic pauses
+2026-06-02 00:57:35 - Agent.VideoCompositor - INFO - [VideoCompositor] Dynamic audio mixed: outputs/final/tmp_ep1/ep1_audio.aac
+2026-06-02 00:57:37 - Agent.VideoCompositor - INFO - [VideoCompositor] Final: outputs/final/episode_1.mp4
+2026-06-02 00:57:37 - Agent.VideoCompositor - INFO - [VideoCompositor] Episode 1 complete: outputs/final/episode_1.mp4
+2026-06-02 00:57:37 - Agent.VideoCompositor - INFO - [VideoCompositor] Composition: 1/1 rendered

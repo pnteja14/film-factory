@@ -1,0 +1,10 @@
+2026-05-30 13:07:50 - Orchestrator - INFO - =================================================================
+2026-05-30 13:07:50 - Orchestrator - INFO - FILM FACTORY — CINEMATIC NARRATION PIPELINE
+2026-05-30 13:07:50 - Orchestrator - INFO - =================================================================
+2026-05-30 13:07:50 - Orchestrator - INFO - Output directories verified
+2026-05-30 13:07:50 - Orchestrator - INFO - Story idea: When a man wakes up with a stranger's memories, he learns he has only 48 hours to stop the murder he himself committed in another life.
+2026-05-30 13:09:59 - Orchestrator - INFO - SINGLE_EPISODE_MODE: running episode 1 only
+2026-05-30 13:10:29 - Orchestrator - INFO - Context saved: outputs\context_after_scene_director.json
+2026-05-30 13:14:11 - Orchestrator - INFO - Context saved: outputs\context_after_images.json
+2026-05-30 13:25:29 - Orchestrator - INFO - Context saved: outputs\context_after_edit_plan.json
+2026-05-30 13:38:25 - Orchestrator - INFO - Context saved: outputs\context.json

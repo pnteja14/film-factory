@@ -1,0 +1,7 @@
+2026-05-31 16:46:41 - Agent.call_tts_api - ERROR - [call_tts_api] Permanent error, not retrying: API error 403: <403> AllocationQuota.FreeTierOnly: The free tier of the model has been exhausted. If you wish to continue access the model on a paid basis, please disable the "use free tier only" mode in the management console.
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\voiceover_agent.py", line 187, in call_tts_api
+    raise PermanentException(f"API error {resp.status_code}: {error_msg}")
+utils.errors.PermanentException: API error 403: <403> AllocationQuota.FreeTierOnly: The free tier of the model has been exhausted. If you wish to continue access the model on a paid basis, please disable the "use free tier only" mode in the management console.

@@ -1,0 +1,10 @@
+2026-05-30 23:28:52 - Orchestrator - INFO - =================================================================
+2026-05-30 23:28:52 - Orchestrator - INFO - FILM FACTORY — CINEMATIC NARRATION PIPELINE
+2026-05-30 23:28:52 - Orchestrator - INFO - =================================================================
+2026-05-30 23:28:52 - Orchestrator - INFO - Output directories verified
+2026-05-30 23:28:52 - Orchestrator - INFO - Story idea: After a citywide blackout, thousands of people receive a voice message from their own phones warning them not to trust anyone who remembers the missing hour.
+2026-05-30 23:31:55 - Orchestrator - INFO - SINGLE_EPISODE_MODE: running episode 1 only
+2026-05-30 23:32:34 - Orchestrator - INFO - Context saved: outputs\context_after_scene_director.json
+2026-05-30 23:35:59 - Orchestrator - INFO - Context saved: outputs\context_after_images.json
+2026-05-30 23:48:49 - Orchestrator - INFO - Context saved: outputs\context_after_edit_plan.json
+2026-05-31 00:01:12 - Orchestrator - INFO - Context saved: outputs\context.json

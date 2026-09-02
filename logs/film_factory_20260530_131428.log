@@ -1,0 +1,39 @@
+2026-05-30 13:14:28 - Agent.DepthSAM2 - INFO - [DepthSAM2] Pre-computing layers for all scene and reveal images...
+2026-05-30 13:14:28 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 available
+2026-05-30 13:14:28 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2: loading checkpoints/sam2.1_hiera_tiny.pt on CPU (one-time, ~10s)
+2026-05-30 13:14:29 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 generator ready — model cached for remaining images
+2026-05-30 13:14:43 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: daniels_apartment
+2026-05-30 13:14:43 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: daniels_apartment
+2026-05-30 13:14:54 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: the_archive_building
+2026-05-30 13:14:54 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: the_archive_building
+2026-05-30 13:15:05 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_scene3_daniels_apartment
+2026-05-30 13:15:05 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_scene3_daniels_apartment
+2026-05-30 13:15:16 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_scene4_the_archive_building
+2026-05-30 13:15:16 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_scene4_the_archive_building
+2026-05-30 13:15:27 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_scene5_daniels_apartment
+2026-05-30 13:15:27 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_scene5_daniels_apartment
+2026-05-30 13:15:38 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_scene6_the_archive_building
+2026-05-30 13:15:38 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_scene6_the_archive_building
+2026-05-30 13:15:48 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_scene7_daniels_apartment
+2026-05-30 13:15:49 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_scene7_daniels_apartment
+2026-05-30 13:15:59 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_scene8_the_archive_building
+2026-05-30 13:15:59 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_scene8_the_archive_building
+2026-05-30 13:16:10 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: maras_house
+2026-05-30 13:16:10 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: maras_house
+2026-05-30 13:16:21 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: owens_apartment__the_shared_wall
+2026-05-30 13:16:21 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: owens_apartment__the_shared_wall
+2026-05-30 13:16:32 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ruth_halseys_house
+2026-05-30 13:16:32 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ruth_halseys_house
+2026-05-30 13:16:43 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: the_underpass
+2026-05-30 13:16:43 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: the_underpass
+2026-05-30 13:16:54 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_reveal1_location_detail
+2026-05-30 13:16:54 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_reveal1_location_detail
+2026-05-30 13:17:05 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_reveal2_document
+2026-05-30 13:17:05 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_reveal2_document
+2026-05-30 13:17:16 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_reveal3_document
+2026-05-30 13:17:16 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_reveal3_document
+2026-05-30 13:17:27 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_reveal4_document
+2026-05-30 13:17:27 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_reveal4_document
+2026-05-30 13:17:39 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_reveal5_document
+2026-05-30 13:17:39 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_reveal5_document
+2026-05-30 13:17:39 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layer pre-compute done: 17 new, 0 cached

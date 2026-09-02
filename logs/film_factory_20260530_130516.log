@@ -1,0 +1,124 @@
+2026-05-30 13:11:15 - Agent.ImageGenerator - INFO - [ImageGenerator] Starting image generation (Agent 5a)...
+2026-05-30 13:11:15 - Agent.ImageGenerator - INFO - [ImageGenerator] HuggingFace client initialized
+2026-05-30 13:11:15 - Agent.ImageGenerator - INFO - [ImageGenerator] REUSE_EXISTING_IMAGES=True — skipping deletion, reusing cached images
+2026-05-30 13:11:15 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1: 6 anchor images at 1280x720...
+2026-05-30 13:11:15 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'Daniel's Apartment' (1280x720)
+2026-05-30 13:11:20 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\daniels_apartment.png
+2026-05-30 13:11:22 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Archive Building' (1280x720)
+2026-05-30 13:11:27 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_archive_building.png
+2026-05-30 13:11:29 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'Mara's House' (1280x720)
+2026-05-30 13:11:35 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\maras_house.png
+2026-05-30 13:11:37 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'Ruth Halsey's House' (1280x720)
+2026-05-30 13:11:48 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\ruth_halseys_house.png
+2026-05-30 13:11:50 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'Owen's Apartment — The Shared Wall' (1280x720)
+2026-05-30 13:11:55 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\owens_apartment__the_shared_wall.png
+2026-05-30 13:11:57 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Underpass' (1280x720)
+2026-05-30 13:12:01 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_underpass.png
+2026-05-30 13:12:03 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1 complete: 6/6
+2026-05-30 13:12:03 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 2: Scene images for 1 episodes...
+2026-05-30 13:12:03 - Agent.ImageGenerator - INFO - [ImageGenerator] Episode 1 scene images...
+2026-05-30 13:12:03 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 1: anchor 'Daniel's Apartment' (first use)
+2026-05-30 13:12:03 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 2: anchor 'The Archive Building' (first use)
+2026-05-30 13:12:08 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 3: generated 'Daniel's Apartment'
+2026-05-30 13:12:13 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 4: generated 'The Archive Building'
+2026-05-30 13:12:18 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 5: generated 'Daniel's Apartment'
+2026-05-30 13:12:26 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 6: generated 'The Archive Building'
+2026-05-30 13:12:31 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 7: generated 'Daniel's Apartment'
+2026-05-30 13:12:36 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 8: generated 'The Archive Building'
+2026-05-30 13:12:38 - Agent.ImageGenerator - WARNING - [ImageGenerator] Anchors never assigned to any episode: {'The Underpass', "Ruth Halsey's House", "Mara's House", "Owen's Apartment — The Shared Wall"} — forcing into episode 1
+2026-05-30 13:12:38 - Agent.ImageGenerator - INFO - [ImageGenerator] Forced unused anchor 'Mara's House' into episode 1
+2026-05-30 13:12:38 - Agent.ImageGenerator - INFO - [ImageGenerator] Forced unused anchor 'Owen's Apartment — The Shared Wall' into episode 1
+2026-05-30 13:12:38 - Agent.ImageGenerator - INFO - [ImageGenerator] Forced unused anchor 'Ruth Halsey's House' into episode 1
+2026-05-30 13:12:38 - Agent.ImageGenerator - INFO - [ImageGenerator] Forced unused anchor 'The Underpass' into episode 1
+2026-05-30 13:12:38 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 3: Reveal images for 1 episodes...
+2026-05-30 13:12:38 - Agent.ImageGenerator - INFO - [ImageGenerator]   Episode 1: 5 reveals...
+2026-05-30 13:12:38 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [location_detail] ep1 r1
+2026-05-30 13:12:44 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal1_location_detail.png
+2026-05-30 13:12:44 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 1: location_detail saved
+2026-05-30 13:12:46 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [document] ep1 r2
+2026-05-30 13:12:53 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal2_document.png
+2026-05-30 13:12:53 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 2: document saved
+2026-05-30 13:12:55 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [document] ep1 r3
+2026-05-30 13:13:01 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal3_document.png
+2026-05-30 13:13:01 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 3: document saved
+2026-05-30 13:13:03 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [document] ep1 r4
+2026-05-30 13:13:10 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal4_document.png
+2026-05-30 13:13:10 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 4: document saved
+2026-05-30 13:13:12 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [document] ep1 r5
+2026-05-30 13:13:16 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal5_document.png
+2026-05-30 13:13:16 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 5: document saved
+2026-05-30 13:13:18 - Agent.ImageGenerator - INFO - [ImageGenerator] Image generation complete — 6 anchors, 12 scenes, 5 reveals | All at 1280x720 (16:9)
+2026-05-30 13:13:18 - Agent.PromptCorrector - INFO - [PromptCorrector] Starting visual prompt correction for Episode 1...
+2026-05-30 13:13:18 - Agent.PromptCorrector - INFO - [PromptCorrector] Analyzing 6 anchor images...
+2026-05-30 13:13:18 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: Daniel's Apartment
+2026-05-30 13:13:21 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 518 chars
+2026-05-30 13:13:21 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: The Archive Building
+2026-05-30 13:13:28 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 565 chars
+2026-05-30 13:13:28 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: Mara's House
+2026-05-30 13:13:32 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 621 chars
+2026-05-30 13:13:32 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: Ruth Halsey's House
+2026-05-30 13:13:36 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 455 chars
+2026-05-30 13:13:36 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: Owen's Apartment — The Shared Wall
+2026-05-30 13:13:39 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 526 chars
+2026-05-30 13:13:39 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: The Underpass
+2026-05-30 13:13:43 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 477 chars
+2026-05-30 13:13:43 - Agent.PromptCorrector - INFO - [PromptCorrector] Rewriting 12 Episode 1 prompts...
+2026-05-30 13:13:45 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 1 corrected
+2026-05-30 13:13:47 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 2 corrected
+2026-05-30 13:13:49 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 3 corrected
+2026-05-30 13:13:51 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 4 corrected
+2026-05-30 13:13:54 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 5 corrected
+2026-05-30 13:13:56 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 6 corrected
+2026-05-30 13:13:58 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 7 corrected
+2026-05-30 13:14:01 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 8 corrected
+2026-05-30 13:14:03 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 9 corrected
+2026-05-30 13:14:07 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 10 corrected
+2026-05-30 13:14:09 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 11 corrected
+2026-05-30 13:14:11 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 12 corrected
+2026-05-30 13:14:11 - Agent.PromptCorrector - INFO - [PromptCorrector] Prompt correction complete: 12/12 corrected
+2026-05-30 13:18:38 - Agent.EditPlanner - INFO - [EditPlanner] Building edit decision lists (Agent 6a)...
+2026-05-30 13:18:38 - Agent.EditPlanner - INFO - [EditPlanner] Planning episode 1...
+2026-05-30 13:18:38 - Agent.EditPlanner - INFO - [EditPlanner] Episode 1: 12 scenes (12 with images), 5 reveals, 13 timestamps
+2026-05-30 13:18:38 - Agent.EditPlanner - INFO - [EditPlanner] Building EDL for episode 1...
+2026-05-30 13:18:38 - Agent.EditPlanner - INFO - [EditPlanner] Total audio: 87000ms (87.0s)
+2026-05-30 13:18:38 - Agent.EditPlanner - WARNING - [EditPlanner] Reveal at 18400ms overlaps previous end 20866ms — skipping
+2026-05-30 13:18:38 - Agent.EditPlanner - WARNING - [EditPlanner] Reveal at 19973ms overlaps previous end 20866ms — skipping
+2026-05-30 13:18:38 - Agent.EditPlanner - INFO - [EditPlanner] EDL built: 14 entries, 5 reveals, total 87.0s
+2026-05-30 13:18:38 - Agent.EditPlanner - INFO - [EditPlanner] EDL saved: outputs/episode_1_edl.json
+2026-05-30 13:18:38 - Agent.EditPlanner - INFO - [EditPlanner] Edit planning complete: 1 EDLs
+2026-05-30 13:18:38 - Agent.MusicAgent - INFO - [MusicAgent] Music generation (MusicGen: True)...
+2026-05-30 13:18:38 - Agent.MusicAgent - INFO - [MusicAgent] Deleted old: ep1_ambient.wav
+2026-05-30 13:18:38 - Agent.MusicAgent - INFO - [MusicAgent] Deleted old: ep1_tension.wav
+2026-05-30 13:18:38 - Agent.MusicAgent - INFO - [MusicAgent] Deleted old: ep1_sting.wav
+2026-05-30 13:18:38 - Agent.MusicAgent - INFO - [MusicAgent] Deleted old: ep1_ambient_location.wav
+2026-05-30 13:18:38 - Agent.MusicAgent - INFO - [MusicAgent] Deleted old: ep1_heartbeat.wav
+2026-05-30 13:18:38 - Agent.MusicAgent - INFO - [MusicAgent] Deleted old: ep1_strings.wav
+2026-05-30 13:18:38 - Agent.MusicAgent - INFO - [MusicAgent] Episode 1 music...
+2026-05-30 13:18:38 - Agent.MusicAgent - INFO - [MusicAgent] Episode 1: 87.0s, 3 reveals, cliffhanger at 84.2s
+2026-05-30 13:18:38 - Agent.MusicAgent - INFO - [MusicAgent] Generating ambient (87s)...
+2026-05-30 13:18:38 - Agent.MusicAgent - INFO - [MusicAgent] Loading MusicGen small...
+2026-05-30 13:22:04 - Agent.MusicAgent - INFO - [MusicAgent] Saved: outputs\music\ep1_ambient.wav (87.0s)
+2026-05-30 13:22:04 - Agent.MusicAgent - INFO - [MusicAgent] Generating event-aware tension (87s, 14 EDL events)...
+2026-05-30 13:22:04 - Agent.MusicAgent - INFO - [MusicAgent] Loading MusicGen small...
+2026-05-30 13:25:12 - Agent.MusicAgent - INFO - [MusicAgent] Saved: outputs\music\ep1_tension.wav (87.0s)
+2026-05-30 13:25:12 - Agent.MusicAgent - INFO - [MusicAgent] Generating sting...
+2026-05-30 13:25:12 - Agent.MusicAgent - INFO - [MusicAgent] Loading MusicGen small...
+2026-05-30 13:25:24 - Agent.MusicAgent - INFO - [MusicAgent] Saved: outputs\music\ep1_sting.wav (1.9s)
+2026-05-30 13:25:24 - Agent.MusicAgent - INFO - [MusicAgent] Generating heartbeat (87s)...
+2026-05-30 13:25:24 - Agent.MusicAgent - INFO - [MusicAgent] Saved: outputs\music\ep1_heartbeat.wav (87.0s)
+2026-05-30 13:25:24 - Agent.MusicAgent - INFO - [MusicAgent] Generating strings (87s)...
+2026-05-30 13:25:25 - Agent.MusicAgent - INFO - [MusicAgent] Saved: outputs\music\ep1_strings.wav (87.0s)
+2026-05-30 13:25:25 - Agent.MusicAgent - INFO - [MusicAgent] Generating location-aware ambient (87s)...
+2026-05-30 13:25:29 - Agent.MusicAgent - INFO - [MusicAgent] Saved: outputs\music\ep1_ambient_location.wav (87.0s)
+2026-05-30 13:25:29 - Agent.MusicAgent - INFO - [MusicAgent] Episode 1 music complete
+2026-05-30 13:25:29 - Agent.VideoCompositor - INFO - [VideoCompositor] Starting video composition (Agent 6b — FFmpeg)...
+2026-05-30 13:25:29 - Agent.VideoCompositor - INFO - [VideoCompositor] Subtitles written: outputs/final/tmp_ep1/ep1_subtitles.ass (17 lines)
+2026-05-30 13:25:30 - Agent.VideoCompositor - INFO - [VideoCompositor] Title card: outputs/final/tmp_ep1/ep1_title.mp4
+2026-05-30 13:27:53 - Agent.VideoCompositor - INFO - [VideoCompositor] TBC card: outputs/final/tmp_ep1/ep1_tbc.mp4
+2026-05-30 13:27:53 - Agent.VideoCompositor - INFO - [VideoCompositor] Concatenated 16 segments → outputs/final/tmp_ep1/ep1_video.mp4
+2026-05-30 13:28:05 - Agent.VideoCompositor - INFO - [VideoCompositor] Subtitles burned: outputs/final/tmp_ep1/ep1_subbed.mp4
+2026-05-30 13:28:05 - Agent.VideoCompositor - INFO - [VideoCompositor] Mixing: 84.0s, 5 reveals, 0 dramatic pauses
+2026-05-30 13:38:24 - Agent.VideoCompositor - INFO - [VideoCompositor] Dynamic audio mixed: outputs/final/tmp_ep1/ep1_audio.aac
+2026-05-30 13:38:25 - Agent.VideoCompositor - INFO - [VideoCompositor] Final: outputs/final/episode_1.mp4
+2026-05-30 13:38:25 - Agent.VideoCompositor - INFO - [VideoCompositor] Episode 1 complete: outputs/final/episode_1.mp4
+2026-05-30 13:38:25 - Agent.VideoCompositor - INFO - [VideoCompositor] Composition: 1/1 rendered

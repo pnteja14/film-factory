@@ -1,0 +1,103 @@
+2026-05-20 02:40:00 - Agent.StoryArchitect - INFO - [StoryArchitect] Starting story planning...
+2026-05-20 02:40:00 - Agent.StoryArchitect - INFO - [StoryArchitect] Brand voice loaded
+2026-05-20 02:40:00 - Agent.StoryArchitect - INFO - [StoryArchitect] Calling Claude API for story plan...
+2026-05-20 02:40:46 - Agent.StoryArchitect - INFO - [StoryArchitect] Extracting and parsing JSON...
+2026-05-20 02:40:46 - Agent.StoryArchitect - INFO - [StoryArchitect] Validating story plan...
+2026-05-20 02:40:46 - Agent.StoryArchitect - INFO - [StoryArchitect] Story planning complete: 'The Mercy Protocol' - 4 episodes
+2026-05-20 02:40:46 - Agent.ScreenplayWriter - INFO - [ScreenplayWriter] Generating script for episode 1...
+2026-05-20 02:40:46 - Agent.ScreenplayWriter - INFO - [ScreenplayWriter] Calling Ollama...
+2026-05-20 02:40:52 - Agent.ScreenplayWriter - INFO - [ScreenplayWriter] Cleaning and formatting script...
+2026-05-20 02:40:52 - Agent.ScreenplayWriter - INFO - [ScreenplayWriter] Script generated: 219 words
+2026-05-20 02:40:52 - Agent.ScreenplayWriter - INFO - [ScreenplayWriter] Summarizing episode 1...
+2026-05-20 02:40:56 - Agent.ScreenplayWriter - INFO - [ScreenplayWriter] Episode 1 summarized
+2026-05-20 02:40:56 - Agent.ScreenplayWriter - INFO - [ScreenplayWriter] Generating script for episode 2...
+2026-05-20 02:40:56 - Agent.ScreenplayWriter - INFO - [ScreenplayWriter] Calling Ollama...
+2026-05-20 02:41:04 - Agent.ScreenplayWriter - ERROR - [ScreenplayWriter] Claude API call failed: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDSebFWDD94F4WnNnUTe'}
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\screenplay_agent.py", line 113, in call_claude_for_script
+    message = client.messages.create(
+        model="claude-haiku-4-5-20251001",
+        max_tokens=2048,
+        messages=[{"role": "user", "content": prompt}]
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\anthropic\_utils\_utils.py", line 294, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\anthropic\resources\messages\messages.py", line 1003, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/v1/messages",
+        ^^^^^^^^^^^^^^^
+    ...<30 lines>...
+        stream_cls=Stream[RawMessageStreamEvent],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\anthropic\_base_client.py", line 1374, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\anthropic\_base_client.py", line 1147, in request
+    raise self._make_status_error_from_response(err.response) from None
+anthropic._exceptions.OverloadedError: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDSebFWDD94F4WnNnUTe'}
+2026-05-20 02:41:14 - Agent.ScreenplayWriter - ERROR - [ScreenplayWriter] Claude API call failed: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDSfKA9vwaM3GzYxHZYA'}
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\screenplay_agent.py", line 113, in call_claude_for_script
+    message = client.messages.create(
+        model="claude-haiku-4-5-20251001",
+        max_tokens=2048,
+        messages=[{"role": "user", "content": prompt}]
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\anthropic\_utils\_utils.py", line 294, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\anthropic\resources\messages\messages.py", line 1003, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/v1/messages",
+        ^^^^^^^^^^^^^^^
+    ...<30 lines>...
+        stream_cls=Stream[RawMessageStreamEvent],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\anthropic\_base_client.py", line 1374, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\anthropic\_base_client.py", line 1147, in request
+    raise self._make_status_error_from_response(err.response) from None
+anthropic._exceptions.OverloadedError: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDSfKA9vwaM3GzYxHZYA'}
+2026-05-20 02:41:14 - Agent.ScreenplayWriter - ERROR - [ScreenplayWriter] Unexpected error: Claude call failed: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDSfKA9vwaM3GzYxHZYA'}
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\screenplay_agent.py", line 113, in call_claude_for_script
+    message = client.messages.create(
+        model="claude-haiku-4-5-20251001",
+        max_tokens=2048,
+        messages=[{"role": "user", "content": prompt}]
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\anthropic\_utils\_utils.py", line 294, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\anthropic\resources\messages\messages.py", line 1003, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/v1/messages",
+        ^^^^^^^^^^^^^^^
+    ...<30 lines>...
+        stream_cls=Stream[RawMessageStreamEvent],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\anthropic\_base_client.py", line 1374, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\anthropic\_base_client.py", line 1147, in request
+    raise self._make_status_error_from_response(err.response) from None
+anthropic._exceptions.OverloadedError: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDSfKA9vwaM3GzYxHZYA'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\screenplay_agent.py", line 206, in generate_script
+    draft = call_claude_for_script(prompt)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\screenplay_agent.py", line 122, in call_claude_for_script
+    raise RetryableException(f"Claude call failed: {e}")
+utils.errors.RetryableException: Claude call failed: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDSfKA9vwaM3GzYxHZYA'}

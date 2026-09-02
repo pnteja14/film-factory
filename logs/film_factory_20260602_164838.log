@@ -1,0 +1,38 @@
+2026-06-02 16:48:40 - Agent.generate_video_clip - WARNING - [generate_video_clip] Attempt 1/3 failed: Video generation failed: 500 Server Error: Internal Server Error for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate_video. Retrying in 8.0s...
+2026-06-02 16:48:50 - Agent.generate_video_clip - WARNING - [generate_video_clip] Attempt 2/3 failed: Video generation failed: 500 Server Error: Internal Server Error for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate_video. Retrying in 16.0s...
+2026-06-02 16:49:08 - Agent.generate_video_clip - ERROR - [generate_video_clip] Max retries (3) exceeded
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_video_generator.py", line 212, in generate_video_clip
+    resp.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\requests\models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate_video
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_video_generator.py", line 230, in generate_video_clip
+    raise RetryableException(f"Video generation failed: {e}")
+utils.errors.RetryableException: Video generation failed: 500 Server Error: Internal Server Error for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate_video
+2026-06-02 16:49:11 - Agent.generate_video_clip - WARNING - [generate_video_clip] Attempt 1/3 failed: Video generation failed: 500 Server Error: Internal Server Error for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate_video. Retrying in 8.0s...
+2026-06-02 16:49:20 - Agent.generate_video_clip - WARNING - [generate_video_clip] Attempt 2/3 failed: Video generation failed: 500 Server Error: Internal Server Error for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate_video. Retrying in 16.0s...
+2026-06-02 16:49:37 - Agent.generate_video_clip - ERROR - [generate_video_clip] Max retries (3) exceeded
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_video_generator.py", line 212, in generate_video_clip
+    resp.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\requests\models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate_video
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_video_generator.py", line 230, in generate_video_clip
+    raise RetryableException(f"Video generation failed: {e}")
+utils.errors.RetryableException: Video generation failed: 500 Server Error: Internal Server Error for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate_video

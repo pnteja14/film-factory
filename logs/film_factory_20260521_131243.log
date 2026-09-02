@@ -1,0 +1,41 @@
+2026-05-21 13:12:43 - Agent.SceneDirector - INFO - [SceneDirector] Directing episode 1...
+2026-05-21 13:12:43 - Agent.SceneDirector - INFO - [SceneDirector] Extracted 6 camera directions
+2026-05-21 13:12:43 - Agent.SceneDirector - WARNING - [SceneDirector] Only 6 scenes found, padding to 8
+2026-05-21 13:12:43 - Agent.SceneDirector - INFO - [SceneDirector] Padded to 8 scenes
+2026-05-21 13:12:43 - Agent.SceneDirector - INFO - [SceneDirector] Processing 8 scenes...
+2026-05-21 13:12:47 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 1/8 [establish|drift|short]
+2026-05-21 13:12:49 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 2/8 [establish|sweep|short]
+2026-05-21 13:12:51 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 3/8 [build|drift|medium]
+2026-05-21 13:12:54 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 4/8 [build|creep|medium]
+2026-05-21 13:12:56 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 5/8 [investigation|linger|medium]
+2026-05-21 13:12:58 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 6/8 [revelation|fixate|long]
+2026-05-21 13:13:00 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 7/8 [cliffhanger|linger|long]
+2026-05-21 13:13:02 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 8/8 [cliffhanger|freeze|long]
+2026-05-21 13:13:02 - Agent.SceneDirector - INFO - [SceneDirector] Episode 1: 8 prompts generated
+2026-05-21 13:13:02 - Agent.SceneDirector - INFO - [SceneDirector] Estimated episode duration: 64 seconds
+2026-05-21 13:13:02 - Agent.PromptCorrector - INFO - [PromptCorrector] Starting visual prompt correction for Episode 1...
+2026-05-21 13:13:02 - Agent.PromptCorrector - INFO - [PromptCorrector] Analyzing 7 anchor images...
+2026-05-21 13:13:02 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: St. Mercy Hospital ICU
+2026-05-21 13:13:05 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 594 chars
+2026-05-21 13:13:05 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: Sarah's Apartment
+2026-05-21 13:13:08 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 581 chars
+2026-05-21 13:13:08 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: Marcus's Office
+2026-05-21 13:13:10 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 608 chars
+2026-05-21 13:13:10 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: Hospital Basement and Sub-Level Storage
+2026-05-21 13:13:13 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 566 chars
+2026-05-21 13:13:13 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: ICU Patient Room 412
+2026-05-21 13:13:16 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 556 chars
+2026-05-21 13:13:16 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: The Parking Garage
+2026-05-21 13:13:19 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 560 chars
+2026-05-21 13:13:19 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: City Police Station - Interview Room
+2026-05-21 13:13:22 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 554 chars
+2026-05-21 13:13:22 - Agent.PromptCorrector - INFO - [PromptCorrector] Rewriting 8 Episode 1 prompts...
+2026-05-21 13:13:24 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 1 corrected
+2026-05-21 13:13:26 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 2 corrected
+2026-05-21 13:13:31 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 3 corrected
+2026-05-21 13:13:33 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 4 corrected
+2026-05-21 13:13:34 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 5 corrected
+2026-05-21 13:13:36 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 6 corrected
+2026-05-21 13:13:37 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 7 corrected
+2026-05-21 13:13:39 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 8 corrected
+2026-05-21 13:13:39 - Agent.PromptCorrector - INFO - [PromptCorrector] Prompt correction complete: 8/8 corrected

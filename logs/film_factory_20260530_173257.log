@@ -1,0 +1,18 @@
+2026-05-30 17:32:57 - Agent.DepthParallax - INFO - [DepthParallax] Pre-computing depth maps...
+2026-05-30 17:32:57 - Agent.DepthParallax - INFO - [DepthParallax] Computing depth maps for 17 images...
+2026-05-30 17:32:58 - Agent.DepthParallax - INFO - [DepthParallax] Depth Anything V2 available via transformers
+2026-05-30 17:32:58 - Agent.DepthParallax - INFO - [DepthParallax] Loading Depth Anything V2 Small (~100MB first run)...
+2026-05-30 17:32:59 - Agent.DepthParallax - INFO - [DepthParallax] Depth model loaded
+2026-05-30 17:33:00 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: the_farmhouse__ground_floor_depth.npy
+2026-05-30 17:33:02 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_scene6_the_basement_corridor_depth.npy
+2026-05-30 17:33:03 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_scene3_the_farmhouse__ground_floor_depth.npy
+2026-05-30 17:33:05 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: the_basement_corridor_depth.npy
+2026-05-30 17:33:07 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: the_farmhouse__upstairs_bedroom_depth.npy
+2026-05-30 17:33:08 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ruths_property__porch_and_yard_depth.npy
+2026-05-30 17:33:10 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_scene4_the_farmhouse__ground_floor_depth.npy
+2026-05-30 17:33:11 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: the_county_sheriffs_office_depth.npy
+2026-05-30 17:33:13 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: the_county_road_and_surrounding_fields_depth.npy
+2026-05-30 17:33:14 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: the_town_diner_depth.npy
+2026-05-30 17:33:16 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: the_hidden_room_depth.npy
+2026-05-30 17:33:17 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_scene7_the_basement_corridor_depth.npy
+2026-05-30 17:33:17 - Agent.DepthParallax - INFO - [DepthParallax] Depth maps ready: 12 new, 5 cached

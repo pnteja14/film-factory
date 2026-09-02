@@ -1,0 +1,19 @@
+2026-05-29 20:26:23 - Agent.VoiceoverAgent - INFO - [VoiceoverAgent] Generating voiceover for episode 1...
+2026-05-29 20:26:23 - Agent.VoiceoverAgent - INFO - [VoiceoverAgent] Using structured narration: 5 chunks
+2026-05-29 20:26:23 - Agent.VoiceoverAgent - INFO - [VoiceoverAgent] Generating 5 audio chunks...
+2026-05-29 20:26:23 - Agent.VoiceoverAgent - INFO - [VoiceoverAgent]   Chunk 1/5: 71 chars
+2026-05-29 20:26:27 - Agent.VoiceoverAgent - INFO - [VoiceoverAgent]   Chunk 2/5: 149 chars
+2026-05-29 20:26:33 - Agent.VoiceoverAgent - INFO - [VoiceoverAgent]   Chunk 3/5: 213 chars
+2026-05-29 20:26:39 - Agent.VoiceoverAgent - INFO - [VoiceoverAgent]   Chunk 4/5: 64 chars
+2026-05-29 20:26:43 - Agent.VoiceoverAgent - INFO - [VoiceoverAgent]   Chunk 5/5: 57 chars
+2026-05-29 20:26:46 - Agent.VoiceoverAgent - INFO - [VoiceoverAgent] Audio stitched: outputs/audio/episode_1_voiceover.wav — total 48960ms
+2026-05-29 20:26:46 - Agent.VoiceoverAgent - INFO - [VoiceoverAgent] Voiceover complete: outputs/audio/episode_1_voiceover.wav | 5 chunks timed
+2026-05-29 20:26:46 - Agent.VoiceoverAgent - INFO - [VoiceoverAgent]   Chunk 0: 0ms → 9792ms
+2026-05-29 20:26:46 - Agent.VoiceoverAgent - INFO - [VoiceoverAgent]   Chunk 1: 9792ms → 19584ms
+2026-05-29 20:26:46 - Agent.VoiceoverAgent - INFO - [VoiceoverAgent]   Chunk 2: 19584ms → 29376ms
+2026-05-29 20:26:46 - Agent.VoiceoverAgent - INFO - [VoiceoverAgent]   Chunk 3: 29376ms → 39168ms
+2026-05-29 20:26:46 - Agent.VoiceoverAgent - INFO - [VoiceoverAgent]   Chunk 4: 39168ms → 48960ms
+2026-05-29 20:26:46 - Agent.WhisperAlignment - INFO - [WhisperAlignment] Running Whisper word alignment...
+2026-05-29 20:26:46 - Agent.WhisperAlignment - INFO - [WhisperAlignment] Episode 1: loaded 98 cached word timestamps
+2026-05-29 20:26:46 - Agent.WhisperAlignment - INFO - [WhisperAlignment] Episode 1: 98 words aligned, span 0ms → 59140ms
+2026-05-29 20:26:46 - Agent.WhisperAlignment - INFO - [WhisperAlignment] Chunk timestamps derived: 5 chunks, audio=48960ms, last_chunk_end=48960ms

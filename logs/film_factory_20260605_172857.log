@@ -1,0 +1,36 @@
+2026-06-05 17:29:21 - Agent.MusicAgent - INFO - [MusicAgent] Music generation (source=kaggle, MusicGen=True)...
+2026-06-05 17:29:22 - Agent.MusicAgent - INFO - [MusicAgent] Episode 1: 112.9s, 0 reveals, cliffhanger at 110.9s
+2026-06-05 17:29:22 - Agent.MusicAgent - INFO - [MusicAgent] Episode 1 style: Cinematic thriller score. Solo piano, low strings, atmospheric texture. Minor ke...
+2026-06-05 17:29:22 - Agent.MusicAgent - INFO - [MusicAgent] Arc segments: establish(16s), build(42s), investigation(12s), revelation(26s), cliffhanger(14s)
+2026-06-05 17:29:22 - Agent.MusicAgent - INFO - [MusicAgent] Segment cache hit: ep1_seg0_c868a4ea.wav
+2026-06-05 17:29:22 - Agent.MusicAgent - INFO - [MusicAgent] Segment cache hit: ep1_seg1_e33a2801.wav
+2026-06-05 17:29:22 - Agent.MusicAgent - INFO - [MusicAgent] Segment cache hit: ep1_seg2_07765531.wav
+2026-06-05 17:29:22 - Agent.MusicAgent - INFO - [MusicAgent] Segment cache hit: ep1_seg3_ca74a85d.wav
+2026-06-05 17:29:22 - Agent.MusicAgent - INFO - [MusicAgent] Segment cache hit: ep1_seg4_aa984dbd.wav
+2026-06-05 17:29:23 - Agent.MusicAgent - INFO - [MusicAgent] Saved: outputs\music\ep1_score.wav (112.9s)
+2026-06-05 17:29:23 - Agent.MusicAgent - INFO - [MusicAgent] Saved: outputs\music\ep1_sting.wav (2.0s)
+2026-06-05 17:29:23 - Agent.MusicAgent - INFO - [MusicAgent] Episode 1 music complete
+2026-06-05 17:29:23 - Agent.EditPlanner - INFO - [EditPlanner] Building edit decision lists (Agent 6a)...
+2026-06-05 17:29:23 - Agent.EditPlanner - INFO - [EditPlanner] Planning episode 1...
+2026-06-05 17:29:23 - Agent.EditPlanner - INFO - [EditPlanner] Episode 1: 13 scenes (13 with images), 5 reveals, 13 timestamps
+2026-06-05 17:29:23 - Agent.EditPlanner - INFO - [EditPlanner] Building EDL for episode 1...
+2026-06-05 17:29:23 - Agent.EditPlanner - INFO - [EditPlanner] Total audio: 112901ms (112.9s)
+2026-06-05 17:29:23 - Agent.EditPlanner - INFO - [EditPlanner] Insert shots scheduled: 2
+2026-06-05 17:29:23 - Agent.EditPlanner - INFO - [EditPlanner] Persist visual: scene 7 inherits image from scene 6 (chunk 6)
+2026-06-05 17:29:23 - Agent.EditPlanner - INFO - [EditPlanner] Persist visual: scene 12 inherits image from scene 11 (chunk 11)
+2026-06-05 17:29:23 - Agent.EditPlanner - INFO - [EditPlanner] EDL built: 27 entries, 5 reveals, 2 inserts, total 112.9s
+2026-06-05 17:29:23 - Agent.EditPlanner - INFO - [EditPlanner] EDL saved: outputs/episode_1_edl.json
+2026-06-05 17:29:23 - Agent.EditPlanner - INFO - [EditPlanner] Edit planning complete: 1 EDLs
+2026-06-05 17:29:23 - Agent.VideoCompositor - INFO - [VideoCompositor] Starting video composition (Agent 6b — FFmpeg)...
+2026-06-05 17:29:23 - Agent.VideoCompositor - INFO - [VideoCompositor] Event-stream subtitles written: outputs/final/tmp_ep1/ep1_subtitles.ass (62 groups)
+2026-06-05 17:29:25 - Agent.VideoCompositor - INFO - [VideoCompositor] Title card: outputs/final/tmp_ep1/ep1_title.mp4
+2026-06-05 17:32:33 - Agent.VideoCompositor - INFO - [VideoCompositor] TBC card: outputs/final/tmp_ep1/ep1_tbc.mp4
+2026-06-05 17:32:34 - Agent.VideoCompositor - INFO - [VideoCompositor] Concatenated 29 segments -> outputs/final/tmp_ep1/ep1_video.mp4
+2026-06-05 17:32:50 - Agent.VideoCompositor - INFO - [VideoCompositor] Subtitles burned: outputs/final/tmp_ep1/ep1_subbed.mp4
+2026-06-05 17:33:06 - Agent.VideoCompositor - INFO - [VideoCompositor] Shadow seal applied: outputs/final/tmp_ep1/ep1_sealed.mp4
+2026-06-05 17:33:06 - Agent.VideoCompositor - INFO - [VideoCompositor] Mixing: 110.9s, 5 reveals
+2026-06-05 17:33:06 - Agent.VideoCompositor - INFO - [VideoCompositor] Using arc-automated score mix
+2026-06-05 17:33:09 - Agent.VideoCompositor - INFO - [VideoCompositor] Dynamic audio mixed: outputs/final/tmp_ep1/ep1_audio.aac
+2026-06-05 17:33:11 - Agent.VideoCompositor - INFO - [VideoCompositor] Final: outputs/final/episode_1.mp4
+2026-06-05 17:33:11 - Agent.VideoCompositor - INFO - [VideoCompositor] Episode 1 complete: outputs/final/episode_1.mp4
+2026-06-05 17:33:11 - Agent.VideoCompositor - INFO - [VideoCompositor] Composition: 3/1 rendered

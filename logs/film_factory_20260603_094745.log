@@ -1,0 +1,2145 @@
+2026-06-03 09:47:46 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203e91-17db05cc502f0e9707876d78;b430a4f9-a4e5-45b3-80df-5a50a1e59abb)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203e91-17db05cc502f0e9707876d78;b430a4f9-a4e5-45b3-80df-5a50a1e59abb)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203e91-17db05cc502f0e9707876d78;b430a4f9-a4e5-45b3-80df-5a50a1e59abb)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:47:48 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203e94-18492c8b24b31cc168301cf5;efd2d528-0a28-4d8e-998e-6fb3faebd174)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203e94-18492c8b24b31cc168301cf5;efd2d528-0a28-4d8e-998e-6fb3faebd174)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203e94-18492c8b24b31cc168301cf5;efd2d528-0a28-4d8e-998e-6fb3faebd174)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:47:51 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203e96-2575eb144f9a9a7604508ef3;d6d9d5a6-ad9c-4d6a-a5c6-f331446d8f4f)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203e96-2575eb144f9a9a7604508ef3;d6d9d5a6-ad9c-4d6a-a5c6-f331446d8f4f)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203e96-2575eb144f9a9a7604508ef3;d6d9d5a6-ad9c-4d6a-a5c6-f331446d8f4f)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:47:53 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203e99-616f422b69e024fa3982835a;08df60e5-dffd-4faa-9c4d-1cf63ce9f094)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203e99-616f422b69e024fa3982835a;08df60e5-dffd-4faa-9c4d-1cf63ce9f094)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203e99-616f422b69e024fa3982835a;08df60e5-dffd-4faa-9c4d-1cf63ce9f094)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:47:55 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203e9b-79b19d7b3f22fae22a16aeb5;e5b84788-6c6a-4d34-892f-6390b52be4b2)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203e9b-79b19d7b3f22fae22a16aeb5;e5b84788-6c6a-4d34-892f-6390b52be4b2)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203e9b-79b19d7b3f22fae22a16aeb5;e5b84788-6c6a-4d34-892f-6390b52be4b2)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:47:58 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203e9d-2a9a59321c473b2c101eb5a3;5ea76305-a206-45aa-b9d9-81bf1e1f0705)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203e9d-2a9a59321c473b2c101eb5a3;5ea76305-a206-45aa-b9d9-81bf1e1f0705)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203e9d-2a9a59321c473b2c101eb5a3;5ea76305-a206-45aa-b9d9-81bf1e1f0705)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:48:00 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ea0-28e006337cfbb68c05660304;533322ac-1dfd-4501-97c5-9a7f92822f39)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ea0-28e006337cfbb68c05660304;533322ac-1dfd-4501-97c5-9a7f92822f39)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ea0-28e006337cfbb68c05660304;533322ac-1dfd-4501-97c5-9a7f92822f39)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:48:03 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ea2-36ce72726d779bd8190860a8;0caab2f6-1e7c-402a-85bb-54d27c2477fe)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ea2-36ce72726d779bd8190860a8;0caab2f6-1e7c-402a-85bb-54d27c2477fe)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ea2-36ce72726d779bd8190860a8;0caab2f6-1e7c-402a-85bb-54d27c2477fe)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:48:03 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ea3-1b047aab60f97bc91181a27d;4bd6bf76-2e0a-4687-9705-5fc1999fe0f1)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ea3-1b047aab60f97bc91181a27d;4bd6bf76-2e0a-4687-9705-5fc1999fe0f1)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ea3-1b047aab60f97bc91181a27d;4bd6bf76-2e0a-4687-9705-5fc1999fe0f1)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:48:04 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ea3-63093d6853db54d633a91a47;8c6e98bd-5343-4baa-872a-f14c837f92f0)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ea3-63093d6853db54d633a91a47;8c6e98bd-5343-4baa-872a-f14c837f92f0)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ea3-63093d6853db54d633a91a47;8c6e98bd-5343-4baa-872a-f14c837f92f0)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:48:05 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ea5-706bffd47ef1b94e4a5ab54f;8f7d57d7-d34a-4baa-93c1-66c2b1538cac)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ea5-706bffd47ef1b94e4a5ab54f;8f7d57d7-d34a-4baa-93c1-66c2b1538cac)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ea5-706bffd47ef1b94e4a5ab54f;8f7d57d7-d34a-4baa-93c1-66c2b1538cac)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:48:05 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ea5-097af228009cbfc22974f3e5;d95733eb-3b0f-43b9-ba26-a710a24c7ace)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ea5-097af228009cbfc22974f3e5;d95733eb-3b0f-43b9-ba26-a710a24c7ace)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ea5-097af228009cbfc22974f3e5;d95733eb-3b0f-43b9-ba26-a710a24c7ace)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:48:06 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ea5-6d834ce824b54be03ff3e2b7;bc806acd-6d27-49b8-acae-3a8e40bfd700)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ea5-6d834ce824b54be03ff3e2b7;bc806acd-6d27-49b8-acae-3a8e40bfd700)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ea5-6d834ce824b54be03ff3e2b7;bc806acd-6d27-49b8-acae-3a8e40bfd700)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:48:07 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ea7-22bfc6a565961c4d75105697;1de0043a-7a4e-4383-be0c-070aa97da353)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ea7-22bfc6a565961c4d75105697;1de0043a-7a4e-4383-be0c-070aa97da353)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ea7-22bfc6a565961c4d75105697;1de0043a-7a4e-4383-be0c-070aa97da353)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:48:07 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ea7-78820258686553dc75133ac8;232d9b76-2728-44e5-b45f-eb8fd2109844)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ea7-78820258686553dc75133ac8;232d9b76-2728-44e5-b45f-eb8fd2109844)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ea7-78820258686553dc75133ac8;232d9b76-2728-44e5-b45f-eb8fd2109844)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:48:08 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ea7-02701b7166f5fddc6e4d9091;52152252-8335-40b3-a2db-f6b5dd88d802)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ea7-02701b7166f5fddc6e4d9091;52152252-8335-40b3-a2db-f6b5dd88d802)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ea7-02701b7166f5fddc6e4d9091;52152252-8335-40b3-a2db-f6b5dd88d802)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:48:09 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ea9-5284e0b937366bb077dc19e5;01435180-c395-43d7-9c00-2050b18f411a)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ea9-5284e0b937366bb077dc19e5;01435180-c395-43d7-9c00-2050b18f411a)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ea9-5284e0b937366bb077dc19e5;01435180-c395-43d7-9c00-2050b18f411a)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:48:10 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ea9-2d652cec4286249b475b6f03;a9ba626a-b87b-45ff-be9f-daae887a1e6a)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ea9-2d652cec4286249b475b6f03;a9ba626a-b87b-45ff-be9f-daae887a1e6a)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ea9-2d652cec4286249b475b6f03;a9ba626a-b87b-45ff-be9f-daae887a1e6a)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:48:10 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eaa-68644d5a1ffba90e1e98400e;ebc15760-dada-4c14-8b7d-3ca699cf127c)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eaa-68644d5a1ffba90e1e98400e;ebc15760-dada-4c14-8b7d-3ca699cf127c)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eaa-68644d5a1ffba90e1e98400e;ebc15760-dada-4c14-8b7d-3ca699cf127c)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:48:11 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eab-353958421404fdcf7d1e1c3c;006ce713-a2e6-4e8c-847b-eff514673db8)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eab-353958421404fdcf7d1e1c3c;006ce713-a2e6-4e8c-847b-eff514673db8)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eab-353958421404fdcf7d1e1c3c;006ce713-a2e6-4e8c-847b-eff514673db8)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:48:11 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eab-275f4b636c19b37d69e72333;811cf8cd-7478-4055-9625-f692b7dd7666)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eab-275f4b636c19b37d69e72333;811cf8cd-7478-4055-9625-f692b7dd7666)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eab-275f4b636c19b37d69e72333;811cf8cd-7478-4055-9625-f692b7dd7666)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:48:12 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eab-26b0982b3d2fc0452a2c0e08;8aa72bf6-70a7-4e03-af90-a6836364d3cb)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eab-26b0982b3d2fc0452a2c0e08;8aa72bf6-70a7-4e03-af90-a6836364d3cb)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eab-26b0982b3d2fc0452a2c0e08;8aa72bf6-70a7-4e03-af90-a6836364d3cb)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:48:13 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ead-023157e463be15693d97a66d;02497be2-1188-4d1d-a43b-0ffef0e0dce0)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ead-023157e463be15693d97a66d;02497be2-1188-4d1d-a43b-0ffef0e0dce0)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ead-023157e463be15693d97a66d;02497be2-1188-4d1d-a43b-0ffef0e0dce0)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:48:13 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ead-560ee42f3d38cd5d0e1060df;d1ffe31c-0686-479c-aaec-759fe986b820)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ead-560ee42f3d38cd5d0e1060df;d1ffe31c-0686-479c-aaec-759fe986b820)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ead-560ee42f3d38cd5d0e1060df;d1ffe31c-0686-479c-aaec-759fe986b820)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:48:14 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ead-42cf50992dfdd25928c8e36a;c032b4d1-2ff5-4496-a6ce-33137d689e0f)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ead-42cf50992dfdd25928c8e36a;c032b4d1-2ff5-4496-a6ce-33137d689e0f)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ead-42cf50992dfdd25928c8e36a;c032b4d1-2ff5-4496-a6ce-33137d689e0f)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:48:15 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eaf-17db9447154eda0c7fbff497;599aa7e1-44e8-46c2-993b-fc43e4e4456e)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eaf-17db9447154eda0c7fbff497;599aa7e1-44e8-46c2-993b-fc43e4e4456e)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eaf-17db9447154eda0c7fbff497;599aa7e1-44e8-46c2-993b-fc43e4e4456e)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:48:15 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eaf-7c0c6d05722740d377cb5405;5c903fcc-5378-4643-bcd2-7e495b8f475d)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eaf-7c0c6d05722740d377cb5405;5c903fcc-5378-4643-bcd2-7e495b8f475d)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eaf-7c0c6d05722740d377cb5405;5c903fcc-5378-4643-bcd2-7e495b8f475d)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:48:16 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eaf-311f5494673cbcb0329cd439;200dfbc5-49b4-42c4-8bb3-f590692b8eec)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eaf-311f5494673cbcb0329cd439;200dfbc5-49b4-42c4-8bb3-f590692b8eec)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eaf-311f5494673cbcb0329cd439;200dfbc5-49b4-42c4-8bb3-f590692b8eec)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:48:17 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eb1-6f6776eb39ac87824e750692;1e653d11-30db-43df-b180-65cd7646baf2)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eb1-6f6776eb39ac87824e750692;1e653d11-30db-43df-b180-65cd7646baf2)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eb1-6f6776eb39ac87824e750692;1e653d11-30db-43df-b180-65cd7646baf2)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:48:17 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eb1-5b0b5772008bdbd723507e47;ef5b928e-4af0-425d-959b-d0327e56918f)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eb1-5b0b5772008bdbd723507e47;ef5b928e-4af0-425d-959b-d0327e56918f)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eb1-5b0b5772008bdbd723507e47;ef5b928e-4af0-425d-959b-d0327e56918f)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:48:18 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eb1-27d3b69c7afe53f0399a3d06;ab7c1d6b-f237-40b8-919c-9467d49d0284)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eb1-27d3b69c7afe53f0399a3d06;ab7c1d6b-f237-40b8-919c-9467d49d0284)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eb1-27d3b69c7afe53f0399a3d06;ab7c1d6b-f237-40b8-919c-9467d49d0284)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:48:19 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eb3-4039f316144d0ebe25b9d436;083728fd-977f-4304-83e6-c4cbd09f199f)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eb3-4039f316144d0ebe25b9d436;083728fd-977f-4304-83e6-c4cbd09f199f)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eb3-4039f316144d0ebe25b9d436;083728fd-977f-4304-83e6-c4cbd09f199f)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:48:19 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eb3-3a8a97432f47837475693cac;6bda3c63-c1bf-48a8-843d-4f1f701ca91b)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eb3-3a8a97432f47837475693cac;6bda3c63-c1bf-48a8-843d-4f1f701ca91b)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eb3-3a8a97432f47837475693cac;6bda3c63-c1bf-48a8-843d-4f1f701ca91b)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:48:19 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eb3-1d78c53378f112446b6f215e;2309af70-7682-4e6e-af7e-af5e26e3cbc3)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eb3-1d78c53378f112446b6f215e;2309af70-7682-4e6e-af7e-af5e26e3cbc3)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eb3-1d78c53378f112446b6f215e;2309af70-7682-4e6e-af7e-af5e26e3cbc3)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:48:21 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eb4-312353955f7fc9b6095160f7;49113375-366c-4d44-a7ff-1f1cb9c38f1a)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eb4-312353955f7fc9b6095160f7;49113375-366c-4d44-a7ff-1f1cb9c38f1a)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eb4-312353955f7fc9b6095160f7;49113375-366c-4d44-a7ff-1f1cb9c38f1a)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:48:21 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eb5-671c1c932fa047a76934444e;7545124e-3a13-4c81-8388-4ceeea78fecd)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eb5-671c1c932fa047a76934444e;7545124e-3a13-4c81-8388-4ceeea78fecd)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eb5-671c1c932fa047a76934444e;7545124e-3a13-4c81-8388-4ceeea78fecd)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:48:21 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eb5-66ecb8857e6036e6422c2fac;ec5bc7a5-9f8f-4f32-9add-aa4b729f6bac)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eb5-66ecb8857e6036e6422c2fac;ec5bc7a5-9f8f-4f32-9add-aa4b729f6bac)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eb5-66ecb8857e6036e6422c2fac;ec5bc7a5-9f8f-4f32-9add-aa4b729f6bac)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:48:22 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eb6-3fd5b173446a458b7a845e1e;76f5461b-064e-4c0d-a659-0b4f659c7e85)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eb6-3fd5b173446a458b7a845e1e;76f5461b-064e-4c0d-a659-0b4f659c7e85)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eb6-3fd5b173446a458b7a845e1e;76f5461b-064e-4c0d-a659-0b4f659c7e85)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:48:23 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eb7-54a7e7c749327b924e163bd2;5d0ba45a-df33-4069-b273-1cecce6c157f)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eb7-54a7e7c749327b924e163bd2;5d0ba45a-df33-4069-b273-1cecce6c157f)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eb7-54a7e7c749327b924e163bd2;5d0ba45a-df33-4069-b273-1cecce6c157f)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:48:23 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eb7-3192b34517a7b25a5ac9a5e9;c70372a6-687e-4442-ab29-eeccce482328)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eb7-3192b34517a7b25a5ac9a5e9;c70372a6-687e-4442-ab29-eeccce482328)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eb7-3192b34517a7b25a5ac9a5e9;c70372a6-687e-4442-ab29-eeccce482328)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:48:24 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eb8-30ca2f9b4ecef9947dfe3170;6cda1bad-47d9-4377-a166-2955c10a058f)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eb8-30ca2f9b4ecef9947dfe3170;6cda1bad-47d9-4377-a166-2955c10a058f)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eb8-30ca2f9b4ecef9947dfe3170;6cda1bad-47d9-4377-a166-2955c10a058f)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:48:25 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eb8-3eee9ea14e4ed7d30041ef66;d82719c9-c3b7-49d9-9e63-d19d0b83b394)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eb8-3eee9ea14e4ed7d30041ef66;d82719c9-c3b7-49d9-9e63-d19d0b83b394)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eb8-3eee9ea14e4ed7d30041ef66;d82719c9-c3b7-49d9-9e63-d19d0b83b394)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:48:25 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eb9-08bb994f27e3347e27de2ff1;5c9ec0fa-5214-48f0-8bbf-f90c8d8405a8)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eb9-08bb994f27e3347e27de2ff1;5c9ec0fa-5214-48f0-8bbf-f90c8d8405a8)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eb9-08bb994f27e3347e27de2ff1;5c9ec0fa-5214-48f0-8bbf-f90c8d8405a8)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:48:26 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eba-4582e6656a523ef5460f95e3;647b5300-b268-486d-85d1-42226f4944ac)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eba-4582e6656a523ef5460f95e3;647b5300-b268-486d-85d1-42226f4944ac)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eba-4582e6656a523ef5460f95e3;647b5300-b268-486d-85d1-42226f4944ac)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:48:26 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eba-608b9d1f577d1c107989f8d1;001b21c9-893e-48a9-94ca-caf3c5e0fbb0)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eba-608b9d1f577d1c107989f8d1;001b21c9-893e-48a9-94ca-caf3c5e0fbb0)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eba-608b9d1f577d1c107989f8d1;001b21c9-893e-48a9-94ca-caf3c5e0fbb0)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:48:27 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eba-3f0bf54c7a6c29884ecac8e1;7052425e-5df3-4faf-96a8-78bb3abe85fd)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eba-3f0bf54c7a6c29884ecac8e1;7052425e-5df3-4faf-96a8-78bb3abe85fd)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203eba-3f0bf54c7a6c29884ecac8e1;7052425e-5df3-4faf-96a8-78bb3abe85fd)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:48:29 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ebd-1af631677780b16900bbeabc;bda5fd14-fcd6-45f3-b598-bd0598420412)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ebd-1af631677780b16900bbeabc;bda5fd14-fcd6-45f3-b598-bd0598420412)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ebd-1af631677780b16900bbeabc;bda5fd14-fcd6-45f3-b598-bd0598420412)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:48:31 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ebf-18e6e5f057fb81736aacb92d;ccb8122e-7727-4632-a530-7361854c0d21)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ebf-18e6e5f057fb81736aacb92d;ccb8122e-7727-4632-a530-7361854c0d21)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ebf-18e6e5f057fb81736aacb92d;ccb8122e-7727-4632-a530-7361854c0d21)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:48:34 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ec1-49528a7218d4aac266020ccf;355d4cb7-bb55-4c8c-b35d-c49c1deb4cb8)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ec1-49528a7218d4aac266020ccf;355d4cb7-bb55-4c8c-b35d-c49c1deb4cb8)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ec1-49528a7218d4aac266020ccf;355d4cb7-bb55-4c8c-b35d-c49c1deb4cb8)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:48:36 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ec4-1762494b46c947793d5e6e11;0089b42b-d41a-4bd6-ad0b-8eeef6fa052d)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ec4-1762494b46c947793d5e6e11;0089b42b-d41a-4bd6-ad0b-8eeef6fa052d)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ec4-1762494b46c947793d5e6e11;0089b42b-d41a-4bd6-ad0b-8eeef6fa052d)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:48:38 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ec6-271323881751d894218f35c7;f5c8db06-3ad6-43a4-a607-ea1ea2bf3108)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ec6-271323881751d894218f35c7;f5c8db06-3ad6-43a4-a607-ea1ea2bf3108)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ec6-271323881751d894218f35c7;f5c8db06-3ad6-43a4-a607-ea1ea2bf3108)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:48:40 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ec8-056cb4d77b634a8e799a9954;9da1f18f-47e1-49fc-80bc-e35233ff6721)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ec8-056cb4d77b634a8e799a9954;9da1f18f-47e1-49fc-80bc-e35233ff6721)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ec8-056cb4d77b634a8e799a9954;9da1f18f-47e1-49fc-80bc-e35233ff6721)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:48:42 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ec9-4e8db32461b1f5bb14b21fc8;bd0bca38-4b99-458a-bcfc-065dfe871554)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ec9-4e8db32461b1f5bb14b21fc8;bd0bca38-4b99-458a-bcfc-065dfe871554)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ec9-4e8db32461b1f5bb14b21fc8;bd0bca38-4b99-458a-bcfc-065dfe871554)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:48:43 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ecb-386a3c307d1029de7a211261;c4f60f98-ded4-4733-97e9-4faa0313e045)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ecb-386a3c307d1029de7a211261;c4f60f98-ded4-4733-97e9-4faa0313e045)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ecb-386a3c307d1029de7a211261;c4f60f98-ded4-4733-97e9-4faa0313e045)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-06-03 09:48:45 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Permanent error, not retrying: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ecd-5bc7711079289fdd0bf60c00;8994ffee-46cf-42f5-b25a-0e6f5550b6d0)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 761, in hf_raise_for_status
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 287, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=safe_prompt,
+    ...<6 lines>...
+        negative_prompt=negative_prompt,
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 2575, in text_to_image
+    response = self._inner_post(request_parameters)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\inference\_client.py", line 283, in _inner_post
+    hf_raise_for_status(response)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 877, in hf_raise_for_status
+    raise _format(HfHubHTTPError, str(e), response) from e
+huggingface_hub.errors.HfHubHTTPError: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ecd-5bc7711079289fdd0bf60c00;8994ffee-46cf-42f5-b25a-0e6f5550b6d0)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 306, in generate_image_via_hf
+    raise PermanentException(f"Auth failed: {e}")
+utils.errors.PermanentException: Auth failed: Client error '401 Unauthorized' for url 'https://router.huggingface.co/wavespeed/api/v3/wavespeed-ai/flux-schnell' (Request ID: Root=1-6a203ecd-5bc7711079289fdd0bf60c00;8994ffee-46cf-42f5-b25a-0e6f5550b6d0)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401

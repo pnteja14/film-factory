@@ -1,0 +1,14 @@
+2026-06-02 17:08:35 - Agent.VideoGenerator - INFO - [VideoGenerator] Generating Wan2.1-I2V clips for qualifying environmental scenes...
+2026-06-02 17:08:35 - Agent.VideoGenerator - INFO - [VideoGenerator] ep1 reveal1: no environmental keyword — Ken Burns
+2026-06-02 17:08:35 - Agent.VideoGenerator - INFO - [VideoGenerator] ep1 reveal2: no environmental keyword — Ken Burns
+2026-06-02 17:08:35 - Agent.VideoGenerator - INFO - [VideoGenerator] ep1 reveal3: no environmental keyword — Ken Burns
+2026-06-02 17:08:35 - Agent.VideoGenerator - INFO - [VideoGenerator] ep1 reveal4: no environmental keyword — Ken Burns
+2026-06-02 17:08:35 - Agent.VideoGenerator - INFO - [VideoGenerator] ep1 reveal5: no environmental keyword — Ken Burns
+2026-06-02 17:08:35 - Agent.VideoGenerator - INFO - [VideoGenerator] ep1 scene9: generating Wan clip — The Grand Ballroom, rain streaking down a window, drops shat...
+2026-06-02 17:24:01 - Agent.VideoGenerator - WARNING - [VideoGenerator] ep1 scene9 video failed: Video generation failed: 503 Server Error: Service Unavailable for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate_video
+2026-06-02 17:24:01 - Agent.VideoGenerator - INFO - [VideoGenerator] ep1 scene10: generating Wan clip — The Grand Ballroom, rain streaking down a window, drops shat...
+2026-06-02 17:26:56 - Agent.VideoGenerator - WARNING - [VideoGenerator] ep1 scene10 video failed: Video generation failed: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-06-02 17:26:56 - Agent.VideoGenerator - INFO - [VideoGenerator] ep1 scene11 (cliffhanger): no environmental keyword — Ken Burns
+2026-06-02 17:26:56 - Agent.VideoGenerator - INFO - [VideoGenerator] ep1 scene12 (cliffhanger): no environmental keyword — Ken Burns
+2026-06-02 17:26:56 - Agent.VideoGenerator - INFO - [VideoGenerator] ep1: 0 Wan clip(s) generated, 2 failed, rest use Ken Burns
+2026-06-02 17:29:47 - Orchestrator - INFO - Context saved: outputs\context.json

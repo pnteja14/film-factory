@@ -1,0 +1,15 @@
+2026-05-21 13:03:23 - Agent.SceneDirector - INFO - [SceneDirector] Directing episode 1...
+2026-05-21 13:03:23 - Agent.SceneDirector - INFO - [SceneDirector] Extracted 6 camera directions
+2026-05-21 13:03:23 - Agent.SceneDirector - WARNING - [SceneDirector] Only 6 scenes found, padding to 8
+2026-05-21 13:03:23 - Agent.SceneDirector - INFO - [SceneDirector] Padded to 8 scenes
+2026-05-21 13:03:23 - Agent.SceneDirector - INFO - [SceneDirector] Processing 8 scenes...
+2026-05-21 13:03:26 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 1/8 [establish|drift|short]
+2026-05-21 13:03:28 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 2/8 [establish|sweep|short]
+2026-05-21 13:03:30 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 3/8 [build|drift|medium]
+2026-05-21 13:03:33 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 4/8 [build|creep|medium]
+2026-05-21 13:03:35 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 5/8 [investigation|linger|medium]
+2026-05-21 13:03:37 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 6/8 [revelation|fixate|long]
+2026-05-21 13:03:39 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 7/8 [cliffhanger|linger|long]
+2026-05-21 13:03:41 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 8/8 [cliffhanger|freeze|long]
+2026-05-21 13:03:41 - Agent.SceneDirector - INFO - [SceneDirector] Episode 1: 8 prompts generated
+2026-05-21 13:03:41 - Agent.SceneDirector - INFO - [SceneDirector] Estimated episode duration: 64 seconds

@@ -1,0 +1,25 @@
+2026-05-25 15:28:53 - Agent.DepthParallax - INFO - [DepthParallax] Pre-computing depth maps...
+2026-05-25 15:28:53 - Agent.DepthParallax - INFO - [DepthParallax] Computing depth maps for 19 images...
+2026-05-25 15:28:53 - Agent.DepthParallax - INFO - [DepthParallax] Depth Anything V2 available via transformers
+2026-05-25 15:28:53 - Agent.DepthParallax - INFO - [DepthParallax] Loading Depth Anything V2 Small (~100MB first run)...
+2026-05-25 15:28:55 - Agent.DepthParallax - INFO - [DepthParallax] Depth model loaded
+2026-05-25 15:28:56 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_reveal3_evidence_depth.npy
+2026-05-25 15:28:57 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_reveal5_subject_depth.npy
+2026-05-25 15:28:58 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep2_reveal4_document_depth.npy
+2026-05-25 15:28:59 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_reveal2_evidence_depth.npy
+2026-05-25 15:28:59 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: claires_apartment_depth.npy
+2026-05-25 15:29:00 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: detective_fosters_house_depth.npy
+2026-05-25 15:29:01 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep2_reveal1_location_detail_depth.npy
+2026-05-25 15:29:02 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: state_emergency_services_building_depth.npy
+2026-05-25 15:29:03 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: local_news_station_archives_depth.npy
+2026-05-25 15:29:04 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: police_records_storage_depth.npy
+2026-05-25 15:29:04 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: the_diner_on_route_9_depth.npy
+2026-05-25 15:29:05 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_reveal1_document_depth.npy
+2026-05-25 15:29:06 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: the_abandoned_hospital_wing_depth.npy
+2026-05-25 15:29:07 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep2_reveal5_subject_depth.npy
+2026-05-25 15:29:08 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: county_correctional_facility_depth.npy
+2026-05-25 15:29:09 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep2_reveal2_evidence_depth.npy
+2026-05-25 15:29:09 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_reveal4_evidence_depth.npy
+2026-05-25 15:29:10 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ashford_farmhouse_depth.npy
+2026-05-25 15:29:10 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep2_reveal3_evidence_depth.npy
+2026-05-25 15:29:10 - Agent.DepthParallax - INFO - [DepthParallax] Depth maps ready: 19 new, 0 cached

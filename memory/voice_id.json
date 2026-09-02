@@ -1,0 +1,6 @@
+{
+  "voice_prompt": "A deeply resonant middle-aged male voice with maximum chest resonance and bass. Extremely slow and deliberate pace, like reading a police report in a dark room. No emotional expressiveness whatsoever. Cold, controlled, and certain. Tobacco-worn quality, heavy and grounded. Suitable for true crime documentary narration. Every word is delivered as fact. Dark, restrained, and authoritative.",
+  "narrator_v1": "qwen-tts-vd-narrator01-voice-20260521020258216-cd3e",
+  "narrator_v2": "qwen-tts-vd-narrator02-voice-20260521131053808-ccec",
+  "active": "narrator_v2"
+}

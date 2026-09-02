@@ -1,0 +1,6 @@
+2026-05-27 23:53:27 - Agent.VoiceoverAgent - INFO - [VoiceoverAgent] Generating voiceover for episode 1...
+2026-05-27 23:53:27 - Agent.VoiceoverAgent - INFO - [VoiceoverAgent] Using structured narration: 5 chunks
+2026-05-27 23:53:27 - Agent.VoiceoverAgent - INFO - [VoiceoverAgent] Generating 5 audio chunks...
+2026-05-27 23:53:27 - Agent.VoiceoverAgent - INFO - [VoiceoverAgent]   Chunk 1/5: 71 chars
+2026-05-27 23:53:28 - Agent.VoiceoverAgent - ERROR - [VoiceoverAgent] Chunk 1 permanent error: API error 400: <400> InvalidParameter: url error, please check url！ For details, see: https://www.alibabacloud.com/help/en/model-studio/error-code#error-url
+2026-05-27 23:53:28 - Agent.VoiceoverAgent - ERROR - [VoiceoverAgent] Voiceover generation failed: Chunk 1 failed permanently: API error 400: <400> InvalidParameter: url error, please check url！ For details, see: https://www.alibabacloud.com/help/en/model-studio/error-code#error-url

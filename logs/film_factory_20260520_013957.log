@@ -1,0 +1,9 @@
+2026-05-20 01:41:30 - Orchestrator - INFO - ============================================================
+2026-05-20 01:41:30 - Orchestrator - INFO - FILM FACTORY PIPELINE STARTING
+2026-05-20 01:41:30 - Orchestrator - INFO - ============================================================
+2026-05-20 01:41:30 - Orchestrator - INFO - Output directories verified
+2026-05-20 01:41:30 - Orchestrator - INFO - Story idea: A nurse discovers her hospital is quietly killing patients for organ harvesting and she is the next target
+2026-05-20 01:41:30 - Orchestrator - INFO - 
+[1/5] Running Story Architect...
+2026-05-20 01:41:37 - Orchestrator - ERROR - Story Architect failed: Unexpected error: Ollama call failed: model requires more system memory (4.5 GiB) than is available (3.3 GiB) (status code: 500)
+2026-05-20 01:41:37 - Orchestrator - ERROR - Pipeline failed: Unexpected error: Ollama call failed: model requires more system memory (4.5 GiB) than is available (3.3 GiB) (status code: 500)

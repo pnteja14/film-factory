@@ -1,0 +1,10 @@
+2026-05-31 19:45:49 - Agent.VideoCompositor - INFO - [VideoCompositor] Starting video composition (Agent 6b — FFmpeg)...
+2026-05-31 19:45:50 - Agent.VideoCompositor - INFO - [VideoCompositor] Title card: outputs/final/tmp_ep1/ep1_title.mp4
+2026-05-31 19:47:49 - Agent.VideoCompositor - INFO - [VideoCompositor] TBC card: outputs/final/tmp_ep1/ep1_tbc.mp4
+2026-05-31 19:47:50 - Agent.VideoCompositor - INFO - [VideoCompositor] Concatenated 13 segments -> outputs/final/tmp_ep1/ep1_video.mp4
+2026-05-31 19:48:30 - Agent.VideoCompositor - INFO - [VideoCompositor] Cinematic grade applied: outputs/final/tmp_ep1/ep1_graded.mp4
+2026-05-31 19:48:30 - Agent.VideoCompositor - INFO - [VideoCompositor] Mixing: 123.4s, 0 reveals, 0 dramatic pauses
+2026-05-31 19:48:34 - Agent.VideoCompositor - INFO - [VideoCompositor] Dynamic audio mixed: outputs/final/tmp_ep1/ep1_audio.aac
+2026-05-31 19:48:37 - Agent.VideoCompositor - INFO - [VideoCompositor] Final: outputs/final/episode_1.mp4
+2026-05-31 19:48:37 - Agent.VideoCompositor - INFO - [VideoCompositor] Episode 1 complete: outputs/final/episode_1.mp4
+2026-05-31 19:48:37 - Agent.VideoCompositor - INFO - [VideoCompositor] Composition: 2/1 rendered

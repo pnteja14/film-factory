@@ -1,0 +1,39 @@
+2026-05-20 02:24:02 - Agent.StoryArchitect - INFO - [StoryArchitect] Starting story planning...
+2026-05-20 02:24:02 - Agent.StoryArchitect - INFO - [StoryArchitect] Brand voice loaded
+2026-05-20 02:24:02 - Agent.StoryArchitect - INFO - [StoryArchitect] Calling Ollama for story plan...
+2026-05-20 02:24:46 - Agent.StoryArchitect - INFO - [StoryArchitect] Extracting and parsing JSON...
+2026-05-20 02:24:46 - Agent.StoryArchitect - INFO - [StoryArchitect] Validating story plan...
+2026-05-20 02:24:46 - Agent.StoryArchitect - ERROR - [StoryArchitect] Story planning failed: Story plan validation failed: 2 validation errors for StoryBible
+episodes.0.cliffhanger
+  String should have at most 500 characters [type=string_too_long, input_value='Sarah sits alone in the ...re not supposed to see.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long
+episodes.1.cliffhanger
+  String should have at most 500 characters [type=string_too_long, input_value="Sarah sits in the hospit...becomes responsibility.", input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\story_architect.py", line 97, in validate_story_plan
+    validated = StoryBible(**story_plan)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\pydantic\main.py", line 263, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+pydantic_core._pydantic_core.ValidationError: 2 validation errors for StoryBible
+episodes.0.cliffhanger
+  String should have at most 500 characters [type=string_too_long, input_value='Sarah sits alone in the ...re not supposed to see.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long
+episodes.1.cliffhanger
+  String should have at most 500 characters [type=string_too_long, input_value="Sarah sits in the hospit...becomes responsibility.", input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\story_architect.py", line 203, in plan_story
+    story_plan = validate_story_plan(story_plan)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\story_architect.py", line 101, in validate_story_plan
+    raise StoryArchitectException(f"Story plan validation failed: {e}")
+utils.errors.StoryArchitectException: Story plan validation failed: 2 validation errors for StoryBible
+episodes.0.cliffhanger
+  String should have at most 500 characters [type=string_too_long, input_value='Sarah sits alone in the ...re not supposed to see.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long
+episodes.1.cliffhanger
+  String should have at most 500 characters [type=string_too_long, input_value="Sarah sits in the hospit...becomes responsibility.", input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long

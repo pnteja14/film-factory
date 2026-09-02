@@ -1,0 +1,4 @@
+2026-05-29 20:23:31 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 available
+2026-05-29 20:23:31 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2: loading checkpoints/sam2.1_hiera_tiny.pt on CPU (this takes ~10s first time)
+2026-05-29 20:23:49 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_scene4_maras_recording_studio
+2026-05-29 20:23:49 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_scene4_maras_recording_studio

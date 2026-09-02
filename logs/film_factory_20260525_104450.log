@@ -1,0 +1,16 @@
+2026-05-25 10:45:04 - Agent.NarrationDirector - INFO - [NarrationDirector] Structuring narration for all episodes...
+2026-05-25 10:45:04 - Agent.NarrationDirector - INFO - [NarrationDirector]   Structuring episode 1...
+2026-05-25 10:45:08 - Agent.NarrationDirector - INFO - [NarrationDirector] Narration structured into 8 chunks
+2026-05-25 10:45:08 - Agent.NarrationDirector - INFO - [NarrationDirector]   Episode 1: 8 chunks
+2026-05-25 10:45:08 - Agent.NarrationDirector - INFO - [NarrationDirector] Narration direction complete
+2026-05-25 10:45:19 - Agent.SceneDirector - INFO - [SceneDirector] Directing episode 1...
+2026-05-25 10:45:19 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 1/8 [establish] — Ravenshade Manor
+2026-05-25 10:45:19 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 2/8 [establish] — Ravenshade Manor
+2026-05-25 10:45:19 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 3/8 [build] — The Ashford Family Home (Past)
+2026-05-25 10:45:19 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 4/8 [build] — Ravenshade Manor
+2026-05-25 10:45:19 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 5/8 [investigation] — The Ashford Family Home (Past)
+2026-05-25 10:45:19 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 6/8 [revelation] — The Ashford Family Home (Past)
+2026-05-25 10:45:19 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 7/8 [cliffhanger] — The Ashford Family Home (Past)
+2026-05-25 10:45:19 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 8/8 [cliffhanger] — Ravenshade Manor
+2026-05-25 10:45:24 - Agent.SceneDirector - INFO - [SceneDirector] Episode 1: 5 reveal moments
+2026-05-25 10:45:24 - Agent.SceneDirector - INFO - [SceneDirector] Episode 1: 8 scenes, 5 reveals, ~67s

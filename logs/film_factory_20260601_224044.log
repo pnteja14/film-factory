@@ -1,0 +1,7 @@
+2026-06-01 22:42:02 - Agent.ImageGenerator - INFO - [ImageGenerator] Starting image generation (Agent 5a)...
+2026-06-01 22:42:02 - Agent.ImageGenerator - INFO - [ImageGenerator] HuggingFace client initialized
+2026-06-01 22:42:02 - Agent.ImageGenerator - INFO - [ImageGenerator] Same story detected — reusing existing images (set REUSE_EXISTING_IMAGES=True to force)
+2026-06-01 22:42:02 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1: 7 anchor images at 1280x720...
+2026-06-01 22:42:02 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Long Approach — Ashveil Manor Driveway' (1280x720)
+2026-06-01 22:47:02 - Agent.ImageGenerator - ERROR - [ImageGenerator] Anchor failed 'The Long Approach — Ashveil Manor Driveway': Max retries: Kaggle server timeout (>300s)
+2026-06-01 22:47:04 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Grand Ballroom' (1280x720)

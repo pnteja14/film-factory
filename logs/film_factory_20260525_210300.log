@@ -1,0 +1,16 @@
+2026-05-25 21:05:23 - Agent.VoiceoverAgent - INFO - [VoiceoverAgent] Generating voiceover for episode 1...
+2026-05-25 21:05:23 - Agent.VoiceoverAgent - INFO - [VoiceoverAgent] Loaded voice: narrator_v2 — qwen-tts-vd-narrator02-voice-20260521131053808-ccec
+2026-05-25 21:05:23 - Agent.VoiceoverAgent - INFO - [VoiceoverAgent] Using structured narration: 5 chunks
+2026-05-25 21:05:23 - Agent.VoiceoverAgent - INFO - [VoiceoverAgent] Generating 5 audio chunks...
+2026-05-25 21:05:23 - Agent.VoiceoverAgent - INFO - [VoiceoverAgent]   Chunk 1/5: 106 chars
+2026-05-25 21:05:29 - Agent.VoiceoverAgent - INFO - [VoiceoverAgent]   Chunk 2/5: 142 chars
+2026-05-25 21:05:35 - Agent.VoiceoverAgent - INFO - [VoiceoverAgent]   Chunk 3/5: 70 chars
+2026-05-25 21:05:41 - Agent.VoiceoverAgent - INFO - [VoiceoverAgent]   Chunk 4/5: 86 chars
+2026-05-25 21:05:45 - Agent.VoiceoverAgent - INFO - [VoiceoverAgent]   Chunk 5/5: 254 chars
+2026-05-25 21:05:54 - Agent.VoiceoverAgent - INFO - [VoiceoverAgent] Audio stitched: outputs/audio/episode_1_voiceover.wav — total 60080ms
+2026-05-25 21:05:54 - Agent.VoiceoverAgent - INFO - [VoiceoverAgent] Voiceover complete: outputs/audio/episode_1_voiceover.wav | 5 chunks timed
+2026-05-25 21:05:54 - Agent.VoiceoverAgent - INFO - [VoiceoverAgent]   Chunk 0: 0ms → 12016ms
+2026-05-25 21:05:54 - Agent.VoiceoverAgent - INFO - [VoiceoverAgent]   Chunk 1: 12016ms → 24032ms
+2026-05-25 21:05:54 - Agent.VoiceoverAgent - INFO - [VoiceoverAgent]   Chunk 2: 24032ms → 36048ms
+2026-05-25 21:05:54 - Agent.VoiceoverAgent - INFO - [VoiceoverAgent]   Chunk 3: 36048ms → 48064ms
+2026-05-25 21:05:54 - Agent.VoiceoverAgent - INFO - [VoiceoverAgent]   Chunk 4: 48064ms → 60080ms

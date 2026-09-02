@@ -1,0 +1,7 @@
+2026-05-31 19:18:05 - Agent.VideoCompositor - INFO - [VideoCompositor] Starting video composition (Agent 6b — FFmpeg)...
+2026-05-31 19:18:05 - Agent.VideoCompositor - INFO - [VideoCompositor] Title card: outputs/final/tmp_ep1/ep1_title.mp4
+2026-05-31 19:20:26 - Agent.VideoCompositor - INFO - [VideoCompositor] TBC card: outputs/final/tmp_ep1/ep1_tbc.mp4
+2026-05-31 19:20:27 - Agent.VideoCompositor - INFO - [VideoCompositor] Concatenated 13 segments -> outputs/final/tmp_ep1/ep1_video.mp4
+2026-05-31 19:21:16 - Agent.VideoCompositor - INFO - [VideoCompositor] Cinematic grade applied: outputs/final/tmp_ep1/ep1_graded.mp4
+2026-05-31 19:21:16 - Agent.VideoCompositor - INFO - [VideoCompositor] Mixing: 67.0s, 0 reveals, 0 dramatic pauses
+2026-05-31 19:21:16 - Agent.VideoCompositor - WARNING - [VideoCompositor] Could not load WAV : [Errno 2] No such file or directory: ''

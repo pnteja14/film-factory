@@ -1,0 +1,59 @@
+2026-06-01 12:10:44 - Agent.ImageGenerator - INFO - [ImageGenerator] Starting image generation (Agent 5a)...
+2026-06-01 12:10:44 - Agent.ImageGenerator - INFO - [ImageGenerator] HuggingFace client initialized
+2026-06-01 12:10:44 - Agent.ImageGenerator - INFO - [ImageGenerator] Same story detected — reusing existing images (set REUSE_EXISTING_IMAGES=True to force)
+2026-06-01 12:10:44 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1: 7 anchor images at 1280x720...
+2026-06-01 12:10:44 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'The Grand Foyer of Aldermoor Manor' — skipping
+2026-06-01 12:10:46 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'The Mayor's Study' — skipping
+2026-06-01 12:10:48 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'The Manor Ballroom' — skipping
+2026-06-01 12:10:50 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'The East Corridor' — skipping
+2026-06-01 12:10:52 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'The Manor Wine Cellar' — skipping
+2026-06-01 12:10:54 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'The Manor Garden — Night' — skipping
+2026-06-01 12:10:56 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'The Concealed Passage' — skipping
+2026-06-01 12:10:58 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1 complete: 7/7
+2026-06-01 12:10:58 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1.5: Correcting scene prompts against anchor images...
+2026-06-01 12:11:02 - Agent.ImageGenerator - INFO - [ImageGenerator]   Anchor analyzed: 'The Grand Foyer of Aldermoor Manor'
+2026-06-01 12:11:05 - Agent.ImageGenerator - INFO - [ImageGenerator]   Anchor analyzed: 'The Mayor's Study'
+2026-06-01 12:11:09 - Agent.ImageGenerator - INFO - [ImageGenerator]   Anchor analyzed: 'The Manor Ballroom'
+2026-06-01 12:11:12 - Agent.ImageGenerator - INFO - [ImageGenerator]   Anchor analyzed: 'The East Corridor'
+2026-06-01 12:11:15 - Agent.ImageGenerator - INFO - [ImageGenerator]   Anchor analyzed: 'The Manor Wine Cellar'
+2026-06-01 12:11:19 - Agent.ImageGenerator - INFO - [ImageGenerator]   Anchor analyzed: 'The Manor Garden — Night'
+2026-06-01 12:11:23 - Agent.ImageGenerator - INFO - [ImageGenerator]   Anchor analyzed: 'The Concealed Passage'
+2026-06-01 12:11:33 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1.5 complete: 4 prompts corrected
+2026-06-01 12:11:33 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 2: Scene images for 1 episodes...
+2026-06-01 12:11:33 - Agent.ImageGenerator - INFO - [ImageGenerator] Episode 1 scene images...
+2026-06-01 12:11:33 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 1: anchor 'The Grand Foyer of Aldermoor Manor' (first use)
+2026-06-01 12:11:33 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 2: anchor 'The Manor Ballroom' (first use)
+2026-06-01 12:11:33 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 3: existing reused
+2026-06-01 12:11:33 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 4: existing reused
+2026-06-01 12:11:33 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 5: anchor 'The Mayor's Study' (first use)
+2026-06-01 12:11:55 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 6 attempt 1: validation score=0.70
+2026-06-01 12:11:55 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 6: generated 'The Mayor's Study' (score 0.70)
+2026-06-01 12:12:03 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 7 attempt 1: validation score=0.20
+2026-06-01 12:12:03 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 7: score 0.20 < 0.55 — retrying
+2026-06-01 12:12:10 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 7 attempt 2: validation score=0.20
+2026-06-01 12:12:10 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 7: score 0.20 < 0.55 — retrying
+2026-06-01 12:12:18 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 7 attempt 3: validation score=0.30
+2026-06-01 12:12:18 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 7: kept best attempt (score 0.30) for 'The Mayor's Study'
+2026-06-01 12:12:26 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 8 attempt 1: validation score=0.85
+2026-06-01 12:12:27 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 8: generated 'The Mayor's Study' (score 0.85)
+2026-06-01 12:12:29 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 3: Reveal images for 1 episodes...
+2026-06-01 12:12:29 - Agent.ImageGenerator - INFO - [ImageGenerator]   Episode 1: 5 reveals...
+2026-06-01 12:12:29 - Agent.ImageGenerator - INFO - [ImageGenerator] Reveal exists: ep1_reveal1_location_detail_e5ae139c.png — skipping
+2026-06-01 12:12:29 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 1: location_detail saved
+2026-06-01 12:12:31 - Agent.ImageGenerator - INFO - [ImageGenerator] Reveal exists: ep1_reveal2_evidence_e5ae139c.png — skipping
+2026-06-01 12:12:31 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 2: evidence saved
+2026-06-01 12:12:33 - Agent.ImageGenerator - INFO - [ImageGenerator] Reveal exists: ep1_reveal3_document_e5ae139c.png — skipping
+2026-06-01 12:12:33 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 3: document saved
+2026-06-01 12:12:35 - Agent.ImageGenerator - INFO - [ImageGenerator] Reveal exists: ep1_reveal4_location_detail_e5ae139c.png — skipping
+2026-06-01 12:12:35 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 4: location_detail saved
+2026-06-01 12:12:37 - Agent.ImageGenerator - INFO - [ImageGenerator] Reveal exists: ep1_reveal5_subject_e5ae139c.png — skipping
+2026-06-01 12:12:37 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 5: subject saved
+2026-06-01 12:12:39 - Agent.ImageGenerator - INFO - [ImageGenerator] Image generation complete — 7 anchors, 8 scenes, 5 reveals | All at 1280x720 (16:9)
+2026-06-01 12:13:39 - Agent.EditPlanner - INFO - [EditPlanner] Building edit decision lists (Agent 6a)...
+2026-06-01 12:13:39 - Agent.EditPlanner - INFO - [EditPlanner] Planning episode 1...
+2026-06-01 12:13:39 - Agent.EditPlanner - INFO - [EditPlanner] Episode 1: 8 scenes (8 with images), 5 reveals, 8 timestamps
+2026-06-01 12:13:39 - Agent.EditPlanner - INFO - [EditPlanner] Building EDL for episode 1...
+2026-06-01 12:13:39 - Agent.EditPlanner - INFO - [EditPlanner] Total audio: 126365ms (126.4s)
+2026-06-01 12:13:39 - Agent.EditPlanner - INFO - [EditPlanner] EDL built: 17 entries, 5 reveals, total 126.4s
+2026-06-01 12:13:39 - Agent.EditPlanner - INFO - [EditPlanner] EDL saved: outputs/episode_1_edl.json
+2026-06-01 12:13:39 - Agent.EditPlanner - INFO - [EditPlanner] Edit planning complete: 1 EDLs

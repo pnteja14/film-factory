@@ -1,0 +1,76 @@
+2026-06-03 10:16:09 - Agent.ImageGenerator - INFO - [ImageGenerator] Starting image generation (Agent 5a)...
+2026-06-03 10:16:09 - Agent.ImageGenerator - INFO - [ImageGenerator] HuggingFace client initialized
+2026-06-03 10:16:09 - Agent.ImageGenerator - INFO - [ImageGenerator] Same story detected — reusing existing images (set REUSE_EXISTING_IMAGES=True to force)
+2026-06-03 10:16:09 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1: 7 anchor images at 1280x720...
+2026-06-03 10:16:09 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Manor — Grand Entry Hall' (1280x720)
+2026-06-03 10:16:30 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_manor__grand_entry_hall.png
+2026-06-03 10:16:32 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Hidden Room' (1280x720)
+2026-06-03 10:16:51 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_hidden_room.png
+2026-06-03 10:16:53 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The East-Wing Library' (1280x720)
+2026-06-03 10:17:12 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_east-wing_library.png
+2026-06-03 10:17:14 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Manor Grounds — Overgrown Garden' (1280x720)
+2026-06-03 10:17:33 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_manor_grounds__overgrown_garden.png
+2026-06-03 10:17:35 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'Callum's Cottage — Interior' (1280x720)
+2026-06-03 10:17:54 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\callums_cottage__interior.png
+2026-06-03 10:17:56 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Village — Millhaven High Street' (1280x720)
+2026-06-03 10:18:16 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_village__millhaven_high_street.png
+2026-06-03 10:18:18 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Manor — Upper Hallway' (1280x720)
+2026-06-03 10:18:37 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_manor__upper_hallway.png
+2026-06-03 10:18:39 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1 complete: 7/7
+2026-06-03 10:18:39 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1.5: Correcting scene prompts against anchor images...
+2026-06-03 10:18:42 - Agent.ImageGenerator - INFO - [ImageGenerator]   Anchor analyzed: 'The Manor — Grand Entry Hall'
+2026-06-03 10:18:46 - Agent.ImageGenerator - INFO - [ImageGenerator]   Anchor analyzed: 'The Hidden Room'
+2026-06-03 10:18:49 - Agent.ImageGenerator - INFO - [ImageGenerator]   Anchor analyzed: 'The East-Wing Library'
+2026-06-03 10:18:53 - Agent.ImageGenerator - INFO - [ImageGenerator]   Anchor analyzed: 'The Manor Grounds — Overgrown Garden'
+2026-06-03 10:18:56 - Agent.ImageGenerator - INFO - [ImageGenerator]   Anchor analyzed: 'Callum's Cottage — Interior'
+2026-06-03 10:19:00 - Agent.ImageGenerator - INFO - [ImageGenerator]   Anchor analyzed: 'The Village — Millhaven High Street'
+2026-06-03 10:19:03 - Agent.ImageGenerator - INFO - [ImageGenerator]   Anchor analyzed: 'The Manor — Upper Hallway'
+2026-06-03 10:19:05 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1.5 complete: 1 prompts corrected
+2026-06-03 10:19:05 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 2: Scene images for 1 episodes...
+2026-06-03 10:19:05 - Agent.ImageGenerator - INFO - [ImageGenerator] Episode 1 scene images...
+2026-06-03 10:19:05 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 1: anchor 'The Hidden Room' (first use)
+2026-06-03 10:19:05 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 2: anchor 'The Manor — Grand Entry Hall' (first use)
+2026-06-03 10:19:05 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 3: anchor 'The East-Wing Library' (first use)
+2026-06-03 10:19:25 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 4 attempt 1: validation score=0.20
+2026-06-03 10:19:25 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 4: score 0.20 < 0.55 — retrying
+2026-06-03 10:19:47 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 4 attempt 2: validation score=0.75
+2026-06-03 10:19:47 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 4: generated 'The Manor — Grand Entry Hall' (score 0.75)
+2026-06-03 10:19:48 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 5: anchor 'The Manor — Upper Hallway' (first use)
+2026-06-03 10:20:09 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 6 attempt 1: validation score=0.85
+2026-06-03 10:20:09 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 6: generated 'The Manor — Grand Entry Hall' (score 0.85)
+2026-06-03 10:20:30 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 7 attempt 1: validation score=0.95
+2026-06-03 10:20:30 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 7: generated 'The Manor — Grand Entry Hall' (score 0.95)
+2026-06-03 10:20:52 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 8 attempt 1: validation score=0.90
+2026-06-03 10:20:53 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 8: generated 'The East-Wing Library' (score 0.90)
+2026-06-03 10:21:14 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 9 attempt 1: validation score=0.70
+2026-06-03 10:21:15 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 9: generated 'The East-Wing Library' (score 0.70)
+2026-06-03 10:21:36 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 10 attempt 1: validation score=0.20
+2026-06-03 10:21:36 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 10: score 0.20 < 0.55 — retrying
+2026-06-03 10:21:58 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 10 attempt 2: validation score=0.85
+2026-06-03 10:21:58 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 10: generated 'The East-Wing Library' (score 0.85)
+2026-06-03 10:22:20 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 11 attempt 1: validation score=0.95
+2026-06-03 10:22:20 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 11: generated 'The Hidden Room' (score 0.95)
+2026-06-03 10:22:42 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 12 attempt 1: validation score=0.85
+2026-06-03 10:22:42 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 12: generated 'The Hidden Room' (score 0.85)
+2026-06-03 10:23:05 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 13 attempt 1: validation score=0.85
+2026-06-03 10:23:05 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 13: generated 'The Hidden Room' (score 0.85)
+2026-06-03 10:23:07 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 3: Reveal images for 1 episodes...
+2026-06-03 10:23:07 - Agent.ImageGenerator - INFO - [ImageGenerator]   Episode 1: 5 reveals...
+2026-06-03 10:23:07 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [document] ep1 r1
+2026-06-03 10:23:26 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal1_document_011e6268.png
+2026-06-03 10:23:26 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 1: document saved
+2026-06-03 10:23:28 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [location_detail] ep1 r2
+2026-06-03 10:23:47 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal2_location_detail_011e6268.png
+2026-06-03 10:23:47 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 2: location_detail saved
+2026-06-03 10:23:49 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [subject] ep1 r3
+2026-06-03 10:24:08 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal3_subject_011e6268.png
+2026-06-03 10:24:08 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 3: subject saved
+2026-06-03 10:24:10 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [location_detail] ep1 r4
+2026-06-03 10:24:29 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal4_location_detail_011e6268.png
+2026-06-03 10:24:29 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 4: location_detail saved
+2026-06-03 10:24:31 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [evidence] ep1 r5
+2026-06-03 10:24:50 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal5_evidence_011e6268.png
+2026-06-03 10:24:50 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 5: evidence saved
+2026-06-03 10:24:52 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 3.5: Insert shot images...
+2026-06-03 10:24:52 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 3.5 complete: 4/4 insert shots generated
+2026-06-03 10:24:52 - Agent.ImageGenerator - INFO - [ImageGenerator] Image generation complete — 7 anchors, 13 scenes, 5 reveals | All at 1280x720 (16:9)

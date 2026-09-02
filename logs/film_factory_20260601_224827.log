@@ -1,0 +1,7 @@
+2026-06-01 22:48:57 - Agent.ImageGenerator - INFO - [ImageGenerator] Starting image generation (Agent 5a)...
+2026-06-01 22:48:57 - Agent.ImageGenerator - INFO - [ImageGenerator] HuggingFace client initialized
+2026-06-01 22:48:57 - Agent.ImageGenerator - INFO - [ImageGenerator] Same story detected — reusing existing images (set REUSE_EXISTING_IMAGES=True to force)
+2026-06-01 22:48:57 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1: 7 anchor images at 1024x576...
+2026-06-01 22:48:57 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Long Approach — Ashveil Manor Driveway' (1024x576)
+2026-06-01 22:53:58 - Agent.ImageGenerator - ERROR - [ImageGenerator] Anchor failed 'The Long Approach — Ashveil Manor Driveway': Max retries: Kaggle generation failed: 503 Server Error: Service Unavailable for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-01 22:54:00 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Grand Ballroom' (1024x576)

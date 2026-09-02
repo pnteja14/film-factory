@@ -1,0 +1,7 @@
+2026-05-27 23:53:28 - Agent.call_tts_api - ERROR - [call_tts_api] Permanent error, not retrying: API error 400: <400> InvalidParameter: url error, please check url！ For details, see: https://www.alibabacloud.com/help/en/model-studio/error-code#error-url
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\voiceover_agent.py", line 181, in call_tts_api
+    raise PermanentException(f"API error {resp.status_code}: {error_msg}")
+utils.errors.PermanentException: API error 400: <400> InvalidParameter: url error, please check url！ For details, see: https://www.alibabacloud.com/help/en/model-studio/error-code#error-url

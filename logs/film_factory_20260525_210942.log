@@ -1,0 +1,20 @@
+2026-05-25 21:09:42 - Agent.DepthParallax - INFO - [DepthParallax] Pre-computing depth maps...
+2026-05-25 21:09:42 - Agent.DepthParallax - INFO - [DepthParallax] Computing depth maps for 14 images...
+2026-05-25 21:09:42 - Agent.DepthParallax - INFO - [DepthParallax] Depth Anything V2 available via transformers
+2026-05-25 21:09:42 - Agent.DepthParallax - INFO - [DepthParallax] Loading Depth Anything V2 Small (~100MB first run)...
+2026-05-25 21:09:44 - Agent.DepthParallax - INFO - [DepthParallax] Depth model loaded
+2026-05-25 21:09:45 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_reveal4_location_detail_depth.npy
+2026-05-25 21:09:45 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_scene2_harlan_state_penitentiary__guard_station_and_corridor_depth.npy
+2026-05-25 21:09:46 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_reveal1_evidence_depth.npy
+2026-05-25 21:09:46 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: harlan_state_penitentiary__visitation_room_depth.npy
+2026-05-25 21:09:47 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_reveal2_document_depth.npy
+2026-05-25 21:09:48 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: sylvie_okafors_apartment_depth.npy
+2026-05-25 21:09:48 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_scene3_noras_apartment_depth.npy
+2026-05-25 21:09:49 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: the_archive_room__county_records_building_depth.npy
+2026-05-25 21:09:49 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: harlan_state_penitentiary__wardens_office_depth.npy
+2026-05-25 21:09:50 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_scene4_harlan_state_penitentiary__guard_station_and_corridor_depth.npy
+2026-05-25 21:09:51 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: harlan_state_penitentiary__guard_station_and_corridor_depth.npy
+2026-05-25 21:09:51 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_reveal3_document_depth.npy
+2026-05-25 21:09:52 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_scene1_noras_apartment_depth.npy
+2026-05-25 21:09:52 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: noras_apartment_depth.npy
+2026-05-25 21:09:52 - Agent.DepthParallax - INFO - [DepthParallax] Depth maps ready: 14 new, 0 cached

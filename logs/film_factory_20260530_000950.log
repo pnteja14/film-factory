@@ -1,0 +1,327 @@
+2026-05-30 00:17:48 - Agent.DepthSAM2 - INFO - [DepthSAM2] Pre-computing layers for all scene and reveal images...
+2026-05-30 00:17:50 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 available
+2026-05-30 00:17:50 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2: loading checkpoints/sam2.1_hiera_tiny.pt on CPU (one-time, ~10s)
+2026-05-30 00:17:51 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 generator ready — model cached for remaining images
+2026-05-30 00:18:04 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: maras_recording_studio
+2026-05-30 00:18:04 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: maras_recording_studio
+2026-05-30 00:18:16 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ruth_pellmans_house
+2026-05-30 00:18:16 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ruth_pellmans_house
+2026-05-30 00:18:29 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: harlow_creek_town_center
+2026-05-30 00:18:29 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: harlow_creek_town_center
+2026-05-30 00:18:43 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_scene4_maras_recording_studio
+2026-05-30 00:18:43 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_scene4_maras_recording_studio
+2026-05-30 00:18:56 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_scene5_ruth_pellmans_house
+2026-05-30 00:18:56 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_scene5_ruth_pellmans_house
+2026-05-30 00:19:09 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_scene6_harlow_creek_town_center
+2026-05-30 00:19:09 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_scene6_harlow_creek_town_center
+2026-05-30 00:19:22 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_scene7_maras_recording_studio
+2026-05-30 00:19:22 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_scene7_maras_recording_studio
+2026-05-30 00:19:35 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_scene8_ruth_pellmans_house
+2026-05-30 00:19:35 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_scene8_ruth_pellmans_house
+2026-05-30 00:19:49 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_scene9_harlow_creek_town_center
+2026-05-30 00:19:49 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_scene9_harlow_creek_town_center
+2026-05-30 00:20:02 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_scene10_maras_recording_studio
+2026-05-30 00:20:02 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_scene10_maras_recording_studio
+2026-05-30 00:20:15 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_scene11_ruth_pellmans_house
+2026-05-30 00:20:16 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_scene11_ruth_pellmans_house
+2026-05-30 00:20:33 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_scene12_harlow_creek_town_center
+2026-05-30 00:20:33 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_scene12_harlow_creek_town_center
+2026-05-30 00:20:46 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: harlow_creek_sheriffs_department
+2026-05-30 00:20:46 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: harlow_creek_sheriffs_department
+2026-05-30 00:20:59 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: millhaven_county_group_home__exterior
+2026-05-30 00:20:59 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: millhaven_county_group_home__exterior
+2026-05-30 00:21:12 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: the_frey_property
+2026-05-30 00:21:12 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: the_frey_property
+2026-05-30 00:21:25 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: vera_colts_print_shop
+2026-05-30 00:21:25 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: vera_colts_print_shop
+2026-05-30 00:21:39 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_reveal1_document
+2026-05-30 00:21:39 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_reveal1_document
+2026-05-30 00:21:52 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_reveal2_location_detail
+2026-05-30 00:21:52 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_reveal2_location_detail
+2026-05-30 00:22:05 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_reveal3_location_detail
+2026-05-30 00:22:05 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_reveal3_location_detail
+2026-05-30 00:22:18 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_reveal4_evidence
+2026-05-30 00:22:18 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_reveal4_evidence
+2026-05-30 00:22:31 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_reveal5_evidence
+2026-05-30 00:22:31 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_reveal5_evidence
+2026-05-30 00:22:31 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layer pre-compute done: 21 new, 0 cached
+2026-05-30 00:22:31 - Agent.VideoCompositor - INFO - [VideoCompositor] Starting video composition (Agent 6b — FFmpeg)...
+2026-05-30 00:22:31 - Agent.VideoCompositor - INFO - [VideoCompositor] Subtitles written: outputs/final/tmp_ep1/ep1_subtitles.ass (28 lines)
+2026-05-30 00:22:31 - Agent.VideoCompositor - INFO - [VideoCompositor] Title card: outputs/final/tmp_ep1/ep1_title.mp4
+2026-05-30 00:22:32 - Agent.VideoCompositor - ERROR - [VideoCompositor] FFmpeg failed for segment 0 (ep 1):
+CMD: ffmpeg -y -loop 1 -t 2.938 -i outputs/anchors/maras_recording_studio.png -loop 1 -t 2.938 -i outputs/layers/maras_recording_studio_mid_mask.png -loop 1 -t 2.938 -i outputs/layers/maras_recording_studio_subj_mask.png -filter_complex [0:v]scale=2112:1188,setsar=1[img_s];[1:v]scale=2112:1188,setsar=1[mid_mask_s];[2:v]scale=2112:1188,setsar=1[subj_mask_s];[img_s]split=3[img_bg][img_mid][img_subj];[img_bg]zoompan=z='min(1.4,1.0+0.013221*(1-on/70))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[bg_z];[img_mid]zoompan=z='min(1.4,1.0+0.026442*(1-on/70))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[mid_rgb_z];[img_subj]zoompan=z='min(1.4,1.0+0.044070*(1-on/70))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[subj_rgb_z];[mid_mask_s]zoompan=z='min(1.4,1.0+0.026442*(1-on/70))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[mid_mask_z];[subj_mask_s]zoompan=z='min(1.4,1.0+0.044070*(1-on/70))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[subj_mask_z];[mid_rgb_z]format=yuva420p[mid_yuva];[mid_yuva][mid_mask_z]alphamerge[mid_compositable];[subj_rgb_z]format=yuva420p[subj_yuva];[subj_yuva][subj_mask_z]alphamerge[subj_compositable];[bg_z][mid_compositable]overlay=format=yuv420p[c1];[c1][subj_compositable]overlay=format=yuv420p[comp];[comp]eq=brightness=-0.07:contrast=1.15:saturation=0.55:gamma=1.05[eq1];[eq1]colorbalance=bs=0.03:gs=0.01:rs=-0.04[grade];[grade]split=2[main_h][bloom_src];[bloom_src]lutyuv=y='if(gt(val,210),val,0)',gblur=sigma=16[bloom];[main_h][bloom]blend=all_mode=screen:all_opacity=0.20[ha];[ha]noise=alls=9:allf=t[gn];[gn]vignette=PI/3.5[vi];[vi]null[s6];[s6]drawbox=x=0:y=842:w=1920:h=238:color=0xD0E8F0@0.10:t=fill[s8];[s8]drawbox=x=0:y=0:w=iw:h=138:color=black@1:t=fill,drawbox=x=0:y=ih-138:w=iw:h=138:color=black@1:t=fill[lb];[lb]null[out] -map [out] -r 24 -t 2.938 -vcodec libx264 -pix_fmt yuv420p -preset veryfast -b:v 6M -avoid_negative_ts make_zero outputs/final/tmp_ep1/ep1_seg0000.mp4
+STDERR: -enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      60. 26.101 / 60. 26.101
+  libavcodec     62. 28.101 / 62. 28.101
+  libavformat    62. 12.101 / 62. 12.101
+  libavdevice    62.  3.101 / 62.  3.101
+  libavfilter    11. 14.101 / 11. 14.101
+  libswscale      9.  5.101 /  9.  5.101
+  libswresample   6.  3.101 /  6.  3.101
+[Parsed_overlay_16 @ 000001b3adcc6c80] [Eval @ 0000009c339fe9b0] Undefined constant or missing '(' in 'yuv420p'
+[Parsed_overlay_16 @ 000001b3adcc6c80] Unable to parse "format" option value "yuv420p"
+[fc#0 @ 000001b3adc8ad80] Error applying option 'format' to filter 'overlay': Invalid argument
+Error : Invalid argument
+
+2026-05-30 00:22:32 - Agent.VideoCompositor - ERROR - [VideoCompositor] FFmpeg failed for segment 1 (ep 1):
+CMD: ffmpeg -y -loop 1 -t 2.938 -i outputs/anchors/harlow_creek_sheriffs_department.png -loop 1 -t 2.938 -i outputs/layers/harlow_creek_sheriffs_department_mid_mask.png -loop 1 -t 2.938 -i outputs/layers/harlow_creek_sheriffs_department_subj_mask.png -filter_complex [0:v]scale=2112:1188,setsar=1[img_s];[1:v]scale=2112:1188,setsar=1[mid_mask_s];[2:v]scale=2112:1188,setsar=1[subj_mask_s];[img_s]split=3[img_bg][img_mid][img_subj];[img_bg]zoompan=z='min(1.4,1.0+0.013221*(1-on/70))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[bg_z];[img_mid]zoompan=z='min(1.4,1.0+0.026442*(1-on/70))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[mid_rgb_z];[img_subj]zoompan=z='min(1.4,1.0+0.044070*(1-on/70))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[subj_rgb_z];[mid_mask_s]zoompan=z='min(1.4,1.0+0.026442*(1-on/70))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[mid_mask_z];[subj_mask_s]zoompan=z='min(1.4,1.0+0.044070*(1-on/70))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[subj_mask_z];[mid_rgb_z]format=yuva420p[mid_yuva];[mid_yuva][mid_mask_z]alphamerge[mid_compositable];[subj_rgb_z]format=yuva420p[subj_yuva];[subj_yuva][subj_mask_z]alphamerge[subj_compositable];[bg_z][mid_compositable]overlay=format=yuv420p[c1];[c1][subj_compositable]overlay=format=yuv420p[comp];[comp]eq=brightness=-0.07:contrast=1.15:saturation=0.55:gamma=1.05[eq1];[eq1]colorbalance=bs=0.03:gs=0.01:rs=-0.04[grade];[grade]split=2[main_h][bloom_src];[bloom_src]lutyuv=y='if(gt(val,210),val,0)',gblur=sigma=16[bloom];[main_h][bloom]blend=all_mode=screen:all_opacity=0.20[ha];[ha]noise=alls=9:allf=t[gn];[gn]vignette=PI/3.5[vi];[vi]null[s6];[s6]drawbox=x=0:y=842:w=1920:h=238:color=0xD0E8F0@0.10:t=fill[s8];[s8]drawbox=x=0:y=0:w=iw:h=138:color=black@1:t=fill,drawbox=x=0:y=ih-138:w=iw:h=138:color=black@1:t=fill[lb];[lb]null[out] -map [out] -r 24 -t 2.938 -vcodec libx264 -pix_fmt yuv420p -preset veryfast -b:v 6M -avoid_negative_ts make_zero outputs/final/tmp_ep1/ep1_seg0001.mp4
+STDERR: -enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      60. 26.101 / 60. 26.101
+  libavcodec     62. 28.101 / 62. 28.101
+  libavformat    62. 12.101 / 62. 12.101
+  libavdevice    62.  3.101 / 62.  3.101
+  libavfilter    11. 14.101 / 11. 14.101
+  libswscale      9.  5.101 /  9.  5.101
+  libswresample   6.  3.101 /  6.  3.101
+[Parsed_overlay_16 @ 000001e2bf783a40] [Eval @ 000000c9cebff0b0] Undefined constant or missing '(' in 'yuv420p'
+[Parsed_overlay_16 @ 000001e2bf783a40] Unable to parse "format" option value "yuv420p"
+[fc#0 @ 000001e2bf74a580] Error applying option 'format' to filter 'overlay': Invalid argument
+Error : Invalid argument
+
+2026-05-30 00:22:32 - Agent.VideoCompositor - ERROR - [VideoCompositor] FFmpeg failed for segment 2 (ep 1):
+CMD: ffmpeg -y -loop 1 -t 2.938 -i outputs/anchors/millhaven_county_group_home__exterior.png -loop 1 -t 2.938 -i outputs/layers/millhaven_county_group_home__exterior_mid_mask.png -loop 1 -t 2.938 -i outputs/layers/millhaven_county_group_home__exterior_subj_mask.png -filter_complex [0:v]scale=2112:1188,setsar=1[img_s];[1:v]scale=2112:1188,setsar=1[mid_mask_s];[2:v]scale=2112:1188,setsar=1[subj_mask_s];[img_s]split=3[img_bg][img_mid][img_subj];[img_bg]zoompan=z='min(1.4,1.0+0.013221*(1-on/70))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[bg_z];[img_mid]zoompan=z='min(1.4,1.0+0.026442*(1-on/70))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[mid_rgb_z];[img_subj]zoompan=z='min(1.4,1.0+0.044070*(1-on/70))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[subj_rgb_z];[mid_mask_s]zoompan=z='min(1.4,1.0+0.026442*(1-on/70))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[mid_mask_z];[subj_mask_s]zoompan=z='min(1.4,1.0+0.044070*(1-on/70))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[subj_mask_z];[mid_rgb_z]format=yuva420p[mid_yuva];[mid_yuva][mid_mask_z]alphamerge[mid_compositable];[subj_rgb_z]format=yuva420p[subj_yuva];[subj_yuva][subj_mask_z]alphamerge[subj_compositable];[bg_z][mid_compositable]overlay=format=yuv420p[c1];[c1][subj_compositable]overlay=format=yuv420p[comp];[comp]eq=brightness=-0.07:contrast=1.15:saturation=0.55:gamma=1.05[eq1];[eq1]colorbalance=bs=0.03:gs=0.01:rs=-0.04[grade];[grade]split=2[main_h][bloom_src];[bloom_src]lutyuv=y='if(gt(val,210),val,0)',gblur=sigma=16[bloom];[main_h][bloom]blend=all_mode=screen:all_opacity=0.20[ha];[ha]noise=alls=9:allf=t[gn];[gn]vignette=PI/3.5[vi];[vi]null[s6];[s6]drawbox=x=0:y=842:w=1920:h=238:color=0xD0E8F0@0.10:t=fill[s8];[s8]drawbox=x=0:y=0:w=iw:h=138:color=black@1:t=fill,drawbox=x=0:y=ih-138:w=iw:h=138:color=black@1:t=fill[lb];[lb]null[out] -map [out] -r 24 -t 2.938 -vcodec libx264 -pix_fmt yuv420p -preset veryfast -b:v 6M -avoid_negative_ts make_zero outputs/final/tmp_ep1/ep1_seg0002.mp4
+STDERR: -enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      60. 26.101 / 60. 26.101
+  libavcodec     62. 28.101 / 62. 28.101
+  libavformat    62. 12.101 / 62. 12.101
+  libavdevice    62.  3.101 / 62.  3.101
+  libavfilter    11. 14.101 / 11. 14.101
+  libswscale      9.  5.101 /  9.  5.101
+  libswresample   6.  3.101 /  6.  3.101
+[Parsed_overlay_16 @ 000001dac34e3600] [Eval @ 0000005d225ff0b0] Undefined constant or missing '(' in 'yuv420p'
+[Parsed_overlay_16 @ 000001dac34e3600] Unable to parse "format" option value "yuv420p"
+[fc#0 @ 000001dac34a9d80] Error applying option 'format' to filter 'overlay': Invalid argument
+Error : Invalid argument
+
+2026-05-30 00:22:32 - Agent.VideoCompositor - ERROR - [VideoCompositor] FFmpeg failed for segment 3 (ep 1):
+CMD: ffmpeg -y -loop 1 -t 0.979 -i outputs/anchors/the_frey_property.png -loop 1 -t 0.979 -i outputs/layers/the_frey_property_mid_mask.png -loop 1 -t 0.979 -i outputs/layers/the_frey_property_subj_mask.png -filter_complex [0:v]scale=2112:1188,setsar=1[img_s];[1:v]scale=2112:1188,setsar=1[mid_mask_s];[2:v]scale=2112:1188,setsar=1[subj_mask_s];[img_s]split=3[img_bg][img_mid][img_subj];[img_bg]zoompan=z='min(1.4,1.0+0.004405*(1-on/23))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[bg_z];[img_mid]zoompan=z='min(1.4,1.0+0.008811*(1-on/23))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[mid_rgb_z];[img_subj]zoompan=z='min(1.4,1.0+0.014685*(1-on/23))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[subj_rgb_z];[mid_mask_s]zoompan=z='min(1.4,1.0+0.008811*(1-on/23))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[mid_mask_z];[subj_mask_s]zoompan=z='min(1.4,1.0+0.014685*(1-on/23))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[subj_mask_z];[mid_rgb_z]format=yuva420p[mid_yuva];[mid_yuva][mid_mask_z]alphamerge[mid_compositable];[subj_rgb_z]format=yuva420p[subj_yuva];[subj_yuva][subj_mask_z]alphamerge[subj_compositable];[bg_z][mid_compositable]overlay=format=yuv420p[c1];[c1][subj_compositable]overlay=format=yuv420p[comp];[comp]eq=brightness=-0.07:contrast=1.15:saturation=0.55:gamma=1.05[eq1];[eq1]colorbalance=bs=0.03:gs=0.01:rs=-0.04[grade];[grade]split=2[main_h][bloom_src];[bloom_src]lutyuv=y='if(gt(val,210),val,0)',gblur=sigma=16[bloom];[main_h][bloom]blend=all_mode=screen:all_opacity=0.20[ha];[ha]noise=alls=9:allf=t[gn];[gn]vignette=PI/3.5[vi];[vi]null[s6];[s6]drawbox=x=0:y=842:w=1920:h=238:color=0xD0E8F0@0.10:t=fill[s8];[s8]drawbox=x=0:y=0:w=iw:h=138:color=black@1:t=fill,drawbox=x=0:y=ih-138:w=iw:h=138:color=black@1:t=fill[lb];[lb]null[out] -map [out] -r 24 -t 0.979 -vcodec libx264 -pix_fmt yuv420p -preset veryfast -b:v 6M -avoid_negative_ts make_zero outputs/final/tmp_ep1/ep1_seg0003.mp4
+STDERR: -enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      60. 26.101 / 60. 26.101
+  libavcodec     62. 28.101 / 62. 28.101
+  libavformat    62. 12.101 / 62. 12.101
+  libavdevice    62.  3.101 / 62.  3.101
+  libavfilter    11. 14.101 / 11. 14.101
+  libswscale      9.  5.101 /  9.  5.101
+  libswresample   6.  3.101 /  6.  3.101
+[Parsed_overlay_16 @ 0000017e2d4a2a40] [Eval @ 0000006d145fed40] Undefined constant or missing '(' in 'yuv420p'
+[Parsed_overlay_16 @ 0000017e2d4a2a40] Unable to parse "format" option value "yuv420p"
+[fc#0 @ 0000017e2d469740] Error applying option 'format' to filter 'overlay': Invalid argument
+Error : Invalid argument
+
+2026-05-30 00:22:32 - Agent.VideoCompositor - ERROR - [VideoCompositor] FFmpeg failed for segment 4 (ep 1):
+CMD: ffmpeg -y -loop 1 -t 3.5 -i outputs/reveal_images/ep1_reveal1_document.png -loop 1 -t 3.5 -i outputs/layers/ep1_reveal1_document_mid_mask.png -loop 1 -t 3.5 -i outputs/layers/ep1_reveal1_document_subj_mask.png -filter_complex [0:v]scale=2112:1188,setsar=1[img_s];[1:v]scale=2112:1188,setsar=1[mid_mask_s];[2:v]scale=2112:1188,setsar=1[subj_mask_s];[img_s]split=3[img_bg][img_mid][img_subj];[img_bg]zoompan=z='min(1.4,1.0+0.006300*(1-on/84))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[bg_z];[img_mid]zoompan=z='min(1.4,1.0+0.012600*(1-on/84))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[mid_rgb_z];[img_subj]zoompan=z='min(1.4,1.0+0.021000*(1-on/84))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[subj_rgb_z];[mid_mask_s]zoompan=z='min(1.4,1.0+0.012600*(1-on/84))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[mid_mask_z];[subj_mask_s]zoompan=z='min(1.4,1.0+0.021000*(1-on/84))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[subj_mask_z];[mid_rgb_z]format=yuva420p[mid_yuva];[mid_yuva][mid_mask_z]alphamerge[mid_compositable];[subj_rgb_z]format=yuva420p[subj_yuva];[subj_yuva][subj_mask_z]alphamerge[subj_compositable];[bg_z][mid_compositable]overlay=format=yuv420p[c1];[c1][subj_compositable]overlay=format=yuv420p[comp];[comp]eq=brightness=-0.07:contrast=1.15:saturation=0.55:gamma=1.05[eq1];[eq1]colorbalance=bs=0.03:gs=0.01:rs=-0.04[grade];[grade]split=2[main_h][bloom_src];[bloom_src]lutyuv=y='if(gt(val,210),val,0)',gblur=sigma=16[bloom];[main_h][bloom]blend=all_mode=screen:all_opacity=0.20[ha];[ha]noise=alls=9:allf=t[gn];[gn]vignette=PI/3.5[vi];[vi]eq=saturation=0.15[desat_vi];[desat_vi]pad=1976:1136:28:28:color=0xEBE8E1,rotate=angle=0.012834:fillcolor=0x0C0C10,crop=1920:1080[s6];[s6]drawbox=x=0:y=0:w=iw:h=138:color=black@1:t=fill,drawbox=x=0:y=ih-138:w=iw:h=138:color=black@1:t=fill[lb];[lb]drawtext=fontfile='C\:/Windows/Fonts/arialbd.ttf':text='DANIEL FREY - MISSING OCTOBER 9, 1997':fontsize=30:fontcolor=white@0.65:x=80:y=156:shadowcolor=black@0.8:shadowx=1:shadowy=1[ts_out];[ts_out]null[out] -map [out] -r 24 -t 3.5 -vcodec libx264 -pix_fmt yuv420p -preset veryfast -b:v 6M -avoid_negative_ts make_zero outputs/final/tmp_ep1/ep1_seg0004.mp4
+STDERR: -enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      60. 26.101 / 60. 26.101
+  libavcodec     62. 28.101 / 62. 28.101
+  libavformat    62. 12.101 / 62. 12.101
+  libavdevice    62.  3.101 / 62.  3.101
+  libavfilter    11. 14.101 / 11. 14.101
+  libswscale      9.  5.101 /  9.  5.101
+  libswresample   6.  3.101 /  6.  3.101
+[Parsed_overlay_16 @ 000001b67f533a80] [Eval @ 000000560f9feea0] Undefined constant or missing '(' in 'yuv420p'
+[Parsed_overlay_16 @ 000001b67f533a80] Unable to parse "format" option value "yuv420p"
+[fc#0 @ 000001b67f492140] Error applying option 'format' to filter 'overlay': Invalid argument
+Error : Invalid argument
+
+2026-05-30 00:22:32 - Agent.VideoCompositor - ERROR - [VideoCompositor] FFmpeg failed for segment 5 (ep 1):
+CMD: ffmpeg -y -loop 1 -t 1.397 -i outputs/anchors/vera_colts_print_shop.png -loop 1 -t 1.397 -i outputs/layers/vera_colts_print_shop_mid_mask.png -loop 1 -t 1.397 -i outputs/layers/vera_colts_print_shop_subj_mask.png -filter_complex [0:v]scale=2112:1188,setsar=1[img_s];[1:v]scale=2112:1188,setsar=1[mid_mask_s];[2:v]scale=2112:1188,setsar=1[subj_mask_s];[img_s]split=3[img_bg][img_mid][img_subj];[img_bg]zoompan=z='min(1.4,1.0+0.006286*(1-on/33))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[bg_z];[img_mid]zoompan=z='min(1.4,1.0+0.012573*(1-on/33))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[mid_rgb_z];[img_subj]zoompan=z='min(1.4,1.0+0.020955*(1-on/33))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[subj_rgb_z];[mid_mask_s]zoompan=z='min(1.4,1.0+0.012573*(1-on/33))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[mid_mask_z];[subj_mask_s]zoompan=z='min(1.4,1.0+0.020955*(1-on/33))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[subj_mask_z];[mid_rgb_z]format=yuva420p[mid_yuva];[mid_yuva][mid_mask_z]alphamerge[mid_compositable];[subj_rgb_z]format=yuva420p[subj_yuva];[subj_yuva][subj_mask_z]alphamerge[subj_compositable];[bg_z][mid_compositable]overlay=format=yuv420p[c1];[c1][subj_compositable]overlay=format=yuv420p[comp];[comp]eq=brightness=-0.07:contrast=1.15:saturation=0.55:gamma=1.05[eq1];[eq1]colorbalance=bs=0.03:gs=0.01:rs=-0.04[grade];[grade]split=2[main_h][bloom_src];[bloom_src]lutyuv=y='if(gt(val,210),val,0)',gblur=sigma=16[bloom];[main_h][bloom]blend=all_mode=screen:all_opacity=0.20[ha];[ha]noise=alls=9:allf=t[gn];[gn]vignette=PI/3.5[vi];[vi]null[s6];[s6]drawbox=x=0:y=842:w=1920:h=238:color=0xD0E8F0@0.10:t=fill[s8];[s8]drawbox=x=0:y=0:w=iw:h=138:color=black@1:t=fill,drawbox=x=0:y=ih-138:w=iw:h=138:color=black@1:t=fill[lb];[lb]null[out] -map [out] -r 24 -t 1.397 -vcodec libx264 -pix_fmt yuv420p -preset veryfast -b:v 6M -avoid_negative_ts make_zero outputs/final/tmp_ep1/ep1_seg0005.mp4
+STDERR: -enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      60. 26.101 / 60. 26.101
+  libavcodec     62. 28.101 / 62. 28.101
+  libavformat    62. 12.101 / 62. 12.101
+  libavdevice    62.  3.101 / 62.  3.101
+  libavfilter    11. 14.101 / 11. 14.101
+  libswscale      9.  5.101 /  9.  5.101
+  libswresample   6.  3.101 /  6.  3.101
+[Parsed_overlay_16 @ 0000014b2a7f0c40] [Eval @ 00000035e1bfed80] Undefined constant or missing '(' in 'yuv420p'
+[Parsed_overlay_16 @ 0000014b2a7f0c40] Unable to parse "format" option value "yuv420p"
+[fc#0 @ 0000014b2a7b9980] Error applying option 'format' to filter 'overlay': Invalid argument
+Error : Invalid argument
+
+2026-05-30 00:22:32 - Agent.VideoCompositor - ERROR - [VideoCompositor] FFmpeg failed for segment 6 (ep 1):
+CMD: ffmpeg -y -loop 1 -t 1.113 -i outputs/anchors/ruth_pellmans_house.png -loop 1 -t 1.113 -i outputs/layers/ruth_pellmans_house_mid_mask.png -loop 1 -t 1.113 -i outputs/layers/ruth_pellmans_house_subj_mask.png -filter_complex [0:v]scale=2112:1188,setsar=1[img_s];[1:v]scale=2112:1188,setsar=1[mid_mask_s];[2:v]scale=2112:1188,setsar=1[subj_mask_s];[img_s]split=3[img_bg][img_mid][img_subj];[img_bg]zoompan=z='min(1.4,1.0+0.005008*(1-on/26))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[bg_z];[img_mid]zoompan=z='min(1.4,1.0+0.010017*(1-on/26))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[mid_rgb_z];[img_subj]zoompan=z='min(1.4,1.0+0.016695*(1-on/26))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[subj_rgb_z];[mid_mask_s]zoompan=z='min(1.4,1.0+0.010017*(1-on/26))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[mid_mask_z];[subj_mask_s]zoompan=z='min(1.4,1.0+0.016695*(1-on/26))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[subj_mask_z];[mid_rgb_z]format=yuva420p[mid_yuva];[mid_yuva][mid_mask_z]alphamerge[mid_compositable];[subj_rgb_z]format=yuva420p[subj_yuva];[subj_yuva][subj_mask_z]alphamerge[subj_compositable];[bg_z][mid_compositable]overlay=format=yuv420p[c1];[c1][subj_compositable]overlay=format=yuv420p[comp];[comp]eq=brightness=-0.07:contrast=1.15:saturation=0.55:gamma=1.05[eq1];[eq1]colorbalance=bs=0.03:gs=0.01:rs=-0.04[grade];[grade]split=2[main_h][bloom_src];[bloom_src]lutyuv=y='if(gt(val,210),val,0)',gblur=sigma=16[bloom];[main_h][bloom]blend=all_mode=screen:all_opacity=0.20[ha];[ha]noise=alls=9:allf=t[gn];[gn]vignette=PI/3.5[vi];[vi]null[s6];[s6]drawbox=x=0:y=842:w=1920:h=238:color=0xD0E8F0@0.10:t=fill[s8];[s8]drawbox=x=0:y=0:w=iw:h=138:color=black@1:t=fill,drawbox=x=0:y=ih-138:w=iw:h=138:color=black@1:t=fill[lb];[lb]null[out] -map [out] -r 24 -t 1.113 -vcodec libx264 -pix_fmt yuv420p -preset veryfast -b:v 6M -avoid_negative_ts make_zero outputs/final/tmp_ep1/ep1_seg0006.mp4
+STDERR: -enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      60. 26.101 / 60. 26.101
+  libavcodec     62. 28.101 / 62. 28.101
+  libavformat    62. 12.101 / 62. 12.101
+  libavdevice    62.  3.101 / 62.  3.101
+  libavfilter    11. 14.101 / 11. 14.101
+  libswscale      9.  5.101 /  9.  5.101
+  libswresample   6.  3.101 /  6.  3.101
+[Parsed_overlay_16 @ 000001ee6d857640] [Eval @ 000000cfd47feca0] Undefined constant or missing '(' in 'yuv420p'
+[Parsed_overlay_16 @ 000001ee6d857640] Unable to parse "format" option value "yuv420p"
+[fc#0 @ 000001ee6d819cc0] Error applying option 'format' to filter 'overlay': Invalid argument
+Error : Invalid argument
+
+2026-05-30 00:22:32 - Agent.VideoCompositor - ERROR - [VideoCompositor] FFmpeg failed for segment 7 (ep 1):
+CMD: ffmpeg -y -loop 1 -t 4.0 -i outputs/reveal_images/ep1_reveal2_location_detail.png -loop 1 -t 4.0 -i outputs/layers/ep1_reveal2_location_detail_mid_mask.png -loop 1 -t 4.0 -i outputs/layers/ep1_reveal2_location_detail_subj_mask.png -filter_complex [0:v]scale=2112:1188,setsar=1[img_s];[1:v]scale=2112:1188,setsar=1[mid_mask_s];[2:v]scale=2112:1188,setsar=1[subj_mask_s];[img_s]split=3[img_bg][img_mid][img_subj];[img_bg]zoompan=z='min(1.4,1.0+0.007200*on/96)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[bg_z];[img_mid]zoompan=z='min(1.4,1.0+0.014400*on/96)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[mid_rgb_z];[img_subj]zoompan=z='min(1.4,1.0+0.024000*on/96)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[subj_rgb_z];[mid_mask_s]zoompan=z='min(1.4,1.0+0.014400*on/96)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[mid_mask_z];[subj_mask_s]zoompan=z='min(1.4,1.0+0.024000*on/96)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[subj_mask_z];[mid_rgb_z]format=yuva420p[mid_yuva];[mid_yuva][mid_mask_z]alphamerge[mid_compositable];[subj_rgb_z]format=yuva420p[subj_yuva];[subj_yuva][subj_mask_z]alphamerge[subj_compositable];[bg_z][mid_compositable]overlay=format=yuv420p[c1];[c1][subj_compositable]overlay=format=yuv420p[comp];[comp]eq=brightness=-0.07:contrast=1.15:saturation=0.55:gamma=1.05[eq1];[eq1]colorbalance=bs=0.03:gs=0.01:rs=-0.04[grade];[grade]split=2[main_h][bloom_src];[bloom_src]lutyuv=y='if(gt(val,210),val,0)',gblur=sigma=16[bloom];[main_h][bloom]blend=all_mode=screen:all_opacity=0.20[ha];[ha]noise=alls=9:allf=t[gn];[gn]vignette=PI/3.5[vi];[vi]noise=alls=20:allf=t[s6];[s6]split=2[lf_base][lf_src];[lf_src]lutyuv=y='if(gt(val,225),val,0)',gblur=sigma=48:sigmaV=1[lf_streak];[lf_base][lf_streak]blend=all_mode=screen:all_opacity=0.18[s7];[s7]drawbox=x=0:y=0:w=iw:h=138:color=black@1:t=fill,drawbox=x=0:y=ih-138:w=iw:h=138:color=black@1:t=fill[lb];[lb]drawtext=fontfile='C\:/Windows/Fonts/arialbd.ttf':text='OCTOBER 9, 1997':fontsize=30:fontcolor=white@0.65:x=80:y=156:shadowcolor=black@0.8:shadowx=1:shadowy=1[ts_out];[ts_out]null[out] -map [out] -r 24 -t 4.0 -vcodec libx264 -pix_fmt yuv420p -preset veryfast -b:v 6M -avoid_negative_ts make_zero outputs/final/tmp_ep1/ep1_seg0007.mp4
+STDERR: -enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      60. 26.101 / 60. 26.101
+  libavcodec     62. 28.101 / 62. 28.101
+  libavformat    62. 12.101 / 62. 12.101
+  libavdevice    62.  3.101 / 62.  3.101
+  libavfilter    11. 14.101 / 11. 14.101
+  libswscale      9.  5.101 /  9.  5.101
+  libswresample   6.  3.101 /  6.  3.101
+[Parsed_overlay_16 @ 000001be4dba5c80] [Eval @ 0000009dec3fe9d0] Undefined constant or missing '(' in 'yuv420p'
+[Parsed_overlay_16 @ 000001be4dba5c80] Unable to parse "format" option value "yuv420p"
+[fc#0 @ 000001be4db6ac40] Error applying option 'format' to filter 'overlay': Invalid argument
+Error : Invalid argument
+
+2026-05-30 00:22:32 - Agent.VideoCompositor - ERROR - [VideoCompositor] FFmpeg failed for segment 8 (ep 1):
+CMD: ffmpeg -y -loop 1 -t 0.974 -i outputs/scene_images/ep1_scene5_ruth_pellmans_house.png -loop 1 -t 0.974 -i outputs/layers/ep1_scene5_ruth_pellmans_house_mid_mask.png -loop 1 -t 0.974 -i outputs/layers/ep1_scene5_ruth_pellmans_house_subj_mask.png -filter_complex [0:v]scale=2112:1188,setsar=1[img_s];[1:v]scale=2112:1188,setsar=1[mid_mask_s];[2:v]scale=2112:1188,setsar=1[subj_mask_s];[img_s]split=3[img_bg][img_mid][img_subj];[img_bg]zoompan=z='min(1.4,1.0+0.006428*(1-on/23))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[bg_z];[img_mid]zoompan=z='min(1.4,1.0+0.012857*(1-on/23))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[mid_rgb_z];[img_subj]zoompan=z='min(1.4,1.0+0.021428*(1-on/23))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[subj_rgb_z];[mid_mask_s]zoompan=z='min(1.4,1.0+0.012857*(1-on/23))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[mid_mask_z];[subj_mask_s]zoompan=z='min(1.4,1.0+0.021428*(1-on/23))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[subj_mask_z];[mid_rgb_z]format=yuva420p[mid_yuva];[mid_yuva][mid_mask_z]alphamerge[mid_compositable];[subj_rgb_z]format=yuva420p[subj_yuva];[subj_yuva][subj_mask_z]alphamerge[subj_compositable];[bg_z][mid_compositable]overlay=format=yuv420p[c1];[c1][subj_compositable]overlay=format=yuv420p[comp];[comp]eq=brightness=-0.07:contrast=1.15:saturation=0.55:gamma=1.05[eq1];[eq1]colorbalance=bs=0.03:gs=0.01:rs=-0.04[grade];[grade]split=2[main_h][bloom_src];[bloom_src]lutyuv=y='if(gt(val,210),val,0)',gblur=sigma=16[bloom];[main_h][bloom]blend=all_mode=screen:all_opacity=0.20[ha];[ha]noise=alls=9:allf=t[gn];[gn]vignette=PI/3.5[vi];[vi]null[s6];[s6]drawbox=x=0:y=842:w=1920:h=238:color=0xD0E8F0@0.10:t=fill[s8];[s8]drawbox=x=0:y=0:w=iw:h=138:color=black@1:t=fill,drawbox=x=0:y=ih-138:w=iw:h=138:color=black@1:t=fill[lb];[lb]null[out] -map [out] -r 24 -t 0.974 -vcodec libx264 -pix_fmt yuv420p -preset veryfast -b:v 6M -avoid_negative_ts make_zero outputs/final/tmp_ep1/ep1_seg0008.mp4
+STDERR: -enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      60. 26.101 / 60. 26.101
+  libavcodec     62. 28.101 / 62. 28.101
+  libavformat    62. 12.101 / 62. 12.101
+  libavdevice    62.  3.101 / 62.  3.101
+  libavfilter    11. 14.101 / 11. 14.101
+  libswscale      9.  5.101 /  9.  5.101
+  libswresample   6.  3.101 /  6.  3.101
+[Parsed_overlay_16 @ 000001dd53d543c0] [Eval @ 0000000749dff060] Undefined constant or missing '(' in 'yuv420p'
+[Parsed_overlay_16 @ 000001dd53d543c0] Unable to parse "format" option value "yuv420p"
+[fc#0 @ 000001dd53d19600] Error applying option 'format' to filter 'overlay': Invalid argument
+Error : Invalid argument
+
+2026-05-30 00:22:32 - Agent.VideoCompositor - ERROR - [VideoCompositor] FFmpeg failed for segment 9 (ep 1):
+CMD: ffmpeg -y -loop 1 -t 3.798 -i outputs/scene_images/ep1_scene6_harlow_creek_town_center.png -loop 1 -t 3.798 -i outputs/layers/ep1_scene6_harlow_creek_town_center_mid_mask.png -loop 1 -t 3.798 -i outputs/layers/ep1_scene6_harlow_creek_town_center_subj_mask.png -filter_complex [0:v]scale=2112:1188,setsar=1[img_s];[1:v]scale=2112:1188,setsar=1[mid_mask_s];[2:v]scale=2112:1188,setsar=1[subj_mask_s];[img_s]split=3[img_bg][img_mid][img_subj];[img_bg]zoompan=z='min(1.4,1.0+0.034182*on/91)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[bg_z];[img_mid]zoompan=z='min(1.4,1.0+0.068364*on/91)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[mid_rgb_z];[img_subj]zoompan=z='min(1.4,1.0+0.113940*on/91)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[subj_rgb_z];[mid_mask_s]zoompan=z='min(1.4,1.0+0.068364*on/91)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[mid_mask_z];[subj_mask_s]zoompan=z='min(1.4,1.0+0.113940*on/91)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[subj_mask_z];[mid_rgb_z]format=yuva420p[mid_yuva];[mid_yuva][mid_mask_z]alphamerge[mid_compositable];[subj_rgb_z]format=yuva420p[subj_yuva];[subj_yuva][subj_mask_z]alphamerge[subj_compositable];[bg_z][mid_compositable]overlay=format=yuv420p[c1];[c1][subj_compositable]overlay=format=yuv420p[comp];[comp]eq=brightness=-0.07:contrast=1.15:saturation=0.55:gamma=1.05[eq1];[eq1]colorbalance=bs=0.03:gs=0.01:rs=-0.04[grade];[grade]split=2[main_h][bloom_src];[bloom_src]lutyuv=y='if(gt(val,210),val,0)',gblur=sigma=16[bloom];[main_h][bloom]blend=all_mode=screen:all_opacity=0.20[ha];[ha]noise=alls=9:allf=t[gn];[gn]vignette=PI/3.5[vi];[vi]null[s6];[s6]drawbox=x=0:y=0:w=iw:h=138:color=black@1:t=fill,drawbox=x=0:y=ih-138:w=iw:h=138:color=black@1:t=fill[lb];[lb]null[out] -map [out] -r 24 -t 3.798 -vcodec libx264 -pix_fmt yuv420p -preset veryfast -b:v 6M -avoid_negative_ts make_zero outputs/final/tmp_ep1/ep1_seg0009.mp4
+STDERR: -enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      60. 26.101 / 60. 26.101
+  libavcodec     62. 28.101 / 62. 28.101
+  libavformat    62. 12.101 / 62. 12.101
+  libavdevice    62.  3.101 / 62.  3.101
+  libavfilter    11. 14.101 / 11. 14.101
+  libswscale      9.  5.101 /  9.  5.101
+  libswresample   6.  3.101 /  6.  3.101
+[Parsed_overlay_16 @ 000001f953a72f40] [Eval @ 000000b6909fed50] Undefined constant or missing '(' in 'yuv420p'
+[Parsed_overlay_16 @ 000001f953a72f40] Unable to parse "format" option value "yuv420p"
+[fc#0 @ 000001f953a3a0c0] Error applying option 'format' to filter 'overlay': Invalid argument
+Error : Invalid argument
+
+2026-05-30 00:22:32 - Agent.VideoCompositor - ERROR - [VideoCompositor] FFmpeg failed for segment 10 (ep 1):
+CMD: ffmpeg -y -loop 1 -t 3.797 -i outputs/scene_images/ep1_scene7_maras_recording_studio.png -loop 1 -t 3.797 -i outputs/layers/ep1_scene7_maras_recording_studio_mid_mask.png -loop 1 -t 3.797 -i outputs/layers/ep1_scene7_maras_recording_studio_subj_mask.png -filter_complex [0:v]scale=2112:1188,setsar=1[img_s];[1:v]scale=2112:1188,setsar=1[mid_mask_s];[2:v]scale=2112:1188,setsar=1[subj_mask_s];[img_s]split=3[img_bg][img_mid][img_subj];[img_bg]zoompan=z='min(1.4,1.0+0.034173*(1-on/91))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[bg_z];[img_mid]zoompan=z='min(1.4,1.0+0.068346*(1-on/91))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[mid_rgb_z];[img_subj]zoompan=z='min(1.4,1.0+0.113910*(1-on/91))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[subj_rgb_z];[mid_mask_s]zoompan=z='min(1.4,1.0+0.068346*(1-on/91))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[mid_mask_z];[subj_mask_s]zoompan=z='min(1.4,1.0+0.113910*(1-on/91))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[subj_mask_z];[mid_rgb_z]format=yuva420p[mid_yuva];[mid_yuva][mid_mask_z]alphamerge[mid_compositable];[subj_rgb_z]format=yuva420p[subj_yuva];[subj_yuva][subj_mask_z]alphamerge[subj_compositable];[bg_z][mid_compositable]overlay=format=yuv420p[c1];[c1][subj_compositable]overlay=format=yuv420p[comp];[comp]eq=brightness=-0.07:contrast=1.15:saturation=0.55:gamma=1.05[eq1];[eq1]colorbalance=bs=0.03:gs=0.01:rs=-0.04[grade];[grade]split=2[main_h][bloom_src];[bloom_src]lutyuv=y='if(gt(val,210),val,0)',gblur=sigma=16[bloom];[main_h][bloom]blend=all_mode=screen:all_opacity=0.20[ha];[ha]noise=alls=9:allf=t[gn];[gn]vignette=PI/3.5[vi];[vi]null[s6];[s6]drawbox=x=0:y=0:w=iw:h=138:color=black@1:t=fill,drawbox=x=0:y=ih-138:w=iw:h=138:color=black@1:t=fill[lb];[lb]null[out] -map [out] -r 24 -t 3.797 -vcodec libx264 -pix_fmt yuv420p -preset veryfast -b:v 6M -avoid_negative_ts make_zero outputs/final/tmp_ep1/ep1_seg0010.mp4
+STDERR: -enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      60. 26.101 / 60. 26.101
+  libavcodec     62. 28.101 / 62. 28.101
+  libavformat    62. 12.101 / 62. 12.101
+  libavdevice    62.  3.101 / 62.  3.101
+  libavfilter    11. 14.101 / 11. 14.101
+  libswscale      9.  5.101 /  9.  5.101
+  libswresample   6.  3.101 /  6.  3.101
+[Parsed_overlay_16 @ 0000022cd9a81580] [Eval @ 000000d9981fe920] Undefined constant or missing '(' in 'yuv420p'
+[Parsed_overlay_16 @ 0000022cd9a81580] Unable to parse "format" option value "yuv420p"
+[fc#0 @ 0000022cd9a49ac0] Error applying option 'format' to filter 'overlay': Invalid argument
+Error : Invalid argument
+
+2026-05-30 00:22:33 - Agent.VideoCompositor - ERROR - [VideoCompositor] FFmpeg failed for segment 11 (ep 1):
+CMD: ffmpeg -y -loop 1 -t 3.798 -i outputs/scene_images/ep1_scene8_ruth_pellmans_house.png -loop 1 -t 3.798 -i outputs/layers/ep1_scene8_ruth_pellmans_house_mid_mask.png -loop 1 -t 3.798 -i outputs/layers/ep1_scene8_ruth_pellmans_house_subj_mask.png -filter_complex [0:v]scale=2112:1188,setsar=1[img_s];[1:v]scale=2112:1188,setsar=1[mid_mask_s];[2:v]scale=2112:1188,setsar=1[subj_mask_s];[img_s]split=3[img_bg][img_mid][img_subj];[img_bg]zoompan=z='min(1.4,1.0+0.034182*on/91)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[bg_z];[img_mid]zoompan=z='min(1.4,1.0+0.068364*on/91)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[mid_rgb_z];[img_subj]zoompan=z='min(1.4,1.0+0.113940*on/91)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[subj_rgb_z];[mid_mask_s]zoompan=z='min(1.4,1.0+0.068364*on/91)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[mid_mask_z];[subj_mask_s]zoompan=z='min(1.4,1.0+0.113940*on/91)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[subj_mask_z];[mid_rgb_z]format=yuva420p[mid_yuva];[mid_yuva][mid_mask_z]alphamerge[mid_compositable];[subj_rgb_z]format=yuva420p[subj_yuva];[subj_yuva][subj_mask_z]alphamerge[subj_compositable];[bg_z][mid_compositable]overlay=format=yuv420p[c1];[c1][subj_compositable]overlay=format=yuv420p[comp];[comp]eq=brightness=-0.07:contrast=1.15:saturation=0.55:gamma=1.05[eq1];[eq1]colorbalance=bs=0.03:gs=0.01:rs=-0.04[grade];[grade]split=2[main_h][bloom_src];[bloom_src]lutyuv=y='if(gt(val,210),val,0)',gblur=sigma=16[bloom];[main_h][bloom]blend=all_mode=screen:all_opacity=0.20[ha];[ha]noise=alls=9:allf=t[gn];[gn]vignette=PI/3.5[vi];[vi]null[s6];[s6]drawbox=x=0:y=0:w=iw:h=138:color=black@1:t=fill,drawbox=x=0:y=ih-138:w=iw:h=138:color=black@1:t=fill[lb];[lb]null[out] -map [out] -r 24 -t 3.798 -vcodec libx264 -pix_fmt yuv420p -preset veryfast -b:v 6M -avoid_negative_ts make_zero outputs/final/tmp_ep1/ep1_seg0011.mp4
+STDERR: -enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      60. 26.101 / 60. 26.101
+  libavcodec     62. 28.101 / 62. 28.101
+  libavformat    62. 12.101 / 62. 12.101
+  libavdevice    62.  3.101 / 62.  3.101
+  libavfilter    11. 14.101 / 11. 14.101
+  libswscale      9.  5.101 /  9.  5.101
+  libswresample   6.  3.101 /  6.  3.101
+[Parsed_overlay_16 @ 0000016743611380] [Eval @ 0000004df6dff000] Undefined constant or missing '(' in 'yuv420p'
+[Parsed_overlay_16 @ 0000016743611380] Unable to parse "format" option value "yuv420p"
+[fc#0 @ 00000167435d99c0] Error applying option 'format' to filter 'overlay': Invalid argument
+Error : Invalid argument
+
+2026-05-30 00:22:33 - Agent.VideoCompositor - ERROR - [VideoCompositor] FFmpeg failed for segment 12 (ep 1):
+CMD: ffmpeg -y -loop 1 -t 3.797 -i outputs/scene_images/ep1_scene9_harlow_creek_town_center.png -loop 1 -t 3.797 -i outputs/layers/ep1_scene9_harlow_creek_town_center_mid_mask.png -loop 1 -t 3.797 -i outputs/layers/ep1_scene9_harlow_creek_town_center_subj_mask.png -filter_complex [0:v]scale=2112:1188,setsar=1[img_s];[1:v]scale=2112:1188,setsar=1[mid_mask_s];[2:v]scale=2112:1188,setsar=1[subj_mask_s];[img_s]split=3[img_bg][img_mid][img_subj];[img_bg]zoompan=z='min(1.4,1.0+0.011391*(1-on/91))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[bg_z];[img_mid]zoompan=z='min(1.4,1.0+0.022782*(1-on/91))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[mid_rgb_z];[img_subj]zoompan=z='min(1.4,1.0+0.037970*(1-on/91))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[subj_rgb_z];[mid_mask_s]zoompan=z='min(1.4,1.0+0.022782*(1-on/91))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[mid_mask_z];[subj_mask_s]zoompan=z='min(1.4,1.0+0.037970*(1-on/91))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[subj_mask_z];[mid_rgb_z]format=yuva420p[mid_yuva];[mid_yuva][mid_mask_z]alphamerge[mid_compositable];[subj_rgb_z]format=yuva420p[subj_yuva];[subj_yuva][subj_mask_z]alphamerge[subj_compositable];[bg_z][mid_compositable]overlay=format=yuv420p[c1];[c1][subj_compositable]overlay=format=yuv420p[comp];[comp]eq=brightness=-0.07:contrast=1.15:saturation=0.55:gamma=1.05[eq1];[eq1]colorbalance=bs=0.03:gs=0.01:rs=-0.04[grade];[grade]split=2[main_h][bloom_src];[bloom_src]lutyuv=y='if(gt(val,210),val,0)',gblur=sigma=16[bloom];[main_h][bloom]blend=all_mode=screen:all_opacity=0.20[ha];[ha]noise=alls=9:allf=t[gn];[gn]vignette=PI/3.5[vi];[vi]rotate=angle=0.012:fillcolor=black,scale=iw*1.04:ih*1.04,crop=1920:1080[s6];[s6]split=2[lf_base][lf_src];[lf_src]lutyuv=y='if(gt(val,225),val,0)',gblur=sigma=48:sigmaV=1[lf_streak];[lf_base][lf_streak]blend=all_mode=screen:all_opacity=0.18[s7];[s7]drawbox=x=0:y=0:w=iw:h=138:color=black@1:t=fill,drawbox=x=0:y=ih-138:w=iw:h=138:color=black@1:t=fill[lb];[lb]null[out] -map [out] -r 24 -t 3.797 -vcodec libx264 -pix_fmt yuv420p -preset veryfast -b:v 6M -avoid_negative_ts make_zero outputs/final/tmp_ep1/ep1_seg0012.mp4
+STDERR: -enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      60. 26.101 / 60. 26.101
+  libavcodec     62. 28.101 / 62. 28.101
+  libavformat    62. 12.101 / 62. 12.101
+  libavdevice    62.  3.101 / 62.  3.101
+  libavfilter    11. 14.101 / 11. 14.101
+  libswscale      9.  5.101 /  9.  5.101
+  libswresample   6.  3.101 /  6.  3.101
+[Parsed_overlay_16 @ 000001e912c3bdc0] [Eval @ 0000005ee43fefe0] Undefined constant or missing '(' in 'yuv420p'
+[Parsed_overlay_16 @ 000001e912c3bdc0] Unable to parse "format" option value "yuv420p"
+[fc#0 @ 000001e912b94880] Error applying option 'format' to filter 'overlay': Invalid argument
+Error : Invalid argument
+
+2026-05-30 00:22:33 - Agent.VideoCompositor - ERROR - [VideoCompositor] FFmpeg failed for segment 13 (ep 1):
+CMD: ffmpeg -y -loop 1 -t 1.266 -i outputs/scene_images/ep1_scene10_maras_recording_studio.png -loop 1 -t 1.266 -i outputs/layers/ep1_scene10_maras_recording_studio_mid_mask.png -loop 1 -t 1.266 -i outputs/layers/ep1_scene10_maras_recording_studio_subj_mask.png -filter_complex [0:v]scale=2112:1188,setsar=1[img_s];[1:v]scale=2112:1188,setsar=1[mid_mask_s];[2:v]scale=2112:1188,setsar=1[subj_mask_s];[img_s]split=3[img_bg][img_mid][img_subj];[img_bg]zoompan=z='min(1.4,1.0+0.003798*on/30)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[bg_z];[img_mid]zoompan=z='min(1.4,1.0+0.007596*on/30)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[mid_rgb_z];[img_subj]zoompan=z='min(1.4,1.0+0.012660*on/30)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[subj_rgb_z];[mid_mask_s]zoompan=z='min(1.4,1.0+0.007596*on/30)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[mid_mask_z];[subj_mask_s]zoompan=z='min(1.4,1.0+0.012660*on/30)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[subj_mask_z];[mid_rgb_z]format=yuva420p[mid_yuva];[mid_yuva][mid_mask_z]alphamerge[mid_compositable];[subj_rgb_z]format=yuva420p[subj_yuva];[subj_yuva][subj_mask_z]alphamerge[subj_compositable];[bg_z][mid_compositable]overlay=format=yuv420p[c1];[c1][subj_compositable]overlay=format=yuv420p[comp];[comp]eq=brightness=-0.07:contrast=1.15:saturation=0.55:gamma=1.05[eq1];[eq1]colorbalance=bs=0.03:gs=0.01:rs=-0.04[grade];[grade]split=2[main_h][bloom_src];[bloom_src]lutyuv=y='if(gt(val,210),val,0)',gblur=sigma=16[bloom];[main_h][bloom]blend=all_mode=screen:all_opacity=0.20[ha];[ha]noise=alls=9:allf=t[gn];[gn]vignette=PI/3.5[vi];[vi]rotate=angle=0.012:fillcolor=black,scale=iw*1.04:ih*1.04,crop=1920:1080[s6];[s6]split=2[lf_base][lf_src];[lf_src]lutyuv=y='if(gt(val,225),val,0)',gblur=sigma=48:sigmaV=1[lf_streak];[lf_base][lf_streak]blend=all_mode=screen:all_opacity=0.18[s7];[s7]drawbox=x=0:y=0:w=iw:h=138:color=black@1:t=fill,drawbox=x=0:y=ih-138:w=iw:h=138:color=black@1:t=fill[lb];[lb]null[out] -map [out] -r 24 -t 1.266 -vcodec libx264 -pix_fmt yuv420p -preset veryfast -b:v 6M -avoid_negative_ts make_zero outputs/final/tmp_ep1/ep1_seg0013.mp4
+STDERR: -enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      60. 26.101 / 60. 26.101
+  libavcodec     62. 28.101 / 62. 28.101
+  libavformat    62. 12.101 / 62. 12.101
+  libavdevice    62.  3.101 / 62.  3.101
+  libavfilter    11. 14.101 / 11. 14.101
+  libswscale      9.  5.101 /  9.  5.101
+  libswresample   6.  3.101 /  6.  3.101
+[Parsed_overlay_16 @ 000001f907c55d80] [Eval @ 000000c3f19ff050] Undefined constant or missing '(' in 'yuv420p'
+[Parsed_overlay_16 @ 000001f907c55d80] Unable to parse "format" option value "yuv420p"
+[fc#0 @ 000001f907c1c300] Error applying option 'format' to filter 'overlay': Invalid argument
+Error : Invalid argument
+
+2026-05-30 00:22:33 - Agent.VideoCompositor - ERROR - [VideoCompositor] FFmpeg failed for segment 14 (ep 1):
+CMD: ffmpeg -y -loop 1 -t 4.0 -i outputs/reveal_images/ep1_reveal5_evidence.png -loop 1 -t 4.0 -i outputs/layers/ep1_reveal5_evidence_mid_mask.png -loop 1 -t 4.0 -i outputs/layers/ep1_reveal5_evidence_subj_mask.png -filter_complex [0:v]scale=2112:1188,setsar=1[img_s];[1:v]scale=2112:1188,setsar=1[mid_mask_s];[2:v]scale=2112:1188,setsar=1[subj_mask_s];[img_s]split=3[img_bg][img_mid][img_subj];[img_bg]zoompan=z='min(1.4,1.0+0.007200*(1-on/96))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[bg_z];[img_mid]zoompan=z='min(1.4,1.0+0.014400*(1-on/96))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[mid_rgb_z];[img_subj]zoompan=z='min(1.4,1.0+0.024000*(1-on/96))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[subj_rgb_z];[mid_mask_s]zoompan=z='min(1.4,1.0+0.014400*(1-on/96))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[mid_mask_z];[subj_mask_s]zoompan=z='min(1.4,1.0+0.024000*(1-on/96))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[subj_mask_z];[mid_rgb_z]format=yuva420p[mid_yuva];[mid_yuva][mid_mask_z]alphamerge[mid_compositable];[subj_rgb_z]format=yuva420p[subj_yuva];[subj_yuva][subj_mask_z]alphamerge[subj_compositable];[bg_z][mid_compositable]overlay=format=yuv420p[c1];[c1][subj_compositable]overlay=format=yuv420p[comp];[comp]eq=brightness=-0.07:contrast=1.15:saturation=0.55:gamma=1.05[eq1];[eq1]colorbalance=bs=0.03:gs=0.01:rs=-0.04[grade];[grade]split=2[main_h][bloom_src];[bloom_src]lutyuv=y='if(gt(val,210),val,0)',gblur=sigma=16[bloom];[main_h][bloom]blend=all_mode=screen:all_opacity=0.20[ha];[ha]noise=alls=9:allf=t[gn];[gn]vignette=PI/3.5[vi];[vi]eq=saturation=0.15[desat_vi];[desat_vi]pad=1976:1136:28:28:color=0xEBE8E1,rotate=angle=-0.011188:fillcolor=0x0C0C10,crop=1920:1080[s6];[s6]drawbox=x=0:y=0:w=iw:h=138:color=black@1:t=fill,drawbox=x=0:y=ih-138:w=iw:h=138:color=black@1:t=fill[lb];[lb]drawtext=fontfile='C\:/Windows/Fonts/arialbd.ttf':text='UNSPOKEN':fontsize=30:fontcolor=white@0.65:x=80:y=156:shadowcolor=black@0.8:shadowx=1:shadowy=1[ts_out];[ts_out]null[out] -map [out] -r 24 -t 4.0 -vcodec libx264 -pix_fmt yuv420p -preset veryfast -b:v 6M -avoid_negative_ts make_zero outputs/final/tmp_ep1/ep1_seg0014.mp4
+STDERR: -enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      60. 26.101 / 60. 26.101
+  libavcodec     62. 28.101 / 62. 28.101
+  libavformat    62. 12.101 / 62. 12.101
+  libavdevice    62.  3.101 / 62.  3.101
+  libavfilter    11. 14.101 / 11. 14.101
+  libswscale      9.  5.101 /  9.  5.101
+  libswresample   6.  3.101 /  6.  3.101
+[Parsed_overlay_16 @ 000001c100cf5840] [Eval @ 00000040545feae0] Undefined constant or missing '(' in 'yuv420p'
+[Parsed_overlay_16 @ 000001c100cf5840] Unable to parse "format" option value "yuv420p"
+[fc#0 @ 000001c100c52280] Error applying option 'format' to filter 'overlay': Invalid argument
+Error : Invalid argument
+
+2026-05-30 00:22:33 - Agent.VideoCompositor - ERROR - [VideoCompositor] FFmpeg failed for segment 15 (ep 1):
+CMD: ffmpeg -y -loop 1 -t 2.329 -i outputs/scene_images/ep1_scene11_ruth_pellmans_house.png -loop 1 -t 2.329 -i outputs/layers/ep1_scene11_ruth_pellmans_house_mid_mask.png -loop 1 -t 2.329 -i outputs/layers/ep1_scene11_ruth_pellmans_house_subj_mask.png -filter_complex [0:v]scale=2112:1188,setsar=1[img_s];[1:v]scale=2112:1188,setsar=1[mid_mask_s];[2:v]scale=2112:1188,setsar=1[subj_mask_s];[img_s]split=3[img_bg][img_mid][img_subj];[img_bg]zoompan=z='min(1.4,1.0+0.003494*sin(PI*on/55))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[bg_z];[img_mid]zoompan=z='min(1.4,1.0+0.006987*sin(PI*on/55))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[mid_rgb_z];[img_subj]zoompan=z='min(1.4,1.0+0.011645*sin(PI*on/55))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[subj_rgb_z];[mid_mask_s]zoompan=z='min(1.4,1.0+0.006987*sin(PI*on/55))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[mid_mask_z];[subj_mask_s]zoompan=z='min(1.4,1.0+0.011645*sin(PI*on/55))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[subj_mask_z];[mid_rgb_z]format=yuva420p[mid_yuva];[mid_yuva][mid_mask_z]alphamerge[mid_compositable];[subj_rgb_z]format=yuva420p[subj_yuva];[subj_yuva][subj_mask_z]alphamerge[subj_compositable];[bg_z][mid_compositable]overlay=format=yuv420p[c1];[c1][subj_compositable]overlay=format=yuv420p[comp];[comp]eq=brightness=-0.07:contrast=1.15:saturation=0.55:gamma=1.05[eq1];[eq1]colorbalance=bs=0.03:gs=0.01:rs=-0.04[grade];[grade]split=2[main_h][bloom_src];[bloom_src]lutyuv=y='if(gt(val,210),val,0)',gblur=sigma=16[bloom];[main_h][bloom]blend=all_mode=screen:all_opacity=0.20[ha];[ha]noise=alls=9:allf=t[gn];[gn]vignette=PI/3.5[vi];[vi]rotate=angle=0.012:fillcolor=black,scale=iw*1.04:ih*1.04,crop=1920:1080[s6];[s6]split=2[lf_base][lf_src];[lf_src]lutyuv=y='if(gt(val,225),val,0)',gblur=sigma=48:sigmaV=1[lf_streak];[lf_base][lf_streak]blend=all_mode=screen:all_opacity=0.18[s7];[s7]drawbox=x=0:y=0:w=iw:h=138:color=black@1:t=fill,drawbox=x=0:y=ih-138:w=iw:h=138:color=black@1:t=fill[lb];[lb]null[out] -map [out] -r 24 -t 2.329 -vcodec libx264 -pix_fmt yuv420p -preset veryfast -b:v 6M -avoid_negative_ts make_zero outputs/final/tmp_ep1/ep1_seg0015.mp4
+STDERR: -enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      60. 26.101 / 60. 26.101
+  libavcodec     62. 28.101 / 62. 28.101
+  libavformat    62. 12.101 / 62. 12.101
+  libavdevice    62.  3.101 / 62.  3.101
+  libavfilter    11. 14.101 / 11. 14.101
+  libswscale      9.  5.101 /  9.  5.101
+  libswresample   6.  3.101 /  6.  3.101
+[Parsed_overlay_16 @ 0000023818305280] [Eval @ 000000bcbb5feca0] Undefined constant or missing '(' in 'yuv420p'
+[Parsed_overlay_16 @ 0000023818305280] Unable to parse "format" option value "yuv420p"
+[fc#0 @ 0000023818263b40] Error applying option 'format' to filter 'overlay': Invalid argument
+Error : Invalid argument
+
+2026-05-30 00:22:33 - Agent.VideoCompositor - ERROR - [VideoCompositor] FFmpeg failed for segment 16 (ep 1):
+CMD: ffmpeg -y -loop 1 -t 3.998 -i outputs/scene_images/ep1_scene12_harlow_creek_town_center.png -loop 1 -t 3.998 -i outputs/layers/ep1_scene12_harlow_creek_town_center_mid_mask.png -loop 1 -t 3.998 -i outputs/layers/ep1_scene12_harlow_creek_town_center_subj_mask.png -filter_complex [0:v]scale=2112:1188,setsar=1[img_s];[1:v]scale=2112:1188,setsar=1[mid_mask_s];[2:v]scale=2112:1188,setsar=1[subj_mask_s];[img_s]split=3[img_bg][img_mid][img_subj];[img_bg]zoompan=z='min(1.4,1.0+0.005997*sin(PI*on/95))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[bg_z];[img_mid]zoompan=z='min(1.4,1.0+0.011994*sin(PI*on/95))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[mid_rgb_z];[img_subj]zoompan=z='min(1.4,1.0+0.019990*sin(PI*on/95))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[subj_rgb_z];[mid_mask_s]zoompan=z='min(1.4,1.0+0.011994*sin(PI*on/95))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[mid_mask_z];[subj_mask_s]zoompan=z='min(1.4,1.0+0.019990*sin(PI*on/95))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[subj_mask_z];[mid_rgb_z]format=yuva420p[mid_yuva];[mid_yuva][mid_mask_z]alphamerge[mid_compositable];[subj_rgb_z]format=yuva420p[subj_yuva];[subj_yuva][subj_mask_z]alphamerge[subj_compositable];[bg_z][mid_compositable]overlay=format=yuv420p[c1];[c1][subj_compositable]overlay=format=yuv420p[comp];[comp]eq=brightness=-0.07:contrast=1.15:saturation=0.55:gamma=1.05[eq1];[eq1]colorbalance=bs=0.03:gs=0.01:rs=-0.04[grade];[grade]split=2[main_h][bloom_src];[bloom_src]lutyuv=y='if(gt(val,210),val,0)',gblur=sigma=16[bloom];[main_h][bloom]blend=all_mode=screen:all_opacity=0.20[ha];[ha]noise=alls=9:allf=t[gn];[gn]vignette=PI/3.5[vi];[vi]rotate=angle=0.012:fillcolor=black,scale=iw*1.04:ih*1.04,crop=1920:1080[s6];[s6]split=2[lf_base][lf_src];[lf_src]lutyuv=y='if(gt(val,225),val,0)',gblur=sigma=48:sigmaV=1[lf_streak];[lf_base][lf_streak]blend=all_mode=screen:all_opacity=0.18[s7];[s7]drawbox=x=0:y=0:w=iw:h=138:color=black@1:t=fill,drawbox=x=0:y=ih-138:w=iw:h=138:color=black@1:t=fill[lb];[lb]null[out] -map [out] -r 24 -t 3.998 -vcodec libx264 -pix_fmt yuv420p -preset veryfast -b:v 6M -avoid_negative_ts make_zero outputs/final/tmp_ep1/ep1_seg0016.mp4
+STDERR: -enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      60. 26.101 / 60. 26.101
+  libavcodec     62. 28.101 / 62. 28.101
+  libavformat    62. 12.101 / 62. 12.101
+  libavdevice    62.  3.101 / 62.  3.101
+  libavfilter    11. 14.101 / 11. 14.101
+  libswscale      9.  5.101 /  9.  5.101
+  libswresample   6.  3.101 /  6.  3.101
+[Parsed_overlay_16 @ 0000015af6da4880] [Eval @ 00000002fcbff060] Undefined constant or missing '(' in 'yuv420p'
+[Parsed_overlay_16 @ 0000015af6da4880] Unable to parse "format" option value "yuv420p"
+[fc#0 @ 0000015af6d6aa40] Error applying option 'format' to filter 'overlay': Invalid argument
+Error : Invalid argument
+
+2026-05-30 00:22:33 - Agent.VideoCompositor - ERROR - [VideoCompositor] FFmpeg failed for segment 17 (ep 1):
+CMD: ffmpeg -y -loop 1 -t 2.8 -i outputs/reveal_images/ep1_reveal5_evidence.png -loop 1 -t 2.8 -i outputs/layers/ep1_reveal5_evidence_mid_mask.png -loop 1 -t 2.8 -i outputs/layers/ep1_reveal5_evidence_subj_mask.png -filter_complex [0:v]scale=2112:1188,setsar=1[img_s];[1:v]scale=2112:1188,setsar=1[mid_mask_s];[2:v]scale=2112:1188,setsar=1[subj_mask_s];[img_s]split=3[img_bg][img_mid][img_subj];[img_bg]zoompan=z='min(1.4,1.0+0.000000*sin(PI*on/67))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[bg_z];[img_mid]zoompan=z='min(1.4,1.0+0.000000*sin(PI*on/67))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[mid_rgb_z];[img_subj]zoompan=z='min(1.4,1.0+0.000000*sin(PI*on/67))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[subj_rgb_z];[mid_mask_s]zoompan=z='min(1.4,1.0+0.000000*sin(PI*on/67))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[mid_mask_z];[subj_mask_s]zoompan=z='min(1.4,1.0+0.000000*sin(PI*on/67))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[subj_mask_z];[mid_rgb_z]format=yuva420p[mid_yuva];[mid_yuva][mid_mask_z]alphamerge[mid_compositable];[subj_rgb_z]format=yuva420p[subj_yuva];[subj_yuva][subj_mask_z]alphamerge[subj_compositable];[bg_z][mid_compositable]overlay=format=yuv420p[c1];[c1][subj_compositable]overlay=format=yuv420p[comp];[comp]eq=brightness=-0.07:contrast=1.15:saturation=0.55:gamma=1.05[eq1];[eq1]colorbalance=bs=0.03:gs=0.01:rs=-0.04[grade];[grade]split=2[main_h][bloom_src];[bloom_src]lutyuv=y='if(gt(val,210),val,0)',gblur=sigma=16[bloom];[main_h][bloom]blend=all_mode=screen:all_opacity=0.20[ha];[ha]noise=alls=9:allf=t[gn];[gn]vignette=PI/3.5[vi];[vi]hue=s='max(0,1-t/2.8000)'[s6_ds];[s6_ds]rotate=angle=0.023:fillcolor=black,scale=iw*1.04:ih*1.04,crop=1920:1080[s6];[s6]drawbox=x=0:y=0:w=iw:h=138:color=black@1:t=fill,drawbox=x=0:y=ih-138:w=iw:h=138:color=black@1:t=fill[lb];[lb]null[out] -map [out] -r 24 -t 2.8 -vcodec libx264 -pix_fmt yuv420p -preset veryfast -b:v 6M -avoid_negative_ts make_zero outputs/final/tmp_ep1/ep1_seg0017.mp4
+STDERR: -enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      60. 26.101 / 60. 26.101
+  libavcodec     62. 28.101 / 62. 28.101
+  libavformat    62. 12.101 / 62. 12.101
+  libavdevice    62.  3.101 / 62.  3.101
+  libavfilter    11. 14.101 / 11. 14.101
+  libswscale      9.  5.101 /  9.  5.101
+  libswresample   6.  3.101 /  6.  3.101
+[Parsed_overlay_16 @ 00000197e5265940] [Eval @ 0000006ef8ffea10] Undefined constant or missing '(' in 'yuv420p'
+[Parsed_overlay_16 @ 00000197e5265940] Unable to parse "format" option value "yuv420p"
+[fc#0 @ 00000197e522d680] Error applying option 'format' to filter 'overlay': Invalid argument
+Error : Invalid argument
+
+2026-05-30 00:22:33 - Agent.VideoCompositor - INFO - [VideoCompositor] Concatenated 1 segments → outputs/final/tmp_ep1/ep1_video.mp4
+2026-05-30 00:22:33 - Agent.VideoCompositor - INFO - [VideoCompositor] Subtitles burned: outputs/final/tmp_ep1/ep1_subbed.mp4
+2026-05-30 00:22:33 - Agent.VideoCompositor - INFO - [VideoCompositor] Mixing: 47.4s, 5 reveals, 0 dramatic pauses
+2026-05-30 00:28:58 - Agent.VideoCompositor - INFO - [VideoCompositor] Dynamic audio mixed: outputs/final/tmp_ep1/ep1_audio.aac
+2026-05-30 00:28:59 - Agent.VideoCompositor - INFO - [VideoCompositor] Final: outputs/final/episode_1.mp4
+2026-05-30 00:28:59 - Agent.VideoCompositor - INFO - [VideoCompositor] Episode 1 complete: outputs/final/episode_1.mp4
+2026-05-30 00:28:59 - Agent.VideoCompositor - INFO - [VideoCompositor] Composition: 1/1 rendered

@@ -1,0 +1,117 @@
+2026-05-29 22:31:50 - Agent.DepthSAM2 - INFO - [DepthSAM2] Pre-computing layers for all scene and reveal images...
+2026-05-29 22:31:51 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 available
+2026-05-29 22:31:51 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2: loading checkpoints/sam2.1_hiera_tiny.pt on CPU (this takes ~10s first time)
+2026-05-29 22:32:05 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: maras_recording_studio
+2026-05-29 22:32:05 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: maras_recording_studio
+2026-05-29 22:32:05 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2: loading checkpoints/sam2.1_hiera_tiny.pt on CPU (this takes ~10s first time)
+2026-05-29 22:32:17 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ruth_pellmans_house
+2026-05-29 22:32:17 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ruth_pellmans_house
+2026-05-29 22:32:17 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2: loading checkpoints/sam2.1_hiera_tiny.pt on CPU (this takes ~10s first time)
+2026-05-29 22:32:29 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: harlow_creek_town_center
+2026-05-29 22:32:29 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: harlow_creek_town_center
+2026-05-29 22:32:29 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2: loading checkpoints/sam2.1_hiera_tiny.pt on CPU (this takes ~10s first time)
+2026-05-29 22:32:41 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_scene4_maras_recording_studio
+2026-05-29 22:32:41 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_scene4_maras_recording_studio
+2026-05-29 22:32:41 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2: loading checkpoints/sam2.1_hiera_tiny.pt on CPU (this takes ~10s first time)
+2026-05-29 22:32:53 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_scene5_ruth_pellmans_house
+2026-05-29 22:32:53 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_scene5_ruth_pellmans_house
+2026-05-29 22:32:53 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2: loading checkpoints/sam2.1_hiera_tiny.pt on CPU (this takes ~10s first time)
+2026-05-29 22:33:06 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_scene6_harlow_creek_town_center
+2026-05-29 22:33:06 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_scene6_harlow_creek_town_center
+2026-05-29 22:33:06 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2: loading checkpoints/sam2.1_hiera_tiny.pt on CPU (this takes ~10s first time)
+2026-05-29 22:33:18 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_scene7_maras_recording_studio
+2026-05-29 22:33:18 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_scene7_maras_recording_studio
+2026-05-29 22:33:18 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2: loading checkpoints/sam2.1_hiera_tiny.pt on CPU (this takes ~10s first time)
+2026-05-29 22:33:30 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_scene8_ruth_pellmans_house
+2026-05-29 22:33:30 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_scene8_ruth_pellmans_house
+2026-05-29 22:33:30 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2: loading checkpoints/sam2.1_hiera_tiny.pt on CPU (this takes ~10s first time)
+2026-05-29 22:33:42 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_scene9_harlow_creek_town_center
+2026-05-29 22:33:42 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_scene9_harlow_creek_town_center
+2026-05-29 22:33:42 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2: loading checkpoints/sam2.1_hiera_tiny.pt on CPU (this takes ~10s first time)
+2026-05-29 22:33:54 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_scene10_maras_recording_studio
+2026-05-29 22:33:54 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_scene10_maras_recording_studio
+2026-05-29 22:33:54 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2: loading checkpoints/sam2.1_hiera_tiny.pt on CPU (this takes ~10s first time)
+2026-05-29 22:34:07 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_scene11_ruth_pellmans_house
+2026-05-29 22:34:07 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_scene11_ruth_pellmans_house
+2026-05-29 22:34:07 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2: loading checkpoints/sam2.1_hiera_tiny.pt on CPU (this takes ~10s first time)
+2026-05-29 22:34:19 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_scene12_harlow_creek_town_center
+2026-05-29 22:34:19 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_scene12_harlow_creek_town_center
+2026-05-29 22:34:19 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2: loading checkpoints/sam2.1_hiera_tiny.pt on CPU (this takes ~10s first time)
+2026-05-29 22:34:31 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: harlow_creek_sheriffs_department
+2026-05-29 22:34:31 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: harlow_creek_sheriffs_department
+2026-05-29 22:34:31 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2: loading checkpoints/sam2.1_hiera_tiny.pt on CPU (this takes ~10s first time)
+2026-05-29 22:34:43 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: millhaven_county_group_home__exterior
+2026-05-29 22:34:43 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: millhaven_county_group_home__exterior
+2026-05-29 22:34:43 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2: loading checkpoints/sam2.1_hiera_tiny.pt on CPU (this takes ~10s first time)
+2026-05-29 22:34:55 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: the_frey_property
+2026-05-29 22:34:56 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: the_frey_property
+2026-05-29 22:34:56 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2: loading checkpoints/sam2.1_hiera_tiny.pt on CPU (this takes ~10s first time)
+2026-05-29 22:35:07 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: vera_colts_print_shop
+2026-05-29 22:35:07 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: vera_colts_print_shop
+2026-05-29 22:35:07 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2: loading checkpoints/sam2.1_hiera_tiny.pt on CPU (this takes ~10s first time)
+2026-05-29 22:35:20 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_reveal1_document
+2026-05-29 22:35:20 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_reveal1_document
+2026-05-29 22:35:20 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2: loading checkpoints/sam2.1_hiera_tiny.pt on CPU (this takes ~10s first time)
+2026-05-29 22:35:31 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_reveal2_location_detail
+2026-05-29 22:35:32 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_reveal2_location_detail
+2026-05-29 22:35:32 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2: loading checkpoints/sam2.1_hiera_tiny.pt on CPU (this takes ~10s first time)
+2026-05-29 22:35:43 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_reveal3_location_detail
+2026-05-29 22:35:43 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_reveal3_location_detail
+2026-05-29 22:35:43 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2: loading checkpoints/sam2.1_hiera_tiny.pt on CPU (this takes ~10s first time)
+2026-05-29 22:35:55 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_reveal4_evidence
+2026-05-29 22:35:55 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_reveal4_evidence
+2026-05-29 22:35:55 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2: loading checkpoints/sam2.1_hiera_tiny.pt on CPU (this takes ~10s first time)
+2026-05-29 22:36:07 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_reveal5_evidence
+2026-05-29 22:36:07 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_reveal5_evidence
+2026-05-29 22:36:07 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layer pre-compute done: 21 new, 0 cached
+2026-05-29 22:36:07 - Agent.VideoCompositor - INFO - [VideoCompositor] Starting video composition (Agent 6b — FFmpeg)...
+2026-05-29 22:36:07 - Agent.VideoCompositor - INFO - [VideoCompositor] Subtitles written: outputs/final/tmp_ep1/ep1_subtitles.ass (28 lines)
+2026-05-29 22:36:07 - Agent.VideoCompositor - WARNING - [VideoCompositor] Title card failed: Title card generation failed: 000018381dbfb00] Unable to parse "fontcolor" option value "white@min(t/0.6,1)" as color
+[fc#-1 @ 0000018383d50500] Error applying option 'fontcolor' to filter 'drawtext': Invalid argument
+Error opening output file outputs/final/tmp_ep1/ep1_title.mp4.
+Error opening output files: Invalid argument
+
+2026-05-29 22:36:24 - Agent.VideoCompositor - ERROR - [VideoCompositor] FFmpeg failed for segment 4 (ep 1):
+CMD: ffmpeg -y -loop 1 -t 3.5 -i outputs/reveal_images/ep1_reveal1_document.png -loop 1 -t 3.5 -i outputs/layers/ep1_reveal1_document_mid_mask.png -loop 1 -t 3.5 -i outputs/layers/ep1_reveal1_document_subj_mask.png -filter_complex [0:v]scale=2112:1188,setsar=1[img_s];[1:v]scale=2112:1188,setsar=1[mid_mask_s];[2:v]scale=2112:1188,setsar=1[subj_mask_s];[img_s]split=3[img_bg][img_mid][img_subj];[img_bg]zoompan=z='min(1.4,1.0+0.006300*(1-on/84))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[bg_z];[img_mid]zoompan=z='min(1.4,1.0+0.012600*(1-on/84))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[mid_rgb_z];[img_subj]zoompan=z='min(1.4,1.0+0.021000*(1-on/84))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[subj_rgb_z];[mid_mask_s]zoompan=z='min(1.4,1.0+0.012600*(1-on/84))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[mid_mask_z];[subj_mask_s]zoompan=z='min(1.4,1.0+0.021000*(1-on/84))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[subj_mask_z];[mid_rgb_z]format=yuva420p[mid_yuva];[mid_yuva][mid_mask_z]alphamerge[mid_compositable];[subj_rgb_z]format=yuva420p[subj_yuva];[subj_yuva][subj_mask_z]alphamerge[subj_compositable];[bg_z][mid_compositable]overlay=format=auto[c1];[c1][subj_compositable]overlay=format=auto[comp];[comp]eq=brightness=-0.07:contrast=1.15:saturation=0.55:gamma=1.05[eq1];[eq1]colorbalance=bs=0.03:gs=0.01:rs=-0.04[grade];[grade]split=2[main_h][bloom_src];[bloom_src]lutyuv=y='if(gt(val,210),val,0)',gblur=sigma=16[bloom];[main_h][bloom]blend=all_mode=screen:all_opacity=0.20[ha];[ha]noise=alls=9:allf=t[gn];[gn]vignette=PI/3.5[vi];[vi]eq=saturation=0.15[desat_vi];[desat_vi]pad=1976:1136:28:28:color=0xEBE8E1,rotate=angle=0.012834:fillcolor=0x0C0C10,pad=1920:1080:(ow-iw)/2:(oh-ih)/2:color=0x0C0C10[s6];[s6]drawbox=x=0:y=0:w=iw:h=138:color=black@1:t=fill,drawbox=x=0:y=ih-138:w=iw:h=138:color=black@1:t=fill[lb];[lb]drawtext=fontfile='C\:/Windows/Fonts/arialbd.ttf':text='DANIEL FREY - MISSING OCTOBER 9, 1997':fontsize=30:fontcolor=white@0.65:x=80:y=156:shadowcolor=black@0.8:shadowx=1:shadowy=1[ts_out];[ts_out]null[out] -map [out] -r 24 -t 3.5 -vcodec libx264 -pix_fmt yuv420p -preset veryfast -b:v 6M -avoid_negative_ts make_zero outputs/final/tmp_ep1/ep1_seg0004.mp4
+STDERR: gure input pad on Parsed_pad_29
+[fc#0 @ 000002467b879e40] Error reinitializing filters!
+[fc#0 @ 000002467b879e40] Task finished with error code: -22 (Invalid argument)
+[fc#0 @ 000002467b879e40] Terminating thread with return code -22 (Invalid argument)
+[vost#0:0/libx264 @ 000002467d475b00] [enc:libx264 @ 000002467ddcdb40] Could not open encoder before EOF
+[vost#0:0/libx264 @ 000002467d475b00] Task finished with error code: -22 (Invalid argument)
+[vost#0:0/libx264 @ 000002467d475b00] Terminating thread with return code -22 (Invalid argument)
+[out#0/mp4 @ 000002467b8305c0] Nothing was written into output file, because at least one of its streams received no packets.
+frame=    0 fps=0.0 q=0.0 Lsize=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:00.07    
+Conversion failed!
+
+2026-05-29 22:36:29 - Agent.VideoCompositor - ERROR - [VideoCompositor] FFmpeg failed for segment 7 (ep 1):
+CMD: ffmpeg -y -loop 1 -t 4.0 -i outputs/reveal_images/ep1_reveal2_location_detail.png -loop 1 -t 4.0 -i outputs/layers/ep1_reveal2_location_detail_mid_mask.png -loop 1 -t 4.0 -i outputs/layers/ep1_reveal2_location_detail_subj_mask.png -filter_complex [0:v]scale=2112:1188,setsar=1[img_s];[1:v]scale=2112:1188,setsar=1[mid_mask_s];[2:v]scale=2112:1188,setsar=1[subj_mask_s];[img_s]split=3[img_bg][img_mid][img_subj];[img_bg]zoompan=z='min(1.4,1.0+0.007200*on/96)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[bg_z];[img_mid]zoompan=z='min(1.4,1.0+0.014400*on/96)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[mid_rgb_z];[img_subj]zoompan=z='min(1.4,1.0+0.024000*on/96)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[subj_rgb_z];[mid_mask_s]zoompan=z='min(1.4,1.0+0.014400*on/96)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[mid_mask_z];[subj_mask_s]zoompan=z='min(1.4,1.0+0.024000*on/96)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[subj_mask_z];[mid_rgb_z]format=yuva420p[mid_yuva];[mid_yuva][mid_mask_z]alphamerge[mid_compositable];[subj_rgb_z]format=yuva420p[subj_yuva];[subj_yuva][subj_mask_z]alphamerge[subj_compositable];[bg_z][mid_compositable]overlay=format=auto[c1];[c1][subj_compositable]overlay=format=auto[comp];[comp]eq=brightness=-0.07:contrast=1.15:saturation=0.55:gamma=1.05[eq1];[eq1]colorbalance=bs=0.03:gs=0.01:rs=-0.04[grade];[grade]split=2[main_h][bloom_src];[bloom_src]lutyuv=y='if(gt(val,210),val,0)',gblur=sigma=16[bloom];[main_h][bloom]blend=all_mode=screen:all_opacity=0.20[ha];[ha]noise=alls=9:allf=t[gn];[gn]vignette=PI/3.5[vi];[vi]noise=alls='if(lt(t,0.13),32,9)':allf=t[s6];[s6]split=2[lf_base][lf_src];[lf_src]lutyuv=y='if(gt(val,225),val,0)',gblur=sigma=48:sigmaV=1[lf_streak];[lf_base][lf_streak]blend=all_mode=screen:all_opacity=0.18[s7];[s7]drawbox=x=0:y=0:w=iw:h=138:color=black@1:t=fill,drawbox=x=0:y=ih-138:w=iw:h=138:color=black@1:t=fill[lb];[lb]drawtext=fontfile='C\:/Windows/Fonts/arialbd.ttf':text='OCTOBER 9, 1997':fontsize=30:fontcolor=white@0.65:x=80:y=156:shadowcolor=black@0.8:shadowx=1:shadowy=1[ts_out];[ts_out]null[out] -map [out] -r 24 -t 4.0 -vcodec libx264 -pix_fmt yuv420p -preset veryfast -b:v 6M -avoid_negative_ts make_zero outputs/final/tmp_ep1/ep1_seg0007.mp4
+STDERR: libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      60. 26.101 / 60. 26.101
+  libavcodec     62. 28.101 / 62. 28.101
+  libavformat    62. 12.101 / 62. 12.101
+  libavdevice    62.  3.101 / 62.  3.101
+  libavfilter    11. 14.101 / 11. 14.101
+  libswscale      9.  5.101 /  9.  5.101
+  libswresample   6.  3.101 /  6.  3.101
+[Parsed_noise_26 @ 000002005a07a080] [Eval @ 000000b7de1feb40] Undefined constant or missing '(' in 't,0.13),32,9)'
+[Parsed_noise_26 @ 000002005a07a080] Unable to parse "alls" option value "if(lt(t,0.13),32,9)"
+[fc#0 @ 000002005a03c400] Error applying option 'alls' to filter 'noise': Invalid argument
+Error : Invalid argument
+
+2026-05-29 22:36:58 - Agent.VideoCompositor - ERROR - [VideoCompositor] FFmpeg failed for segment 14 (ep 1):
+CMD: ffmpeg -y -loop 1 -t 4.0 -i outputs/reveal_images/ep1_reveal5_evidence.png -loop 1 -t 4.0 -i outputs/layers/ep1_reveal5_evidence_mid_mask.png -loop 1 -t 4.0 -i outputs/layers/ep1_reveal5_evidence_subj_mask.png -filter_complex [0:v]scale=2112:1188,setsar=1[img_s];[1:v]scale=2112:1188,setsar=1[mid_mask_s];[2:v]scale=2112:1188,setsar=1[subj_mask_s];[img_s]split=3[img_bg][img_mid][img_subj];[img_bg]zoompan=z='min(1.4,1.0+0.007200*(1-on/96))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[bg_z];[img_mid]zoompan=z='min(1.4,1.0+0.014400*(1-on/96))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[mid_rgb_z];[img_subj]zoompan=z='min(1.4,1.0+0.024000*(1-on/96))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[subj_rgb_z];[mid_mask_s]zoompan=z='min(1.4,1.0+0.014400*(1-on/96))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[mid_mask_z];[subj_mask_s]zoompan=z='min(1.4,1.0+0.024000*(1-on/96))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1920x1080:fps=24[subj_mask_z];[mid_rgb_z]format=yuva420p[mid_yuva];[mid_yuva][mid_mask_z]alphamerge[mid_compositable];[subj_rgb_z]format=yuva420p[subj_yuva];[subj_yuva][subj_mask_z]alphamerge[subj_compositable];[bg_z][mid_compositable]overlay=format=auto[c1];[c1][subj_compositable]overlay=format=auto[comp];[comp]eq=brightness=-0.07:contrast=1.15:saturation=0.55:gamma=1.05[eq1];[eq1]colorbalance=bs=0.03:gs=0.01:rs=-0.04[grade];[grade]split=2[main_h][bloom_src];[bloom_src]lutyuv=y='if(gt(val,210),val,0)',gblur=sigma=16[bloom];[main_h][bloom]blend=all_mode=screen:all_opacity=0.20[ha];[ha]noise=alls=9:allf=t[gn];[gn]vignette=PI/3.5[vi];[vi]eq=saturation=0.15[desat_vi];[desat_vi]pad=1976:1136:28:28:color=0xEBE8E1,rotate=angle=-0.011188:fillcolor=0x0C0C10,pad=1920:1080:(ow-iw)/2:(oh-ih)/2:color=0x0C0C10[s6];[s6]drawbox=x=0:y=0:w=iw:h=138:color=black@1:t=fill,drawbox=x=0:y=ih-138:w=iw:h=138:color=black@1:t=fill[lb];[lb]drawtext=fontfile='C\:/Windows/Fonts/arialbd.ttf':text='UNSPOKEN':fontsize=30:fontcolor=white@0.65:x=80:y=156:shadowcolor=black@0.8:shadowx=1:shadowy=1[ts_out];[ts_out]null[out] -map [out] -r 24 -t 4.0 -vcodec libx264 -pix_fmt yuv420p -preset veryfast -b:v 6M -avoid_negative_ts make_zero outputs/final/tmp_ep1/ep1_seg0014.mp4
+STDERR: gure input pad on Parsed_pad_29
+[fc#0 @ 000001a4cf5f9e00] Error reinitializing filters!
+[fc#0 @ 000001a4cf5f9e00] Task finished with error code: -22 (Invalid argument)
+[fc#0 @ 000001a4cf5f9e00] Terminating thread with return code -22 (Invalid argument)
+[vost#0:0/libx264 @ 000001a4d1245ec0] [enc:libx264 @ 000001a4d1a75dc0] Could not open encoder before EOF
+[vost#0:0/libx264 @ 000001a4d1245ec0] Task finished with error code: -22 (Invalid argument)
+[vost#0:0/libx264 @ 000001a4d1245ec0] Terminating thread with return code -22 (Invalid argument)
+[out#0/mp4 @ 000001a4cf5b11c0] Nothing was written into output file, because at least one of its streams received no packets.
+frame=    0 fps=0.0 q=0.0 Lsize=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:00.05    
+Conversion failed!
+
+2026-05-29 22:37:16 - Agent.VideoCompositor - INFO - [VideoCompositor] Concatenated 15 segments → outputs/final/tmp_ep1/ep1_video.mp4
+2026-05-29 22:37:22 - Agent.VideoCompositor - INFO - [VideoCompositor] Subtitles burned: outputs/final/tmp_ep1/ep1_subbed.mp4
+2026-05-29 22:37:22 - Agent.VideoCompositor - INFO - [VideoCompositor] Mixing: 48.0s, 5 reveals, 0 dramatic pauses

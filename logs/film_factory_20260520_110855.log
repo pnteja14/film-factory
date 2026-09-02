@@ -1,0 +1,578 @@
+2026-05-20 11:08:55 - Agent.call_ollama_for_prompt - WARNING - [call_ollama_for_prompt] Attempt 1/2 failed: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500). Retrying in 1.0s...
+2026-05-20 11:08:56 - Agent.call_ollama_for_prompt - ERROR - [call_ollama_for_prompt] Max retries (2) exceeded
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.5 GiB) (status code: 500)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 110, in call_ollama_for_prompt
+    raise RetryableException(f"Ollama failed: {e}")
+utils.errors.RetryableException: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.5 GiB) (status code: 500)
+2026-05-20 11:08:56 - Agent.call_ollama_for_prompt - WARNING - [call_ollama_for_prompt] Attempt 1/2 failed: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.5 GiB) (status code: 500). Retrying in 1.0s...
+2026-05-20 11:08:57 - Agent.call_ollama_for_prompt - ERROR - [call_ollama_for_prompt] Max retries (2) exceeded
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.7 GiB) (status code: 500)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 110, in call_ollama_for_prompt
+    raise RetryableException(f"Ollama failed: {e}")
+utils.errors.RetryableException: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.7 GiB) (status code: 500)
+2026-05-20 11:08:57 - Agent.call_ollama_for_prompt - WARNING - [call_ollama_for_prompt] Attempt 1/2 failed: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.7 GiB) (status code: 500). Retrying in 1.0s...
+2026-05-20 11:08:59 - Agent.call_ollama_for_prompt - ERROR - [call_ollama_for_prompt] Max retries (2) exceeded
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.7 GiB) (status code: 500)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 110, in call_ollama_for_prompt
+    raise RetryableException(f"Ollama failed: {e}")
+utils.errors.RetryableException: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.7 GiB) (status code: 500)
+2026-05-20 11:08:59 - Agent.call_ollama_for_prompt - WARNING - [call_ollama_for_prompt] Attempt 1/2 failed: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.7 GiB) (status code: 500). Retrying in 1.0s...
+2026-05-20 11:09:00 - Agent.call_ollama_for_prompt - ERROR - [call_ollama_for_prompt] Max retries (2) exceeded
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.7 GiB) (status code: 500)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 110, in call_ollama_for_prompt
+    raise RetryableException(f"Ollama failed: {e}")
+utils.errors.RetryableException: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.7 GiB) (status code: 500)
+2026-05-20 11:09:00 - Agent.call_ollama_for_prompt - WARNING - [call_ollama_for_prompt] Attempt 1/2 failed: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.7 GiB) (status code: 500). Retrying in 1.0s...
+2026-05-20 11:09:01 - Agent.call_ollama_for_prompt - ERROR - [call_ollama_for_prompt] Max retries (2) exceeded
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 110, in call_ollama_for_prompt
+    raise RetryableException(f"Ollama failed: {e}")
+utils.errors.RetryableException: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:01 - Agent.call_ollama_for_prompt - WARNING - [call_ollama_for_prompt] Attempt 1/2 failed: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500). Retrying in 1.0s...
+2026-05-20 11:09:02 - Agent.call_ollama_for_prompt - ERROR - [call_ollama_for_prompt] Max retries (2) exceeded
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 110, in call_ollama_for_prompt
+    raise RetryableException(f"Ollama failed: {e}")
+utils.errors.RetryableException: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:03 - Agent.call_ollama_for_prompt - WARNING - [call_ollama_for_prompt] Attempt 1/2 failed: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500). Retrying in 1.0s...
+2026-05-20 11:09:04 - Agent.call_ollama_for_prompt - ERROR - [call_ollama_for_prompt] Max retries (2) exceeded
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 110, in call_ollama_for_prompt
+    raise RetryableException(f"Ollama failed: {e}")
+utils.errors.RetryableException: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:04 - Agent.call_ollama_for_prompt - WARNING - [call_ollama_for_prompt] Attempt 1/2 failed: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500). Retrying in 1.0s...
+2026-05-20 11:09:05 - Agent.call_ollama_for_prompt - ERROR - [call_ollama_for_prompt] Max retries (2) exceeded
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 110, in call_ollama_for_prompt
+    raise RetryableException(f"Ollama failed: {e}")
+utils.errors.RetryableException: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:05 - Agent.call_ollama_for_prompt - WARNING - [call_ollama_for_prompt] Attempt 1/2 failed: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500). Retrying in 1.0s...
+2026-05-20 11:09:06 - Agent.call_ollama_for_prompt - ERROR - [call_ollama_for_prompt] Max retries (2) exceeded
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 110, in call_ollama_for_prompt
+    raise RetryableException(f"Ollama failed: {e}")
+utils.errors.RetryableException: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:07 - Agent.call_ollama_for_prompt - WARNING - [call_ollama_for_prompt] Attempt 1/2 failed: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500). Retrying in 1.0s...
+2026-05-20 11:09:08 - Agent.call_ollama_for_prompt - ERROR - [call_ollama_for_prompt] Max retries (2) exceeded
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 110, in call_ollama_for_prompt
+    raise RetryableException(f"Ollama failed: {e}")
+utils.errors.RetryableException: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:08 - Agent.call_ollama_for_prompt - WARNING - [call_ollama_for_prompt] Attempt 1/2 failed: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500). Retrying in 1.0s...
+2026-05-20 11:09:09 - Agent.call_ollama_for_prompt - ERROR - [call_ollama_for_prompt] Max retries (2) exceeded
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 110, in call_ollama_for_prompt
+    raise RetryableException(f"Ollama failed: {e}")
+utils.errors.RetryableException: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:09 - Agent.call_ollama_for_prompt - WARNING - [call_ollama_for_prompt] Attempt 1/2 failed: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500). Retrying in 1.0s...
+2026-05-20 11:09:10 - Agent.call_ollama_for_prompt - ERROR - [call_ollama_for_prompt] Max retries (2) exceeded
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 110, in call_ollama_for_prompt
+    raise RetryableException(f"Ollama failed: {e}")
+utils.errors.RetryableException: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:10 - Agent.call_ollama_for_prompt - WARNING - [call_ollama_for_prompt] Attempt 1/2 failed: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500). Retrying in 1.0s...
+2026-05-20 11:09:12 - Agent.call_ollama_for_prompt - ERROR - [call_ollama_for_prompt] Max retries (2) exceeded
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 110, in call_ollama_for_prompt
+    raise RetryableException(f"Ollama failed: {e}")
+utils.errors.RetryableException: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:12 - Agent.call_ollama_for_prompt - WARNING - [call_ollama_for_prompt] Attempt 1/2 failed: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500). Retrying in 1.0s...
+2026-05-20 11:09:13 - Agent.call_ollama_for_prompt - ERROR - [call_ollama_for_prompt] Max retries (2) exceeded
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 110, in call_ollama_for_prompt
+    raise RetryableException(f"Ollama failed: {e}")
+utils.errors.RetryableException: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:13 - Agent.call_ollama_for_prompt - WARNING - [call_ollama_for_prompt] Attempt 1/2 failed: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500). Retrying in 1.0s...
+2026-05-20 11:09:14 - Agent.call_ollama_for_prompt - ERROR - [call_ollama_for_prompt] Max retries (2) exceeded
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 110, in call_ollama_for_prompt
+    raise RetryableException(f"Ollama failed: {e}")
+utils.errors.RetryableException: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:14 - Agent.call_ollama_for_prompt - WARNING - [call_ollama_for_prompt] Attempt 1/2 failed: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500). Retrying in 1.0s...
+2026-05-20 11:09:15 - Agent.call_ollama_for_prompt - ERROR - [call_ollama_for_prompt] Max retries (2) exceeded
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 110, in call_ollama_for_prompt
+    raise RetryableException(f"Ollama failed: {e}")
+utils.errors.RetryableException: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:16 - Agent.call_ollama_for_prompt - WARNING - [call_ollama_for_prompt] Attempt 1/2 failed: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500). Retrying in 1.0s...
+2026-05-20 11:09:17 - Agent.call_ollama_for_prompt - ERROR - [call_ollama_for_prompt] Max retries (2) exceeded
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 110, in call_ollama_for_prompt
+    raise RetryableException(f"Ollama failed: {e}")
+utils.errors.RetryableException: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)

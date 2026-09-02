@@ -1,0 +1,196 @@
+2026-06-03 09:50:47 - Agent.ImageGenerator - INFO - [ImageGenerator] Starting image generation (Agent 5a)...
+2026-06-03 09:50:47 - Agent.ImageGenerator - INFO - [ImageGenerator] HuggingFace client initialized
+2026-06-03 09:50:47 - Agent.ImageGenerator - INFO - [ImageGenerator] Same story detected — reusing existing images (set REUSE_EXISTING_IMAGES=True to force)
+2026-06-03 09:50:47 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1: 7 anchor images at 1280x720...
+2026-06-03 09:50:47 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Manor — Grand Entry Hall' (1280x720)
+2026-06-03 09:50:52 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_manor__grand_entry_hall.png
+2026-06-03 09:50:54 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Hidden Room' (1280x720)
+2026-06-03 09:50:58 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_hidden_room.png
+2026-06-03 09:51:00 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The East-Wing Library' (1280x720)
+2026-06-03 09:51:04 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_east-wing_library.png
+2026-06-03 09:51:06 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Manor Grounds — Overgrown Garden' (1280x720)
+2026-06-03 09:51:10 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_manor_grounds__overgrown_garden.png
+2026-06-03 09:51:12 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'Callum's Cottage — Interior' (1280x720)
+2026-06-03 09:51:15 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\callums_cottage__interior.png
+2026-06-03 09:51:17 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Village — Millhaven High Street' (1280x720)
+2026-06-03 09:51:21 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_village__millhaven_high_street.png
+2026-06-03 09:51:23 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Manor — Upper Hallway' (1280x720)
+2026-06-03 09:51:27 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_manor__upper_hallway.png
+2026-06-03 09:51:29 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1 complete: 7/7
+2026-06-03 09:51:29 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1.5: Correcting scene prompts against anchor images...
+2026-06-03 09:51:32 - Agent.ImageGenerator - INFO - [ImageGenerator]   Anchor analyzed: 'The Manor — Grand Entry Hall'
+2026-06-03 09:51:35 - Agent.ImageGenerator - INFO - [ImageGenerator]   Anchor analyzed: 'The Hidden Room'
+2026-06-03 09:51:38 - Agent.ImageGenerator - INFO - [ImageGenerator]   Anchor analyzed: 'The East-Wing Library'
+2026-06-03 09:51:41 - Agent.ImageGenerator - INFO - [ImageGenerator]   Anchor analyzed: 'The Manor Grounds — Overgrown Garden'
+2026-06-03 09:51:44 - Agent.ImageGenerator - INFO - [ImageGenerator]   Anchor analyzed: 'Callum's Cottage — Interior'
+2026-06-03 09:51:48 - Agent.ImageGenerator - INFO - [ImageGenerator]   Anchor analyzed: 'The Village — Millhaven High Street'
+2026-06-03 09:51:51 - Agent.ImageGenerator - INFO - [ImageGenerator]   Anchor analyzed: 'The Manor — Upper Hallway'
+2026-06-03 09:51:53 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1.5 complete: 1 prompts corrected
+2026-06-03 09:51:53 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 2: Scene images for 1 episodes...
+2026-06-03 09:51:53 - Agent.ImageGenerator - INFO - [ImageGenerator] Episode 1 scene images...
+2026-06-03 09:51:53 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 1: anchor 'The Hidden Room' (first use)
+2026-06-03 09:51:53 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 2: anchor 'The Manor — Grand Entry Hall' (first use)
+2026-06-03 09:51:53 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 3: anchor 'The East-Wing Library' (first use)
+2026-06-03 09:51:59 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 4 attempt 1: validation score=0.20
+2026-06-03 09:51:59 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 4: score 0.20 < 0.55 — retrying
+2026-06-03 09:52:05 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 4 attempt 2: validation score=0.20
+2026-06-03 09:52:05 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 4: score 0.20 < 0.55 — retrying
+2026-06-03 09:52:12 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 4 attempt 3: validation score=0.15
+2026-06-03 09:52:12 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 4: kept best attempt (score 0.20) for 'The Manor — Grand Entry Hall'
+2026-06-03 09:52:13 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 5: anchor 'The Manor — Upper Hallway' (first use)
+2026-06-03 09:52:21 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 6 attempt 1: validation score=0.85
+2026-06-03 09:52:21 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 6: generated 'The Manor — Grand Entry Hall' (score 0.85)
+2026-06-03 09:52:27 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 7 attempt 1: validation score=0.95
+2026-06-03 09:52:27 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 7: generated 'The Manor — Grand Entry Hall' (score 0.95)
+2026-06-03 09:52:40 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 8 attempt 1: validation score=0.95
+2026-06-03 09:52:40 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 8: generated 'The East-Wing Library' (score 0.95)
+2026-06-03 09:52:47 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 9 attempt 1: validation score=0.85
+2026-06-03 09:52:47 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 9: generated 'The East-Wing Library' (score 0.85)
+2026-06-03 09:52:53 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 10 attempt 1: validation score=0.70
+2026-06-03 09:52:54 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 10: generated 'The East-Wing Library' (score 0.70)
+2026-06-03 09:52:59 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 11 attempt 1: validation score=0.95
+2026-06-03 09:53:00 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 11: generated 'The Hidden Room' (score 0.95)
+2026-06-03 09:53:06 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 12 attempt 1: validation score=0.85
+2026-06-03 09:53:07 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 12: generated 'The Hidden Room' (score 0.85)
+2026-06-03 09:53:13 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 13 attempt 1: validation score=0.70
+2026-06-03 09:53:13 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 13: generated 'The Hidden Room' (score 0.70)
+2026-06-03 09:53:15 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 3: Reveal images for 1 episodes...
+2026-06-03 09:53:15 - Agent.ImageGenerator - INFO - [ImageGenerator]   Episode 1: 5 reveals...
+2026-06-03 09:53:15 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [document] ep1 r1
+2026-06-03 09:53:19 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal1_document_011e6268.png
+2026-06-03 09:53:19 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 1: document saved
+2026-06-03 09:53:21 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [location_detail] ep1 r2
+2026-06-03 09:53:25 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal2_location_detail_011e6268.png
+2026-06-03 09:53:25 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 2: location_detail saved
+2026-06-03 09:53:27 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [subject] ep1 r3
+2026-06-03 09:53:30 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal3_subject_011e6268.png
+2026-06-03 09:53:30 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 3: subject saved
+2026-06-03 09:53:32 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [location_detail] ep1 r4
+2026-06-03 09:53:36 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal4_location_detail_011e6268.png
+2026-06-03 09:53:36 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 4: location_detail saved
+2026-06-03 09:53:38 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [evidence] ep1 r5
+2026-06-03 09:53:42 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal5_evidence_011e6268.png
+2026-06-03 09:53:42 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 5: evidence saved
+2026-06-03 09:53:44 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 3.5: Insert shot images...
+2026-06-03 09:53:48 - Agent.ImageGenerator - INFO - [ImageGenerator]   Insert ep1 s1 'tomorrow's date': saved
+2026-06-03 09:53:52 - Agent.ImageGenerator - INFO - [ImageGenerator]   Insert ep1 s2 'solicitor's letter': saved
+2026-06-03 09:53:58 - Agent.ImageGenerator - INFO - [ImageGenerator]   Insert ep1 s4 'coat on a hook': saved
+2026-06-03 09:54:03 - Agent.ImageGenerator - INFO - [ImageGenerator]   Insert ep1 s9 'pristine': saved
+2026-06-03 09:54:04 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 3.5 complete: 4/4 insert shots generated
+2026-06-03 09:54:04 - Agent.ImageGenerator - INFO - [ImageGenerator] Image generation complete — 7 anchors, 13 scenes, 5 reveals | All at 1280x720 (16:9)
+2026-06-03 09:55:57 - Agent.MusicAgent - INFO - [MusicAgent] Music generation (source=kaggle, MusicGen=True)...
+2026-06-03 09:55:57 - Agent.MusicAgent - INFO - [MusicAgent] Episode 1: 112.9s, 0 reveals, cliffhanger at 110.9s
+2026-06-03 09:55:57 - Agent.MusicAgent - INFO - [MusicAgent] Arc segments: establish(16s), build(42s), investigation(12s), revelation(26s), cliffhanger(14s)
+2026-06-03 09:55:57 - Agent.MusicAgent - INFO - [MusicAgent] Kaggle music: 'Cinematic instrumental score for: "There is a photograph pinned to a wall in thi' (16s)
+2026-06-03 09:55:58 - Agent.MusicAgent - WARNING - [MusicAgent] Kaggle music 404: <!DOCTYPE html>
+<html class="h-full" lang="en-US" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewpor
+2026-06-03 09:55:58 - Agent.MusicAgent - INFO - [MusicAgent] Local MusicGen: 'Cinematic instrumental score for: "There is a photograph pin' (16s)
+2026-06-03 09:58:13 - Agent.MusicAgent - INFO - [MusicAgent] Saved: outputs\music\ep1_seg0_85b8fb8e.wav (16.1s)
+2026-06-03 09:58:13 - Agent.MusicAgent - INFO - [MusicAgent] Kaggle music: 'Cinematic instrumental score for: "A decision someone else made about my life wi' (30s)
+2026-06-03 09:58:15 - Agent.MusicAgent - WARNING - [MusicAgent] Kaggle music 404: <!DOCTYPE html>
+<html class="h-full" lang="en-US" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewpor
+2026-06-03 09:58:15 - Agent.MusicAgent - INFO - [MusicAgent] Local MusicGen: 'Cinematic instrumental score for: "A decision someone else m' (30s)
+2026-06-03 10:03:29 - Agent.MusicAgent - INFO - [MusicAgent] Saved: outputs\music\ep1_seg1_05fa0da4.wav (29.9s)
+2026-06-03 10:03:29 - Agent.MusicAgent - INFO - [MusicAgent] Kaggle music: 'Cinematic instrumental score for: "He doesn't offer to show me around
+
+Callum
+
+H' (13s)
+2026-06-03 10:03:30 - Agent.MusicAgent - WARNING - [MusicAgent] Kaggle music 404: <!DOCTYPE html>
+<html class="h-full" lang="en-US" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewpor
+2026-06-03 10:03:30 - Agent.MusicAgent - INFO - [MusicAgent] Local MusicGen: 'Cinematic instrumental score for: "He doesn't offer to show ' (13s)
+2026-06-03 10:05:30 - Agent.MusicAgent - INFO - [MusicAgent] Saved: outputs\music\ep1_seg2_30a222a3.wav (12.7s)
+2026-06-03 10:05:30 - Agent.MusicAgent - INFO - [MusicAgent] Kaggle music: 'Cinematic instrumental score for: "The library smells of paper and old cold
+
+The' (27s)
+2026-06-03 10:05:31 - Agent.MusicAgent - WARNING - [MusicAgent] Kaggle music 404: <!DOCTYPE html>
+<html class="h-full" lang="en-US" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewpor
+2026-06-03 10:05:31 - Agent.MusicAgent - INFO - [MusicAgent] Local MusicGen: 'Cinematic instrumental score for: "The library smells of pap' (27s)
+2026-06-03 10:10:17 - Agent.MusicAgent - INFO - [MusicAgent] Saved: outputs\music\ep1_seg3_e9589bea.wav (26.9s)
+2026-06-03 10:10:17 - Agent.MusicAgent - INFO - [MusicAgent] Kaggle music: 'Cinematic instrumental score for: "Every wall covered in photographs
+
+Dozens
+
+Hu' (14s)
+2026-06-03 10:10:18 - Agent.MusicAgent - WARNING - [MusicAgent] Kaggle music 404: <!DOCTYPE html>
+<html class="h-full" lang="en-US" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewpor
+2026-06-03 10:10:18 - Agent.MusicAgent - INFO - [MusicAgent] Local MusicGen: 'Cinematic instrumental score for: "Every wall covered in pho' (14s)
+2026-06-03 10:12:55 - Agent.MusicAgent - INFO - [MusicAgent] Saved: outputs\music\ep1_seg4_c593cbda.wav (14.3s)
+2026-06-03 10:12:57 - Agent.MusicAgent - INFO - [MusicAgent] Saved: outputs\music\ep1_score.wav (112.9s)
+2026-06-03 10:12:57 - Agent.MusicAgent - INFO - [MusicAgent] Saved: outputs\music\ep1_sting.wav (2.0s)
+2026-06-03 10:12:57 - Agent.MusicAgent - INFO - [MusicAgent] Episode 1 music complete
+2026-06-03 10:12:57 - Agent.EditPlanner - INFO - [EditPlanner] Building edit decision lists (Agent 6a)...
+2026-06-03 10:12:57 - Agent.EditPlanner - INFO - [EditPlanner] Planning episode 1...
+2026-06-03 10:12:57 - Agent.EditPlanner - INFO - [EditPlanner] Episode 1: 13 scenes (0 with images), 5 reveals, 13 timestamps
+2026-06-03 10:12:57 - Agent.EditPlanner - INFO - [EditPlanner] Building EDL for episode 1...
+2026-06-03 10:12:57 - Agent.EditPlanner - INFO - [EditPlanner] Total audio: 112901ms (112.9s)
+2026-06-03 10:12:57 - Agent.EditPlanner - WARNING - [EditPlanner] Scene 1: image missing and no anchor found — outputs\anchors\the_hidden_room.png
+2026-06-03 10:12:57 - Agent.EditPlanner - WARNING - [EditPlanner] Scene 2: image missing and no anchor found — outputs\anchors\the_manor__grand_entry_hall.png
+2026-06-03 10:12:57 - Agent.EditPlanner - WARNING - [EditPlanner] Scene 3: image missing and no anchor found — outputs\anchors\the_east-wing_library.png
+2026-06-03 10:12:57 - Agent.EditPlanner - WARNING - [EditPlanner] Scene 4: image missing and no anchor found — outputs\scene_images\ep1_scene4_the_manor__grand_entry_hall.png
+2026-06-03 10:12:57 - Agent.EditPlanner - WARNING - [EditPlanner] Scene 5: image missing and no anchor found — outputs\anchors\the_manor__upper_hallway.png
+2026-06-03 10:12:57 - Agent.EditPlanner - WARNING - [EditPlanner] Scene 6: image missing and no anchor found — outputs\scene_images\ep1_scene6_the_manor__grand_entry_hall.png
+2026-06-03 10:12:57 - Agent.EditPlanner - WARNING - [EditPlanner] Scene 7: image missing and no anchor found — outputs\scene_images\ep1_scene7_the_manor__grand_entry_hall.png
+2026-06-03 10:12:57 - Agent.EditPlanner - WARNING - [EditPlanner] Scene 8: image missing and no anchor found — outputs\scene_images\ep1_scene8_the_east-wing_library.png
+2026-06-03 10:12:57 - Agent.EditPlanner - WARNING - [EditPlanner] Scene 9: image missing and no anchor found — outputs\scene_images\ep1_scene9_the_east-wing_library.png
+2026-06-03 10:12:57 - Agent.EditPlanner - WARNING - [EditPlanner] Scene 10: image missing and no anchor found — outputs\scene_images\ep1_scene10_the_east-wing_library.png
+2026-06-03 10:12:57 - Agent.EditPlanner - WARNING - [EditPlanner] Scene 11: image missing and no anchor found — outputs\scene_images\ep1_scene11_the_hidden_room.png
+2026-06-03 10:12:57 - Agent.EditPlanner - WARNING - [EditPlanner] Scene 12: image missing and no anchor found — outputs\scene_images\ep1_scene12_the_hidden_room.png
+2026-06-03 10:12:57 - Agent.EditPlanner - WARNING - [EditPlanner] Scene 13: image missing and no anchor found — outputs\scene_images\ep1_scene13_the_hidden_room.png
+2026-06-03 10:12:57 - Agent.EditPlanner - WARNING - [EditPlanner] Reveal 1: no image — skipping
+2026-06-03 10:12:57 - Agent.EditPlanner - WARNING - [EditPlanner] Reveal 2: no image — skipping
+2026-06-03 10:12:57 - Agent.EditPlanner - WARNING - [EditPlanner] Reveal 3: no image — skipping
+2026-06-03 10:12:57 - Agent.EditPlanner - WARNING - [EditPlanner] Reveal 4: no image — skipping
+2026-06-03 10:12:57 - Agent.EditPlanner - WARNING - [EditPlanner] Reveal 5: no image — skipping
+2026-06-03 10:12:57 - Agent.EditPlanner - INFO - [EditPlanner] Insert shots scheduled: 4
+2026-06-03 10:12:57 - Agent.EditPlanner - INFO - [EditPlanner] Persist visual: scene 7 inherits image from scene 6 (chunk 6)
+2026-06-03 10:12:57 - Agent.EditPlanner - INFO - [EditPlanner] Persist visual: scene 12 inherits image from scene 11 (chunk 11)
+2026-06-03 10:12:57 - Agent.EditPlanner - INFO - [EditPlanner] EDL built: 22 entries, 0 reveals, 4 inserts, total 112.9s
+2026-06-03 10:12:57 - Agent.EditPlanner - INFO - [EditPlanner] EDL saved: outputs/episode_1_edl.json
+2026-06-03 10:12:57 - Agent.EditPlanner - INFO - [EditPlanner] Edit planning complete: 1 EDLs
+2026-06-03 10:12:57 - Agent.VideoCompositor - INFO - [VideoCompositor] Starting video composition (Agent 6b — FFmpeg)...
+2026-06-03 10:12:57 - Agent.VideoCompositor - INFO - [VideoCompositor] Event-stream subtitles written: outputs/final/tmp_ep1/ep1_subtitles.ass (62 groups)
+2026-06-03 10:13:00 - Agent.VideoCompositor - INFO - [VideoCompositor] Title card: outputs/final/tmp_ep1/ep1_title.mp4
+2026-06-03 10:13:00 - Agent.VideoCompositor - WARNING - [VideoCompositor] Entry 0: missing image outputs\anchors\the_hidden_room.png
+2026-06-03 10:13:08 - Agent.VideoCompositor - WARNING - [VideoCompositor] Entry 2: missing image outputs\anchors\the_hidden_room.png
+2026-06-03 10:13:08 - Agent.VideoCompositor - WARNING - [VideoCompositor] Entry 3: missing image outputs\anchors\the_manor__grand_entry_hall.png
+2026-06-03 10:13:14 - Agent.VideoCompositor - WARNING - [VideoCompositor] Entry 5: missing image outputs\anchors\the_manor__grand_entry_hall.png
+2026-06-03 10:13:14 - Agent.VideoCompositor - WARNING - [VideoCompositor] Entry 6: missing image outputs\anchors\the_east-wing_library.png
+2026-06-03 10:13:14 - Agent.VideoCompositor - WARNING - [VideoCompositor] Entry 7: missing image outputs\scene_images\ep1_scene4_the_manor__grand_entry_hall.png
+2026-06-03 10:13:19 - Agent.VideoCompositor - WARNING - [VideoCompositor] Entry 9: missing image outputs\scene_images\ep1_scene4_the_manor__grand_entry_hall.png
+2026-06-03 10:13:19 - Agent.VideoCompositor - WARNING - [VideoCompositor] Entry 10: missing image outputs\anchors\the_manor__upper_hallway.png
+2026-06-03 10:13:19 - Agent.VideoCompositor - WARNING - [VideoCompositor] Entry 11: missing image outputs\scene_images\ep1_scene6_the_manor__grand_entry_hall.png
+2026-06-03 10:13:19 - Agent.VideoCompositor - WARNING - [VideoCompositor] Entry 12: missing image outputs\scene_images\ep1_scene6_the_manor__grand_entry_hall.png
+2026-06-03 10:13:19 - Agent.VideoCompositor - WARNING - [VideoCompositor] Entry 13: missing image outputs\scene_images\ep1_scene8_the_east-wing_library.png
+2026-06-03 10:13:19 - Agent.VideoCompositor - WARNING - [VideoCompositor] Entry 14: missing image outputs\scene_images\ep1_scene9_the_east-wing_library.png
+2026-06-03 10:13:23 - Agent.VideoCompositor - WARNING - [VideoCompositor] Entry 16: missing image outputs\scene_images\ep1_scene9_the_east-wing_library.png
+2026-06-03 10:13:23 - Agent.VideoCompositor - WARNING - [VideoCompositor] Entry 17: missing image outputs\scene_images\ep1_scene10_the_east-wing_library.png
+2026-06-03 10:13:23 - Agent.VideoCompositor - WARNING - [VideoCompositor] Entry 18: missing image outputs\scene_images\ep1_scene11_the_hidden_room.png
+2026-06-03 10:13:23 - Agent.VideoCompositor - WARNING - [VideoCompositor] Entry 19: missing image outputs\scene_images\ep1_scene11_the_hidden_room.png
+2026-06-03 10:13:23 - Agent.VideoCompositor - WARNING - [VideoCompositor] Entry 20: missing image outputs\scene_images\ep1_scene13_the_hidden_room.png
+2026-06-03 10:13:23 - Agent.VideoCompositor - WARNING - [VideoCompositor] Entry 21: missing image outputs\scene_images\ep1_scene13_the_hidden_room.png
+2026-06-03 10:13:24 - Agent.VideoCompositor - INFO - [VideoCompositor] TBC card: outputs/final/tmp_ep1/ep1_tbc.mp4
+2026-06-03 10:13:24 - Agent.VideoCompositor - INFO - [VideoCompositor] Concatenated 6 segments -> outputs/final/tmp_ep1/ep1_video.mp4
+2026-06-03 10:13:27 - Agent.VideoCompositor - INFO - [VideoCompositor] Subtitles burned: outputs/final/tmp_ep1/ep1_subbed.mp4
+2026-06-03 10:13:30 - Agent.VideoCompositor - INFO - [VideoCompositor] Shadow seal applied: outputs/final/tmp_ep1/ep1_sealed.mp4
+2026-06-03 10:13:30 - Agent.VideoCompositor - INFO - [VideoCompositor] Mixing: 110.9s, 5 reveals
+2026-06-03 10:13:31 - Agent.VideoCompositor - INFO - [VideoCompositor] Using arc-automated score mix
+2026-06-03 10:13:36 - Agent.VideoCompositor - INFO - [VideoCompositor] Dynamic audio mixed: outputs/final/tmp_ep1/ep1_audio.aac
+2026-06-03 10:13:40 - Agent.VideoCompositor - INFO - [VideoCompositor] Final: outputs/final/episode_1.mp4
+2026-06-03 10:13:40 - Agent.VideoCompositor - INFO - [VideoCompositor] Episode 1 complete: outputs/final/episode_1.mp4
+2026-06-03 10:13:40 - Agent.VideoCompositor - INFO - [VideoCompositor] Composition: 2/1 rendered

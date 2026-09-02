@@ -1,0 +1,156 @@
+2026-05-25 15:24:14 - Agent.ImageGenerator - INFO - [ImageGenerator] Starting image generation (Agent 5a)...
+2026-05-25 15:24:14 - Agent.ImageGenerator - INFO - [ImageGenerator] HuggingFace client initialized
+2026-05-25 15:24:14 - Agent.ImageGenerator - INFO - [ImageGenerator] Deleted 0 existing images — fresh generation
+2026-05-25 15:24:14 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1: 9 anchor images at 1280x720...
+2026-05-25 15:24:14 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'Ashford Farmhouse' (1280x720)
+2026-05-25 15:24:26 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\ashford_farmhouse.png
+2026-05-25 15:24:28 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'State Emergency Services Building' (1280x720)
+2026-05-25 15:24:39 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\state_emergency_services_building.png
+2026-05-25 15:24:41 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'County Correctional Facility' (1280x720)
+2026-05-25 15:24:51 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\county_correctional_facility.png
+2026-05-25 15:24:53 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'Claire's Apartment' (1280x720)
+2026-05-25 15:25:03 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\claires_apartment.png
+2026-05-25 15:25:05 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'Detective Foster's House' (1280x720)
+2026-05-25 15:25:15 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\detective_fosters_house.png
+2026-05-25 15:25:17 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'Local News Station Archives' (1280x720)
+2026-05-25 15:25:29 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\local_news_station_archives.png
+2026-05-25 15:25:31 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Diner on Route 9' (1280x720)
+2026-05-25 15:25:41 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_diner_on_route_9.png
+2026-05-25 15:25:43 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'Police Records Storage' (1280x720)
+2026-05-25 15:25:55 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\police_records_storage.png
+2026-05-25 15:25:57 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Abandoned Hospital Wing' (1280x720)
+2026-05-25 15:26:07 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_abandoned_hospital_wing.png
+2026-05-25 15:26:09 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1 complete: 9/9
+2026-05-25 15:26:09 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 2: Scene images for 2 episodes...
+2026-05-25 15:26:09 - Agent.ImageGenerator - INFO - [ImageGenerator] Episode 1 scene images...
+2026-05-25 15:26:09 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 1: reusing anchor 'State Emergency Services Building' (location shot)
+2026-05-25 15:26:09 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 2: reusing anchor 'Claire's Apartment' (location shot)
+2026-05-25 15:26:09 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 3: reusing anchor 'State Emergency Services Building' (location shot)
+2026-05-25 15:26:09 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 4: reusing anchor 'Claire's Apartment' (location shot)
+2026-05-25 15:26:10 - Agent.ImageGenerator - INFO - [ImageGenerator] Episode 2 scene images...
+2026-05-25 15:26:10 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 1: reusing anchor 'The Diner on Route 9' (location shot)
+2026-05-25 15:26:10 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 2: reusing anchor 'Claire's Apartment' (location shot)
+2026-05-25 15:26:10 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 3: reusing anchor 'Detective Foster's House' (location shot)
+2026-05-25 15:26:10 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 4: reusing anchor 'The Diner on Route 9' (location shot)
+2026-05-25 15:26:10 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 5: reusing anchor 'Claire's Apartment' (location shot)
+2026-05-25 15:26:10 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 6: reusing anchor 'Detective Foster's House' (location shot)
+2026-05-25 15:26:11 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 3: Reveal images for 2 episodes...
+2026-05-25 15:26:11 - Agent.ImageGenerator - INFO - [ImageGenerator]   Episode 1: 5 reveals...
+2026-05-25 15:26:11 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [document] ep1 r1
+2026-05-25 15:26:21 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal1_document.png
+2026-05-25 15:26:21 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 1: document saved
+2026-05-25 15:26:23 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [evidence] ep1 r2
+2026-05-25 15:26:36 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal2_evidence.png
+2026-05-25 15:26:36 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 2: evidence saved
+2026-05-25 15:26:38 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [evidence] ep1 r3
+2026-05-25 15:26:48 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal3_evidence.png
+2026-05-25 15:26:48 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 3: evidence saved
+2026-05-25 15:26:50 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [evidence] ep1 r4
+2026-05-25 15:26:59 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal4_evidence.png
+2026-05-25 15:26:59 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 4: evidence saved
+2026-05-25 15:27:01 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [subject] ep1 r5
+2026-05-25 15:27:11 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal5_subject.png
+2026-05-25 15:27:11 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 5: subject saved
+2026-05-25 15:27:13 - Agent.ImageGenerator - INFO - [ImageGenerator]   Episode 2: 5 reveals...
+2026-05-25 15:27:13 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [location_detail] ep2 r1
+2026-05-25 15:27:23 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep2_reveal1_location_detail.png
+2026-05-25 15:27:23 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 1: location_detail saved
+2026-05-25 15:27:25 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [evidence] ep2 r2
+2026-05-25 15:27:35 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep2_reveal2_evidence.png
+2026-05-25 15:27:35 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 2: evidence saved
+2026-05-25 15:27:37 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [evidence] ep2 r3
+2026-05-25 15:27:47 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep2_reveal3_evidence.png
+2026-05-25 15:27:47 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 3: evidence saved
+2026-05-25 15:27:49 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [document] ep2 r4
+2026-05-25 15:27:59 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep2_reveal4_document.png
+2026-05-25 15:27:59 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 4: document saved
+2026-05-25 15:28:01 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [subject] ep2 r5
+2026-05-25 15:28:11 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep2_reveal5_subject.png
+2026-05-25 15:28:11 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 5: subject saved
+2026-05-25 15:28:13 - Agent.ImageGenerator - INFO - [ImageGenerator] Image generation complete — 9 anchors, 10 scenes, 10 reveals | All at 1280x720 (16:9)
+2026-05-25 15:28:13 - Agent.PromptCorrector - INFO - [PromptCorrector] Starting visual prompt correction for Episode 1...
+2026-05-25 15:28:13 - Agent.PromptCorrector - INFO - [PromptCorrector] Analyzing 9 anchor images...
+2026-05-25 15:28:13 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: Ashford Farmhouse
+2026-05-25 15:28:17 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 568 chars
+2026-05-25 15:28:17 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: State Emergency Services Building
+2026-05-25 15:28:20 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 555 chars
+2026-05-25 15:28:20 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: County Correctional Facility
+2026-05-25 15:28:24 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 547 chars
+2026-05-25 15:28:24 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: Claire's Apartment
+2026-05-25 15:28:27 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 545 chars
+2026-05-25 15:28:27 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: Detective Foster's House
+2026-05-25 15:28:31 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 556 chars
+2026-05-25 15:28:31 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: Local News Station Archives
+2026-05-25 15:28:35 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 543 chars
+2026-05-25 15:28:35 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: The Diner on Route 9
+2026-05-25 15:28:38 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 582 chars
+2026-05-25 15:28:38 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: Police Records Storage
+2026-05-25 15:28:41 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 543 chars
+2026-05-25 15:28:41 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: The Abandoned Hospital Wing
+2026-05-25 15:28:45 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 573 chars
+2026-05-25 15:28:45 - Agent.PromptCorrector - INFO - [PromptCorrector] Rewriting 4 Episode 1 prompts...
+2026-05-25 15:28:47 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 1 corrected
+2026-05-25 15:28:49 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 2 corrected
+2026-05-25 15:28:51 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 3 corrected
+2026-05-25 15:28:53 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 4 corrected
+2026-05-25 15:28:53 - Agent.PromptCorrector - INFO - [PromptCorrector] Prompt correction complete: 4/4 corrected
+2026-05-25 15:29:10 - Agent.MusicAgent - INFO - [MusicAgent] Music generation (MusicGen: True)...
+2026-05-25 15:29:10 - Agent.MusicAgent - INFO - [MusicAgent] Episode 1 music...
+2026-05-25 15:29:10 - Agent.MusicAgent - INFO - [MusicAgent] Generating ambient (64s)...
+2026-05-25 15:29:10 - Agent.MusicAgent - INFO - [MusicAgent] Loading MusicGen small...
+2026-05-25 15:33:04 - Agent.MusicAgent - INFO - [MusicAgent] Saved: outputs\music\ep1_ambient.wav (64.1s)
+2026-05-25 15:33:04 - Agent.MusicAgent - INFO - [MusicAgent] Generating tension (64s)...
+2026-05-25 15:33:04 - Agent.MusicAgent - INFO - [MusicAgent] Loading MusicGen small...
+2026-05-25 15:36:41 - Agent.MusicAgent - INFO - [MusicAgent] Saved: outputs\music\ep1_tension.wav (64.1s)
+2026-05-25 15:36:41 - Agent.MusicAgent - INFO - [MusicAgent] Generating sting...
+2026-05-25 15:36:41 - Agent.MusicAgent - INFO - [MusicAgent] Loading MusicGen small...
+2026-05-25 15:36:54 - Agent.MusicAgent - INFO - [MusicAgent] Saved: outputs\music\ep1_sting.wav (1.5s)
+2026-05-25 15:36:54 - Agent.MusicAgent - INFO - [MusicAgent] Generating location-aware ambient (64s)...
+2026-05-25 15:36:55 - Agent.MusicAgent - INFO - [MusicAgent] Saved: outputs\music\ep1_ambient_location.wav (64.1s)
+2026-05-25 15:36:55 - Agent.MusicAgent - INFO - [MusicAgent] Episode 1 music complete
+2026-05-25 15:36:55 - Agent.MusicAgent - INFO - [MusicAgent] Episode 2 music...
+2026-05-25 15:36:55 - Agent.MusicAgent - INFO - [MusicAgent] Generating ambient (43s)...
+2026-05-25 15:36:55 - Agent.MusicAgent - INFO - [MusicAgent] Loading MusicGen small...
+2026-05-25 15:40:33 - Agent.MusicAgent - INFO - [MusicAgent] Saved: outputs\music\ep2_ambient.wav (43.5s)
+2026-05-25 15:40:33 - Agent.MusicAgent - INFO - [MusicAgent] Generating tension (43s)...
+2026-05-25 15:40:33 - Agent.MusicAgent - INFO - [MusicAgent] Loading MusicGen small...
+2026-05-25 15:44:10 - Agent.MusicAgent - INFO - [MusicAgent] Saved: outputs\music\ep2_tension.wav (43.5s)
+2026-05-25 15:44:10 - Agent.MusicAgent - INFO - [MusicAgent] Generating sting...
+2026-05-25 15:44:10 - Agent.MusicAgent - INFO - [MusicAgent] Loading MusicGen small...
+2026-05-25 15:44:22 - Agent.MusicAgent - INFO - [MusicAgent] Saved: outputs\music\ep2_sting.wav (1.5s)
+2026-05-25 15:44:22 - Agent.MusicAgent - INFO - [MusicAgent] Generating location-aware ambient (43s)...
+2026-05-25 15:44:22 - Agent.MusicAgent - INFO - [MusicAgent] Saved: outputs\music\ep2_ambient_location.wav (43.5s)
+2026-05-25 15:44:22 - Agent.MusicAgent - INFO - [MusicAgent] Episode 2 music complete
+2026-05-25 15:44:22 - Agent.EditPlanner - INFO - [EditPlanner] Building edit decision lists (Agent 6a)...
+2026-05-25 15:44:22 - Agent.EditPlanner - INFO - [EditPlanner] Planning episode 1...
+2026-05-25 15:44:22 - Agent.EditPlanner - INFO - [EditPlanner] Episode 1: 4 scenes (4 with images), 5 reveals, 9 timestamps
+2026-05-25 15:44:22 - Agent.EditPlanner - INFO - [EditPlanner] Building EDL for episode 1...
+2026-05-25 15:44:22 - Agent.EditPlanner - INFO - [EditPlanner] Total audio: 60140ms (60.1s)
+2026-05-25 15:44:22 - Agent.EditPlanner - INFO - [EditPlanner] EDL built: 14 entries, 5 reveals, total 60.1s
+2026-05-25 15:44:22 - Agent.EditPlanner - INFO - [EditPlanner] EDL saved: outputs/episode_1_edl.json
+2026-05-25 15:44:22 - Agent.EditPlanner - INFO - [EditPlanner] Planning episode 2...
+2026-05-25 15:44:22 - Agent.EditPlanner - INFO - [EditPlanner] Episode 2: 6 scenes (6 with images), 5 reveals, 5 timestamps
+2026-05-25 15:44:22 - Agent.EditPlanner - INFO - [EditPlanner] Building EDL for episode 2...
+2026-05-25 15:44:22 - Agent.EditPlanner - INFO - [EditPlanner] Total audio: 39480ms (39.5s)
+2026-05-25 15:44:22 - Agent.EditPlanner - INFO - [EditPlanner] Reveal chunk_index corrected: 1 → 0 (trigger: 'his hands wrap around a ceramic mug')
+2026-05-25 15:44:22 - Agent.EditPlanner - INFO - [EditPlanner] EDL built: 17 entries, 5 reveals, total 39.5s
+2026-05-25 15:44:22 - Agent.EditPlanner - INFO - [EditPlanner] EDL saved: outputs/episode_2_edl.json
+2026-05-25 15:44:22 - Agent.EditPlanner - INFO - [EditPlanner] Edit planning complete: 2 EDLs
+2026-05-25 15:44:22 - Agent.VideoCompositor - INFO - [VideoCompositor] Starting video composition (Agent 6b)...
+2026-05-25 15:44:22 - Agent.VideoCompositor - INFO - [VideoCompositor] Rendering episode 1...
+2026-05-25 16:17:48 - Agent.VideoCompositor - INFO - [VideoCompositor] Episode 1: 2370 frames (98.8s)
+2026-05-25 16:17:48 - Agent.VideoCompositor - INFO - [VideoCompositor] Writing 2370 frames...
+2026-05-25 16:19:05 - Agent.VideoCompositor - INFO - [VideoCompositor] Encoding with FFmpeg...
+2026-05-25 16:19:43 - Agent.VideoCompositor - INFO - [VideoCompositor] Mixing: 60.1s, 5 reveals, 0 dramatic pauses
+2026-05-25 16:19:47 - Agent.VideoCompositor - INFO - [VideoCompositor] Dynamic audio mixed: outputs/final/ep1_mixed_audio.aac
+2026-05-25 16:19:47 - Agent.VideoCompositor - INFO - [VideoCompositor] Final: outputs/final/episode_1.mp4
+2026-05-25 16:19:47 - Agent.VideoCompositor - INFO - [VideoCompositor] Episode 1 complete: outputs/final/episode_1.mp4
+2026-05-25 16:19:48 - Agent.VideoCompositor - INFO - [VideoCompositor] Rendering episode 2...
+2026-05-25 16:51:08 - Agent.VideoCompositor - INFO - [VideoCompositor] Episode 2: 1809 frames (75.4s)
+2026-05-25 16:51:08 - Agent.VideoCompositor - INFO - [VideoCompositor] Writing 1809 frames...
+2026-05-25 16:52:19 - Agent.VideoCompositor - INFO - [VideoCompositor] Encoding with FFmpeg...
+2026-05-25 16:52:52 - Agent.VideoCompositor - INFO - [VideoCompositor] Mixing: 39.5s, 5 reveals, 0 dramatic pauses
+2026-05-25 16:52:55 - Agent.VideoCompositor - INFO - [VideoCompositor] Dynamic audio mixed: outputs/final/ep2_mixed_audio.aac
+2026-05-25 16:52:55 - Agent.VideoCompositor - INFO - [VideoCompositor] Final: outputs/final/episode_2.mp4
+2026-05-25 16:52:55 - Agent.VideoCompositor - INFO - [VideoCompositor] Episode 2 complete: outputs/final/episode_2.mp4
+2026-05-25 16:52:57 - Agent.VideoCompositor - INFO - [VideoCompositor] Composition: 2/2 rendered

@@ -1,0 +1,22 @@
+2026-05-23 19:27:45 - Agent.generate_image_via_hf - WARNING - [generate_image_via_hf] Attempt 1/3 failed: API failed: InferenceClient.text_to_image() got an unexpected keyword argument 'provider'. Retrying in 5.0s...
+2026-05-23 19:27:50 - Agent.generate_image_via_hf - WARNING - [generate_image_via_hf] Attempt 2/3 failed: API failed: InferenceClient.text_to_image() got an unexpected keyword argument 'provider'. Retrying in 10.0s...
+2026-05-23 19:28:00 - Agent.generate_image_via_hf - ERROR - [generate_image_via_hf] Max retries (3) exceeded
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 162, in generate_image_via_hf
+    image = client.text_to_image(
+        prompt=prompt,
+    ...<7 lines>...
+        negative_prompt=negative_prompt,
+    )
+TypeError: InferenceClient.text_to_image() got an unexpected keyword argument 'provider'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\agent_5a_image_generator.py", line 185, in generate_image_via_hf
+    raise RetryableException(f"API failed: {e}")
+utils.errors.RetryableException: API failed: InferenceClient.text_to_image() got an unexpected keyword argument 'provider'
+2026-05-23 19:28:02 - Agent.generate_image_via_hf - WARNING - [generate_image_via_hf] Attempt 1/3 failed: API failed: InferenceClient.text_to_image() got an unexpected keyword argument 'provider'. Retrying in 5.0s...
+2026-05-23 19:28:07 - Agent.generate_image_via_hf - WARNING - [generate_image_via_hf] Attempt 2/3 failed: API failed: InferenceClient.text_to_image() got an unexpected keyword argument 'provider'. Retrying in 10.0s...

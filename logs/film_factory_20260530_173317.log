@@ -1,0 +1,33 @@
+2026-05-30 17:33:17 - Agent.DepthSAM2 - INFO - [DepthSAM2] Pre-computing layers for all scene and reveal images...
+2026-05-30 17:33:17 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 available
+2026-05-30 17:33:17 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2: loading checkpoints/sam2.1_hiera_tiny.pt on CPU (one-time, ~10s)
+2026-05-30 17:33:19 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 generator ready — model cached for remaining images
+2026-05-30 17:33:36 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: the_farmhouse__ground_floor
+2026-05-30 17:33:36 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: the_farmhouse__ground_floor
+2026-05-30 17:33:50 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: the_farmhouse__upstairs_bedroom
+2026-05-30 17:33:50 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: the_farmhouse__upstairs_bedroom
+2026-05-30 17:34:04 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_scene3_the_farmhouse__ground_floor
+2026-05-30 17:34:04 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_scene3_the_farmhouse__ground_floor
+2026-05-30 17:34:18 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_scene4_the_farmhouse__ground_floor
+2026-05-30 17:34:19 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_scene4_the_farmhouse__ground_floor
+2026-05-30 17:34:33 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: the_basement_corridor
+2026-05-30 17:34:33 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: the_basement_corridor
+2026-05-30 17:34:47 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_scene6_the_basement_corridor
+2026-05-30 17:34:47 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_scene6_the_basement_corridor
+2026-05-30 17:35:02 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_scene7_the_basement_corridor
+2026-05-30 17:35:02 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_scene7_the_basement_corridor
+2026-05-30 17:35:17 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: the_hidden_room
+2026-05-30 17:35:17 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: the_hidden_room
+2026-05-30 17:35:34 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ruths_property__porch_and_yard
+2026-05-30 17:35:35 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ruths_property__porch_and_yard
+2026-05-30 17:35:51 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: the_county_road_and_surrounding_fields
+2026-05-30 17:35:52 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: the_county_road_and_surrounding_fields
+2026-05-30 17:36:06 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: the_county_sheriffs_office
+2026-05-30 17:36:06 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: the_county_sheriffs_office
+2026-05-30 17:36:21 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: the_town_diner
+2026-05-30 17:36:21 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: the_town_diner
+2026-05-30 17:36:34 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_reveal3_evidence
+2026-05-30 17:36:34 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_reveal3_evidence
+2026-05-30 17:36:48 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_reveal4_location_detail
+2026-05-30 17:36:48 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_reveal4_location_detail
+2026-05-30 17:36:48 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layer pre-compute done: 14 new, 3 cached

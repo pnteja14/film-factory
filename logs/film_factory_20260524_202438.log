@@ -1,0 +1,31 @@
+2026-05-24 20:36:04 - Agent.EditPlanner - INFO - [EditPlanner] Building timestamp-driven EDLs (Agent 6a)...
+2026-05-24 20:36:04 - Agent.EditPlanner - INFO - [EditPlanner] Planning episode 1...
+2026-05-24 20:36:04 - Agent.EditPlanner - INFO - [EditPlanner] Episode 1: 7 scenes (7 with images), 5 reveals, 7 timestamps
+2026-05-24 20:36:08 - Agent.EditPlanner - INFO - [EditPlanner] Dramatic pause: after chunk 1 at 12140ms (3500ms, effect=black_flash_hold)
+2026-05-24 20:36:08 - Agent.EditPlanner - INFO - [EditPlanner] Dramatic pause: after chunk 4 at 28300ms (2800ms, effect=vignette_crush)
+2026-05-24 20:36:08 - Agent.EditPlanner - INFO - [EditPlanner] Dramatic pause: after chunk 5 at 28880ms (3200ms, effect=desaturate_drain)
+2026-05-24 20:36:08 - Agent.EditPlanner - INFO - [EditPlanner] Episode 1: 3 dramatic pauses planned
+2026-05-24 20:36:08 - Agent.EditPlanner - INFO - [EditPlanner] Auto pause added: chunk 3 (ravenshade_manor)
+2026-05-24 20:36:08 - Agent.EditPlanner - INFO - [EditPlanner] Building EDL for episode 1...
+2026-05-24 20:36:08 - Agent.EditPlanner - INFO - [EditPlanner] WAV modified: 64560ms with silence
+2026-05-24 20:36:08 - Agent.EditPlanner - INFO - [EditPlanner] Total: audio=64560ms video=65060ms
+2026-05-24 20:36:08 - Agent.EditPlanner - INFO - [EditPlanner] Reveal 2: pushed past pause window to 36360ms
+2026-05-24 20:36:08 - Agent.EditPlanner - INFO - [EditPlanner] Reveal 3: pushed past pause window to 40000ms
+2026-05-24 20:36:08 - Agent.EditPlanner - INFO - [EditPlanner] Reveal 3: pushed past pause window to 40980ms
+2026-05-24 20:36:08 - Agent.EditPlanner - INFO - [EditPlanner] Reveal 4: pushed past pause window to 40000ms
+2026-05-24 20:36:08 - Agent.EditPlanner - INFO - [EditPlanner] Reveal 4: pushed past pause window to 40980ms
+2026-05-24 20:36:08 - Agent.EditPlanner - INFO - [EditPlanner] Reveal 5: pushed past pause window to 43200ms
+2026-05-24 20:36:08 - Agent.EditPlanner - INFO - [EditPlanner] Reveal 5: pushed past pause window to 44180ms
+2026-05-24 20:36:08 - Agent.EditPlanner - INFO - [EditPlanner] EDL built: 19 entries, 5 reveals, 4 pauses, total 65.1s
+2026-05-24 20:36:08 - Agent.EditPlanner - INFO - [EditPlanner] EDL saved: outputs/episode_1_edl.json
+2026-05-24 20:36:08 - Agent.EditPlanner - INFO - [EditPlanner] Edit planning complete: 1 EDLs
+2026-05-24 20:36:08 - Agent.VideoCompositor - INFO - [VideoCompositor] Starting video composition (Agent 6b)...
+2026-05-24 20:36:08 - Agent.VideoCompositor - INFO - [VideoCompositor] Rendering episode 1...
+2026-05-24 21:12:37 - Agent.VideoCompositor - INFO - [VideoCompositor] Episode 1: 2678 frames (111.6s)
+2026-05-24 21:12:37 - Agent.VideoCompositor - INFO - [VideoCompositor] Writing 2678 frames...
+2026-05-24 21:14:03 - Agent.VideoCompositor - INFO - [VideoCompositor] Encoding with FFmpeg...
+2026-05-24 21:15:32 - Agent.VideoCompositor - INFO - [VideoCompositor] Mixing: 65.1s, 5 reveals, 4 dramatic pauses
+2026-05-24 21:15:35 - Agent.VideoCompositor - INFO - [VideoCompositor] Dynamic audio mixed: outputs/final/ep1_mixed_audio.aac
+2026-05-24 21:15:36 - Agent.VideoCompositor - INFO - [VideoCompositor] Final: outputs/final/episode_1.mp4
+2026-05-24 21:15:36 - Agent.VideoCompositor - INFO - [VideoCompositor] Episode 1 complete: outputs/final/episode_1.mp4
+2026-05-24 21:15:37 - Agent.VideoCompositor - INFO - [VideoCompositor] Composition: 1/1 rendered

@@ -1,0 +1,15 @@
+2026-05-20 02:36:44 - Orchestrator - INFO - ============================================================
+2026-05-20 02:36:44 - Orchestrator - INFO - FILM FACTORY PIPELINE STARTING
+2026-05-20 02:36:44 - Orchestrator - INFO - ============================================================
+2026-05-20 02:36:44 - Orchestrator - INFO - Output directories verified
+2026-05-20 02:36:44 - Orchestrator - INFO - Story idea: A nurse discovers her hospital is quietly killing patients for organ harvesting and she is the next target
+2026-05-20 02:36:44 - Orchestrator - INFO - 
+[1/5] Running Story Architect...
+2026-05-20 02:37:30 - Orchestrator - ERROR - Story Architect failed: Story plan validation failed: 1 validation error for StoryBible
+episodes.1.brief
+  String should have at most 1000 characters [type=string_too_long, input_value="Sarah cannot stop lookin...eel impossibly tangled.", input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long
+2026-05-20 02:37:30 - Orchestrator - ERROR - Pipeline failed: Story plan validation failed: 1 validation error for StoryBible
+episodes.1.brief
+  String should have at most 1000 characters [type=string_too_long, input_value="Sarah cannot stop lookin...eel impossibly tangled.", input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_too_long

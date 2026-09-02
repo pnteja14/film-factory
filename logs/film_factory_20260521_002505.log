@@ -1,0 +1,17 @@
+2026-05-21 00:25:05 - Agent.NarrationDirector - INFO - [NarrationDirector] Structuring narration for all episodes...
+2026-05-21 00:25:05 - Agent.NarrationDirector - INFO - [NarrationDirector]   Structuring episode 1...
+2026-05-21 00:25:09 - Agent.NarrationDirector - INFO - [NarrationDirector] Narration structured into 7 chunks
+2026-05-21 00:25:09 - Agent.NarrationDirector - INFO - [NarrationDirector]   Episode 1: 7 chunks
+2026-05-21 00:25:09 - Agent.NarrationDirector - INFO - [NarrationDirector]   Structuring episode 2...
+2026-05-21 00:25:13 - Agent.NarrationDirector - INFO - [NarrationDirector] Narration structured into 9 chunks
+2026-05-21 00:25:13 - Agent.NarrationDirector - INFO - [NarrationDirector]   Episode 2: 9 chunks
+2026-05-21 00:25:13 - Agent.NarrationDirector - INFO - [NarrationDirector]   Structuring episode 3...
+2026-05-21 00:25:16 - Agent.NarrationDirector - INFO - [NarrationDirector] Narration structured into 10 chunks
+2026-05-21 00:25:16 - Agent.NarrationDirector - INFO - [NarrationDirector]   Episode 3: 10 chunks
+2026-05-21 00:25:16 - Agent.NarrationDirector - INFO - [NarrationDirector]   Structuring episode 4...
+2026-05-21 00:25:22 - Agent.NarrationDirector - INFO - [NarrationDirector] Narration structured into 13 chunks
+2026-05-21 00:25:22 - Agent.NarrationDirector - INFO - [NarrationDirector]   Episode 4: 13 chunks
+2026-05-21 00:25:22 - Agent.NarrationDirector - INFO - [NarrationDirector] Narration direction complete
+2026-05-21 00:25:22 - Agent.VoiceoverAgent - INFO - [VoiceoverAgent] Loaded voice: narrator_v2 — qwen-tts-vd-narrator02-voice-20260521131053808-ccec
+2026-05-21 00:25:30 - Agent.VoiceoverAgent - INFO - [VoiceoverAgent] Appended end silence
+2026-05-21 00:25:30 - Agent.VoiceoverAgent - INFO - [VoiceoverAgent] Audio stitched: outputs/test_2chunks.wav

@@ -1,0 +1,5 @@
+2026-05-24 20:21:18 - Agent.EditPlanner - INFO - [EditPlanner] Reveal chunk_index corrected: 0 → 2 (trigger: 'almost hung up')
+2026-05-24 20:21:18 - Agent.EditPlanner - INFO - [EditPlanner] Building EDL for episode 1...
+2026-05-24 20:21:18 - Agent.EditPlanner - INFO - [EditPlanner] WAV modified: 55560ms with silence
+2026-05-24 20:21:18 - Agent.EditPlanner - INFO - [EditPlanner] Total: audio=55560ms video=56060ms
+2026-05-24 20:21:18 - Agent.EditPlanner - INFO - [EditPlanner] EDL built: 5 entries, 0 reveals, 1 pauses, total 56.1s

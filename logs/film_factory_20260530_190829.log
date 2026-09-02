@@ -1,0 +1,31 @@
+2026-05-30 19:08:29 - Agent.DepthSAM2 - INFO - [DepthSAM2] Pre-computing layers for all scene and reveal images...
+2026-05-30 19:08:29 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 available
+2026-05-30 19:08:29 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2: loading checkpoints/sam2.1_hiera_tiny.pt on CPU (one-time, ~10s)
+2026-05-30 19:08:30 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 generator ready — model cached for remaining images
+2026-05-30 19:08:43 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: the_mercer_house__main_rooms
+2026-05-30 19:08:43 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: the_mercer_house__main_rooms
+2026-05-30 19:08:55 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_scene2_the_mercer_house__main_rooms
+2026-05-30 19:08:55 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_scene2_the_mercer_house__main_rooms
+2026-05-30 19:09:07 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_scene4_the_hidden_room
+2026-05-30 19:09:07 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_scene4_the_hidden_room
+2026-05-30 19:09:18 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_scene5_the_hidden_room
+2026-05-30 19:09:18 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_scene5_the_hidden_room
+2026-05-30 19:09:30 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_scene6_the_hidden_room
+2026-05-30 19:09:30 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_scene6_the_hidden_room
+2026-05-30 19:09:41 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_scene7_the_hidden_room
+2026-05-30 19:09:41 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_scene7_the_hidden_room
+2026-05-30 19:09:52 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_scene8_the_hidden_room
+2026-05-30 19:09:52 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_scene8_the_hidden_room
+2026-05-30 19:10:04 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_scene9_the_hidden_room
+2026-05-30 19:10:04 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_scene9_the_hidden_room
+2026-05-30 19:10:15 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: nora_vails_kitchen
+2026-05-30 19:10:15 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: nora_vails_kitchen
+2026-05-30 19:10:26 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_reveal1_location_detail_badee196
+2026-05-30 19:10:26 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_reveal1_location_detail_badee196
+2026-05-30 19:10:37 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_reveal2_evidence_badee196
+2026-05-30 19:10:38 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_reveal2_evidence_badee196
+2026-05-30 19:10:48 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_reveal3_document_badee196
+2026-05-30 19:10:48 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_reveal3_document_badee196
+2026-05-30 19:11:00 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_reveal4_document_badee196
+2026-05-30 19:11:00 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_reveal4_document_badee196
+2026-05-30 19:11:00 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layer pre-compute done: 13 new, 1 cached

@@ -1,0 +1,24 @@
+2026-05-27 22:39:38 - Agent.DepthParallax - INFO - [DepthParallax] Pre-computing depth maps...
+2026-05-27 22:39:38 - Agent.DepthParallax - INFO - [DepthParallax] Computing depth maps for 21 images...
+2026-05-27 22:39:38 - Agent.DepthParallax - INFO - [DepthParallax] Depth Anything V2 available via transformers
+2026-05-27 22:39:38 - Agent.DepthParallax - INFO - [DepthParallax] Loading Depth Anything V2 Small (~100MB first run)...
+2026-05-27 22:39:40 - Agent.DepthParallax - INFO - [DepthParallax] Depth model loaded
+2026-05-27 22:39:41 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: harlow_creek_sheriffs_department_depth.npy
+2026-05-27 22:39:43 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ruth_pellmans_house_depth.npy
+2026-05-27 22:39:44 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: harlow_creek_town_center_depth.npy
+2026-05-27 22:39:45 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: millhaven_county_group_home__exterior_depth.npy
+2026-05-27 22:39:46 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_scene4_maras_recording_studio_depth.npy
+2026-05-27 22:39:47 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_scene7_maras_recording_studio_depth.npy
+2026-05-27 22:39:48 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_scene9_harlow_creek_town_center_depth.npy
+2026-05-27 22:39:49 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_scene8_ruth_pellmans_house_depth.npy
+2026-05-27 22:39:50 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_scene5_ruth_pellmans_house_depth.npy
+2026-05-27 22:39:51 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: the_frey_property_depth.npy
+2026-05-27 22:39:52 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_reveal5_evidence_depth.npy
+2026-05-27 22:39:53 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_scene12_harlow_creek_town_center_depth.npy
+2026-05-27 22:39:54 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: vera_colts_print_shop_depth.npy
+2026-05-27 22:39:55 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_scene11_ruth_pellmans_house_depth.npy
+2026-05-27 22:39:56 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: maras_recording_studio_depth.npy
+2026-05-27 22:39:58 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_reveal3_location_detail_depth.npy
+2026-05-27 22:39:59 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_scene6_harlow_creek_town_center_depth.npy
+2026-05-27 22:40:00 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_scene10_maras_recording_studio_depth.npy
+2026-05-27 22:40:00 - Agent.DepthParallax - INFO - [DepthParallax] Depth maps ready: 18 new, 3 cached

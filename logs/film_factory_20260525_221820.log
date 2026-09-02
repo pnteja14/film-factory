@@ -1,0 +1,7 @@
+2026-05-25 22:19:42 - Orchestrator - INFO - =================================================================
+2026-05-25 22:19:42 - Orchestrator - INFO - FILM FACTORY — CINEMATIC NARRATION PIPELINE
+2026-05-25 22:19:42 - Orchestrator - INFO - =================================================================
+2026-05-25 22:19:42 - Orchestrator - INFO - Output directories verified
+2026-05-25 22:19:42 - Orchestrator - INFO - Story idea: Every year on the same night, a retired 911 operator receives a call from a missing girl whose murder case was supposedly solved 18 years ago.
+2026-05-25 22:24:26 - Orchestrator - ERROR - Story Architect failed: Claude returned 1 episode(s) after 3 attempts. Expected 5–7 fully defined episode objects.
+2026-05-25 22:24:26 - Orchestrator - ERROR - Pipeline failed: Claude returned 1 episode(s) after 3 attempts. Expected 5–7 fully defined episode objects.

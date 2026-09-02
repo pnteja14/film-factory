@@ -1,0 +1,21 @@
+2026-05-20 12:35:18 - Agent.SceneDirector - INFO - [SceneDirector] Directing episode 1...
+2026-05-20 12:35:18 - Agent.SceneDirector - INFO - [SceneDirector] Extracted 7 camera directions
+2026-05-20 12:35:18 - Agent.SceneDirector - INFO - [SceneDirector] Processing 7 scenes...
+2026-05-20 12:35:20 - Agent.SceneDirector - INFO - [SceneDirector]    Scene 1 prompt generated
+2026-05-20 12:35:22 - Agent.SceneDirector - INFO - [SceneDirector]    Scene 2 prompt generated
+2026-05-20 12:35:24 - Agent.SceneDirector - INFO - [SceneDirector]    Scene 3 prompt generated
+2026-05-20 12:35:26 - Agent.SceneDirector - INFO - [SceneDirector]    Scene 4 prompt generated
+2026-05-20 12:35:28 - Agent.SceneDirector - INFO - [SceneDirector]    Scene 5 prompt generated
+2026-05-20 12:35:30 - Agent.SceneDirector - INFO - [SceneDirector]    Scene 6 prompt generated
+2026-05-20 12:35:32 - Agent.SceneDirector - INFO - [SceneDirector]    Scene 7 prompt generated
+2026-05-20 12:35:32 - Agent.SceneDirector - INFO - [SceneDirector] Episode 1: 7 scene prompts generated
+2026-05-20 12:35:32 - Agent.SceneDirector - INFO - [SceneDirector] Directing episode 2...
+2026-05-20 12:35:32 - Agent.SceneDirector - INFO - [SceneDirector] Extracted 6 camera directions
+2026-05-20 12:35:32 - Agent.SceneDirector - INFO - [SceneDirector] Processing 6 scenes...
+2026-05-20 12:35:34 - Agent.SceneDirector - INFO - [SceneDirector]    Scene 1 prompt generated
+2026-05-20 12:35:36 - Agent.SceneDirector - INFO - [SceneDirector]    Scene 2 prompt generated
+2026-05-20 12:35:38 - Agent.SceneDirector - INFO - [SceneDirector]    Scene 3 prompt generated
+2026-05-20 12:35:40 - Agent.SceneDirector - INFO - [SceneDirector]    Scene 4 prompt generated
+2026-05-20 12:35:42 - Agent.SceneDirector - INFO - [SceneDirector]    Scene 5 prompt generated
+2026-05-20 12:35:44 - Agent.SceneDirector - INFO - [SceneDirector]    Scene 6 prompt generated
+2026-05-20 12:35:44 - Agent.SceneDirector - INFO - [SceneDirector] Episode 2: 6 scene prompts generated

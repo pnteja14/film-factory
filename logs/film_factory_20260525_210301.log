@@ -1,0 +1,96 @@
+2026-05-25 21:05:54 - Agent.ImageGenerator - INFO - [ImageGenerator] Starting image generation (Agent 5a)...
+2026-05-25 21:05:54 - Agent.ImageGenerator - INFO - [ImageGenerator] HuggingFace client initialized
+2026-05-25 21:05:54 - Agent.ImageGenerator - INFO - [ImageGenerator] Deleted 19 existing images — fresh generation
+2026-05-25 21:05:54 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1: 6 anchor images at 1280x720...
+2026-05-25 21:05:54 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'Nora's Apartment' (1280x720)
+2026-05-25 21:06:08 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\noras_apartment.png
+2026-05-25 21:06:10 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'Harlan State Penitentiary — Guard Station and Corridor' (1280x720)
+2026-05-25 21:06:20 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\harlan_state_penitentiary__guard_station_and_corridor.png
+2026-05-25 21:06:22 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'Harlan State Penitentiary — Visitation Room' (1280x720)
+2026-05-25 21:06:32 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\harlan_state_penitentiary__visitation_room.png
+2026-05-25 21:06:34 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Archive Room — County Records Building' (1280x720)
+2026-05-25 21:06:44 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_archive_room__county_records_building.png
+2026-05-25 21:06:46 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'Sylvie Okafor's Apartment' (1280x720)
+2026-05-25 21:06:57 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\sylvie_okafors_apartment.png
+2026-05-25 21:06:59 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'Harlan State Penitentiary — Warden's Office' (1280x720)
+2026-05-25 21:07:09 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\harlan_state_penitentiary__wardens_office.png
+2026-05-25 21:07:11 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1 complete: 6/6
+2026-05-25 21:07:11 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 2: Scene images for 1 episodes...
+2026-05-25 21:07:11 - Agent.ImageGenerator - INFO - [ImageGenerator] Episode 1 scene images...
+2026-05-25 21:07:23 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 1: generated 'Nora's Apartment'
+2026-05-25 21:07:36 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 2: generated 'Harlan State Penitentiary — Guard Station and Corridor'
+2026-05-25 21:07:52 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 3: generated 'Nora's Apartment'
+2026-05-25 21:08:03 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 4: generated 'Harlan State Penitentiary — Guard Station and Corridor'
+2026-05-25 21:08:05 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 3: Reveal images for 1 episodes...
+2026-05-25 21:08:05 - Agent.ImageGenerator - INFO - [ImageGenerator]   Episode 1: 4 reveals...
+2026-05-25 21:08:05 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [evidence] ep1 r1
+2026-05-25 21:08:16 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal1_evidence.png
+2026-05-25 21:08:16 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 1: evidence saved
+2026-05-25 21:08:18 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [document] ep1 r2
+2026-05-25 21:08:29 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal2_document.png
+2026-05-25 21:08:29 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 2: document saved
+2026-05-25 21:08:31 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [document] ep1 r3
+2026-05-25 21:08:41 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal3_document.png
+2026-05-25 21:08:41 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 3: document saved
+2026-05-25 21:08:43 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [location_detail] ep1 r4
+2026-05-25 21:09:14 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal4_location_detail.png
+2026-05-25 21:09:14 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 4: location_detail saved
+2026-05-25 21:09:16 - Agent.ImageGenerator - INFO - [ImageGenerator] Image generation complete — 6 anchors, 4 scenes, 4 reveals | All at 1280x720 (16:9)
+2026-05-25 21:09:16 - Agent.PromptCorrector - INFO - [PromptCorrector] Starting visual prompt correction for Episode 1...
+2026-05-25 21:09:16 - Agent.PromptCorrector - INFO - [PromptCorrector] Analyzing 6 anchor images...
+2026-05-25 21:09:16 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: Nora's Apartment
+2026-05-25 21:09:19 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 551 chars
+2026-05-25 21:09:19 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: Harlan State Penitentiary — Guard Station and Corridor
+2026-05-25 21:09:22 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 524 chars
+2026-05-25 21:09:22 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: Harlan State Penitentiary — Visitation Room
+2026-05-25 21:09:24 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 598 chars
+2026-05-25 21:09:24 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: The Archive Room — County Records Building
+2026-05-25 21:09:27 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 551 chars
+2026-05-25 21:09:27 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: Sylvie Okafor's Apartment
+2026-05-25 21:09:31 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 514 chars
+2026-05-25 21:09:31 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: Harlan State Penitentiary — Warden's Office
+2026-05-25 21:09:33 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 479 chars
+2026-05-25 21:09:33 - Agent.PromptCorrector - INFO - [PromptCorrector] Rewriting 4 Episode 1 prompts...
+2026-05-25 21:09:35 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 1 corrected
+2026-05-25 21:09:37 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 2 corrected
+2026-05-25 21:09:39 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 3 corrected
+2026-05-25 21:09:42 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 4 corrected
+2026-05-25 21:09:42 - Agent.PromptCorrector - INFO - [PromptCorrector] Prompt correction complete: 4/4 corrected
+2026-05-25 21:09:52 - Agent.MusicAgent - INFO - [MusicAgent] Music generation (MusicGen: True)...
+2026-05-25 21:09:52 - Agent.MusicAgent - INFO - [MusicAgent] Deleted old: ep1_ambient.wav
+2026-05-25 21:09:52 - Agent.MusicAgent - INFO - [MusicAgent] Deleted old: ep1_tension.wav
+2026-05-25 21:09:52 - Agent.MusicAgent - INFO - [MusicAgent] Deleted old: ep1_sting.wav
+2026-05-25 21:09:52 - Agent.MusicAgent - INFO - [MusicAgent] Deleted old: ep1_ambient_location.wav
+2026-05-25 21:09:52 - Agent.MusicAgent - INFO - [MusicAgent] Episode 1 music...
+2026-05-25 21:09:52 - Agent.MusicAgent - INFO - [MusicAgent] Generating ambient (64s)...
+2026-05-25 21:09:52 - Agent.MusicAgent - INFO - [MusicAgent] Loading MusicGen small...
+2026-05-25 21:13:53 - Agent.MusicAgent - INFO - [MusicAgent] Saved: outputs\music\ep1_ambient.wav (64.1s)
+2026-05-25 21:13:53 - Agent.MusicAgent - INFO - [MusicAgent] Generating tension (64s)...
+2026-05-25 21:13:53 - Agent.MusicAgent - INFO - [MusicAgent] Loading MusicGen small...
+2026-05-25 21:17:31 - Agent.MusicAgent - INFO - [MusicAgent] Saved: outputs\music\ep1_tension.wav (64.1s)
+2026-05-25 21:17:31 - Agent.MusicAgent - INFO - [MusicAgent] Generating sting...
+2026-05-25 21:17:31 - Agent.MusicAgent - INFO - [MusicAgent] Loading MusicGen small...
+2026-05-25 21:17:46 - Agent.MusicAgent - INFO - [MusicAgent] Saved: outputs\music\ep1_sting.wav (1.5s)
+2026-05-25 21:17:46 - Agent.MusicAgent - INFO - [MusicAgent] Generating location-aware ambient (64s)...
+2026-05-25 21:17:46 - Agent.MusicAgent - INFO - [MusicAgent] Saved: outputs\music\ep1_ambient_location.wav (64.1s)
+2026-05-25 21:17:46 - Agent.MusicAgent - INFO - [MusicAgent] Episode 1 music complete
+2026-05-25 21:17:46 - Agent.EditPlanner - INFO - [EditPlanner] Building edit decision lists (Agent 6a)...
+2026-05-25 21:17:46 - Agent.EditPlanner - INFO - [EditPlanner] Planning episode 1...
+2026-05-25 21:17:46 - Agent.EditPlanner - INFO - [EditPlanner] Episode 1: 4 scenes (4 with images), 4 reveals, 5 timestamps
+2026-05-25 21:17:46 - Agent.EditPlanner - INFO - [EditPlanner] Building EDL for episode 1...
+2026-05-25 21:17:46 - Agent.EditPlanner - INFO - [EditPlanner] Total audio: 60140ms (60.1s)
+2026-05-25 21:17:46 - Agent.EditPlanner - INFO - [EditPlanner] Reveal chunk_index corrected: 1 → 0 (trigger: 'twelve years on this floor')
+2026-05-25 21:17:46 - Agent.EditPlanner - WARNING - [EditPlanner] Reveal at 35540ms overlaps previous end 39040ms — skipping
+2026-05-25 21:17:46 - Agent.EditPlanner - INFO - [EditPlanner] EDL built: 10 entries, 4 reveals, total 60.1s
+2026-05-25 21:17:46 - Agent.EditPlanner - INFO - [EditPlanner] EDL saved: outputs/episode_1_edl.json
+2026-05-25 21:17:46 - Agent.EditPlanner - INFO - [EditPlanner] Edit planning complete: 1 EDLs
+2026-05-25 21:17:46 - Agent.VideoCompositor - INFO - [VideoCompositor] Starting video composition (Agent 6b)...
+2026-05-25 21:17:46 - Agent.VideoCompositor - INFO - [VideoCompositor] Rendering episode 1...
+2026-05-25 21:40:47 - Agent.VideoCompositor - INFO - [VideoCompositor] Episode 1: 1440 frames (60.0s)
+2026-05-25 21:40:47 - Agent.VideoCompositor - INFO - [VideoCompositor] Writing 1440 frames...
+2026-05-25 21:41:14 - Agent.VideoCompositor - INFO - [VideoCompositor] Encoding with FFmpeg...
+2026-05-25 21:41:43 - Agent.VideoCompositor - INFO - [VideoCompositor] Mixing: 60.1s, 4 reveals, 0 dramatic pauses
+2026-05-25 21:41:45 - Agent.VideoCompositor - INFO - [VideoCompositor] Dynamic audio mixed: outputs/final/ep1_mixed_audio.aac
+2026-05-25 21:41:46 - Agent.VideoCompositor - INFO - [VideoCompositor] Final: outputs/final/episode_1.mp4
+2026-05-25 21:41:46 - Agent.VideoCompositor - INFO - [VideoCompositor] Episode 1 complete: outputs/final/episode_1.mp4
+2026-05-25 21:41:46 - Agent.VideoCompositor - INFO - [VideoCompositor] Composition: 1/1 rendered

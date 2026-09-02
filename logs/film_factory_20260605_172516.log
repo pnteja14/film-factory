@@ -1,0 +1,11 @@
+2026-06-05 17:26:26 - Agent.EditPlanner - INFO - [EditPlanner] Building edit decision lists (Agent 6a)...
+2026-06-05 17:26:26 - Agent.EditPlanner - INFO - [EditPlanner] Planning episode 1...
+2026-06-05 17:26:26 - Agent.EditPlanner - INFO - [EditPlanner] Episode 1: 13 scenes (13 with images), 5 reveals, 13 timestamps
+2026-06-05 17:26:26 - Agent.EditPlanner - INFO - [EditPlanner] Building EDL for episode 1...
+2026-06-05 17:26:26 - Agent.EditPlanner - INFO - [EditPlanner] Total audio: 112901ms (112.9s)
+2026-06-05 17:26:26 - Agent.EditPlanner - INFO - [EditPlanner] Insert shots scheduled: 2
+2026-06-05 17:26:26 - Agent.EditPlanner - INFO - [EditPlanner] Persist visual: scene 7 inherits image from scene 6 (chunk 6)
+2026-06-05 17:26:26 - Agent.EditPlanner - INFO - [EditPlanner] Persist visual: scene 12 inherits image from scene 11 (chunk 11)
+2026-06-05 17:26:26 - Agent.EditPlanner - INFO - [EditPlanner] EDL built: 27 entries, 5 reveals, 2 inserts, total 112.9s
+2026-06-05 17:26:26 - Agent.EditPlanner - INFO - [EditPlanner] EDL saved: outputs/episode_1_edl.json
+2026-06-05 17:26:26 - Agent.EditPlanner - INFO - [EditPlanner] Edit planning complete: 1 EDLs

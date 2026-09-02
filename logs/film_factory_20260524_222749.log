@@ -1,0 +1,10 @@
+2026-05-24 22:28:02 - Agent.NarrationDirector - INFO - [NarrationDirector] Structuring narration for all episodes...
+2026-05-24 22:28:02 - Agent.NarrationDirector - INFO - [NarrationDirector]   Structuring episode 1...
+2026-05-24 22:28:07 - Agent.NarrationDirector - INFO - [NarrationDirector] Narration structured into 9 chunks
+2026-05-24 22:28:07 - Agent.NarrationDirector - INFO - [NarrationDirector]   Episode 1: 9 chunks
+2026-05-24 22:28:07 - Agent.NarrationDirector - INFO - [NarrationDirector] Narration direction complete
+2026-05-24 22:28:18 - Agent.SceneDirector - INFO - [SceneDirector] Directing episode 1...
+2026-05-24 22:28:18 - Agent.SceneDirector - INFO - [SceneDirector] Character profiles: ['Virat Kohli', 'Marcus Ashford', 'Priya Ashford', 'Dr. Sophia Chen', 'James Ashford', 'Inspector Rao']
+2026-05-24 22:28:29 - Agent.SceneDirector - INFO - [SceneDirector] Episode 1: 9 narrative moments designed
+2026-05-24 22:28:34 - Agent.SceneDirector - INFO - [SceneDirector] Episode 1: 5 reveal moments
+2026-05-24 22:28:34 - Agent.SceneDirector - INFO - [SceneDirector] Episode 1: 9 scenes (1 per chunk), 5 reveals, ~72s

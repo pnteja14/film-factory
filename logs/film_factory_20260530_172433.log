@@ -1,0 +1,98 @@
+2026-05-30 17:30:25 - Agent.ImageGenerator - INFO - [ImageGenerator] Starting image generation (Agent 5a)...
+2026-05-30 17:30:25 - Agent.ImageGenerator - INFO - [ImageGenerator] HuggingFace client initialized
+2026-05-30 17:30:25 - Agent.ImageGenerator - INFO - [ImageGenerator] REUSE_EXISTING_IMAGES=True — skipping deletion, reusing cached images
+2026-05-30 17:30:25 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1: 8 anchor images at 1280x720...
+2026-05-30 17:30:25 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Farmhouse — Ground Floor' (1280x720)
+2026-05-30 17:30:30 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_farmhouse__ground_floor.png
+2026-05-30 17:30:32 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Hidden Room' (1280x720)
+2026-05-30 17:30:37 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_hidden_room.png
+2026-05-30 17:30:39 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Basement Corridor' (1280x720)
+2026-05-30 17:30:43 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_basement_corridor.png
+2026-05-30 17:30:45 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'Ruth's Property — Porch and Yard' (1280x720)
+2026-05-30 17:30:51 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\ruths_property__porch_and_yard.png
+2026-05-30 17:30:53 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The County Road and Surrounding Fields' (1280x720)
+2026-05-30 17:30:58 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_county_road_and_surrounding_fields.png
+2026-05-30 17:31:00 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The County Sheriff's Office' (1280x720)
+2026-05-30 17:31:06 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_county_sheriffs_office.png
+2026-05-30 17:31:08 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Farmhouse — Upstairs Bedroom' (1280x720)
+2026-05-30 17:31:13 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_farmhouse__upstairs_bedroom.png
+2026-05-30 17:31:15 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Town Diner' (1280x720)
+2026-05-30 17:31:20 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_town_diner.png
+2026-05-30 17:31:22 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1 complete: 8/8
+2026-05-30 17:31:22 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 2: Scene images for 1 episodes...
+2026-05-30 17:31:22 - Agent.ImageGenerator - INFO - [ImageGenerator] Episode 1 scene images...
+2026-05-30 17:31:22 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 1: anchor 'The Farmhouse — Ground Floor' (first use)
+2026-05-30 17:31:22 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 2: anchor 'The Farmhouse — Upstairs Bedroom' (first use)
+2026-05-30 17:31:27 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 3 attempt 1: validation score=0.70
+2026-05-30 17:31:28 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 3: generated 'The Farmhouse — Ground Floor' (score 0.70)
+2026-05-30 17:31:34 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 4 attempt 1: validation score=0.85
+2026-05-30 17:31:34 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 4: generated 'The Farmhouse — Ground Floor' (score 0.85)
+2026-05-30 17:31:35 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 5: anchor 'The Basement Corridor' (first use)
+2026-05-30 17:31:41 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 6 attempt 1: validation score=0.60
+2026-05-30 17:31:41 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 6: generated 'The Basement Corridor' (score 0.60)
+2026-05-30 17:31:49 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 7 attempt 1: validation score=0.85
+2026-05-30 17:31:49 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 7: generated 'The Basement Corridor' (score 0.85)
+2026-05-30 17:31:50 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 8: anchor 'The Hidden Room' (first use)
+2026-05-30 17:31:51 - Agent.ImageGenerator - WARNING - [ImageGenerator] Anchors never assigned to any episode: {"Ruth's Property — Porch and Yard", 'The Town Diner', "The County Sheriff's Office", 'The County Road and Surrounding Fields'} — forcing into episode 1
+2026-05-30 17:31:51 - Agent.ImageGenerator - INFO - [ImageGenerator] Forced unused anchor 'Ruth's Property — Porch and Yard' into episode 1
+2026-05-30 17:31:51 - Agent.ImageGenerator - INFO - [ImageGenerator] Forced unused anchor 'The County Road and Surrounding Fields' into episode 1
+2026-05-30 17:31:51 - Agent.ImageGenerator - INFO - [ImageGenerator] Forced unused anchor 'The County Sheriff's Office' into episode 1
+2026-05-30 17:31:51 - Agent.ImageGenerator - INFO - [ImageGenerator] Forced unused anchor 'The Town Diner' into episode 1
+2026-05-30 17:31:51 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 3: Reveal images for 1 episodes...
+2026-05-30 17:31:51 - Agent.ImageGenerator - INFO - [ImageGenerator]   Episode 1: 5 reveals...
+2026-05-30 17:31:51 - Agent.ImageGenerator - INFO - [ImageGenerator] Reveal exists: ep1_reveal1_document.png — skipping
+2026-05-30 17:31:51 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 1: document saved
+2026-05-30 17:31:53 - Agent.ImageGenerator - INFO - [ImageGenerator] Reveal exists: ep1_reveal2_location_detail.png — skipping
+2026-05-30 17:31:53 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 2: location_detail saved
+2026-05-30 17:31:55 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [evidence] ep1 r3
+2026-05-30 17:32:01 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal3_evidence.png
+2026-05-30 17:32:01 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 3: evidence saved
+2026-05-30 17:32:03 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [location_detail] ep1 r4
+2026-05-30 17:32:09 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal4_location_detail.png
+2026-05-30 17:32:09 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 4: location_detail saved
+2026-05-30 17:32:11 - Agent.ImageGenerator - INFO - [ImageGenerator] Reveal exists: ep1_reveal5_evidence.png — skipping
+2026-05-30 17:32:11 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 5: evidence saved
+2026-05-30 17:32:13 - Agent.ImageGenerator - INFO - [ImageGenerator] Image generation complete — 8 anchors, 12 scenes, 5 reveals | All at 1280x720 (16:9)
+2026-05-30 17:32:13 - Agent.PromptCorrector - INFO - [PromptCorrector] Starting visual prompt correction for Episode 1...
+2026-05-30 17:32:13 - Agent.PromptCorrector - INFO - [PromptCorrector] Analyzing 8 anchor images...
+2026-05-30 17:32:13 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: The Farmhouse — Ground Floor
+2026-05-30 17:32:15 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 455 chars
+2026-05-30 17:32:15 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: The Hidden Room
+2026-05-30 17:32:18 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 506 chars
+2026-05-30 17:32:18 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: The Basement Corridor
+2026-05-30 17:32:21 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 528 chars
+2026-05-30 17:32:21 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: Ruth's Property — Porch and Yard
+2026-05-30 17:32:23 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 454 chars
+2026-05-30 17:32:23 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: The County Road and Surrounding Fields
+2026-05-30 17:32:26 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 485 chars
+2026-05-30 17:32:26 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: The County Sheriff's Office
+2026-05-30 17:32:29 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 511 chars
+2026-05-30 17:32:29 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: The Farmhouse — Upstairs Bedroom
+2026-05-30 17:32:31 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 440 chars
+2026-05-30 17:32:31 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: The Town Diner
+2026-05-30 17:32:34 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 492 chars
+2026-05-30 17:32:34 - Agent.PromptCorrector - INFO - [PromptCorrector] Rewriting 12 Episode 1 prompts...
+2026-05-30 17:32:36 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 1 corrected
+2026-05-30 17:32:38 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 2 corrected
+2026-05-30 17:32:40 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 3 corrected
+2026-05-30 17:32:42 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 4 corrected
+2026-05-30 17:32:44 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 5 corrected
+2026-05-30 17:32:45 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 6 corrected
+2026-05-30 17:32:47 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 7 corrected
+2026-05-30 17:32:49 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 8 corrected
+2026-05-30 17:32:51 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 9 corrected
+2026-05-30 17:32:53 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 10 corrected
+2026-05-30 17:32:55 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 11 corrected
+2026-05-30 17:32:57 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 12 corrected
+2026-05-30 17:32:57 - Agent.PromptCorrector - INFO - [PromptCorrector] Prompt correction complete: 12/12 corrected
+2026-05-30 17:38:04 - Agent.EditPlanner - INFO - [EditPlanner] Building edit decision lists (Agent 6a)...
+2026-05-30 17:38:04 - Agent.EditPlanner - INFO - [EditPlanner] Planning episode 1...
+2026-05-30 17:38:04 - Agent.EditPlanner - INFO - [EditPlanner] Episode 1: 12 scenes (12 with images), 5 reveals, 8 timestamps
+2026-05-30 17:38:04 - Agent.EditPlanner - INFO - [EditPlanner] Building EDL for episode 1...
+2026-05-30 17:38:04 - Agent.EditPlanner - INFO - [EditPlanner] Total audio: 88440ms (88.4s)
+2026-05-30 17:38:04 - Agent.EditPlanner - WARNING - [EditPlanner] Reveal at 10166ms overlaps previous end 13020ms — skipping
+2026-05-30 17:38:04 - Agent.EditPlanner - WARNING - [EditPlanner] Reveal at 11000ms overlaps previous end 13020ms — skipping
+2026-05-30 17:38:04 - Agent.EditPlanner - WARNING - [EditPlanner] Reveal at 11493ms overlaps previous end 13020ms — skipping
+2026-05-30 17:38:04 - Agent.EditPlanner - INFO - [EditPlanner] EDL built: 13 entries, 5 reveals, total 88.4s
+2026-05-30 17:38:04 - Agent.EditPlanner - INFO - [EditPlanner] EDL saved: outputs/episode_1_edl.json
+2026-05-30 17:38:04 - Agent.EditPlanner - INFO - [EditPlanner] Edit planning complete: 1 EDLs

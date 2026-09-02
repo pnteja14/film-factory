@@ -1,0 +1,103 @@
+2026-06-02 15:51:51 - Agent.ImageGenerator - INFO - [ImageGenerator] Starting image generation (Agent 5a)...
+2026-06-02 15:51:51 - Agent.ImageGenerator - INFO - [ImageGenerator] HuggingFace client initialized
+2026-06-02 15:51:51 - Agent.ImageGenerator - INFO - [ImageGenerator] Same story detected — reusing existing images (set REUSE_EXISTING_IMAGES=True to force)
+2026-06-02 15:51:51 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1: 7 anchor images at 1024x576...
+2026-06-02 15:51:51 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'The Long Approach — Ashveil Manor Driveway' — skipping
+2026-06-02 15:51:53 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Grand Ballroom' (1024x576)
+2026-06-02 15:52:06 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_grand_ballroom.png
+2026-06-02 15:52:08 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Portrait Gallery — East Wing Corridor' (1024x576)
+2026-06-02 15:52:18 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_portrait_gallery__east_wing_corridor.png
+2026-06-02 15:52:20 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Study — Lord Ashveil's Private Room' (1024x576)
+2026-06-02 15:52:30 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_study__lord_ashveils_private_room.png
+2026-06-02 15:52:32 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Wine Cellar — Below the East Wing' (1024x576)
+2026-06-02 15:52:42 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_wine_cellar__below_the_east_wing.png
+2026-06-02 15:52:44 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Walled Garden — Manor Grounds' (1024x576)
+2026-06-02 15:52:54 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_walled_garden__manor_grounds.png
+2026-06-02 15:52:56 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Servants' Staircase — North Wing' (1024x576)
+2026-06-02 15:53:06 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_servants_staircase__north_wing.png
+2026-06-02 15:53:08 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1 complete: 7/7
+2026-06-02 15:53:08 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1.5: Correcting scene prompts against anchor images...
+2026-06-02 15:53:11 - Agent.ImageGenerator - INFO - [ImageGenerator]   Anchor analyzed: 'The Long Approach — Ashveil Manor Driveway'
+2026-06-02 15:53:15 - Agent.ImageGenerator - INFO - [ImageGenerator]   Anchor analyzed: 'The Grand Ballroom'
+2026-06-02 15:53:18 - Agent.ImageGenerator - INFO - [ImageGenerator]   Anchor analyzed: 'The Portrait Gallery — East Wing Corridor'
+2026-06-02 15:53:21 - Agent.ImageGenerator - INFO - [ImageGenerator]   Anchor analyzed: 'The Study — Lord Ashveil's Private Room'
+2026-06-02 15:53:25 - Agent.ImageGenerator - INFO - [ImageGenerator]   Anchor analyzed: 'The Wine Cellar — Below the East Wing'
+2026-06-02 15:53:28 - Agent.ImageGenerator - INFO - [ImageGenerator]   Anchor analyzed: 'The Walled Garden — Manor Grounds'
+2026-06-02 15:53:31 - Agent.ImageGenerator - INFO - [ImageGenerator]   Anchor analyzed: 'The Servants' Staircase — North Wing'
+2026-06-02 15:53:41 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1.5 complete: 4 prompts corrected
+2026-06-02 15:53:41 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 2: Scene images for 1 episodes...
+2026-06-02 15:53:41 - Agent.ImageGenerator - INFO - [ImageGenerator] Episode 1 scene images...
+2026-06-02 15:53:41 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 1: anchor 'The Study — Lord Ashveil's Private Room' (first use)
+2026-06-02 15:53:53 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 2 attempt 1: validation score=0.90
+2026-06-02 15:53:53 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 2: generated 'The Study — Lord Ashveil's Private Room' (score 0.90)
+2026-06-02 15:53:54 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 3: anchor 'The Long Approach — Ashveil Manor Driveway' (first use)
+2026-06-02 15:54:06 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 4 attempt 1: validation score=0.10
+2026-06-02 15:54:06 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 4: score 0.10 < 0.55 — retrying
+2026-06-02 15:54:19 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 4 attempt 2: validation score=0.20
+2026-06-02 15:54:19 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 4: score 0.20 < 0.55 — retrying
+2026-06-02 15:54:33 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 4 attempt 3: validation score=0.85
+2026-06-02 15:54:33 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 4: generated 'The Long Approach — Ashveil Manor Driveway' (score 0.85)
+2026-06-02 15:54:34 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 5: anchor 'The Grand Ballroom' (first use)
+2026-06-02 15:54:45 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 6 attempt 1: validation score=0.85
+2026-06-02 15:54:45 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 6: generated 'The Grand Ballroom' (score 0.85)
+2026-06-02 15:54:58 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 7 attempt 1: validation score=0.30
+2026-06-02 15:54:58 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 7: score 0.30 < 0.55 — retrying
+2026-06-02 15:55:11 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 7 attempt 2: validation score=0.30
+2026-06-02 15:55:11 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 7: score 0.30 < 0.55 — retrying
+2026-06-02 15:55:24 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 7 attempt 3: validation score=0.30
+2026-06-02 15:55:24 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 7: kept best attempt (score 0.30) for 'The Grand Ballroom'
+2026-06-02 15:55:37 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 8 attempt 1: validation score=0.30
+2026-06-02 15:55:37 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 8: score 0.30 < 0.55 — retrying
+2026-06-02 15:55:51 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 8 attempt 2: validation score=0.30
+2026-06-02 15:55:51 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 8: score 0.30 < 0.55 — retrying
+2026-06-02 15:56:03 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 8 attempt 3: validation score=0.85
+2026-06-02 15:56:03 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 8: generated 'The Grand Ballroom' (score 0.85)
+2026-06-02 15:56:16 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 9 attempt 1: validation score=0.30
+2026-06-02 15:56:16 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 9: score 0.30 < 0.55 — retrying
+2026-06-02 15:56:30 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 9 attempt 2: validation score=0.95
+2026-06-02 15:56:30 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 9: generated 'The Grand Ballroom' (score 0.95)
+2026-06-02 15:56:42 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 10 attempt 1: validation score=0.65
+2026-06-02 15:56:43 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 10: generated 'The Grand Ballroom' (score 0.65)
+2026-06-02 15:56:56 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 11 attempt 1: validation score=0.35
+2026-06-02 15:56:56 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 11: score 0.35 < 0.55 — retrying
+2026-06-02 15:57:09 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 11 attempt 2: validation score=0.30
+2026-06-02 15:57:09 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 11: score 0.30 < 0.55 — retrying
+2026-06-02 15:57:22 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 11 attempt 3: validation score=0.70
+2026-06-02 15:57:23 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 11: generated 'The Grand Ballroom' (score 0.70)
+2026-06-02 15:57:24 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 12: anchor 'The Walled Garden — Manor Grounds' (first use)
+2026-06-02 15:57:25 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 3: Reveal images for 1 episodes...
+2026-06-02 15:57:25 - Agent.ImageGenerator - INFO - [ImageGenerator]   Episode 1: 5 reveals...
+2026-06-02 15:57:25 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [document] ep1 r1
+2026-06-02 15:57:35 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal1_document_60a90106.png
+2026-06-02 15:57:35 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 1: document saved
+2026-06-02 15:57:37 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [location_detail] ep1 r2
+2026-06-02 15:57:47 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal2_location_detail_60a90106.png
+2026-06-02 15:57:47 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 2: location_detail saved
+2026-06-02 15:57:49 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [evidence] ep1 r3
+2026-06-02 15:57:59 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal3_evidence_60a90106.png
+2026-06-02 15:57:59 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 3: evidence saved
+2026-06-02 15:58:01 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [subject] ep1 r4
+2026-06-02 15:58:11 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal4_subject_60a90106.png
+2026-06-02 15:58:11 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 4: subject saved
+2026-06-02 15:58:13 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [document] ep1 r5
+2026-06-02 15:58:23 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal5_document_60a90106.png
+2026-06-02 15:58:23 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 5: document saved
+2026-06-02 15:58:25 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 3.5: Insert shot images...
+2026-06-02 15:58:35 - Agent.ImageGenerator - INFO - [ImageGenerator]   Insert ep1 s1 'letter': saved
+2026-06-02 15:58:45 - Agent.ImageGenerator - INFO - [ImageGenerator]   Insert ep1 s2 'debt': saved
+2026-06-02 15:58:56 - Agent.ImageGenerator - INFO - [ImageGenerator]   Insert ep1 s5 'mask': saved
+2026-06-02 15:59:07 - Agent.ImageGenerator - INFO - [ImageGenerator]   Insert ep1 s11 'registry': saved
+2026-06-02 15:59:18 - Agent.ImageGenerator - INFO - [ImageGenerator]   Insert ep1 s12 'signed': saved
+2026-06-02 15:59:19 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 3.5 complete: 5/5 insert shots generated
+2026-06-02 15:59:19 - Agent.ImageGenerator - INFO - [ImageGenerator] Image generation complete — 7 anchors, 12 scenes, 5 reveals | All at 1024x576 (16:9)
+2026-06-02 16:07:42 - Agent.EditPlanner - INFO - [EditPlanner] Building edit decision lists (Agent 6a)...
+2026-06-02 16:07:42 - Agent.EditPlanner - INFO - [EditPlanner] Planning episode 1...
+2026-06-02 16:07:42 - Agent.EditPlanner - INFO - [EditPlanner] Episode 1: 12 scenes (12 with images), 5 reveals, 12 timestamps
+2026-06-02 16:07:42 - Agent.EditPlanner - INFO - [EditPlanner] Building EDL for episode 1...
+2026-06-02 16:07:42 - Agent.EditPlanner - INFO - [EditPlanner] Total audio: 92011ms (92.0s)
+2026-06-02 16:07:42 - Agent.EditPlanner - INFO - [EditPlanner] Insert shots scheduled: 2
+2026-06-02 16:07:42 - Agent.EditPlanner - INFO - [EditPlanner] Persist visual: scene 2 inherits image from scene 1 (chunk 1)
+2026-06-02 16:07:42 - Agent.EditPlanner - INFO - [EditPlanner] Persist visual: scene 10 inherits image from scene 9 (chunk 9)
+2026-06-02 16:07:42 - Agent.EditPlanner - INFO - [EditPlanner] EDL built: 23 entries, 5 reveals, 2 inserts, total 92.0s
+2026-06-02 16:07:42 - Agent.EditPlanner - INFO - [EditPlanner] EDL saved: outputs/episode_1_edl.json
+2026-06-02 16:07:42 - Agent.EditPlanner - INFO - [EditPlanner] Edit planning complete: 1 EDLs

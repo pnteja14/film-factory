@@ -1,0 +1,48 @@
+2026-05-23 14:15:54 - Agent.ImageGenerator - INFO - [ImageGenerator] Starting image generation (Agent 5a)...
+2026-05-23 14:15:54 - Agent.ImageGenerator - INFO - [ImageGenerator] HuggingFace client initialized
+2026-05-23 14:15:54 - Agent.ImageGenerator - INFO - [ImageGenerator] Deleted 21 existing images — fresh generation
+2026-05-23 14:15:54 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1: 8 anchor images at 1280x720...
+2026-05-23 14:15:54 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'Ravenshade Manor' (1280x720)
+2026-05-23 14:16:01 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\ravenshade_manor.png
+2026-05-23 14:16:03 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'Virat's Apartment' (1280x720)
+2026-05-23 14:16:07 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\virats_apartment.png
+2026-05-23 14:16:09 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'Police Archive Room' (1280x720)
+2026-05-23 14:16:13 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\police_archive_room.png
+2026-05-23 14:16:15 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'Sophia's Office' (1280x720)
+2026-05-23 14:16:20 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\sophias_office.png
+2026-05-23 14:16:22 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Ashford Family Home (Past)' (1280x720)
+2026-05-23 14:16:40 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_ashford_family_home_past.png
+2026-05-23 14:16:42 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Highway Overpass (Past)' (1280x720)
+2026-05-23 14:16:47 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_highway_overpass_past.png
+2026-05-23 14:16:49 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'Marcus's Study at Ravenshade' (1280x720)
+2026-05-23 14:16:57 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\marcuss_study_at_ravenshade.png
+2026-05-23 14:16:59 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Police Station Interrogation Room' (1280x720)
+2026-05-23 14:17:05 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_police_station_interrogation_room.png
+2026-05-23 14:17:07 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1 complete: 8/8
+2026-05-23 14:17:07 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 2: Scene images for 1 episodes...
+2026-05-23 14:17:07 - Agent.ImageGenerator - INFO - [ImageGenerator] Episode 1 scene images...
+2026-05-23 14:17:07 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 1: reusing anchor 'Virat's Apartment'
+2026-05-23 14:17:07 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 2: reusing anchor 'Ravenshade Manor'
+2026-05-23 14:17:07 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 3: reusing anchor 'Marcus's Study at Ravenshade'
+2026-05-23 14:17:07 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 4: reusing anchor 'Virat's Apartment'
+2026-05-23 14:17:08 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 3: Reveal images for 1 episodes...
+2026-05-23 14:17:08 - Agent.ImageGenerator - INFO - [ImageGenerator]   Episode 1: 6 reveals...
+2026-05-23 14:17:08 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [document] ep1 r1
+2026-05-23 14:17:12 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal1_document.png
+2026-05-23 14:17:12 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 1: document saved
+2026-05-23 14:17:14 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [location_detail] ep1 r2
+2026-05-23 14:17:22 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal2_location_detail.png
+2026-05-23 14:17:22 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 2: location_detail saved
+2026-05-23 14:17:24 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [location_detail] ep1 r3
+2026-05-23 14:17:30 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal3_location_detail.png
+2026-05-23 14:17:30 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 3: location_detail saved
+2026-05-23 14:17:32 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [subject] ep1 r4
+2026-05-23 14:17:41 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal4_subject.png
+2026-05-23 14:17:41 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 4: subject saved
+2026-05-23 14:17:43 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [document] ep1 r5
+2026-05-23 14:18:01 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal5_document.png
+2026-05-23 14:18:01 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 5: document saved
+2026-05-23 14:18:03 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [subject] ep1 r6
+2026-05-23 14:18:12 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal6_subject.png
+2026-05-23 14:18:12 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 6: subject saved
+2026-05-23 14:18:14 - Agent.ImageGenerator - INFO - [ImageGenerator] Image generation complete — 8 anchors, 4 scenes, 6 reveals | All at 1280x720 (16:9)

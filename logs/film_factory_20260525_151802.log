@@ -1,0 +1,20 @@
+2026-05-25 15:18:18 - Agent.StoryArchitect - INFO - [StoryArchitect] Starting story planning...
+2026-05-25 15:18:18 - Agent.StoryArchitect - INFO - [StoryArchitect] Brand voice loaded
+2026-05-25 15:18:18 - Agent.StoryArchitect - INFO - [StoryArchitect] Calling Claude API for story plan...
+2026-05-25 15:19:06 - Agent.StoryArchitect - INFO - [StoryArchitect] Extracting and parsing JSON...
+2026-05-25 15:19:06 - Agent.StoryArchitect - INFO - [StoryArchitect] Validating story plan...
+2026-05-25 15:19:06 - Agent.StoryArchitect - ERROR - [StoryArchitect] Story planning failed: Validation error: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\story_architect.py", line 87, in validate_story_plan
+    "brief": story_plan.get("emotional_beats", [{}] * (i+1))[i].get("key_moment", ""),
+             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\story_architect.py", line 220, in plan_story
+    story_plan = validate_story_plan(story_plan)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\story_architect.py", line 120, in validate_story_plan
+    raise StoryArchitectException(f"Validation error: {e}")
+utils.errors.StoryArchitectException: Validation error: list index out of range

@@ -1,0 +1,17 @@
+2026-05-21 11:32:40 - Agent.ImageGenerator - INFO - [ImageGenerator] Starting anchor image generation...
+2026-05-21 11:32:40 - Agent.ImageGenerator - INFO - [ImageGenerator] Found 7 locations to generate
+2026-05-21 11:32:40 - Agent.ImageGenerator - INFO - [ImageGenerator] HuggingFace client initialized
+2026-05-21 11:32:40 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor already exists for 'St. Mercy Hospital ICU' — skipping
+2026-05-21 11:32:42 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor already exists for 'Sarah's Apartment' — skipping
+2026-05-21 11:32:46 - Agent.ImageGenerator - INFO - [ImageGenerator] Visual description cleaned: 442 chars
+2026-05-21 11:32:46 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor for 'Marcus's Office'...
+2026-05-21 11:32:51 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\marcuss_office.png
+2026-05-21 11:32:53 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor already exists for 'Hospital Basement and Sub-Level Storage' — skipping
+2026-05-21 11:32:55 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor already exists for 'ICU Patient Room 412' — skipping
+2026-05-21 11:32:58 - Agent.ImageGenerator - INFO - [ImageGenerator] Visual description cleaned: 420 chars
+2026-05-21 11:32:58 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor for 'The Parking Garage'...
+2026-05-21 11:33:02 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_parking_garage.png
+2026-05-21 11:33:06 - Agent.ImageGenerator - INFO - [ImageGenerator] Visual description cleaned: 412 chars
+2026-05-21 11:33:06 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor for 'City Police Station - Interview Room'...
+2026-05-21 11:33:09 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\city_police_station_-_interview_room.png
+2026-05-21 11:33:11 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor generation complete: 7/7 successful

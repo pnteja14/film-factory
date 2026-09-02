@@ -1,0 +1,37 @@
+2026-06-01 23:20:30 - Agent.ImageGenerator - INFO - [ImageGenerator] Starting image generation (Agent 5a)...
+2026-06-01 23:20:30 - Agent.ImageGenerator - INFO - [ImageGenerator] HuggingFace client initialized
+2026-06-01 23:20:30 - Agent.ImageGenerator - INFO - [ImageGenerator] Same story detected — reusing existing images (set REUSE_EXISTING_IMAGES=True to force)
+2026-06-01 23:20:30 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1: 7 anchor images at 1024x576...
+2026-06-01 23:20:30 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Long Approach — Ashveil Manor Driveway' (1024x576)
+2026-06-01 23:24:55 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_long_approach__ashveil_manor_driveway.png
+2026-06-01 23:24:57 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Grand Ballroom' (1024x576)
+2026-06-01 23:29:36 - Agent.ImageGenerator - ERROR - [ImageGenerator] Anchor failed 'The Grand Ballroom': Max retries: Kaggle generation failed: 503 Server Error: Service Unavailable for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-01 23:29:38 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Portrait Gallery — East Wing Corridor' (1024x576)
+2026-06-01 23:29:39 - Agent.ImageGenerator - ERROR - [ImageGenerator] Anchor failed 'The Portrait Gallery — East Wing Corridor': Max retries: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-01 23:29:41 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Study — Lord Ashveil's Private Room' (1024x576)
+2026-06-01 23:29:42 - Agent.ImageGenerator - ERROR - [ImageGenerator] Anchor failed 'The Study — Lord Ashveil's Private Room': Max retries: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-01 23:29:44 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Wine Cellar — Below the East Wing' (1024x576)
+2026-06-01 23:29:45 - Agent.ImageGenerator - ERROR - [ImageGenerator] Anchor failed 'The Wine Cellar — Below the East Wing': Max retries: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-01 23:29:47 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Walled Garden — Manor Grounds' (1024x576)
+2026-06-01 23:29:48 - Agent.ImageGenerator - ERROR - [ImageGenerator] Anchor failed 'The Walled Garden — Manor Grounds': Max retries: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-01 23:29:50 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Servants' Staircase — North Wing' (1024x576)
+2026-06-01 23:29:50 - Agent.ImageGenerator - ERROR - [ImageGenerator] Anchor failed 'The Servants' Staircase — North Wing': Max retries: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-01 23:29:52 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1 complete: 1/7
+2026-06-01 23:29:52 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1.5: Correcting scene prompts against anchor images...
+2026-06-01 23:29:56 - Agent.ImageGenerator - INFO - [ImageGenerator]   Anchor analyzed: 'The Long Approach — Ashveil Manor Driveway'
+2026-06-01 23:30:01 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1.5 complete: 2 prompts corrected
+2026-06-01 23:30:01 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 2: Scene images for 1 episodes...
+2026-06-01 23:30:01 - Agent.ImageGenerator - INFO - [ImageGenerator] Episode 1 scene images...
+2026-06-01 23:30:02 - Agent.ImageGenerator - ERROR - [ImageGenerator]   Scene 1 attempt 1 failed: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-01 23:30:02 - Agent.ImageGenerator - ERROR - [ImageGenerator]   Scene 1 attempt 2 failed: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-01 23:30:03 - Agent.ImageGenerator - ERROR - [ImageGenerator]   Scene 1 attempt 3 failed: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-01 23:30:05 - Agent.ImageGenerator - ERROR - [ImageGenerator]   Scene 2 attempt 1 failed: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-01 23:30:06 - Agent.ImageGenerator - ERROR - [ImageGenerator]   Scene 2 attempt 2 failed: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-01 23:30:06 - Agent.ImageGenerator - ERROR - [ImageGenerator]   Scene 2 attempt 3 failed: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-01 23:30:07 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 3: anchor 'The Long Approach — Ashveil Manor Driveway' (first use)
+2026-06-01 23:30:08 - Agent.ImageGenerator - ERROR - [ImageGenerator]   Scene 4 attempt 1 failed: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-01 23:30:09 - Agent.ImageGenerator - ERROR - [ImageGenerator]   Scene 4 attempt 2 failed: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-01 23:30:10 - Agent.ImageGenerator - ERROR - [ImageGenerator]   Scene 4 attempt 3 failed: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-01 23:30:12 - Agent.ImageGenerator - ERROR - [ImageGenerator]   Scene 5 attempt 1 failed: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-01 23:30:13 - Agent.ImageGenerator - ERROR - [ImageGenerator]   Scene 5 attempt 2 failed: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate
+2026-06-01 23:30:13 - Agent.ImageGenerator - ERROR - [ImageGenerator]   Scene 5 attempt 3 failed: Kaggle generation failed: 404 Client Error: Not Found for url: https://comfort-blurb-stoppage.ngrok-free.dev/generate

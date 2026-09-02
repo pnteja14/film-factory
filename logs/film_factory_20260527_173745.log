@@ -1,0 +1,239 @@
+2026-05-27 17:46:55 - Agent.ImageGenerator - INFO - [ImageGenerator] Starting image generation (Agent 5a)...
+2026-05-27 17:46:55 - Agent.ImageGenerator - INFO - [ImageGenerator] HuggingFace client initialized
+2026-05-27 17:46:55 - Agent.ImageGenerator - INFO - [ImageGenerator] Deleted 14 existing images — fresh generation
+2026-05-27 17:46:55 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1: 6 anchor images at 1280x720...
+2026-05-27 17:46:55 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'Maren's House — Kitchen' (1280x720)
+2026-05-27 17:47:06 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\marens_house__kitchen.png
+2026-05-27 17:47:08 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'Maren's House — Study' (1280x720)
+2026-05-27 17:47:20 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\marens_house__study.png
+2026-05-27 17:47:22 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Voss Family Home' (1280x720)
+2026-05-27 17:47:32 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_voss_family_home.png
+2026-05-27 17:47:34 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Records Office — Municipal Building' (1280x720)
+2026-05-27 17:47:44 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_records_office__municipal_building.png
+2026-05-27 17:47:46 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'Frank Oubre's House — Front Porch' (1280x720)
+2026-05-27 17:47:58 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\frank_oubres_house__front_porch.png
+2026-05-27 17:48:00 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating anchor: 'The Ravine — Millbrook Trail' (1280x720)
+2026-05-27 17:48:11 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved: outputs\anchors\the_ravine__millbrook_trail.png
+2026-05-27 17:48:13 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1 complete: 6/6
+2026-05-27 17:48:13 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 2: Scene images for 6 episodes...
+2026-05-27 17:48:13 - Agent.ImageGenerator - INFO - [ImageGenerator] Episode 1 scene images...
+2026-05-27 17:48:13 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 1: anchor 'Maren's House — Kitchen' (first use)
+2026-05-27 17:48:13 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 2: anchor 'Maren's House — Study' (first use)
+2026-05-27 17:48:24 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 3: generated 'Maren's House — Kitchen'
+2026-05-27 17:48:37 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 4: generated 'Maren's House — Study'
+2026-05-27 17:48:51 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 5: generated 'Maren's House — Kitchen'
+2026-05-27 17:49:03 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 6: generated 'Maren's House — Study'
+2026-05-27 17:49:17 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 7: generated 'Maren's House — Kitchen'
+2026-05-27 17:49:28 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 8: generated 'Maren's House — Study'
+2026-05-27 17:49:30 - Agent.ImageGenerator - INFO - [ImageGenerator] Episode 2 scene images...
+2026-05-27 17:49:30 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 1: anchor 'Maren's House — Study' (first use)
+2026-05-27 17:49:40 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 2: generated 'Maren's House — Study'
+2026-05-27 17:49:50 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 3: generated 'Maren's House — Study'
+2026-05-27 17:50:04 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 4: generated 'Maren's House — Study'
+2026-05-27 17:50:15 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 5: generated 'Maren's House — Study'
+2026-05-27 17:50:26 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 6: generated 'Maren's House — Study'
+2026-05-27 17:50:39 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 7: generated 'Maren's House — Study'
+2026-05-27 17:50:49 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 8: generated 'Maren's House — Study'
+2026-05-27 17:50:51 - Agent.ImageGenerator - INFO - [ImageGenerator] Episode 3 scene images...
+2026-05-27 17:50:51 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 1: anchor 'The Voss Family Home' (first use)
+2026-05-27 17:51:23 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 2: generated 'The Voss Family Home'
+2026-05-27 17:51:35 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 3: generated 'The Voss Family Home'
+2026-05-27 17:51:48 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 4: generated 'The Voss Family Home'
+2026-05-27 17:51:59 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 5: generated 'The Voss Family Home'
+2026-05-27 17:53:54 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 6: generated 'The Voss Family Home'
+2026-05-27 17:54:07 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 7: generated 'The Voss Family Home'
+2026-05-27 17:54:20 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 8: generated 'The Voss Family Home'
+2026-05-27 17:54:22 - Agent.ImageGenerator - INFO - [ImageGenerator] Episode 4 scene images...
+2026-05-27 17:54:22 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 1: anchor 'The Records Office — Municipal Building' (first use)
+2026-05-27 17:54:22 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 2: anchor 'Frank Oubre's House — Front Porch' (first use)
+2026-05-27 17:54:32 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 3: generated 'The Records Office — Municipal Building'
+2026-05-27 17:54:46 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 4: generated 'Frank Oubre's House — Front Porch'
+2026-05-27 17:54:56 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 5: generated 'The Records Office — Municipal Building'
+2026-05-27 17:55:08 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 6: generated 'Frank Oubre's House — Front Porch'
+2026-05-27 17:55:19 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 7: generated 'The Records Office — Municipal Building'
+2026-05-27 17:55:30 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 8: generated 'Frank Oubre's House — Front Porch'
+2026-05-27 17:55:32 - Agent.ImageGenerator - INFO - [ImageGenerator] Episode 5 scene images...
+2026-05-27 17:55:32 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 1: anchor 'Frank Oubre's House — Front Porch' (first use)
+2026-05-27 17:55:32 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 2: anchor 'The Voss Family Home' (first use)
+2026-05-27 17:55:46 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 3: generated 'Frank Oubre's House — Front Porch'
+2026-05-27 17:55:56 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 4: generated 'The Voss Family Home'
+2026-05-27 17:56:08 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 5: generated 'Frank Oubre's House — Front Porch'
+2026-05-27 17:56:19 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 6: generated 'The Voss Family Home'
+2026-05-27 17:56:30 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 7: generated 'Frank Oubre's House — Front Porch'
+2026-05-27 17:56:42 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 8: generated 'The Voss Family Home'
+2026-05-27 17:56:44 - Agent.ImageGenerator - INFO - [ImageGenerator] Episode 6 scene images...
+2026-05-27 17:56:44 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 1: anchor 'The Ravine — Millbrook Trail' (first use)
+2026-05-27 17:56:44 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 2: anchor 'Maren's House — Kitchen' (first use)
+2026-05-27 17:56:54 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 3: generated 'The Ravine — Millbrook Trail'
+2026-05-27 17:57:05 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 4: generated 'Maren's House — Kitchen'
+2026-05-27 17:57:16 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 5: generated 'The Ravine — Millbrook Trail'
+2026-05-27 17:57:28 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 6: generated 'Maren's House — Kitchen'
+2026-05-27 17:57:42 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 7: generated 'The Ravine — Millbrook Trail'
+2026-05-27 17:57:53 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 8: generated 'Maren's House — Kitchen'
+2026-05-27 17:57:55 - Agent.ImageGenerator - INFO - [ImageGenerator] All anchor locations covered by at least one episode scene
+2026-05-27 17:57:55 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 3: Reveal images for 6 episodes...
+2026-05-27 17:57:55 - Agent.ImageGenerator - INFO - [ImageGenerator]   Episode 1: 4 reveals...
+2026-05-27 17:57:55 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [evidence] ep1 r1
+2026-05-27 17:58:05 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal1_evidence.png
+2026-05-27 17:58:05 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 1: evidence saved
+2026-05-27 17:58:07 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [location_detail] ep1 r2
+2026-05-27 17:58:19 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal2_location_detail.png
+2026-05-27 17:58:19 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 2: location_detail saved
+2026-05-27 17:58:21 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [document] ep1 r3
+2026-05-27 17:58:31 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal3_document.png
+2026-05-27 17:58:31 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 3: document saved
+2026-05-27 17:58:33 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [evidence] ep1 r4
+2026-05-27 17:58:43 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal4_evidence.png
+2026-05-27 17:58:43 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 4: evidence saved
+2026-05-27 17:58:45 - Agent.ImageGenerator - INFO - [ImageGenerator]   Episode 2: 4 reveals...
+2026-05-27 17:58:45 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [evidence] ep2 r1
+2026-05-27 17:58:56 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep2_reveal1_evidence.png
+2026-05-27 17:58:56 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 1: evidence saved
+2026-05-27 17:58:58 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [evidence] ep2 r2
+2026-05-27 17:59:10 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep2_reveal2_evidence.png
+2026-05-27 17:59:10 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 2: evidence saved
+2026-05-27 17:59:12 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [evidence] ep2 r3
+2026-05-27 17:59:22 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep2_reveal3_evidence.png
+2026-05-27 17:59:22 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 3: evidence saved
+2026-05-27 17:59:24 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [document] ep2 r4
+2026-05-27 17:59:35 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep2_reveal4_document.png
+2026-05-27 17:59:35 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 4: document saved
+2026-05-27 17:59:37 - Agent.ImageGenerator - INFO - [ImageGenerator]   Episode 3: 4 reveals...
+2026-05-27 17:59:37 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [location_detail] ep3 r1
+2026-05-27 18:00:05 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep3_reveal1_location_detail.png
+2026-05-27 18:00:05 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 1: location_detail saved
+2026-05-27 18:00:07 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [evidence] ep3 r2
+2026-05-27 18:00:20 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep3_reveal2_evidence.png
+2026-05-27 18:00:20 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 2: evidence saved
+2026-05-27 18:00:22 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [document] ep3 r3
+2026-05-27 18:00:34 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep3_reveal3_document.png
+2026-05-27 18:00:34 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 3: document saved
+2026-05-27 18:00:36 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [subject] ep3 r4
+2026-05-27 18:00:45 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep3_reveal4_subject.png
+2026-05-27 18:00:45 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 4: subject saved
+2026-05-27 18:00:47 - Agent.ImageGenerator - INFO - [ImageGenerator]   Episode 4: 5 reveals...
+2026-05-27 18:00:47 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [location_detail] ep4 r1
+2026-05-27 18:00:59 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep4_reveal1_location_detail.png
+2026-05-27 18:00:59 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 1: location_detail saved
+2026-05-27 18:01:01 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [document] ep4 r2
+2026-05-27 18:01:15 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep4_reveal2_document.png
+2026-05-27 18:01:15 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 2: document saved
+2026-05-27 18:01:17 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [document] ep4 r3
+2026-05-27 18:01:27 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep4_reveal3_document.png
+2026-05-27 18:01:27 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 3: document saved
+2026-05-27 18:01:29 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [evidence] ep4 r4
+2026-05-27 18:01:43 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep4_reveal4_evidence.png
+2026-05-27 18:01:43 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 4: evidence saved
+2026-05-27 18:01:45 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [subject] ep4 r5
+2026-05-27 18:01:55 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep4_reveal5_subject.png
+2026-05-27 18:01:55 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 5: subject saved
+2026-05-27 18:01:57 - Agent.ImageGenerator - INFO - [ImageGenerator]   Episode 5: 5 reveals...
+2026-05-27 18:01:57 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [location_detail] ep5 r1
+2026-05-27 18:02:06 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep5_reveal1_location_detail.png
+2026-05-27 18:02:06 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 1: location_detail saved
+2026-05-27 18:02:08 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [subject] ep5 r2
+2026-05-27 18:02:18 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep5_reveal2_subject.png
+2026-05-27 18:02:18 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 2: subject saved
+2026-05-27 18:02:20 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [evidence] ep5 r3
+2026-05-27 18:02:31 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep5_reveal3_evidence.png
+2026-05-27 18:02:31 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 3: evidence saved
+2026-05-27 18:02:33 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [evidence] ep5 r4
+2026-05-27 18:02:43 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep5_reveal4_evidence.png
+2026-05-27 18:02:43 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 4: evidence saved
+2026-05-27 18:02:45 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [location_detail] ep5 r5
+2026-05-27 18:02:57 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep5_reveal5_location_detail.png
+2026-05-27 18:02:57 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 5: location_detail saved
+2026-05-27 18:02:59 - Agent.ImageGenerator - INFO - [ImageGenerator]   Episode 6: 5 reveals...
+2026-05-27 18:02:59 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [evidence] ep6 r1
+2026-05-27 18:03:10 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep6_reveal1_evidence.png
+2026-05-27 18:03:10 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 1: evidence saved
+2026-05-27 18:03:12 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [evidence] ep6 r2
+2026-05-27 18:03:24 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep6_reveal2_evidence.png
+2026-05-27 18:03:24 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 2: evidence saved
+2026-05-27 18:03:26 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [evidence] ep6 r3
+2026-05-27 18:03:37 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep6_reveal3_evidence.png
+2026-05-27 18:03:37 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 3: evidence saved
+2026-05-27 18:03:39 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [document] ep6 r4
+2026-05-27 18:03:49 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep6_reveal4_document.png
+2026-05-27 18:03:49 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 4: document saved
+2026-05-27 18:03:51 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [evidence] ep6 r5
+2026-05-27 18:04:03 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep6_reveal5_evidence.png
+2026-05-27 18:04:03 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 5: evidence saved
+2026-05-27 18:04:05 - Agent.ImageGenerator - INFO - [ImageGenerator] Image generation complete — 6 anchors, 48 scenes, 27 reveals | All at 1280x720 (16:9)
+2026-05-27 18:04:05 - Agent.PromptCorrector - INFO - [PromptCorrector] Starting visual prompt correction for Episode 1...
+2026-05-27 18:04:05 - Agent.PromptCorrector - INFO - [PromptCorrector] Analyzing 6 anchor images...
+2026-05-27 18:04:05 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: Maren's House — Kitchen
+2026-05-27 18:04:09 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 522 chars
+2026-05-27 18:04:09 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: Maren's House — Study
+2026-05-27 18:04:12 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 443 chars
+2026-05-27 18:04:12 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: The Voss Family Home
+2026-05-27 18:04:15 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 570 chars
+2026-05-27 18:04:15 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: The Records Office — Municipal Building
+2026-05-27 18:04:18 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 519 chars
+2026-05-27 18:04:18 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: Frank Oubre's House — Front Porch
+2026-05-27 18:04:21 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 468 chars
+2026-05-27 18:04:21 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: The Ravine — Millbrook Trail
+2026-05-27 18:04:25 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 476 chars
+2026-05-27 18:04:25 - Agent.PromptCorrector - INFO - [PromptCorrector] Rewriting 8 Episode 1 prompts...
+2026-05-27 18:04:27 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 1 corrected
+2026-05-27 18:04:30 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 2 corrected
+2026-05-27 18:04:32 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 3 corrected
+2026-05-27 18:04:34 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 4 corrected
+2026-05-27 18:04:37 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 5 corrected
+2026-05-27 18:04:39 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 6 corrected
+2026-05-27 18:04:42 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 7 corrected
+2026-05-27 18:04:43 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 8 corrected
+2026-05-27 18:04:43 - Agent.PromptCorrector - INFO - [PromptCorrector] Prompt correction complete: 8/8 corrected
+2026-05-27 18:58:22 - Agent.EditPlanner - INFO - [EditPlanner] Building edit decision lists (Agent 6a)...
+2026-05-27 18:58:22 - Agent.EditPlanner - INFO - [EditPlanner] Planning episode 1...
+2026-05-27 18:58:22 - Agent.EditPlanner - INFO - [EditPlanner] Episode 1: 8 scenes (8 with images), 4 reveals, 5 timestamps
+2026-05-27 18:58:22 - Agent.EditPlanner - INFO - [EditPlanner] Building EDL for episode 1...
+2026-05-27 18:58:22 - Agent.EditPlanner - INFO - [EditPlanner] Total audio: 60140ms (60.1s)
+2026-05-27 18:58:22 - Agent.EditPlanner - INFO - [EditPlanner] EDL built: 15 entries, 4 reveals, total 60.1s
+2026-05-27 18:58:22 - Agent.EditPlanner - INFO - [EditPlanner] EDL saved: outputs/episode_1_edl.json
+2026-05-27 18:58:22 - Agent.EditPlanner - INFO - [EditPlanner] Planning episode 2...
+2026-05-27 18:58:22 - Agent.EditPlanner - INFO - [EditPlanner] Episode 2: 8 scenes (8 with images), 4 reveals, 8 timestamps
+2026-05-27 18:58:22 - Agent.EditPlanner - INFO - [EditPlanner] Building EDL for episode 2...
+2026-05-27 18:58:22 - Agent.EditPlanner - INFO - [EditPlanner] Total audio: 39480ms (39.5s)
+2026-05-27 18:58:22 - Agent.EditPlanner - INFO - [EditPlanner] EDL built: 12 entries, 4 reveals, total 39.5s
+2026-05-27 18:58:22 - Agent.EditPlanner - INFO - [EditPlanner] EDL saved: outputs/episode_2_edl.json
+2026-05-27 18:58:22 - Agent.EditPlanner - INFO - [EditPlanner] Planning episode 3...
+2026-05-27 18:58:22 - Agent.EditPlanner - INFO - [EditPlanner] Episode 3: 8 scenes (8 with images), 4 reveals, 8 timestamps
+2026-05-27 18:58:22 - Agent.EditPlanner - INFO - [EditPlanner] Building EDL for episode 3...
+2026-05-27 18:58:22 - Agent.EditPlanner - INFO - [EditPlanner] Total audio: 54860ms (54.9s)
+2026-05-27 18:58:22 - Agent.EditPlanner - INFO - [EditPlanner] EDL built: 15 entries, 4 reveals, total 54.9s
+2026-05-27 18:58:22 - Agent.EditPlanner - INFO - [EditPlanner] EDL saved: outputs/episode_3_edl.json
+2026-05-27 18:58:22 - Agent.EditPlanner - INFO - [EditPlanner] Planning episode 4...
+2026-05-27 18:58:22 - Agent.EditPlanner - INFO - [EditPlanner] Episode 4: 8 scenes (8 with images), 5 reveals, 0 timestamps
+2026-05-27 18:58:22 - Agent.EditPlanner - INFO - [EditPlanner] Building EDL for episode 4...
+2026-05-27 18:58:22 - Agent.EditPlanner - INFO - [EditPlanner] Total audio: 67000ms (67.0s)
+2026-05-27 18:58:22 - Agent.EditPlanner - WARNING - [EditPlanner] Reveal at 0ms overlaps previous end 0ms — skipping
+2026-05-27 18:58:22 - Agent.EditPlanner - WARNING - [EditPlanner] Reveal at 0ms overlaps previous end 0ms — skipping
+2026-05-27 18:58:22 - Agent.EditPlanner - WARNING - [EditPlanner] Reveal at 0ms overlaps previous end 0ms — skipping
+2026-05-27 18:58:22 - Agent.EditPlanner - WARNING - [EditPlanner] Reveal at 0ms overlaps previous end 0ms — skipping
+2026-05-27 18:58:22 - Agent.EditPlanner - WARNING - [EditPlanner] Reveal at 0ms overlaps previous end 0ms — skipping
+2026-05-27 18:58:22 - Agent.EditPlanner - INFO - [EditPlanner] EDL built: 9 entries, 5 reveals, total 67.0s
+2026-05-27 18:58:22 - Agent.EditPlanner - INFO - [EditPlanner] EDL saved: outputs/episode_4_edl.json
+2026-05-27 18:58:22 - Agent.EditPlanner - INFO - [EditPlanner] Planning episode 5...
+2026-05-27 18:58:22 - Agent.EditPlanner - INFO - [EditPlanner] Episode 5: 8 scenes (8 with images), 5 reveals, 0 timestamps
+2026-05-27 18:58:22 - Agent.EditPlanner - INFO - [EditPlanner] Building EDL for episode 5...
+2026-05-27 18:58:22 - Agent.EditPlanner - INFO - [EditPlanner] Total audio: 67000ms (67.0s)
+2026-05-27 18:58:22 - Agent.EditPlanner - WARNING - [EditPlanner] Reveal at 0ms overlaps previous end 0ms — skipping
+2026-05-27 18:58:22 - Agent.EditPlanner - WARNING - [EditPlanner] Reveal at 0ms overlaps previous end 0ms — skipping
+2026-05-27 18:58:22 - Agent.EditPlanner - WARNING - [EditPlanner] Reveal at 0ms overlaps previous end 0ms — skipping
+2026-05-27 18:58:22 - Agent.EditPlanner - WARNING - [EditPlanner] Reveal at 0ms overlaps previous end 0ms — skipping
+2026-05-27 18:58:22 - Agent.EditPlanner - WARNING - [EditPlanner] Reveal at 0ms overlaps previous end 0ms — skipping
+2026-05-27 18:58:22 - Agent.EditPlanner - INFO - [EditPlanner] EDL built: 9 entries, 5 reveals, total 67.0s
+2026-05-27 18:58:22 - Agent.EditPlanner - INFO - [EditPlanner] EDL saved: outputs/episode_5_edl.json
+2026-05-27 18:58:22 - Agent.EditPlanner - INFO - [EditPlanner] Planning episode 6...
+2026-05-27 18:58:22 - Agent.EditPlanner - INFO - [EditPlanner] Episode 6: 8 scenes (8 with images), 5 reveals, 0 timestamps
+2026-05-27 18:58:22 - Agent.EditPlanner - INFO - [EditPlanner] Building EDL for episode 6...
+2026-05-27 18:58:22 - Agent.EditPlanner - INFO - [EditPlanner] Total audio: 67000ms (67.0s)
+2026-05-27 18:58:22 - Agent.EditPlanner - WARNING - [EditPlanner] Reveal at 0ms overlaps previous end 0ms — skipping
+2026-05-27 18:58:22 - Agent.EditPlanner - WARNING - [EditPlanner] Reveal at 0ms overlaps previous end 0ms — skipping
+2026-05-27 18:58:22 - Agent.EditPlanner - WARNING - [EditPlanner] Reveal at 0ms overlaps previous end 0ms — skipping
+2026-05-27 18:58:22 - Agent.EditPlanner - WARNING - [EditPlanner] Reveal at 0ms overlaps previous end 0ms — skipping
+2026-05-27 18:58:22 - Agent.EditPlanner - WARNING - [EditPlanner] Reveal at 0ms overlaps previous end 0ms — skipping
+2026-05-27 18:58:22 - Agent.EditPlanner - INFO - [EditPlanner] EDL built: 9 entries, 5 reveals, total 67.0s
+2026-05-27 18:58:22 - Agent.EditPlanner - INFO - [EditPlanner] EDL saved: outputs/episode_6_edl.json
+2026-05-27 18:58:22 - Agent.EditPlanner - INFO - [EditPlanner] Edit planning complete: 6 EDLs

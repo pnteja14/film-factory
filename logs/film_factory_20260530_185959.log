@@ -1,0 +1,10 @@
+2026-05-30 19:00:11 - Orchestrator - INFO - =================================================================
+2026-05-30 19:00:11 - Orchestrator - INFO - FILM FACTORY — CINEMATIC NARRATION PIPELINE
+2026-05-30 19:00:11 - Orchestrator - INFO - =================================================================
+2026-05-30 19:00:11 - Orchestrator - INFO - Output directories verified
+2026-05-30 19:00:11 - Orchestrator - INFO - Story idea: A man finds a hidden room in his new house filled with photographs of crimes that haven't happened yet, and tomorrow's photo contains him.
+2026-05-30 19:02:45 - Orchestrator - INFO - SINGLE_EPISODE_MODE: running episode 1 only
+2026-05-30 19:03:17 - Orchestrator - INFO - Context saved: outputs\context_after_scene_director.json
+2026-05-30 19:08:09 - Orchestrator - INFO - Context saved: outputs\context_after_images.json
+2026-05-30 19:19:31 - Orchestrator - INFO - Context saved: outputs\context_after_edit_plan.json
+2026-05-30 19:37:30 - Orchestrator - INFO - Context saved: outputs\context.json

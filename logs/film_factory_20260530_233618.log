@@ -1,0 +1,29 @@
+2026-05-30 23:36:18 - Agent.DepthSAM2 - INFO - [DepthSAM2] Pre-computing layers for all scene and reveal images...
+2026-05-30 23:36:18 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 available
+2026-05-30 23:36:18 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2: loading checkpoints/sam2.1_hiera_tiny.pt on CPU (one-time, ~10s)
+2026-05-30 23:36:19 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 generator ready — model cached for remaining images
+2026-05-30 23:36:35 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: noras_studio_apartment
+2026-05-30 23:36:35 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: noras_studio_apartment
+2026-05-30 23:36:48 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_scene2_noras_studio_apartment
+2026-05-30 23:36:48 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_scene2_noras_studio_apartment
+2026-05-30 23:37:00 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: the_blackout_district__meridian_street
+2026-05-30 23:37:00 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: the_blackout_district__meridian_street
+2026-05-30 23:37:12 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_scene4_noras_studio_apartment
+2026-05-30 23:37:12 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_scene4_noras_studio_apartment
+2026-05-30 23:37:24 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: warren_holts_house
+2026-05-30 23:37:24 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: warren_holts_house
+2026-05-30 23:37:36 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: the_transit_corridor
+2026-05-30 23:37:37 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: the_transit_corridor
+2026-05-30 23:37:49 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: the_ardent_systems_building
+2026-05-30 23:37:49 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: the_ardent_systems_building
+2026-05-30 23:38:02 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_reveal1_evidence_d0e72807
+2026-05-30 23:38:02 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_reveal1_evidence_d0e72807
+2026-05-30 23:38:15 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_reveal2_evidence_d0e72807
+2026-05-30 23:38:15 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_reveal2_evidence_d0e72807
+2026-05-30 23:38:27 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_reveal3_evidence_d0e72807
+2026-05-30 23:38:27 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_reveal3_evidence_d0e72807
+2026-05-30 23:38:39 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_reveal4_location_detail_d0e72807
+2026-05-30 23:38:39 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_reveal4_location_detail_d0e72807
+2026-05-30 23:38:51 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2 layers: ep1_reveal5_evidence_d0e72807
+2026-05-30 23:38:51 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layers saved: ep1_reveal5_evidence_d0e72807
+2026-05-30 23:38:51 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layer pre-compute done: 12 new, 0 cached

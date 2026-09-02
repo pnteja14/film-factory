@@ -1,0 +1,7 @@
+2026-05-25 15:18:18 - Orchestrator - INFO - =================================================================
+2026-05-25 15:18:18 - Orchestrator - INFO - FILM FACTORY — CINEMATIC NARRATION PIPELINE
+2026-05-25 15:18:18 - Orchestrator - INFO - =================================================================
+2026-05-25 15:18:18 - Orchestrator - INFO - Output directories verified
+2026-05-25 15:18:18 - Orchestrator - INFO - Story idea: A late-night emergency operator receives a call from a terrified man claiming someone is standing outside his isolated farmhouse — but the call abruptly disconnects after he whispers, “He’s already inside.” Ten years later, a rookie investigative journalist discovers the audio was edited before being released to the public, and the missing final 17 seconds may prove the murders were never committed by the man who went to prison. As she retraces the case, survivors, witnesses, and even retired detectives begin disappearing after receiving anonymous calls from the same disconnected phone line.
+2026-05-25 15:19:06 - Orchestrator - ERROR - Story Architect failed: Validation error: list index out of range
+2026-05-25 15:19:06 - Orchestrator - ERROR - Pipeline failed: Validation error: list index out of range

@@ -1,0 +1,4 @@
+2026-06-03 09:55:57 - Agent.WhisperAlignment - INFO - [WhisperAlignment] Running Whisper word alignment...
+2026-06-03 09:55:57 - Agent.WhisperAlignment - INFO - [WhisperAlignment] Episode 1: loaded 244 cached word timestamps
+2026-06-03 09:55:57 - Agent.WhisperAlignment - INFO - [WhisperAlignment] Episode 1: 244 words aligned, span 0ms -> 108340ms
+2026-06-03 09:55:57 - Agent.WhisperAlignment - INFO - [WhisperAlignment] Chunk timestamps derived: 13 chunks, audio=110901ms, last_chunk_end=110901ms

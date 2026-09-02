@@ -1,0 +1,96 @@
+2026-05-23 20:11:15 - Agent.ImageGenerator - INFO - [ImageGenerator] Starting image generation (Agent 5a)...
+2026-05-23 20:11:15 - Agent.ImageGenerator - INFO - [ImageGenerator] HuggingFace client initialized
+2026-05-23 20:11:15 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1: 8 anchor images at 1280x720...
+2026-05-23 20:11:15 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'Ravenshade Manor' — skipping
+2026-05-23 20:11:17 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'Virat's Apartment' — skipping
+2026-05-23 20:11:19 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'Police Archive Room' — skipping
+2026-05-23 20:11:21 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'Sophia's Office' — skipping
+2026-05-23 20:11:23 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'The Ashford Family Home (Past)' — skipping
+2026-05-23 20:11:25 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'The Highway Overpass (Past)' — skipping
+2026-05-23 20:11:27 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'Marcus's Study at Ravenshade' — skipping
+2026-05-23 20:11:29 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'The Police Station Interrogation Room' — skipping
+2026-05-23 20:11:31 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1 complete: 8/8
+2026-05-23 20:11:31 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 2: Scene images for 1 episodes...
+2026-05-23 20:11:31 - Agent.ImageGenerator - INFO - [ImageGenerator] Episode 1 scene images...
+2026-05-23 20:11:31 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 1: reusing anchor 'Virat's Apartment'
+2026-05-23 20:11:31 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 2: reusing anchor 'Virat's Apartment'
+2026-05-23 20:11:31 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 3: reusing anchor 'Virat's Apartment'
+2026-05-23 20:11:31 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 4: reusing anchor 'Virat's Apartment'
+2026-05-23 20:11:31 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 5: reusing anchor 'Virat's Apartment'
+2026-05-23 20:11:31 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 6: reusing anchor 'Ravenshade Manor'
+2026-05-23 20:11:31 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 7: reusing anchor 'Marcus's Study at Ravenshade'
+2026-05-23 20:11:31 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 8: reusing anchor 'Marcus's Study at Ravenshade'
+2026-05-23 20:11:31 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 9: reusing anchor 'Marcus's Study at Ravenshade'
+2026-05-23 20:11:31 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 10: reusing anchor 'Marcus's Study at Ravenshade'
+2026-05-23 20:11:32 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 3: Reveal images for 1 episodes...
+2026-05-23 20:11:32 - Agent.ImageGenerator - INFO - [ImageGenerator]   Episode 1: 5 reveals...
+2026-05-23 20:11:32 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [document] ep1 r1
+2026-05-23 20:11:37 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal1_document.png
+2026-05-23 20:11:37 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 1: document saved
+2026-05-23 20:11:39 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [subject] ep1 r2
+2026-05-23 20:11:44 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal2_subject.png
+2026-05-23 20:11:44 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 2: subject saved
+2026-05-23 20:11:46 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [location_detail] ep1 r3
+2026-05-23 20:11:51 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal3_location_detail.png
+2026-05-23 20:11:51 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 3: location_detail saved
+2026-05-23 20:11:53 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [subject] ep1 r4
+2026-05-23 20:12:01 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal4_subject.png
+2026-05-23 20:12:01 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 4: subject saved
+2026-05-23 20:12:03 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [evidence] ep1 r5
+2026-05-23 20:12:07 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal5_evidence.png
+2026-05-23 20:12:07 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 5: evidence saved
+2026-05-23 20:12:09 - Agent.ImageGenerator - INFO - [ImageGenerator] Image generation complete — 8 anchors, 10 scenes, 5 reveals | All at 1280x720 (16:9)
+2026-05-23 20:12:09 - Agent.PromptCorrector - INFO - [PromptCorrector] Starting visual prompt correction for Episode 1...
+2026-05-23 20:12:09 - Agent.PromptCorrector - INFO - [PromptCorrector] Analyzing 8 anchor images...
+2026-05-23 20:12:09 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: Ravenshade Manor
+2026-05-23 20:12:12 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 536 chars
+2026-05-23 20:12:12 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: Virat's Apartment
+2026-05-23 20:12:15 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 537 chars
+2026-05-23 20:12:15 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: Police Archive Room
+2026-05-23 20:12:19 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 519 chars
+2026-05-23 20:12:19 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: Sophia's Office
+2026-05-23 20:12:22 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 558 chars
+2026-05-23 20:12:22 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: The Ashford Family Home (Past)
+2026-05-23 20:12:26 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 522 chars
+2026-05-23 20:12:26 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: The Highway Overpass (Past)
+2026-05-23 20:12:29 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 630 chars
+2026-05-23 20:12:29 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: Marcus's Study at Ravenshade
+2026-05-23 20:12:32 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 581 chars
+2026-05-23 20:12:32 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: The Police Station Interrogation Room
+2026-05-23 20:12:36 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 526 chars
+2026-05-23 20:12:36 - Agent.PromptCorrector - INFO - [PromptCorrector] Rewriting 10 Episode 1 prompts...
+2026-05-23 20:12:38 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 1 corrected
+2026-05-23 20:12:40 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 2 corrected
+2026-05-23 20:12:42 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 3 corrected
+2026-05-23 20:12:43 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 4 corrected
+2026-05-23 20:12:46 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 5 corrected
+2026-05-23 20:12:48 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 6 corrected
+2026-05-23 20:12:50 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 7 corrected
+2026-05-23 20:12:52 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 8 corrected
+2026-05-23 20:12:53 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 9 corrected
+2026-05-23 20:12:55 - Agent.PromptCorrector - INFO - [PromptCorrector]   Scene 10 corrected
+2026-05-23 20:12:55 - Agent.PromptCorrector - INFO - [PromptCorrector] Prompt correction complete: 10/10 corrected
+2026-05-23 20:12:55 - Agent.DepthParallax - INFO - [DepthParallax] Pre-computing depth maps...
+2026-05-23 20:12:55 - Agent.DepthParallax - INFO - [DepthParallax] Computing depth maps for 13 images...
+2026-05-23 20:12:56 - Agent.DepthParallax - INFO - [DepthParallax] Depth Anything V2 available via transformers
+2026-05-23 20:12:56 - Agent.DepthParallax - INFO - [DepthParallax] Loading Depth Anything V2 Small (~100MB first run)...
+2026-05-23 20:13:01 - Agent.DepthParallax - INFO - [DepthParallax] Depth model loaded
+2026-05-23 20:13:02 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ravenshade_manor_depth.npy
+2026-05-23 20:13:04 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: marcuss_study_at_ravenshade_depth.npy
+2026-05-23 20:13:04 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_reveal3_location_detail_depth.npy
+2026-05-23 20:13:05 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_reveal5_evidence_depth.npy
+2026-05-23 20:13:06 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: police_archive_room_depth.npy
+2026-05-23 20:13:08 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: the_ashford_family_home_past_depth.npy
+2026-05-23 20:13:09 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: the_police_station_interrogation_room_depth.npy
+2026-05-23 20:13:10 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: virats_apartment_depth.npy
+2026-05-23 20:13:11 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_reveal4_subject_depth.npy
+2026-05-23 20:13:12 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_reveal2_subject_depth.npy
+2026-05-23 20:13:13 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: sophias_office_depth.npy
+2026-05-23 20:13:14 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: the_highway_overpass_past_depth.npy
+2026-05-23 20:13:15 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_reveal1_document_depth.npy
+2026-05-23 20:13:15 - Agent.DepthParallax - INFO - [DepthParallax] Depth maps ready: 13 new, 0 cached
+2026-05-23 20:13:15 - Agent.MusicAgent - INFO - [MusicAgent] Music generation starting (MusicGen: True)...
+2026-05-23 20:13:15 - Agent.MusicAgent - INFO - [MusicAgent] Episode 1 music...
+2026-05-23 20:13:15 - Agent.MusicAgent - INFO - [MusicAgent] Generating ambient (57s)...
+2026-05-23 20:13:15 - Agent.MusicAgent - INFO - [MusicAgent] Loading MusicGen model (first run downloads ~300MB)...
+2026-05-23 20:13:18 - Agent.MusicAgent - INFO - [MusicAgent] Generating 30s of audio...

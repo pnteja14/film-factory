@@ -1,0 +1,73 @@
+2026-06-02 16:47:39 - Agent.ImageGenerator - INFO - [ImageGenerator] Starting image generation (Agent 5a)...
+2026-06-02 16:47:39 - Agent.ImageGenerator - INFO - [ImageGenerator] HuggingFace client initialized
+2026-06-02 16:47:39 - Agent.ImageGenerator - INFO - [ImageGenerator] Same story detected — reusing existing images (set REUSE_EXISTING_IMAGES=True to force)
+2026-06-02 16:47:39 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1: 7 anchor images at 1024x576...
+2026-06-02 16:47:39 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'The Long Approach — Ashveil Manor Driveway' — skipping
+2026-06-02 16:47:41 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'The Grand Ballroom' — skipping
+2026-06-02 16:47:43 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'The Portrait Gallery — East Wing Corridor' — skipping
+2026-06-02 16:47:45 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'The Study — Lord Ashveil's Private Room' — skipping
+2026-06-02 16:47:47 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'The Wine Cellar — Below the East Wing' — skipping
+2026-06-02 16:47:49 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'The Walled Garden — Manor Grounds' — skipping
+2026-06-02 16:47:51 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'The Servants' Staircase — North Wing' — skipping
+2026-06-02 16:47:53 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1 complete: 7/7
+2026-06-02 16:47:53 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1.5: Correcting scene prompts against anchor images...
+2026-06-02 16:47:57 - Agent.ImageGenerator - INFO - [ImageGenerator]   Anchor analyzed: 'The Long Approach — Ashveil Manor Driveway'
+2026-06-02 16:48:00 - Agent.ImageGenerator - INFO - [ImageGenerator]   Anchor analyzed: 'The Grand Ballroom'
+2026-06-02 16:48:03 - Agent.ImageGenerator - INFO - [ImageGenerator]   Anchor analyzed: 'The Portrait Gallery — East Wing Corridor'
+2026-06-02 16:48:06 - Agent.ImageGenerator - INFO - [ImageGenerator]   Anchor analyzed: 'The Study — Lord Ashveil's Private Room'
+2026-06-02 16:48:09 - Agent.ImageGenerator - INFO - [ImageGenerator]   Anchor analyzed: 'The Wine Cellar — Below the East Wing'
+2026-06-02 16:48:13 - Agent.ImageGenerator - INFO - [ImageGenerator]   Anchor analyzed: 'The Walled Garden — Manor Grounds'
+2026-06-02 16:48:16 - Agent.ImageGenerator - INFO - [ImageGenerator]   Anchor analyzed: 'The Servants' Staircase — North Wing'
+2026-06-02 16:48:27 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1.5 complete: 4 prompts corrected
+2026-06-02 16:48:27 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 2: Scene images for 1 episodes...
+2026-06-02 16:48:27 - Agent.ImageGenerator - INFO - [ImageGenerator] Episode 1 scene images...
+2026-06-02 16:48:27 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 1: anchor 'The Study — Lord Ashveil's Private Room' (first use)
+2026-06-02 16:48:27 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 2: existing reused
+2026-06-02 16:48:27 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 3: anchor 'The Long Approach — Ashveil Manor Driveway' (first use)
+2026-06-02 16:48:27 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 4: existing reused
+2026-06-02 16:48:27 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 5: anchor 'The Grand Ballroom' (first use)
+2026-06-02 16:48:27 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 6: existing reused
+2026-06-02 16:48:27 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 7: existing reused
+2026-06-02 16:48:27 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 8: existing reused
+2026-06-02 16:48:27 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 9: existing reused
+2026-06-02 16:48:27 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 10: existing reused
+2026-06-02 16:48:27 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 11: existing reused
+2026-06-02 16:48:27 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 12: anchor 'The Walled Garden — Manor Grounds' (first use)
+2026-06-02 16:48:28 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 3: Reveal images for 1 episodes...
+2026-06-02 16:48:28 - Agent.ImageGenerator - INFO - [ImageGenerator]   Episode 1: 5 reveals...
+2026-06-02 16:48:28 - Agent.ImageGenerator - INFO - [ImageGenerator] Reveal exists: ep1_reveal1_document_60a90106.png — skipping
+2026-06-02 16:48:28 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 1: document saved
+2026-06-02 16:48:30 - Agent.ImageGenerator - INFO - [ImageGenerator] Reveal exists: ep1_reveal2_location_detail_60a90106.png — skipping
+2026-06-02 16:48:30 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 2: location_detail saved
+2026-06-02 16:48:32 - Agent.ImageGenerator - INFO - [ImageGenerator] Reveal exists: ep1_reveal3_evidence_60a90106.png — skipping
+2026-06-02 16:48:32 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 3: evidence saved
+2026-06-02 16:48:34 - Agent.ImageGenerator - INFO - [ImageGenerator] Reveal exists: ep1_reveal4_subject_60a90106.png — skipping
+2026-06-02 16:48:34 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 4: subject saved
+2026-06-02 16:48:36 - Agent.ImageGenerator - INFO - [ImageGenerator] Reveal exists: ep1_reveal5_document_60a90106.png — skipping
+2026-06-02 16:48:36 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 5: document saved
+2026-06-02 16:48:38 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 3.5: Insert shot images...
+2026-06-02 16:48:38 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 3.5 complete: 5/5 insert shots generated
+2026-06-02 16:48:38 - Agent.ImageGenerator - INFO - [ImageGenerator] Image generation complete — 7 anchors, 12 scenes, 5 reveals | All at 1024x576 (16:9)
+2026-06-02 16:49:37 - Agent.EditPlanner - INFO - [EditPlanner] Building edit decision lists (Agent 6a)...
+2026-06-02 16:49:37 - Agent.EditPlanner - INFO - [EditPlanner] Planning episode 1...
+2026-06-02 16:49:37 - Agent.EditPlanner - INFO - [EditPlanner] Episode 1: 12 scenes (12 with images), 5 reveals, 12 timestamps
+2026-06-02 16:49:37 - Agent.EditPlanner - INFO - [EditPlanner] Building EDL for episode 1...
+2026-06-02 16:49:37 - Agent.EditPlanner - INFO - [EditPlanner] Total audio: 92011ms (92.0s)
+2026-06-02 16:49:37 - Agent.EditPlanner - INFO - [EditPlanner] Insert shots scheduled: 2
+2026-06-02 16:49:37 - Agent.EditPlanner - INFO - [EditPlanner] Persist visual: scene 2 inherits image from scene 1 (chunk 1)
+2026-06-02 16:49:37 - Agent.EditPlanner - INFO - [EditPlanner] Persist visual: scene 10 inherits image from scene 9 (chunk 9)
+2026-06-02 16:49:37 - Agent.EditPlanner - INFO - [EditPlanner] EDL built: 23 entries, 5 reveals, 2 inserts, total 92.0s
+2026-06-02 16:49:37 - Agent.EditPlanner - INFO - [EditPlanner] EDL saved: outputs/episode_1_edl.json
+2026-06-02 16:49:37 - Agent.EditPlanner - INFO - [EditPlanner] Edit planning complete: 1 EDLs
+2026-06-02 16:49:37 - Agent.VideoCompositor - INFO - [VideoCompositor] Starting video composition (Agent 6b — FFmpeg)...
+2026-06-02 16:49:37 - Agent.VideoCompositor - INFO - [VideoCompositor] Subtitles written: outputs/final/tmp_ep1/ep1_subtitles.ass (42 lines)
+2026-06-02 16:49:39 - Agent.VideoCompositor - INFO - [VideoCompositor] Title card: outputs/final/tmp_ep1/ep1_title.mp4
+2026-06-02 16:52:53 - Agent.VideoCompositor - INFO - [VideoCompositor] TBC card: outputs/final/tmp_ep1/ep1_tbc.mp4
+2026-06-02 16:52:54 - Agent.VideoCompositor - INFO - [VideoCompositor] Concatenated 25 segments -> outputs/final/tmp_ep1/ep1_video.mp4
+2026-06-02 16:53:14 - Agent.VideoCompositor - INFO - [VideoCompositor] Subtitles burned: outputs/final/tmp_ep1/ep1_subbed.mp4
+2026-06-02 16:53:34 - Agent.VideoCompositor - INFO - [VideoCompositor] Shadow seal applied: outputs/final/tmp_ep1/ep1_sealed.mp4
+2026-06-02 16:53:34 - Agent.VideoCompositor - INFO - [VideoCompositor] Mixing: 90.0s, 5 reveals, 0 dramatic pauses
+2026-06-02 16:53:37 - Agent.VideoCompositor - INFO - [VideoCompositor] Dynamic audio mixed: outputs/final/tmp_ep1/ep1_audio.aac
+2026-06-02 16:53:40 - Agent.VideoCompositor - INFO - [VideoCompositor] Final: outputs/final/episode_1.mp4
+2026-06-02 16:53:40 - Agent.VideoCompositor - INFO - [VideoCompositor] Episode 1 complete: outputs/final/episode_1.mp4
+2026-06-02 16:53:40 - Agent.VideoCompositor - INFO - [VideoCompositor] Composition: 4/1 rendered

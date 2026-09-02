@@ -1,0 +1,21 @@
+2026-05-30 13:14:11 - Agent.DepthParallax - INFO - [DepthParallax] Pre-computing depth maps...
+2026-05-30 13:14:11 - Agent.DepthParallax - INFO - [DepthParallax] Computing depth maps for 17 images...
+2026-05-30 13:14:11 - Agent.DepthParallax - INFO - [DepthParallax] Depth Anything V2 available via transformers
+2026-05-30 13:14:11 - Agent.DepthParallax - INFO - [DepthParallax] Loading Depth Anything V2 Small (~100MB first run)...
+2026-05-30 13:14:12 - Agent.DepthParallax - INFO - [DepthParallax] Depth model loaded
+2026-05-30 13:14:14 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_scene4_the_archive_building_depth.npy
+2026-05-30 13:14:15 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ruth_halseys_house_depth.npy
+2026-05-30 13:14:16 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: the_archive_building_depth.npy
+2026-05-30 13:14:17 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_reveal4_document_depth.npy
+2026-05-30 13:14:18 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: the_underpass_depth.npy
+2026-05-30 13:14:19 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: maras_house_depth.npy
+2026-05-30 13:14:20 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: daniels_apartment_depth.npy
+2026-05-30 13:14:21 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_scene6_the_archive_building_depth.npy
+2026-05-30 13:14:22 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_reveal1_location_detail_depth.npy
+2026-05-30 13:14:23 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_reveal5_document_depth.npy
+2026-05-30 13:14:24 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_scene7_daniels_apartment_depth.npy
+2026-05-30 13:14:25 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: owens_apartment__the_shared_wall_depth.npy
+2026-05-30 13:14:26 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_scene3_daniels_apartment_depth.npy
+2026-05-30 13:14:27 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_scene5_daniels_apartment_depth.npy
+2026-05-30 13:14:28 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_scene8_the_archive_building_depth.npy
+2026-05-30 13:14:28 - Agent.DepthParallax - INFO - [DepthParallax] Depth maps ready: 15 new, 2 cached

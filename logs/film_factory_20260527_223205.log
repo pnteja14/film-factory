@@ -1,0 +1,11 @@
+2026-05-27 22:33:29 - Orchestrator - INFO - =================================================================
+2026-05-27 22:33:29 - Orchestrator - INFO - FILM FACTORY — CINEMATIC NARRATION PIPELINE
+2026-05-27 22:33:29 - Orchestrator - INFO - =================================================================
+2026-05-27 22:33:29 - Orchestrator - INFO - Output directories verified
+2026-05-27 22:33:29 - Orchestrator - INFO - Story idea: A true crime podcaster investigating a decades-old child abduction discovers every witness interviewed for the case has died exactly seven days after speaking publicly about it.
+2026-05-27 22:35:51 - Orchestrator - INFO - SINGLE_EPISODE_MODE: running episode 1 only
+2026-05-27 22:36:21 - Orchestrator - INFO - Context saved: outputs\context_after_scene_director.json
+2026-05-27 22:36:23 - Orchestrator - ERROR - Voiceover Agent failed: Chunk 1 failed permanently: API error 400: <400> InternalError.Algo.InvalidParameter: Field required: input.text
+2026-05-27 22:39:38 - Orchestrator - INFO - Context saved: outputs\context_after_images.json
+2026-05-27 22:47:34 - Orchestrator - INFO - Context saved: outputs\context_after_edit_plan.json
+2026-05-27 22:47:34 - Orchestrator - INFO - Context saved: outputs\context.json

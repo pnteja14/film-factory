@@ -1,0 +1,86 @@
+2026-05-21 12:54:51 - Agent.SceneDirector - INFO - [SceneDirector] Directing episode 1...
+2026-05-21 12:54:51 - Agent.SceneDirector - INFO - [SceneDirector] Extracted 6 camera directions
+2026-05-21 12:54:51 - Agent.SceneDirector - WARNING - [SceneDirector] Only 6 scenes found, padding to 8
+2026-05-21 12:54:51 - Agent.SceneDirector - INFO - [SceneDirector] Padded to 8 scenes
+2026-05-21 12:54:51 - Agent.SceneDirector - INFO - [SceneDirector] Processing 8 scenes...
+2026-05-21 12:54:53 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 1/8 [establish|drift|short]
+2026-05-21 12:54:55 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 2/8 [establish|sweep|short]
+2026-05-21 12:54:57 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 3/8 [build|drift|medium]
+2026-05-21 12:54:59 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 4/8 [build|creep|medium]
+2026-05-21 12:55:01 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 5/8 [investigation|linger|medium]
+2026-05-21 12:55:03 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 6/8 [revelation|fixate|long]
+2026-05-21 12:55:06 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 7/8 [cliffhanger|linger|long]
+2026-05-21 12:55:08 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 8/8 [cliffhanger|freeze|long]
+2026-05-21 12:55:08 - Agent.SceneDirector - INFO - [SceneDirector] Episode 1: 8 prompts generated
+2026-05-21 12:55:08 - Agent.SceneDirector - INFO - [SceneDirector] Estimated episode duration: 64 seconds
+2026-05-21 12:55:08 - Agent.SceneDirector - INFO - [SceneDirector] Directing episode 2...
+2026-05-21 12:55:08 - Agent.SceneDirector - INFO - [SceneDirector] Extracted 13 camera directions
+2026-05-21 12:55:08 - Agent.SceneDirector - INFO - [SceneDirector] Processing 12 scenes...
+2026-05-21 12:55:10 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 1/12 [establish|drift|short]
+2026-05-21 12:55:12 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 2/12 [establish|sweep|short]
+2026-05-21 12:55:14 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 3/12 [build|drift|medium]
+2026-05-21 12:55:16 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 4/12 [build|creep|medium]
+2026-05-21 12:55:19 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 5/12 [build|approach|medium]
+2026-05-21 12:55:20 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 6/12 [investigation|descend|medium]
+2026-05-21 12:55:22 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 7/12 [investigation|fixate|medium]
+2026-05-21 12:55:25 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 8/12 [investigation|linger|medium]
+2026-05-21 12:55:27 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 9/12 [revelation|fixate|long]
+2026-05-21 12:55:29 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 10/12 [revelation|freeze|long]
+2026-05-21 12:55:31 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 11/12 [cliffhanger|freeze|long]
+2026-05-21 12:55:33 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 12/12 [cliffhanger|descend|long]
+2026-05-21 12:55:33 - Agent.SceneDirector - INFO - [SceneDirector] Episode 2: 12 prompts generated
+2026-05-21 12:55:33 - Agent.SceneDirector - INFO - [SceneDirector] Estimated episode duration: 99 seconds
+2026-05-21 12:55:33 - Agent.SceneDirector - INFO - [SceneDirector] Directing episode 3...
+2026-05-21 12:55:33 - Agent.SceneDirector - INFO - [SceneDirector] Extracted 11 camera directions
+2026-05-21 12:55:33 - Agent.SceneDirector - INFO - [SceneDirector] Processing 10 scenes...
+2026-05-21 12:55:35 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 1/10 [establish|drift|short]
+2026-05-21 12:55:38 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 2/10 [establish|sweep|short]
+2026-05-21 12:55:41 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 3/10 [build|drift|medium]
+2026-05-21 12:55:43 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 4/10 [build|creep|medium]
+2026-05-21 12:55:45 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 5/10 [build|approach|medium]
+2026-05-21 12:55:47 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 6/10 [investigation|descend|medium]
+2026-05-21 12:55:49 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 7/10 [revelation|freeze|long]
+2026-05-21 12:55:51 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 8/10 [revelation|recoil|long]
+2026-05-21 12:55:54 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 9/10 [cliffhanger|descend|long]
+2026-05-21 12:55:56 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 10/10 [cliffhanger|linger|long]
+2026-05-21 12:55:56 - Agent.SceneDirector - INFO - [SceneDirector] Episode 3: 10 prompts generated
+2026-05-21 12:55:56 - Agent.SceneDirector - INFO - [SceneDirector] Estimated episode duration: 83 seconds
+2026-05-21 12:55:56 - Agent.SceneDirector - INFO - [SceneDirector] Directing episode 4...
+2026-05-21 12:55:56 - Agent.SceneDirector - INFO - [SceneDirector] Extracted 8 camera directions
+2026-05-21 12:55:56 - Agent.SceneDirector - INFO - [SceneDirector] Processing 8 scenes...
+2026-05-21 12:55:58 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 1/8 [establish|drift|short]
+2026-05-21 12:56:00 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 2/8 [establish|sweep|short]
+2026-05-21 12:56:02 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 3/8 [build|drift|medium]
+2026-05-21 12:56:04 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 4/8 [build|creep|medium]
+2026-05-21 12:56:06 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 5/8 [investigation|linger|medium]
+2026-05-21 12:56:09 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 6/8 [revelation|fixate|long]
+2026-05-21 12:56:11 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 7/8 [cliffhanger|linger|long]
+2026-05-21 12:56:14 - Agent.SceneDirector - INFO - [SceneDirector]   Scene 8/8 [cliffhanger|freeze|long]
+2026-05-21 12:56:14 - Agent.SceneDirector - INFO - [SceneDirector] Episode 4: 8 prompts generated
+2026-05-21 12:56:14 - Agent.SceneDirector - INFO - [SceneDirector] Estimated episode duration: 64 seconds
+2026-05-21 12:56:14 - Agent.PromptCorrector - INFO - [PromptCorrector] Starting visual prompt correction for Episode 1...
+2026-05-21 12:56:14 - Agent.PromptCorrector - INFO - [PromptCorrector] Analyzing 7 anchor images...
+2026-05-21 12:56:14 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: St. Mercy Hospital ICU
+2026-05-21 12:56:18 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 599 chars
+2026-05-21 12:56:18 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: Sarah's Apartment
+2026-05-21 12:56:23 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 613 chars
+2026-05-21 12:56:23 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: Marcus's Office
+2026-05-21 12:56:25 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 512 chars
+2026-05-21 12:56:25 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: Hospital Basement and Sub-Level Storage
+2026-05-21 12:56:28 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 581 chars
+2026-05-21 12:56:28 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: ICU Patient Room 412
+2026-05-21 12:56:31 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 511 chars
+2026-05-21 12:56:31 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: The Parking Garage
+2026-05-21 12:56:34 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 503 chars
+2026-05-21 12:56:34 - Agent.PromptCorrector - INFO - [PromptCorrector]   Analyzing: City Police Station - Interview Room
+2026-05-21 12:56:37 - Agent.PromptCorrector - INFO - [PromptCorrector] Image analyzed: 549 chars
+2026-05-21 12:56:37 - Agent.PromptCorrector - INFO - [PromptCorrector] Rewriting 8 Episode 1 prompts...
+2026-05-21 12:56:37 - Agent.PromptCorrector - WARNING - [PromptCorrector]   Scene 1 — no matching image found for: unknown
+2026-05-21 12:56:37 - Agent.PromptCorrector - WARNING - [PromptCorrector]   Scene 2 — no matching image found for: unknown
+2026-05-21 12:56:37 - Agent.PromptCorrector - WARNING - [PromptCorrector]   Scene 3 — no matching image found for: unknown
+2026-05-21 12:56:37 - Agent.PromptCorrector - WARNING - [PromptCorrector]   Scene 4 — no matching image found for: unknown
+2026-05-21 12:56:37 - Agent.PromptCorrector - WARNING - [PromptCorrector]   Scene 5 — no matching image found for: unknown
+2026-05-21 12:56:37 - Agent.PromptCorrector - WARNING - [PromptCorrector]   Scene 6 — no matching image found for: unknown
+2026-05-21 12:56:37 - Agent.PromptCorrector - WARNING - [PromptCorrector]   Scene 7 — no matching image found for: unknown
+2026-05-21 12:56:37 - Agent.PromptCorrector - WARNING - [PromptCorrector]   Scene 8 — no matching image found for: unknown
+2026-05-21 12:56:37 - Agent.PromptCorrector - INFO - [PromptCorrector] Prompt correction complete: 0/8 corrected

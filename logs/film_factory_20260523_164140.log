@@ -1,0 +1,36 @@
+2026-05-23 16:41:49 - Agent.ImageGenerator - INFO - [ImageGenerator] Starting image generation (Agent 5a)...
+2026-05-23 16:41:49 - Agent.ImageGenerator - INFO - [ImageGenerator] HuggingFace client initialized
+2026-05-23 16:41:49 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1: 8 anchor images at 1280x720...
+2026-05-23 16:41:49 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'Ravenshade Manor' — skipping
+2026-05-23 16:41:51 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'Virat's Apartment' — skipping
+2026-05-23 16:41:53 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'Police Archive Room' — skipping
+2026-05-23 16:41:55 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'Sophia's Office' — skipping
+2026-05-23 16:41:57 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'The Ashford Family Home (Past)' — skipping
+2026-05-23 16:41:59 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'The Highway Overpass (Past)' — skipping
+2026-05-23 16:42:01 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'Marcus's Study at Ravenshade' — skipping
+2026-05-23 16:42:03 - Agent.ImageGenerator - INFO - [ImageGenerator] Anchor exists: 'The Police Station Interrogation Room' — skipping
+2026-05-23 16:42:05 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 1 complete: 8/8
+2026-05-23 16:42:05 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 2: Scene images for 1 episodes...
+2026-05-23 16:42:05 - Agent.ImageGenerator - INFO - [ImageGenerator] Episode 1 scene images...
+2026-05-23 16:42:05 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 1: reusing anchor 'Virat's Apartment'
+2026-05-23 16:42:05 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 2: reusing anchor 'Ravenshade Manor'
+2026-05-23 16:42:05 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 3: reusing anchor 'Marcus's Study at Ravenshade'
+2026-05-23 16:42:05 - Agent.ImageGenerator - INFO - [ImageGenerator]   Scene 4: reusing anchor 'Virat's Apartment'
+2026-05-23 16:42:06 - Agent.ImageGenerator - INFO - [ImageGenerator] Phase 3: Reveal images for 1 episodes...
+2026-05-23 16:42:06 - Agent.ImageGenerator - INFO - [ImageGenerator]   Episode 1: 6 reveals...
+2026-05-23 16:42:06 - Agent.ImageGenerator - INFO - [ImageGenerator] Reveal exists: ep1_reveal1_document.png — skipping
+2026-05-23 16:42:06 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 1: document saved
+2026-05-23 16:42:08 - Agent.ImageGenerator - INFO - [ImageGenerator] Reveal exists: ep1_reveal2_location_detail.png — skipping
+2026-05-23 16:42:08 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 2: location_detail saved
+2026-05-23 16:42:10 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [location_detail] ep1 r3
+2026-05-23 16:42:18 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal3_location_detail.png
+2026-05-23 16:42:18 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 3: location_detail saved
+2026-05-23 16:42:20 - Agent.ImageGenerator - INFO - [ImageGenerator] Reveal exists: ep1_reveal4_subject.png — skipping
+2026-05-23 16:42:20 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 4: subject saved
+2026-05-23 16:42:22 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [document] ep1 r5
+2026-05-23 16:42:30 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal5_document.png
+2026-05-23 16:42:30 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 5: document saved
+2026-05-23 16:42:32 - Agent.ImageGenerator - INFO - [ImageGenerator] Generating reveal [subject] ep1 r6
+2026-05-23 16:42:40 - Agent.ImageGenerator - INFO - [ImageGenerator] Saved reveal: outputs\reveal_images\ep1_reveal6_subject.png
+2026-05-23 16:42:40 - Agent.ImageGenerator - INFO - [ImageGenerator]     Reveal 6: subject saved
+2026-05-23 16:42:42 - Agent.ImageGenerator - INFO - [ImageGenerator] Image generation complete — 8 anchors, 4 scenes, 6 reveals | All at 1280x720 (16:9)

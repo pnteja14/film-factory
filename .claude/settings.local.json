@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(watch:watch)",
+      "Bash(ffprobe *)",
+      "Bash(mkdir *)",
+      "Bash(dir *)",
+      "PowerShell(Get-ChildItem *)"
+    ]
+  }
+}

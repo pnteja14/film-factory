@@ -1,0 +1,9 @@
+2026-05-23 23:23:23 - Agent.EditPlanner - INFO - [EditPlanner] Building timestamp-driven EDLs (Agent 6a)...
+2026-05-23 23:23:23 - Agent.EditPlanner - INFO - [EditPlanner] Planning episode 1...
+2026-05-23 23:23:23 - Agent.EditPlanner - INFO - [EditPlanner] Episode 1: 8 scenes (8 with images), 4 reveals, 10 timestamps
+2026-05-23 23:23:23 - Agent.EditPlanner - INFO - [EditPlanner] Building timestamp-driven EDL for episode 1...
+2026-05-23 23:23:23 - Agent.EditPlanner - INFO - [EditPlanner] Audio duration: 54260ms (54.3s)
+2026-05-23 23:23:23 - Agent.EditPlanner - INFO - [EditPlanner] Chunk→image map: 8 entries
+2026-05-23 23:23:23 - Agent.EditPlanner - INFO - [EditPlanner] EDL built: 19 entries, 4 reveals, 10 chunks synced, total 54.3s
+2026-05-23 23:23:23 - Agent.EditPlanner - INFO - [EditPlanner] EDL saved: outputs/episode_1_edl.json
+2026-05-23 23:23:23 - Agent.EditPlanner - INFO - [EditPlanner] Edit planning complete: 1 EDLs

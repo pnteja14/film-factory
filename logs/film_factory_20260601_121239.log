@@ -1,0 +1,15 @@
+2026-06-01 12:12:39 - Agent.DepthSAM2 - INFO - [DepthSAM2] Pre-computing layers for all scene and reveal images...
+2026-06-01 12:12:39 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2_SOURCE=colab: layers not found for ep1_scene6_the_mayors_study — run film_factory_gpu.ipynb SAM2 section then re-run pipeline
+2026-06-01 12:12:39 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2_SOURCE=colab: layers not found for ep1_scene7_the_mayors_study — run film_factory_gpu.ipynb SAM2 section then re-run pipeline
+2026-06-01 12:12:39 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2_SOURCE=colab: layers not found for ep1_scene8_the_mayors_study — run film_factory_gpu.ipynb SAM2 section then re-run pipeline
+2026-06-01 12:12:39 - Agent.DepthSAM2 - INFO - [DepthSAM2] Layer pre-compute done: 0 new, 10 cached
+2026-06-01 12:12:40 - Agent.MotionAgent - INFO - [MotionAgent] Generating motion clip: ep1_scene6_the_mayors_study
+2026-06-01 12:12:49 - Agent.MotionAgent - INFO - [MotionAgent] CV2 warp clip: ep1_scene6_the_mayors_study
+2026-06-01 12:12:49 - Agent.MotionAgent - INFO - [MotionAgent] Generating motion clip: ep1_scene7_the_mayors_study
+2026-06-01 12:12:55 - Agent.MotionAgent - INFO - [MotionAgent] CV2 warp clip: ep1_scene7_the_mayors_study
+2026-06-01 12:12:55 - Agent.MotionAgent - INFO - [MotionAgent] Generating motion clip: ep1_scene8_the_mayors_study
+2026-06-01 12:13:02 - Agent.MotionAgent - INFO - [MotionAgent] CV2 warp clip: ep1_scene8_the_mayors_study
+2026-06-01 12:13:02 - Agent.MotionAgent - INFO - [MotionAgent] Motion clips: 3 generated, 10 cached
+2026-06-01 12:13:39 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2_SOURCE=colab: layers not found for ep1_scene6_the_mayors_study — run film_factory_gpu.ipynb SAM2 section then re-run pipeline
+2026-06-01 12:13:39 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2_SOURCE=colab: layers not found for ep1_scene7_the_mayors_study — run film_factory_gpu.ipynb SAM2 section then re-run pipeline
+2026-06-01 12:13:39 - Agent.DepthSAM2 - INFO - [DepthSAM2] SAM2_SOURCE=colab: layers not found for ep1_scene8_the_mayors_study — run film_factory_gpu.ipynb SAM2 section then re-run pipeline

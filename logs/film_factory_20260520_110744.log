@@ -1,0 +1,1437 @@
+2026-05-20 11:08:55 - Agent.SceneDirector - INFO - [SceneDirector] Directing episode 1...
+2026-05-20 11:08:55 - Agent.SceneDirector - INFO - [SceneDirector] Extracted 11 camera directions
+2026-05-20 11:08:55 - Agent.SceneDirector - INFO - [SceneDirector] Processing 11 scenes...
+2026-05-20 11:08:55 - Agent.SceneDirector - ERROR - [SceneDirector] Ollama call failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:08:56 - Agent.SceneDirector - ERROR - [SceneDirector] Ollama call failed: model requires more system memory (4.5 GiB) than is available (3.5 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.5 GiB) (status code: 500)
+2026-05-20 11:08:56 - Agent.SceneDirector - ERROR - [SceneDirector] Prompt generation failed: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.5 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.5 GiB) (status code: 500)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 185, in generate_scene_prompt
+    video_prompt = call_ollama_for_prompt(prompt)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 110, in call_ollama_for_prompt
+    raise RetryableException(f"Ollama failed: {e}")
+utils.errors.RetryableException: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.5 GiB) (status code: 500)
+2026-05-20 11:08:56 - Agent.SceneDirector - WARNING - [SceneDirector] Scene 1 prompt failed: Failed to generate scene prompt: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.5 GiB) (status code: 500)
+2026-05-20 11:08:56 - Agent.SceneDirector - ERROR - [SceneDirector] Ollama call failed: model requires more system memory (4.5 GiB) than is available (3.5 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.5 GiB) (status code: 500)
+2026-05-20 11:08:57 - Agent.SceneDirector - ERROR - [SceneDirector] Ollama call failed: model requires more system memory (4.5 GiB) than is available (3.7 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.7 GiB) (status code: 500)
+2026-05-20 11:08:57 - Agent.SceneDirector - ERROR - [SceneDirector] Prompt generation failed: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.7 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.7 GiB) (status code: 500)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 185, in generate_scene_prompt
+    video_prompt = call_ollama_for_prompt(prompt)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 110, in call_ollama_for_prompt
+    raise RetryableException(f"Ollama failed: {e}")
+utils.errors.RetryableException: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.7 GiB) (status code: 500)
+2026-05-20 11:08:57 - Agent.SceneDirector - WARNING - [SceneDirector] Scene 2 prompt failed: Failed to generate scene prompt: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.7 GiB) (status code: 500)
+2026-05-20 11:08:57 - Agent.SceneDirector - ERROR - [SceneDirector] Ollama call failed: model requires more system memory (4.5 GiB) than is available (3.7 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.7 GiB) (status code: 500)
+2026-05-20 11:08:59 - Agent.SceneDirector - ERROR - [SceneDirector] Ollama call failed: model requires more system memory (4.5 GiB) than is available (3.7 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.7 GiB) (status code: 500)
+2026-05-20 11:08:59 - Agent.SceneDirector - ERROR - [SceneDirector] Prompt generation failed: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.7 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.7 GiB) (status code: 500)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 185, in generate_scene_prompt
+    video_prompt = call_ollama_for_prompt(prompt)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 110, in call_ollama_for_prompt
+    raise RetryableException(f"Ollama failed: {e}")
+utils.errors.RetryableException: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.7 GiB) (status code: 500)
+2026-05-20 11:08:59 - Agent.SceneDirector - WARNING - [SceneDirector] Scene 3 prompt failed: Failed to generate scene prompt: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.7 GiB) (status code: 500)
+2026-05-20 11:08:59 - Agent.SceneDirector - ERROR - [SceneDirector] Ollama call failed: model requires more system memory (4.5 GiB) than is available (3.7 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.7 GiB) (status code: 500)
+2026-05-20 11:09:00 - Agent.SceneDirector - ERROR - [SceneDirector] Ollama call failed: model requires more system memory (4.5 GiB) than is available (3.7 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.7 GiB) (status code: 500)
+2026-05-20 11:09:00 - Agent.SceneDirector - ERROR - [SceneDirector] Prompt generation failed: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.7 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.7 GiB) (status code: 500)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 185, in generate_scene_prompt
+    video_prompt = call_ollama_for_prompt(prompt)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 110, in call_ollama_for_prompt
+    raise RetryableException(f"Ollama failed: {e}")
+utils.errors.RetryableException: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.7 GiB) (status code: 500)
+2026-05-20 11:09:00 - Agent.SceneDirector - WARNING - [SceneDirector] Scene 4 prompt failed: Failed to generate scene prompt: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.7 GiB) (status code: 500)
+2026-05-20 11:09:00 - Agent.SceneDirector - ERROR - [SceneDirector] Ollama call failed: model requires more system memory (4.5 GiB) than is available (3.7 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.7 GiB) (status code: 500)
+2026-05-20 11:09:01 - Agent.SceneDirector - ERROR - [SceneDirector] Ollama call failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:01 - Agent.SceneDirector - ERROR - [SceneDirector] Prompt generation failed: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 185, in generate_scene_prompt
+    video_prompt = call_ollama_for_prompt(prompt)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 110, in call_ollama_for_prompt
+    raise RetryableException(f"Ollama failed: {e}")
+utils.errors.RetryableException: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:01 - Agent.SceneDirector - WARNING - [SceneDirector] Scene 5 prompt failed: Failed to generate scene prompt: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:01 - Agent.SceneDirector - ERROR - [SceneDirector] Ollama call failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:02 - Agent.SceneDirector - ERROR - [SceneDirector] Ollama call failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:02 - Agent.SceneDirector - ERROR - [SceneDirector] Prompt generation failed: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 185, in generate_scene_prompt
+    video_prompt = call_ollama_for_prompt(prompt)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 110, in call_ollama_for_prompt
+    raise RetryableException(f"Ollama failed: {e}")
+utils.errors.RetryableException: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:02 - Agent.SceneDirector - WARNING - [SceneDirector] Scene 6 prompt failed: Failed to generate scene prompt: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:03 - Agent.SceneDirector - ERROR - [SceneDirector] Ollama call failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:04 - Agent.SceneDirector - ERROR - [SceneDirector] Ollama call failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:04 - Agent.SceneDirector - ERROR - [SceneDirector] Prompt generation failed: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 185, in generate_scene_prompt
+    video_prompt = call_ollama_for_prompt(prompt)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 110, in call_ollama_for_prompt
+    raise RetryableException(f"Ollama failed: {e}")
+utils.errors.RetryableException: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:04 - Agent.SceneDirector - WARNING - [SceneDirector] Scene 7 prompt failed: Failed to generate scene prompt: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:04 - Agent.SceneDirector - ERROR - [SceneDirector] Ollama call failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:05 - Agent.SceneDirector - ERROR - [SceneDirector] Ollama call failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:05 - Agent.SceneDirector - ERROR - [SceneDirector] Prompt generation failed: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 185, in generate_scene_prompt
+    video_prompt = call_ollama_for_prompt(prompt)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 110, in call_ollama_for_prompt
+    raise RetryableException(f"Ollama failed: {e}")
+utils.errors.RetryableException: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:05 - Agent.SceneDirector - WARNING - [SceneDirector] Scene 8 prompt failed: Failed to generate scene prompt: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:05 - Agent.SceneDirector - ERROR - [SceneDirector] Ollama call failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:06 - Agent.SceneDirector - ERROR - [SceneDirector] Ollama call failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:06 - Agent.SceneDirector - ERROR - [SceneDirector] Prompt generation failed: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 185, in generate_scene_prompt
+    video_prompt = call_ollama_for_prompt(prompt)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 110, in call_ollama_for_prompt
+    raise RetryableException(f"Ollama failed: {e}")
+utils.errors.RetryableException: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:06 - Agent.SceneDirector - WARNING - [SceneDirector] Scene 9 prompt failed: Failed to generate scene prompt: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:07 - Agent.SceneDirector - ERROR - [SceneDirector] Ollama call failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:08 - Agent.SceneDirector - ERROR - [SceneDirector] Ollama call failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:08 - Agent.SceneDirector - ERROR - [SceneDirector] Prompt generation failed: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 185, in generate_scene_prompt
+    video_prompt = call_ollama_for_prompt(prompt)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 110, in call_ollama_for_prompt
+    raise RetryableException(f"Ollama failed: {e}")
+utils.errors.RetryableException: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:08 - Agent.SceneDirector - WARNING - [SceneDirector] Scene 10 prompt failed: Failed to generate scene prompt: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:08 - Agent.SceneDirector - ERROR - [SceneDirector] Ollama call failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:09 - Agent.SceneDirector - ERROR - [SceneDirector] Ollama call failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:09 - Agent.SceneDirector - ERROR - [SceneDirector] Prompt generation failed: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 185, in generate_scene_prompt
+    video_prompt = call_ollama_for_prompt(prompt)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 110, in call_ollama_for_prompt
+    raise RetryableException(f"Ollama failed: {e}")
+utils.errors.RetryableException: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:09 - Agent.SceneDirector - WARNING - [SceneDirector] Scene 11 prompt failed: Failed to generate scene prompt: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:09 - Agent.SceneDirector - INFO - [SceneDirector] Episode 1: 0 scene prompts generated
+2026-05-20 11:09:09 - Agent.SceneDirector - INFO - [SceneDirector] Directing episode 2...
+2026-05-20 11:09:09 - Agent.SceneDirector - INFO - [SceneDirector] Extracted 7 camera directions
+2026-05-20 11:09:09 - Agent.SceneDirector - INFO - [SceneDirector] Processing 7 scenes...
+2026-05-20 11:09:09 - Agent.SceneDirector - ERROR - [SceneDirector] Ollama call failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:10 - Agent.SceneDirector - ERROR - [SceneDirector] Ollama call failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:10 - Agent.SceneDirector - ERROR - [SceneDirector] Prompt generation failed: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 185, in generate_scene_prompt
+    video_prompt = call_ollama_for_prompt(prompt)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 110, in call_ollama_for_prompt
+    raise RetryableException(f"Ollama failed: {e}")
+utils.errors.RetryableException: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:10 - Agent.SceneDirector - WARNING - [SceneDirector] Scene 1 prompt failed: Failed to generate scene prompt: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:10 - Agent.SceneDirector - ERROR - [SceneDirector] Ollama call failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:12 - Agent.SceneDirector - ERROR - [SceneDirector] Ollama call failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:12 - Agent.SceneDirector - ERROR - [SceneDirector] Prompt generation failed: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 185, in generate_scene_prompt
+    video_prompt = call_ollama_for_prompt(prompt)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 110, in call_ollama_for_prompt
+    raise RetryableException(f"Ollama failed: {e}")
+utils.errors.RetryableException: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:12 - Agent.SceneDirector - WARNING - [SceneDirector] Scene 2 prompt failed: Failed to generate scene prompt: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:12 - Agent.SceneDirector - ERROR - [SceneDirector] Ollama call failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:13 - Agent.SceneDirector - ERROR - [SceneDirector] Ollama call failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:13 - Agent.SceneDirector - ERROR - [SceneDirector] Prompt generation failed: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 185, in generate_scene_prompt
+    video_prompt = call_ollama_for_prompt(prompt)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 110, in call_ollama_for_prompt
+    raise RetryableException(f"Ollama failed: {e}")
+utils.errors.RetryableException: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:13 - Agent.SceneDirector - WARNING - [SceneDirector] Scene 3 prompt failed: Failed to generate scene prompt: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:13 - Agent.SceneDirector - ERROR - [SceneDirector] Ollama call failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:14 - Agent.SceneDirector - ERROR - [SceneDirector] Ollama call failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:14 - Agent.SceneDirector - ERROR - [SceneDirector] Prompt generation failed: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 185, in generate_scene_prompt
+    video_prompt = call_ollama_for_prompt(prompt)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 110, in call_ollama_for_prompt
+    raise RetryableException(f"Ollama failed: {e}")
+utils.errors.RetryableException: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:14 - Agent.SceneDirector - WARNING - [SceneDirector] Scene 4 prompt failed: Failed to generate scene prompt: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:14 - Agent.SceneDirector - ERROR - [SceneDirector] Ollama call failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:15 - Agent.SceneDirector - ERROR - [SceneDirector] Ollama call failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:15 - Agent.SceneDirector - ERROR - [SceneDirector] Prompt generation failed: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 185, in generate_scene_prompt
+    video_prompt = call_ollama_for_prompt(prompt)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 110, in call_ollama_for_prompt
+    raise RetryableException(f"Ollama failed: {e}")
+utils.errors.RetryableException: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:15 - Agent.SceneDirector - WARNING - [SceneDirector] Scene 5 prompt failed: Failed to generate scene prompt: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:16 - Agent.SceneDirector - ERROR - [SceneDirector] Ollama call failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:17 - Agent.SceneDirector - ERROR - [SceneDirector] Ollama call failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:17 - Agent.SceneDirector - ERROR - [SceneDirector] Prompt generation failed: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 102, in call_ollama_for_prompt
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}],
+        stream=False
+    )
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 387, in chat
+    return self._request(
+           ~~~~~~~~~~~~~^
+      ChatResponse,
+      ^^^^^^^^^^^^^
+    ...<14 lines>...
+      stream=stream,
+      ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 199, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\venv\Lib\site-packages\ollama\_client.py", line 143, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 185, in generate_scene_prompt
+    video_prompt = call_ollama_for_prompt(prompt)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\utils\retry.py", line 34, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tejap\OneDrive\Desktop\film_factory\agents\scene_director.py", line 110, in call_ollama_for_prompt
+    raise RetryableException(f"Ollama failed: {e}")
+utils.errors.RetryableException: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:17 - Agent.SceneDirector - WARNING - [SceneDirector] Scene 6 prompt failed: Failed to generate scene prompt: Ollama failed: model requires more system memory (4.5 GiB) than is available (3.6 GiB) (status code: 500)
+2026-05-20 11:09:17 - Agent.SceneDirector - INFO - [SceneDirector]    Scene 7 skipped (non-visual)
+2026-05-20 11:09:17 - Agent.SceneDirector - INFO - [SceneDirector] Episode 2: 0 scene prompts generated

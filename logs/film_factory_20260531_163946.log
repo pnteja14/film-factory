@@ -1,0 +1,11 @@
+2026-05-31 16:43:09 - Orchestrator - INFO - =================================================================
+2026-05-31 16:43:09 - Orchestrator - INFO - FILM FACTORY — CINEMATIC NARRATION PIPELINE
+2026-05-31 16:43:09 - Orchestrator - INFO - =================================================================
+2026-05-31 16:43:09 - Orchestrator - INFO - Output directories verified
+2026-05-31 16:43:09 - Orchestrator - INFO - Story idea: A story set in victorian era, when all the upper class people were invited to a masquerade party in the mayors house in a seemingly dark town, a retired detective steps up at a critical time when the mayor has been murdered to identify the culprit with all the doors being locked to the manor. He identifies dark secrets during the investigation, the darkest of them all is the mayor is still alive faking his death for a much darker cause.
+2026-05-31 16:46:05 - Orchestrator - INFO - SINGLE_EPISODE_MODE: running episode 1 only
+2026-05-31 16:46:40 - Orchestrator - INFO - Context saved: outputs\context_after_scene_director.json
+2026-05-31 16:46:41 - Orchestrator - ERROR - Voiceover Agent failed: Chunk 1 failed permanently: API error 403: <403> AllocationQuota.FreeTierOnly: The free tier of the model has been exhausted. If you wish to continue access the model on a paid basis, please disable the "use free tier only" mode in the management console.
+2026-05-31 16:50:25 - Orchestrator - INFO - Context saved: outputs\context_after_images.json
+2026-05-31 17:01:31 - Orchestrator - INFO - Context saved: outputs\context_after_edit_plan.json
+2026-05-31 17:12:00 - Orchestrator - INFO - Context saved: outputs\context.json

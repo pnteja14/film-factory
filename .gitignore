@@ -1,0 +1,67 @@
+# -- film_factory - .gitignore -------------------------------------------------
+# Goal: version-control the 11,800 lines of source. Excluded items stay on disk.
+
+# -- SECRETS - NEVER COMMIT ---------------------------------------------------
+# Contains live ANTHROPIC / ELEVENLABS / DASHSCOPE / HF keys.
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+credentials.json
+service_account*.json
+
+# -- Generated outputs (1.28 GB) ----------------------------------------------
+# Includes a 336 MB third-party copyrighted video - must never reach GitHub.
+outputs/
+watch_frames/
+analysis_frames/
+*.mp4
+*.mkv
+*.mov
+*.wav
+*.mp3
+*.aac
+*.png
+*.jpg
+*.jpeg
+*.npy
+*.npz
+
+# -- Model weights (156 MB SAM2 + Kokoro ONNX) --------------------------------
+checkpoints/
+*.pt
+*.pth
+*.onnx
+*.bin
+*.safetensors
+
+# -- Python environment -------------------------------------------------------
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# -- Third-party code - NOT yours, has its own .git ---------------------------
+claude-video/
+
+.gitignore.backup-*
+
+# -- Run artifacts ------------------------------------------------------------
+.tmp.driveupload/
+*.tmp
+*.bak
+
+# -- OS -----------------------------------------------------------------------
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# -- KEPT DELIBERATELY --------------------------------------------------------
+#   agents/*.py  utils/*.py  scripts/*.py  colab/*.py  memory/*.md
+#   orchestrator.py  context.py  sync.py  *.ipynb  logs/*.log  .claude/
+#   (logs are kept - they are genuine evidence of 126 pipeline runs)
+!logs/
+!logs/*.log

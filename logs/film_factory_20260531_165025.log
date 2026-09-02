@@ -1,0 +1,23 @@
+2026-05-31 16:50:25 - Agent.DepthParallax - INFO - [DepthParallax] Pre-computing depth maps...
+2026-05-31 16:50:25 - Agent.DepthParallax - INFO - [DepthParallax] Computing depth maps for 17 images...
+2026-05-31 16:50:25 - Agent.DepthParallax - INFO - [DepthParallax] Depth Anything V2 available via transformers
+2026-05-31 16:50:25 - Agent.DepthParallax - INFO - [DepthParallax] Loading Depth Anything V2 Small (~100MB first run)...
+2026-05-31 16:50:26 - Agent.DepthParallax - INFO - [DepthParallax] Depth model loaded
+2026-05-31 16:50:27 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: the_grand_foyer_of_aldermoor_manor_depth.npy
+2026-05-31 16:50:29 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: the_manor_ballroom_depth.npy
+2026-05-31 16:50:30 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: the_mayors_study_depth.npy
+2026-05-31 16:50:31 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: the_concealed_passage_depth.npy
+2026-05-31 16:50:32 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: the_east_corridor_depth.npy
+2026-05-31 16:50:33 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_scene8_the_mayors_study_depth.npy
+2026-05-31 16:50:34 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_scene6_the_mayors_study_depth.npy
+2026-05-31 16:50:36 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_reveal2_evidence_e5ae139c_depth.npy
+2026-05-31 16:50:37 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_scene4_the_manor_ballroom_depth.npy
+2026-05-31 16:50:38 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_scene7_the_mayors_study_depth.npy
+2026-05-31 16:50:39 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: the_manor_wine_cellar_depth.npy
+2026-05-31 16:50:40 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_scene3_the_grand_foyer_of_aldermoor_manor_depth.npy
+2026-05-31 16:50:41 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_reveal4_location_detail_e5ae139c_depth.npy
+2026-05-31 16:50:43 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_reveal1_location_detail_e5ae139c_depth.npy
+2026-05-31 16:50:44 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_reveal3_document_e5ae139c_depth.npy
+2026-05-31 16:50:45 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: ep1_reveal5_subject_e5ae139c_depth.npy
+2026-05-31 16:50:46 - Agent.DepthParallax - INFO - [DepthParallax] Depth map generated and cached: the_manor_garden__night_depth.npy
+2026-05-31 16:50:46 - Agent.DepthParallax - INFO - [DepthParallax] Depth maps ready: 17 new, 0 cached
